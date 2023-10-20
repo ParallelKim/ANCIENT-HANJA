@@ -10,10 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
     "firebase": "^10.5.0",
+    "framer-motion": "^6",
     "jotai": "^2.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.17.0",
     "reactjs-flip-card": "^2.0.3"
   },
