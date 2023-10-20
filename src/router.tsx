@@ -24,7 +24,7 @@ export const router = createBrowserRouter([
                 element: <UserPage />,
             },
             {
-                path: "/intro",
+                path: "/",
                 element: <IntroducePage />,
             },
         ],

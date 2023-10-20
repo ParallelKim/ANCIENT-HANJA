@@ -1,3 +1,3 @@
 export const IntroducePage = () => {
-    return <></>;
+    return <>한자 공부하는 웹사이트</>;
 };
