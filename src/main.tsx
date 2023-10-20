@@ -11,15 +11,13 @@ import "./index.css";
 import { router } from "./router";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC_mbuBXtaN0KyEXi9fagpTVV_1YKsFB8g",
-    authDomain: "ancient-chinese-a976b.firebaseapp.com",
-    databaseURL:
-        "https://ancient-chinese-a976b-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "ancient-chinese-a976b",
-    storageBucket: "ancient-chinese-a976b.appspot.com",
-    messagingSenderId: "574785476948",
-    appId: "1:574785476948:web:a1ace61921d4dfe37890c1",
-    measurementId: "G-CG80QMZJBX",
+    apiKey: "AIzaSyCG86sax9dL9xrIWalsVH2r14A-NK2q4Uw",
+    authDomain: "ancient-hanja.firebaseapp.com",
+    projectId: "ancient-hanja",
+    storageBucket: "ancient-hanja.appspot.com",
+    messagingSenderId: "163743091418",
+    appId: "1:163743091418:web:d4c491fd6826bc883a73e3",
+    measurementId: "G-XTNPLDVM69",
 };
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

@@ -22,7 +22,6 @@
     "jotai": "^2.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.17.0",
     "reactfire": "^4.2.3",
     "reactjs-flip-card": "^2.0.3"
