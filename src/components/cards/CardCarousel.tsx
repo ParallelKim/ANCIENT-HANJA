@@ -1,5 +1,3 @@
-const CardCarousel = () => {
+export const CardCarousel = () => {
     return <></>;
 };
-
-export { CardCarousel };

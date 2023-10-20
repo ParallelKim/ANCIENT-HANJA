@@ -1,6 +1,6 @@
 import ReactFlipCard from "reactjs-flip-card";
 
-const FlashCard = () => {
+export const FlashCard = () => {
     const styles = {
         card: { background: "blue", color: "white", borderRadius: 20 },
     };
@@ -14,5 +14,3 @@ const FlashCard = () => {
         />
     );
 };
-
-export { FlashCard };
