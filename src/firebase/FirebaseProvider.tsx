@@ -1,6 +1,15 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { ReactNode } from "react";
+import {
+    AuthProvider,
+    DatabaseProvider,
+    FirebaseAppProvider,
+    useFirebaseApp,
+} from "reactfire";
+import { getAuth } from "firebase/auth";
+import { getDatabase } from "firebase/database";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -19,3 +28,23 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+const Fireworks = ({ children }: { children: ReactNode }) => {
+    const app = useFirebaseApp();
+    const auth = getAuth(app);
+    const database = getDatabase(app);
+
+    return (
+        <AuthProvider sdk={auth}>
+            <DatabaseProvider sdk={database}>{children}</DatabaseProvider>
+        </AuthProvider>
+    );
+};
+
+export const FirebaseProvider = ({ children }: { children: ReactNode }) => {
+    return (
+        <FirebaseAppProvider firebaseConfig={firebaseConfig}>
+            <Fireworks>{children}</Fireworks>
+        </FirebaseAppProvider>
+    );
+};
