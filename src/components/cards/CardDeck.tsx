@@ -10,12 +10,7 @@ import { useAtomValue } from "jotai";
 import { FlashCard } from "./FlashCard";
 import { CARD } from "../../types/card";
 import { currentIndexAtom } from "../../stores/atoms";
-import {
-    ArrowBack,
-    ArrowBackOutlined,
-    ArrowBackTwoTone,
-    ArrowForwardOutlined,
-} from "@mui/icons-material";
+import { ArrowBack, ArrowForward } from "@mui/icons-material";
 
 export const CardDeck = ({ cards }: { cards: CARD[] }) => {
     const currentIndex = useAtomValue(currentIndexAtom);
@@ -32,19 +27,20 @@ export const CardDeck = ({ cards }: { cards: CARD[] }) => {
                 aria-label="outlined button group"
             >
                 <IconButton aria-label="left-arrow">
-                    <ArrowBackOutlined />
+                    <ArrowBack />
                 </IconButton>
                 <Button
                     href={`https://hanja.dict.naver.com/#/search?query=${
                         cards[cards.length - currentIndex - 1].back
                     }`}
+                    target="_blank"
                 >
                     <Typography sx={{ fontSize: "1.5rem", fontWeight: 700 }}>
                         국어사전
                     </Typography>
                 </Button>
                 <IconButton aria-label="left-arrow">
-                    <ArrowForwardOutlined />
+                    <ArrowForward />
                 </IconButton>
             </ButtonGroup>
         </Box>
