@@ -9,6 +9,8 @@ import "@fontsource/roboto/700.css";
 
 import "./index.css";
 import { router } from "./router";
+import { ThemeProvider } from "@mui/material";
+import { theme } from "./constants/colors";
 
 const firebaseConfig = {
     apiKey: "AIzaSyCG86sax9dL9xrIWalsVH2r14A-NK2q4Uw",
@@ -23,7 +25,9 @@ const firebaseConfig = {
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <React.StrictMode>
         <FirebaseAppProvider firebaseConfig={firebaseConfig}>
-            <RouterProvider router={router} />
+            <ThemeProvider theme={theme}>
+                <RouterProvider router={router} />
+            </ThemeProvider>
         </FirebaseAppProvider>
     </React.StrictMode>
 );
