@@ -21,9 +21,11 @@
     "@mui/material": "^5.14.14",
     "firebase": "^10.5.0",
     "jotai": "^2.4.3",
+    "jotai-location": "^0.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.17.0",
+    "react-uuid": "^2.0.0",
     "reactfire": "^4.2.3",
     "reactjs-flip-card": "^2.0.3"
   },
