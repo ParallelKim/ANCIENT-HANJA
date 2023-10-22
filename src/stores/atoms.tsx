@@ -1,3 +1,3 @@
 import { atom } from "jotai";
 
-export const currentIndex = atom(-1);
+export const currentIndexAtom = atom(0);
