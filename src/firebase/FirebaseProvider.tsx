@@ -1,23 +1,11 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 import { ReactNode } from "react";
-import {
-    AuthProvider,
-    DatabaseProvider,
-    FirebaseAppProvider,
-    useFirebaseApp,
-} from "reactfire";
-import { getAuth } from "firebase/auth";
-import { getDatabase } from "firebase/database";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import { FirebaseAppProvider } from "reactfire";
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
     apiKey: "AIzaSyCG86sax9dL9xrIWalsVH2r14A-NK2q4Uw",
     authDomain: "ancient-hanja.firebaseapp.com",
+    databaseURL:
+        "https://ancient-hanja-default-rtdb.asia-southeast1.firebasedatabase.app",
     projectId: "ancient-hanja",
     storageBucket: "ancient-hanja.appspot.com",
     messagingSenderId: "163743091418",
@@ -25,26 +13,10 @@ const firebaseConfig = {
     measurementId: "G-XTNPLDVM69",
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
-const Fireworks = ({ children }: { children: ReactNode }) => {
-    const app = useFirebaseApp();
-    const auth = getAuth(app);
-    const database = getDatabase(app);
-
-    return (
-        <AuthProvider sdk={auth}>
-            <DatabaseProvider sdk={database}>{children}</DatabaseProvider>
-        </AuthProvider>
-    );
-};
-
 export const FirebaseProvider = ({ children }: { children: ReactNode }) => {
     return (
         <FirebaseAppProvider firebaseConfig={firebaseConfig}>
-            <Fireworks>{children}</Fireworks>
+            {children}
         </FirebaseAppProvider>
     );
 };
