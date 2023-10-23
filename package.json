@@ -1,5 +1,5 @@
 {
-  "name": "ancient-chinise",
+  "name": "ancient-hanja",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,17 +9,24 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
   "dependencies": {
-    "@chakra-ui/react": "^2.8.1",
-    "@emotion/react": "^11",
-    "@emotion/styled": "^11",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.14",
+    "@mui/material": "^5.14.14",
     "firebase": "^10.5.0",
-    "framer-motion": "^6",
     "jotai": "^2.4.3",
+    "jotai-location": "^0.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.17.0",
+    "react-uuid": "^2.0.0",
+    "reactfire": "^4.2.3",
     "reactjs-flip-card": "^2.0.3"
   },
   "devDependencies": {
