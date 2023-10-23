@@ -8,11 +8,13 @@ export const changeCurrentIndexAtom = atom(
     (get, set, action: "next" | "prev") => {
         const current = get(currentIndexAtom);
         const max = get(currentCardSetLengthAtom) - 1;
-        if (action === "prev") {
-            set(currentIndexAtom, Math.max(current - 1, 0));
-        } else {
-            set(currentIndexAtom, Math.min(current + 1, max));
-        }
+
+        set(
+            currentIndexAtom,
+            action === "prev"
+                ? Math.max(current - 1, 0)
+                : Math.min(current + 1, max)
+        );
     }
 );
 

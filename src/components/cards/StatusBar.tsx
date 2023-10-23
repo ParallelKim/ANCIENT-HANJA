@@ -5,6 +5,20 @@ import { useAtomValue } from "jotai";
 
 import { currentIndexAtom, currentCardSetLengthAtom } from "../../stores/atoms";
 
+const SX = {
+    STATUS_PAPER: {
+        width: "100%",
+        height: "6rem",
+        position: "relative",
+    },
+    STATUS_TYPO: {
+        textAlign: "center",
+        fontSize: "2rem",
+        fontWeight: "bold",
+        lineHeight: "6rem",
+    },
+};
+
 export const StatusBar = () => {
     const currentIndex = useAtomValue(currentIndexAtom);
     const currentCardSetLength = useAtomValue(currentCardSetLengthAtom);
@@ -16,11 +30,7 @@ export const StatusBar = () => {
         >
             <Paper
                 elevation={10}
-                sx={{
-                    width: "100%",
-                    height: "6rem",
-                    position: "relative",
-                }}
+                sx={SX.STATUS_PAPER}
             >
                 <Stack
                     direction="row"
@@ -33,14 +43,7 @@ export const StatusBar = () => {
                     >
                         <RepeatIcon fontSize="large" />
                     </IconButton>
-                    <Typography
-                        sx={{
-                            textAlign: "center",
-                            fontSize: "2rem",
-                            fontWeight: "bold",
-                            lineHeight: "6rem",
-                        }}
-                    >
+                    <Typography sx={SX.STATUS_TYPO}>
                         {currentIndex + 1}/{currentCardSetLength}
                     </Typography>
                     <IconButton

@@ -3,35 +3,35 @@ import { Box, Paper, Typography } from "@mui/material";
 import { useAtomValue } from "jotai";
 import { currentCardAtom } from "../../stores/atoms";
 
-const StyledCard = ({ children }: { children: string }) => {
-    return (
-        <Paper
-            elevation={10}
-            sx={{
-                width: "100%",
-                height: "100%",
-                textAlign: "center",
-                position: "relative",
-            }}
-        >
-            <Typography
-                sx={{
-                    position: "absolute",
-                    top: "50%",
-                    width: "100%",
-                    marginTop: "-3rem",
-                    fontSize: "4rem",
-                }}
-            >
-                {children}
-            </Typography>
-        </Paper>
-    );
+const SX = {
+    CARD_PAPER: {
+        width: "100%",
+        height: "100%",
+        textAlign: "center",
+        position: "relative",
+    },
+    CARD_TYPO: {
+        position: "absolute",
+        top: "50%",
+        width: "100%",
+        marginTop: "-3rem",
+        fontSize: "4rem",
+    },
 };
 
 const styles = {
     container: { width: "100%", height: "unset", aspectRatio: 1 },
-    card: { background: "gray", color: "white", borderRadius: 20 },
+};
+
+const StyledCard = ({ children }: { children: string }) => {
+    return (
+        <Paper
+            elevation={10}
+            sx={SX.CARD_PAPER}
+        >
+            <Typography sx={SX.CARD_TYPO}>{children}</Typography>
+        </Paper>
+    );
 };
 
 export const FlashCard = ({ disabled }: { disabled?: boolean }) => {
