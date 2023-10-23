@@ -50,8 +50,10 @@ export const FlashCard = ({
             }}
             backStyle={{ background: "gray" }}
             flipTrigger={disabled ? "disabled" : "onClick"}
-            frontComponent={<StyledCard>{card.front}</StyledCard>}
-            backComponent={<StyledCard>{card.back}</StyledCard>}
+            frontComponent={
+                <StyledCard>{card ? card.front : "404"}</StyledCard>
+            }
+            backComponent={<StyledCard>{card ? card.back : "404"}</StyledCard>}
         />
     );
 };
