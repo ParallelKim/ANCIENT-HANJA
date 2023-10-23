@@ -1,6 +1,7 @@
 import ReactFlipCard from "reactjs-flip-card";
-import { CARD } from "../../types/card";
-import { Paper, Typography } from "@mui/material";
+import { Box, Paper, Typography } from "@mui/material";
+import { useAtomValue } from "jotai";
+import { currentCardAtom } from "../../stores/atoms";
 
 const StyledCard = ({ children }: { children: string }) => {
     return (
@@ -28,32 +29,39 @@ const StyledCard = ({ children }: { children: string }) => {
     );
 };
 
-export const FlashCard = ({
-    card,
-    disabled,
-}: {
-    card: CARD;
-    disabled?: boolean;
-}) => {
-    const styles = {
-        container: { width: "100%", height: "unset", aspectRatio: 1 },
-        card: { background: "gray", color: "white", borderRadius: 20 },
-    };
+const styles = {
+    container: { width: "100%", height: "unset", aspectRatio: 1 },
+    card: { background: "gray", color: "white", borderRadius: 20 },
+};
+
+export const FlashCard = ({ disabled }: { disabled?: boolean }) => {
+    const currentCard = useAtomValue(currentCardAtom);
 
     return (
-        <ReactFlipCard
-            containerStyle={{
-                ...styles.container,
-                ...(disabled
-                    ? { position: "relative", top: "-100%" }
-                    : { zIndex: 1, position: "relative" }),
-            }}
-            backStyle={{ background: "gray" }}
-            flipTrigger={disabled ? "disabled" : "onClick"}
-            frontComponent={
-                <StyledCard>{card ? card.front : "404"}</StyledCard>
-            }
-            backComponent={<StyledCard>{card ? card.back : "404"}</StyledCard>}
-        />
+        <Box
+            px={2}
+            position="relative"
+        >
+            <ReactFlipCard
+                containerStyle={{
+                    ...styles.container,
+                    ...(disabled
+                        ? { position: "relative", top: "-100%" }
+                        : { zIndex: 1, position: "relative" }),
+                }}
+                backStyle={{ background: "gray" }}
+                flipTrigger={disabled ? "disabled" : "onClick"}
+                frontComponent={
+                    <StyledCard>
+                        {currentCard ? currentCard.front : "404"}
+                    </StyledCard>
+                }
+                backComponent={
+                    <StyledCard>
+                        {currentCard ? currentCard.back : "404"}
+                    </StyledCard>
+                }
+            />
+        </Box>
     );
 };
