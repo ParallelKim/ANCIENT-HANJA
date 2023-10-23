@@ -20,7 +20,12 @@ const SX = {
 };
 
 const styles = {
-    container: { width: "100%", height: "unset", aspectRatio: 1 },
+    container: {
+        width: "100%",
+        height: "unset",
+        aspectRatio: 1,
+        zIndex: 1,
+    },
 };
 
 const StyledCard = ({ children }: { children: string }) => {
@@ -34,23 +39,15 @@ const StyledCard = ({ children }: { children: string }) => {
     );
 };
 
-export const FlashCard = ({ disabled }: { disabled?: boolean }) => {
+export const FlashCard = () => {
     const currentCard = useAtomValue(currentCardAtom);
 
     return (
-        <Box
-            px={2}
-            position="relative"
-        >
+        <Box px={2}>
             <ReactFlipCard
-                containerStyle={{
-                    ...styles.container,
-                    ...(disabled
-                        ? { position: "relative", top: "-100%" }
-                        : { zIndex: 1, position: "relative" }),
-                }}
+                containerStyle={styles.container}
                 backStyle={{ background: "gray" }}
-                flipTrigger={disabled ? "disabled" : "onClick"}
+                flipTrigger={"onClick"}
                 frontComponent={
                     <StyledCard>
                         {currentCard ? currentCard.front : "404"}
