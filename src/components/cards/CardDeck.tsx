@@ -1,4 +1,4 @@
-import { Box, ButtonGroup, IconButton } from "@mui/material";
+import { Box, ButtonGroup, IconButton, Paper } from "@mui/material";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import { useAtom } from "jotai";
@@ -25,18 +25,18 @@ export const CardDeck = ({ cards }: { cards: CARD[] }) => {
 
     const iconsInfos = [
         {
-            icon: <ArrowBack />,
+            icon: <ArrowBack fontSize="large" />,
             label: "arrow-back",
             onClick: () => setCurrentIndex((prev) => Math.max(prev - 1, 0)),
             disabled: currentIndex === 0,
         },
         {
-            icon: <AutoStoriesIcon />,
+            icon: <AutoStoriesIcon fontSize="large" />,
             label: "auto-stories-icon",
             href: `https://hanja.dict.naver.com/#/search?query=${currentCard.back}`,
         },
         {
-            icon: <ArrowForward />,
+            icon: <ArrowForward fontSize="large" />,
             label: "arrow-forward",
             onClick: () =>
                 setCurrentIndex((prev) => Math.min(prev + 1, cards.length - 1)),
@@ -50,31 +50,32 @@ export const CardDeck = ({ cards }: { cards: CARD[] }) => {
             position="relative"
         >
             <FlashCard card={currentCard} />
-            <ButtonGroup
-                sx={SX.BT_GROUP}
-                variant="contained"
-                aria-label="outlined button group"
-            >
-                {iconsInfos.map((iconInfo) => {
-                    return (
-                        <IconButton
-                            key={iconInfo.label}
-                            aria-label={iconInfo.label}
-                            color="primary"
-                            size="large"
-                            sx={{ width: "30%" }}
-                            {...(iconInfo.href && {
-                                href: iconInfo.href,
-                                target: "_blank",
-                            })}
-                            onClick={iconInfo.onClick}
-                            disabled={iconInfo.disabled}
-                        >
-                            {iconInfo.icon}
-                        </IconButton>
-                    );
-                })}
-            </ButtonGroup>
+            <Paper>
+                <ButtonGroup
+                    sx={SX.BT_GROUP}
+                    variant="contained"
+                    aria-label="outlined button group"
+                >
+                    {iconsInfos.map((iconInfo) => {
+                        return (
+                            <IconButton
+                                key={iconInfo.label}
+                                aria-label={iconInfo.label}
+                                color="primary"
+                                sx={{ width: "30%" }}
+                                {...(iconInfo.href && {
+                                    href: iconInfo.href,
+                                    target: "_blank",
+                                })}
+                                onClick={iconInfo.onClick}
+                                disabled={iconInfo.disabled}
+                            >
+                                {iconInfo.icon}
+                            </IconButton>
+                        );
+                    })}
+                </ButtonGroup>
+            </Paper>
         </Box>
     );
 };
