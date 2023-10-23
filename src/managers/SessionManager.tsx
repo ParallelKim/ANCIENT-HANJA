@@ -7,13 +7,13 @@ import { sessionIdAtom } from "../stores/atoms";
 export const SessionManager = () => {
     const [sessionId, setSessionId] = useAtom(sessionIdAtom);
 
-    const effect = () => {
+    const initSession = () => {
         if (!sessionId) {
             setSessionId(uuid());
         }
     };
 
-    useEffect(effect, [sessionId, setSessionId]);
+    useEffect(initSession, [sessionId, setSessionId]);
 
     return null;
 };
