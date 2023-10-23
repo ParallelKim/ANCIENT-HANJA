@@ -19,15 +19,6 @@ const SX = {
     },
 };
 
-const styles = {
-    container: {
-        width: "100%",
-        height: "unset",
-        aspectRatio: 1,
-        zIndex: 1,
-    },
-};
-
 const StyledCard = ({ children }: { children: string }) => {
     return (
         <Paper
@@ -39,12 +30,22 @@ const StyledCard = ({ children }: { children: string }) => {
     );
 };
 
+const styles = {
+    container: {
+        width: "100%",
+        height: "unset",
+        aspectRatio: 1,
+        zIndex: 1,
+    },
+};
+
 export const FlashCard = () => {
     const currentCard = useAtomValue(currentCardAtom);
 
     return (
         <Box px={2}>
             <ReactFlipCard
+                key={currentCard.id}
                 containerStyle={styles.container}
                 backStyle={{ background: "gray" }}
                 flipTrigger={"onClick"}
