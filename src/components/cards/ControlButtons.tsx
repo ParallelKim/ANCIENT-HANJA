@@ -39,7 +39,7 @@ export const ControlButtons = () => {
             label: "auto-stories-icon",
             href:
                 currentCard &&
-                `https://hanja.dict.naver.com/#/search?query=${currentCard.back}`,
+                `https://hanja.dict.naver.com/#/search?query=${currentCard.front}`,
             disabled: !currentCard,
         },
         {
