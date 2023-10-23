@@ -3,7 +3,7 @@ import { atomWithHash } from "jotai-location";
 import { CARD } from "../types/card";
 
 export const currentIndexAtom = atom(0);
-export const changeCurrentIndexAtom = atom(
+export const moveCurrentIndexAtom = atom(
     null,
     (get, set, action: "next" | "prev") => {
         const current = get(currentIndexAtom);

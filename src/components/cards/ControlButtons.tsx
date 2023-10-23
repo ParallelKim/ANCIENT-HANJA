@@ -1,9 +1,9 @@
 import { ButtonGroup, IconButton, Paper } from "@mui/material";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import { useAtomValue, useSetAtom } from "jotai";
 import {
-    changeCurrentIndexAtom,
+    moveCurrentIndexAtom,
     currentCardAtom,
     currentCardSetLengthAtom,
     currentIndexAtom,
@@ -25,13 +25,13 @@ export const ControlButtons = () => {
     const currentIndex = useAtomValue(currentIndexAtom);
     const currentCard = useAtomValue(currentCardAtom);
     const currentCardSetLength = useAtomValue(currentCardSetLengthAtom);
-    const changeCurrentIndex = useSetAtom(changeCurrentIndexAtom);
+    const moveCurrentIndex = useSetAtom(moveCurrentIndexAtom);
 
     const iconsInfos = [
         {
             icon: <ArrowBack fontSize="large" />,
             label: "arrow-back",
-            onClick: () => changeCurrentIndex("prev"),
+            onClick: () => moveCurrentIndex("prev"),
             disabled: currentIndex === 0,
         },
         {
@@ -45,7 +45,7 @@ export const ControlButtons = () => {
         {
             icon: <ArrowForward fontSize="large" />,
             label: "arrow-forward",
-            onClick: () => changeCurrentIndex("next"),
+            onClick: () => moveCurrentIndex("next"),
             disabled: currentIndex >= currentCardSetLength - 1,
         },
     ];

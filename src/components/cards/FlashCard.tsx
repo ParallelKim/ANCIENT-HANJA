@@ -45,7 +45,7 @@ export const FlashCard = () => {
     return (
         <Box px={2}>
             <ReactFlipCard
-                key={currentCard.id}
+                key={currentCard?.id ?? -1}
                 containerStyle={styles.container}
                 backStyle={{ background: "gray" }}
                 flipTrigger={"onClick"}
