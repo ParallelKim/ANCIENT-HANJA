@@ -26,7 +26,7 @@ export const HeaderMenu = ({ isXs = false }: { isXs?: boolean }) => {
         setAnchorElNav(null);
     };
 
-    if (isXs) {
+    if (!isXs) {
         return (
             <Box
                 sx={{

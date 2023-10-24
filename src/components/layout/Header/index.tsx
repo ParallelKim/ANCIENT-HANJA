@@ -12,7 +12,7 @@ import {
     Tooltip,
     MenuItem,
 } from "@mui/material";
-import { ServiceName } from "./ServiceName";
+import { HeaderTitle } from "./HeaderTitle";
 import { HeaderMenu } from "./HeaderMenu";
 import { HeaderProfile } from "./HeaderProfile";
 
@@ -21,9 +21,9 @@ export const Header = () => {
         <AppBar position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <ServiceName />
+                    <HeaderTitle />
                     <HeaderMenu isXs />
-                    <ServiceName isXs />
+                    <HeaderTitle isXs />
                     <HeaderMenu />
                     <HeaderProfile />
                 </Toolbar>

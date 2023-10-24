@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 
-export const ServiceName = ({ isXs = false }: { isXs?: boolean }) => {
+export const HeaderTitle = ({ isXs = false }: { isXs?: boolean }) => {
     return (
         <Typography
             variant={isXs ? "h5" : "h6"}
@@ -13,6 +13,7 @@ export const ServiceName = ({ isXs = false }: { isXs?: boolean }) => {
                 display: isXs
                     ? { xs: "flex", md: "none" }
                     : { xs: "none", md: "flex" },
+                flexGrow: isXs ? 1 : undefined,
                 fontFamily: "monospace",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
