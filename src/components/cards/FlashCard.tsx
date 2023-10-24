@@ -5,17 +5,19 @@ import { currentCardAtom } from "../../stores/atoms";
 
 const SX = {
     CARD_PAPER: {
+        display: "flex",
         width: "100%",
         height: "100%",
-        textAlign: "center",
-        position: "relative",
+        p: 2,
+        justifyContent: "center",
+        alignItems: "center",
+        boxSizing: "border-box",
     },
     CARD_TYPO: {
-        position: "absolute",
-        top: "50%",
         width: "100%",
-        marginTop: "-3rem",
         fontSize: "4rem",
+        lineHeight: 1,
+        textAlign: "center",
     },
 };
 
