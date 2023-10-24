@@ -14,6 +14,7 @@
     -webkit-text-size-adjust: 100%;
 
     --primary-main-color: #bd0e32;
+    --primary-light-color: #e8949d;
     --secondary-main-color: #0ebd9a;
 }
 
@@ -38,7 +39,7 @@ a {
     text-decoration: inherit;
 }
 a:hover {
-    color: var(--secondary-main-color);
+    color: var(--primary-light-color);
 }
 
 body {
