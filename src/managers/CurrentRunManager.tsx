@@ -2,7 +2,7 @@ import { useAtom, useSetAtom } from "jotai";
 import { currentCardSetAtom, moveCurrentIndexAtom } from "../stores/atoms";
 import { useEffect } from "react";
 
-import chars from "../constants/chars.json";
+import chars from "../assets/chars.json";
 import { shuffleArray } from "../utils";
 
 export const CurrentRunManager = () => {
