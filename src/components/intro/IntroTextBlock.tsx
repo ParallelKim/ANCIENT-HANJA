@@ -14,7 +14,9 @@ export const IntroTextBlock = () => {
                 <Typography>
                     아래에 제게 연락할 수 있는 링크가 있습니다
                 </Typography>
-                <Typography>문의, 버그 제보, 기여 모두 환영입니다</Typography>
+                <Typography>
+                    기능 요청, 버그 제보, 기여 문의 모두 환영입니다
+                </Typography>
                 <p />
                 <Typography>다들 한자 시험 파이팅입니다</Typography>
             </Paper>
