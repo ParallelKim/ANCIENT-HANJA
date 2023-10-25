@@ -35,13 +35,15 @@ export const CountdownBlock = () => {
                             minutes,
                             seconds,
                         }: {
-                            days: unknown;
-                            hours: unknown;
-                            minutes: unknown;
-                            seconds: unknown;
+                            days: number;
+                            hours: number;
+                            minutes: number;
+                            seconds: number;
                         }) => (
                             <>
-                                {days}D {hours}h {minutes}m {seconds}s
+                                {days}D {String(hours).padStart(2, "0")}h{" "}
+                                {String(minutes).padStart(2, "0")}m{" "}
+                                {String(seconds).padStart(2, "0")}s
                             </>
                         )}
                     />
