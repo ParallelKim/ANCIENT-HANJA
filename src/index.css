@@ -37,6 +37,7 @@
 a {
     font-weight: 500;
     text-decoration: inherit;
+    color: var(--primary-main-color);
 }
 a:hover {
     color: var(--primary-light-color);

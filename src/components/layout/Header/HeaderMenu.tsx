@@ -12,6 +12,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 const pages = [
     { label: "Study", path: "/study", disabled: false },
     { label: "Test", path: "/test", disabled: true },
+    { label: "Notice", path: "/notice", disabled: false },
 ]; // TEST, GAME, RANKING 등 추가
 
 export const HeaderMenu = ({ isXs = false }: { isXs?: boolean }) => {
