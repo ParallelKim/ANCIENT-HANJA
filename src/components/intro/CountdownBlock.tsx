@@ -3,9 +3,9 @@ import CountDown from "count-down-react";
 import moment from "moment";
 
 const 접수시작 = moment(202311060900, "YYYYMMDDhhmm");
-const 접수마감 = moment(202311101600, "YYYYMMDDhhmm");
-const 입실시간 = moment(202311191440, "YYYYMMDDhhmm");
-const 시험일 = moment(202311191500, "YYYYMMDDhhmm");
+// const 접수마감 = moment(202311101600, "YYYYMMDDhhmm");
+// const 입실시간 = moment(202311191440, "YYYYMMDDhhmm");
+// const 시험일 = moment(202311191500, "YYYYMMDDhhmm");
 
 export const CountdownBlock = () => {
     return (
