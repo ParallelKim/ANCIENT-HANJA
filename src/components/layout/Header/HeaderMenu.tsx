@@ -87,22 +87,32 @@ export const HeaderMenu = ({ isXs = false }: { isXs?: boolean }) => {
                     display: { xs: "block", md: "none" },
                 }}
             >
-                {pages.map((page) => (
-                    <MenuItem
-                        key={page.label}
-                        onClick={handleCloseNavMenu}
-                        disabled={page.disabled}
-                    >
-                        <Typography
-                            component="a"
-                            textAlign="center"
-                            href={page.path}
-                            color="primary.main"
+                {pages.map((page) => {
+                    const isCurrentPath = page.path === location.pathname;
+
+                    return (
+                        <MenuItem
+                            key={page.label}
+                            onClick={handleCloseNavMenu}
+                            disabled={page.disabled}
+                            sx={{
+                                backgroundColor: isCurrentPath
+                                    ? "primary.main"
+                                    : "inherit",
+                                pr: 4,
+                            }}
                         >
-                            {page.label}
-                        </Typography>
-                    </MenuItem>
-                ))}
+                            <Typography
+                                component="a"
+                                textAlign="center"
+                                href={isCurrentPath ? undefined : page.path}
+                                color={isCurrentPath ? "white" : "inherit"}
+                            >
+                                {page.label}
+                            </Typography>
+                        </MenuItem>
+                    );
+                })}
             </Menu>
         </Box>
     );
