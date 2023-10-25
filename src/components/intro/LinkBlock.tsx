@@ -1,6 +1,7 @@
 import { Box, IconButton, Paper, Stack, SvgIcon } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+
 import { ReactComponent as KakaoTalkIcon } from "../../assets/kakaoIcon.svg";
 
 export const LinkBlock = () => {

@@ -1,6 +1,6 @@
-import { useAtom } from "jotai";
 import { useEffect } from "react";
 import uuid from "react-uuid";
+import { useAtom } from "jotai";
 
 import { sessionIdAtom } from "../stores/atoms";
 

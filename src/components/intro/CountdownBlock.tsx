@@ -1,4 +1,4 @@
-import { Box, Divider, Paper, Typography } from "@mui/material";
+import { Box, Paper, Typography } from "@mui/material";
 import CountDown from "count-down-react";
 import moment from "moment";
 

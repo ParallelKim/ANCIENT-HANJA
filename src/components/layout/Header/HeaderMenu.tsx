@@ -1,14 +1,13 @@
+import { useState } from "react";
 import {
     Box,
     Button,
     IconButton,
     Menu,
     MenuItem,
-    Tooltip,
     Typography,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { useState } from "react";
 
 const pages = [
     { label: "Study", path: "/study", disabled: false },

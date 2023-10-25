@@ -1,5 +1,6 @@
 import { atom } from "jotai";
 import { atomWithHash } from "jotai-location";
+
 import { CARD } from "../types/card";
 
 export const currentIndexAtom = atom(0);

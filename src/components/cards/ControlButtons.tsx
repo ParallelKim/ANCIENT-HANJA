@@ -1,7 +1,8 @@
+import { useAtomValue, useSetAtom } from "jotai";
 import { ButtonGroup, IconButton, Paper } from "@mui/material";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
-import { useAtomValue, useSetAtom } from "jotai";
+
 import {
     moveCurrentIndexAtom,
     currentCardAtom,
