@@ -37,6 +37,7 @@ export const HeaderMenu = ({ isXs = false }: { isXs?: boolean }) => {
                 {pages.map((page) => (
                     <Button
                         key={page.label}
+                        href={page.path}
                         onClick={handleCloseNavMenu}
                         disabled={page.disabled}
                         sx={{
@@ -93,7 +94,14 @@ export const HeaderMenu = ({ isXs = false }: { isXs?: boolean }) => {
                         onClick={handleCloseNavMenu}
                         disabled={page.disabled}
                     >
-                        <Typography textAlign="center">{page.label}</Typography>
+                        <Typography
+                            component="a"
+                            textAlign="center"
+                            href={page.path}
+                            color="primary.main"
+                        >
+                            {page.label}
+                        </Typography>
                     </MenuItem>
                 ))}
             </Menu>
