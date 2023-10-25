@@ -2,9 +2,6 @@ import { Box, Divider, Paper, Typography } from "@mui/material";
 import CountDown from "count-down-react";
 import moment from "moment";
 
-const NOTICE_LINK =
-    "https://kuhjhm.korea.ac.kr/hjhm/exam/notice.do?mode=view&articleNo=334950&article.offset=0&articleLimit=10";
-
 const 접수시작 = moment(202311060900, "YYYYMMDDhhmm");
 const 접수마감 = moment(202311101600, "YYYYMMDDhhmm");
 const 입실시간 = moment(202311191440, "YYYYMMDDhhmm");

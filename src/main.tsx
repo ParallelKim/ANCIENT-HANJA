@@ -9,7 +9,7 @@ import "@fontsource/roboto/700.css";
 import "./index.css";
 import { router } from "./router";
 import { ThemeProvider } from "@mui/material";
-import { theme } from "./constants/colors";
+import { theme } from "./constants/styles";
 import { FirebaseProvider } from "./firebase/FirebaseProvider";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
