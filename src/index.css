@@ -85,3 +85,8 @@ button {
         background-color: rgba(0, 0, 0, 0.1);
     }
 }
+
+@font-face {
+    font-family: "kenny";
+    src: url("assets/Kenney Blocks.ttf") format("truetype");
+}
