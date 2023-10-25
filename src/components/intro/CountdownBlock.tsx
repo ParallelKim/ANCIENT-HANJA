@@ -23,7 +23,7 @@ export const CountdownBlock = () => {
                         p: 1,
                         textAlign: "center",
                         fontFamily: "kenny",
-                        backgroundColor: "primary.dark",
+                        backgroundColor: "primary.main",
                         color: "white",
                     }}
                 >
