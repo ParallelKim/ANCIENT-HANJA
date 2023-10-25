@@ -1,5 +1,5 @@
 import { useAtomValue, useSetAtom } from "jotai";
-import { ButtonGroup, IconButton, Paper } from "@mui/material";
+import { Box, ButtonGroup, IconButton, Paper } from "@mui/material";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 
@@ -52,31 +52,33 @@ export const ControlButtons = () => {
     ];
 
     return (
-        <Paper>
-            <ButtonGroup
-                sx={SX.BT_GROUP}
-                variant="contained"
-                aria-label="outlined button group"
-            >
-                {iconsInfos.map((iconInfo) => {
-                    return (
-                        <IconButton
-                            key={iconInfo.label}
-                            aria-label={iconInfo.label}
-                            color="primary"
-                            sx={{ width: "30%" }}
-                            {...(iconInfo.href && {
-                                href: iconInfo.href,
-                                target: "_blank",
-                            })}
-                            onClick={iconInfo.onClick}
-                            disabled={iconInfo.disabled}
-                        >
-                            {iconInfo.icon}
-                        </IconButton>
-                    );
-                })}
-            </ButtonGroup>
-        </Paper>
+        <Box px={2}>
+            <Paper>
+                <ButtonGroup
+                    sx={SX.BT_GROUP}
+                    variant="contained"
+                    aria-label="outlined button group"
+                >
+                    {iconsInfos.map((iconInfo) => {
+                        return (
+                            <IconButton
+                                key={iconInfo.label}
+                                aria-label={iconInfo.label}
+                                color="primary"
+                                sx={{ width: "30%" }}
+                                {...(iconInfo.href && {
+                                    href: iconInfo.href,
+                                    target: "_blank",
+                                })}
+                                onClick={iconInfo.onClick}
+                                disabled={iconInfo.disabled}
+                            >
+                                {iconInfo.icon}
+                            </IconButton>
+                        );
+                    })}
+                </ButtonGroup>
+            </Paper>
+        </Box>
     );
 };

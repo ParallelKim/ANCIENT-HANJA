@@ -14,6 +14,7 @@ export const CountdownBlock = () => {
                 <Typography
                     variant="h5"
                     p={1}
+                    fontWeight={700}
                 >
                     접수일까지
                 </Typography>
@@ -22,7 +23,7 @@ export const CountdownBlock = () => {
                         p: 1,
                         textAlign: "center",
                         fontFamily: "kenny",
-                        backgroundColor: "rgba(0,0,0,0.9)",
+                        backgroundColor: "primary.dark",
                         color: "white",
                     }}
                 >

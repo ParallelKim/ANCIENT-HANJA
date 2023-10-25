@@ -23,7 +23,6 @@ export const CurrentRunManager = () => {
         }
 
         const keyboardListener = (e: KeyboardEvent) => {
-            console.log(e);
             switch (e.code) {
                 case "Space":
                     break;
