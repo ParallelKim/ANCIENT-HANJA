@@ -12,7 +12,7 @@ export const IntroducePage = () => {
         >
             <Stack
                 py={2}
-                gap={4}
+                gap={2}
             >
                 <CountdownBlock />
                 <IntroTextBlock />
