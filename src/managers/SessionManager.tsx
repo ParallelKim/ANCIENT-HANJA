@@ -5,13 +5,13 @@ import { sessionIdAtom } from "../stores/atoms";
 import { useAuth, useSigninCheck } from "reactfire";
 
 export const SessionManager = () => {
-    const detectedSessionList = useRef<unknown[]>([]);
+    const detectedSessionList = useRef<{ [uid: string]: string[] }>({});
     const [sessionId, setSessionId] = useAtom(sessionIdAtom);
 
     const { status, data: signInCheckResult } = useSigninCheck();
 
     const getUserInfo = (uid: string) => {
-        const progress = {};
+        const progress = { id: uid };
         console.log(uid, progress);
         return progress;
     };
@@ -21,21 +21,18 @@ export const SessionManager = () => {
         if (status === "loading") return;
 
         if (signInCheckResult && signInCheckResult?.user) {
-            const userInfo = getUserInfo(signInCheckResult.user.uid);
+            const { uid } = signInCheckResult.user;
+            const userInfo = getUserInfo(uid);
 
             if (userInfo) {
                 if (!signInCheckResult.user.isAnonymous) {
-                    // 1. It might google logion
-                    detectedSessionList.current.push({
-                        method: "GOOGLE",
-                        user: userInfo,
-                    });
+                    // 1. google logion
+                    detectedSessionList.current[uid] = ["Google"];
                 } else {
                     // 2. anonymous id might change every session(depend on setting)
-                    detectedSessionList.current.push({
-                        method: "Anonymous",
-                        user: userInfo,
-                    });
+                    detectedSessionList.current[uid] =
+                        detectedSessionList.current[uid] ?? [];
+                    detectedSessionList.current[uid].push("Anonymous");
                 }
             }
         }
@@ -46,10 +43,9 @@ export const SessionManager = () => {
             const userInfo = getUserInfo(localUid);
 
             if (userInfo) {
-                detectedSessionList.current.push({
-                    method: "LOCAL",
-                    user: userInfo,
-                });
+                detectedSessionList.current[localUid] =
+                    detectedSessionList.current[localUid] ?? [];
+                detectedSessionList.current[localUid].push("Local");
             }
         }
 
@@ -57,14 +53,13 @@ export const SessionManager = () => {
             const userInfo = getUserInfo(sessionId);
 
             if (userInfo) {
-                detectedSessionList.current.push({
-                    method: "HASH",
-                    user: userInfo,
-                });
+                detectedSessionList.current[sessionId] =
+                    detectedSessionList.current[sessionId] ?? [];
+                detectedSessionList.current[sessionId].push("Hash");
             }
         }
 
-        if (detectedSessionList.current.length > 0) {
+        if (detectedSessionList.current.size) {
             // pop up modal for select sessions
         } else {
             // create new session

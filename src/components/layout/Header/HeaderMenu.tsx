@@ -100,7 +100,6 @@ export const HeaderMenu = ({ isXs = false }: { isXs?: boolean }) => {
                                 backgroundColor: isCurrentPath
                                     ? "primary.main"
                                     : "inherit",
-                                pr: 4,
                             }}
                         >
                             <Typography
