@@ -28,4 +28,5 @@ export const currentCardAtom = atom((get) => {
     return get(currentCardSetAtom)[get(currentIndexAtom)] ?? null;
 });
 
-export const sessionIdAtom = atomWithHash<null | string>("sessionId", null);
+export const hashIdAtom = atomWithHash<null | string>("uid", null);
+export const userInfoAtom = atom<null | unknown>(null);
