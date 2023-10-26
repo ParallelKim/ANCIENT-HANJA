@@ -8,7 +8,6 @@ export const SessionManager = () => {
     const detectedSessionList = useRef<unknown[]>([]);
     const [sessionId, setSessionId] = useAtom(sessionIdAtom);
 
-    const auth = useAuth();
     const { status, data: signInCheckResult } = useSigninCheck();
 
     const getUserInfo = (uid: string) => {
@@ -19,7 +18,9 @@ export const SessionManager = () => {
 
     const initSession = () => {
         // 중요도: 1.구글, 2.로컬 스토리지, 3.url hash. 하나 이상의 값이 다르다면 덮어씌울지 합칠지 정하도록
-        if (signInCheckResult.user) {
+        if (status === "loading") return;
+
+        if (signInCheckResult && signInCheckResult?.user) {
             const userInfo = getUserInfo(signInCheckResult.user.uid);
 
             if (userInfo) {
@@ -62,9 +63,15 @@ export const SessionManager = () => {
                 });
             }
         }
+
+        if (detectedSessionList.current.length > 0) {
+            // pop up modal for select sessions
+        } else {
+            // create new session
+        }
     };
 
-    useEffect(initSession);
+    useEffect(initSession, [sessionId, signInCheckResult, status]);
 
     return null;
 };

@@ -91,3 +91,8 @@ button {
     font-family: "kenny";
     src: url("assets/Kenney Blocks.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: "calculator";
+    src: url("assets/pocket_calculator.ttf") format("truetype");
+}
