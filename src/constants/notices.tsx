@@ -40,6 +40,10 @@ export const noticeList = [
                         label: "한자 데이터 3",
                         url: "https://quizlet.com/kr/177828443/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90-%EC%A1%B8%EC%97%85%ED%95%9C%EC%9E%90-flash-cards/",
                     },
+                    {
+                        label: "계산기 폰트",
+                        url: "https://www.bvfonts.com/fonts/details.php?id=18",
+                    },
                 ].map((link) => {
                     return (
                         <a
