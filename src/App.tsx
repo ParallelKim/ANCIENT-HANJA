@@ -13,7 +13,10 @@ export const App = () => {
     const database = getDatabase(app);
 
     return (
-        <div id="app">
+        <div
+            id="app"
+            style={{ display: "flex", flexDirection: "column" }}
+        >
             <AuthProvider sdk={auth}>
                 <DatabaseProvider sdk={database}>
                     <SessionManager />
