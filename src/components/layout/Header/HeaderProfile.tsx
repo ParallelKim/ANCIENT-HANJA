@@ -29,10 +29,7 @@ export const HeaderProfile = () => {
                     onClick={handleOpenUserMenu}
                     sx={{ p: 0 }}
                 >
-                    <Avatar
-                        alt="user-avatar"
-                        src="/static/images/avatar/2.jpg"
-                    />
+                    <Avatar alt="user-avatar" />
                 </IconButton>
             </Tooltip>
             <Menu
