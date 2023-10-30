@@ -98,7 +98,12 @@ export const SelectStudySet = () => {
                     </DialogTitle>
                     <DialogContent>
                         <DialogContentText id="alert-dialog-description">
-                            <Stack gap={2}>
+                            <Stack
+                                gap={2}
+                                p={2}
+                                mx={-3}
+                                sx={{ backgroundColor: "primary.dark" }}
+                            >
                                 {preview?.contents.map((card, idx) => (
                                     <Paper key={card.id}>
                                         <Stack
@@ -109,7 +114,11 @@ export const SelectStudySet = () => {
                                             gap={2}
                                             justifyContent="space-around"
                                         >
-                                            <Typography fontSize="2rem">
+                                            <Typography
+                                                textAlign="right"
+                                                lineHeight="3rem"
+                                                fontSize="1.5rem"
+                                            >
                                                 {idx + 1}
                                             </Typography>
                                             <Box
@@ -131,15 +140,13 @@ export const SelectStudySet = () => {
                             </Stack>
                         </DialogContentText>
                     </DialogContent>
-                    <DialogActions>
-                        <Button onClick={() => setPreview(null)}>
-                            Disagree
-                        </Button>
+                    <DialogActions sx={{ p: 2 }}>
                         <Button
+                            size="large"
+                            variant="contained"
                             onClick={() => setPreview(null)}
-                            autoFocus
                         >
-                            Agree
+                            닫기
                         </Button>
                     </DialogActions>
                 </Dialog>
