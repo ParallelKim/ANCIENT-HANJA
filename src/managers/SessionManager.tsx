@@ -104,12 +104,9 @@ export const SessionManager = () => {
         const sessionIds = Object.keys(sessions);
         if (sessionIds.length > 0) {
             // pop up modal for select sessions
-        } else {
-            // create new session
-            console.log("create new session");
-            // 구글 로그인 할지 물어보기
-            redirect("/signUp");
         }
+        // 구글 로그인 할지 물어보기 -> 공부하는 페이지에서 ㄱㄱ 유저 정보가 필요한 시점에 호출
+        // redirect("/signUp");
 
         return () => {
             detectedSessionList.current = {};

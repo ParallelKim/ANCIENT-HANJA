@@ -11,7 +11,13 @@ export const NoticeAccordion = () => {
     return (
         <Box py={2}>
             {noticeList.map((notice, index) => (
-                <Accordion key={`notice-${index}-${notice.title}`}>
+                <Accordion
+                    key={`notice-${index}-${notice.title}`}
+                    defaultExpanded={
+                        location.hash.replace("#", "") ===
+                        encodeURIComponent(notice.title)
+                    }
+                >
                     <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls={`panel${index}a-content`}
