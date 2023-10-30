@@ -8,7 +8,7 @@ import {
     currentCardAtom,
     currentCardSetLengthAtom,
     currentIndexAtom,
-} from "../../stores/atoms";
+} from "../../../stores/atoms";
 
 const SX = {
     BT_GROUP: {

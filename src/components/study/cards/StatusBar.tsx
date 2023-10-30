@@ -3,7 +3,10 @@ import RepeatIcon from "@mui/icons-material/Repeat";
 import SettingsIcon from "@mui/icons-material/Settings";
 import { useAtomValue } from "jotai";
 
-import { currentIndexAtom, currentCardSetLengthAtom } from "../../stores/atoms";
+import {
+    currentIndexAtom,
+    currentCardSetLengthAtom,
+} from "../../../stores/atoms";
 
 const SX = {
     STATUS_PAPER: {

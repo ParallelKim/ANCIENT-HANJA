@@ -1,5 +1,5 @@
 export interface CARD {
-    id: number;
+    id: string;
     front: string;
     back: string;
 }
