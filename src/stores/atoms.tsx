@@ -24,6 +24,8 @@ export const currentCardSetLengthAtom = atom((get) => {
     return get(currentCardSetAtom).length;
 });
 
+export const currentClassAtom = atom<CARD[]>([]);
+
 export const currentCardAtom = atom((get) => {
     return get(currentCardSetAtom)[get(currentIndexAtom)] ?? null;
 });

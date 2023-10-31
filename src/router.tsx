@@ -15,6 +15,12 @@ export const router = createBrowserRouter([
             {
                 path: "/study",
                 element: <StudyPage />,
+                children: [
+                    {
+                        path: ":setName",
+                        element: <StudyPage />,
+                    },
+                ],
             },
             {
                 path: "/signUp",
