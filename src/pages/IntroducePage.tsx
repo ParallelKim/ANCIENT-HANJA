@@ -1,4 +1,4 @@
-import { Container, Stack } from "@mui/material";
+import { Button, Container, Stack } from "@mui/material";
 
 import { IntroTextBlock } from "../components/intro/IntroTextBlock";
 import { LinkBlock } from "../components/intro/LinkBlock";
@@ -16,6 +16,12 @@ export const IntroducePage = () => {
             >
                 <CountdownBlock />
                 <IntroTextBlock />
+                <Button
+                    href="/study"
+                    variant="contained"
+                >
+                    공부하러 가기
+                </Button>
                 <LinkBlock />
             </Stack>
         </Container>

@@ -76,7 +76,7 @@ button {
         background-color: #ffffff;
     }
     a:hover {
-        color: var(--secondary-main-color);
+        color: var(--primary-light-color);
     }
     button {
         background-color: #f9f9f9;
@@ -90,4 +90,9 @@ button {
 @font-face {
     font-family: "kenny";
     src: url("assets/Kenney Blocks.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "calculator";
+    src: url("assets/pocket_calculator.ttf") format("truetype");
 }

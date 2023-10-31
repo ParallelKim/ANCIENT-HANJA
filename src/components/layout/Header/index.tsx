@@ -12,7 +12,7 @@ export const Header = () => {
                     <HeaderMenu isXs />
                     <HeaderTitle isXs />
                     <HeaderMenu />
-                    <HeaderProfile />
+                    {/* <HeaderProfile /> */}
                 </Toolbar>
             </Container>
         </AppBar>

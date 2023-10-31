@@ -10,7 +10,7 @@ const 접수시작 = moment(202311060900, "YYYYMMDDhhmm");
 export const CountdownBlock = () => {
     return (
         <Box>
-            <Paper sx={{ p: 1, fontSize: "2rem" }}>
+            <Paper sx={{ p: 1, fontSize: { md: "3rem", xs: "2rem" } }}>
                 <Typography
                     variant="h5"
                     p={1}
@@ -22,8 +22,8 @@ export const CountdownBlock = () => {
                     sx={{
                         p: 1,
                         textAlign: "center",
-                        fontFamily: "kenny",
-                        backgroundColor: "primary.dark",
+                        fontFamily: "calculator",
+                        backgroundColor: "primary.main",
                         color: "white",
                     }}
                 >
@@ -35,13 +35,15 @@ export const CountdownBlock = () => {
                             minutes,
                             seconds,
                         }: {
-                            days: unknown;
-                            hours: unknown;
-                            minutes: unknown;
-                            seconds: unknown;
+                            days: number;
+                            hours: number;
+                            minutes: number;
+                            seconds: number;
                         }) => (
                             <>
-                                {days}D {hours}h {minutes}m {seconds}s
+                                {days}D {String(hours).padStart(2, "0")}h{" "}
+                                {String(minutes).padStart(2, "0")}m{" "}
+                                {String(seconds).padStart(2, "0")}s
                             </>
                         )}
                     />

@@ -1,8 +1,19 @@
 {
   "name": "ancient-hanja",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "description": "A service to study for the graduation Chinese character exam at Korea University",
+  "keywords": [
+    "ancient Chinese",
+    "Korea University",
+    "react",
+    "PWA"
+  ],
+  "homepage": "https://ancient-hanja.web.app/",
+  "repository": "https://github.com/ParallelKim/ANCIENT-HANJA",
+  "license": "CC0-1.0",
+  "author": "ParallelKim <paralellkim12@gmail.com> (https://github.com/ParallelKim)",
   "scripts": {
     "dev": "bunx --bun vite",
     "build": "tsc && bunx --bun vite build",
