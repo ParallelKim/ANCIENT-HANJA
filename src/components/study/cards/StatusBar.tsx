@@ -37,25 +37,28 @@ export const StatusBar = () => {
             >
                 <Stack
                     direction="row"
-                    justifyContent="space-between"
+                    justifyContent="center"
                 >
-                    <IconButton
+                    {/* <IconButton
                         aria-label="refresh-icon"
                         color="primary"
                         sx={{ width: "30%" }}
                     >
                         <RepeatIcon fontSize="large" />
-                    </IconButton>
-                    <Typography sx={SX.STATUS_TYPO}>
+                    </IconButton> */}
+                    <Typography
+                        sx={SX.STATUS_TYPO}
+                        textAlign="center"
+                    >
                         {currentIndex + 1}/{currentCardSetLength}
                     </Typography>
-                    <IconButton
+                    {/* <IconButton
                         aria-label="refresh-icon"
                         color="primary"
                         sx={{ width: "30%" }}
                     >
                         <SettingsIcon fontSize="large" />
-                    </IconButton>
+                    </IconButton> */}
                 </Stack>
             </Paper>
         </Box>
