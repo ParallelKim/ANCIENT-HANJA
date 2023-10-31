@@ -59,6 +59,18 @@ export const noticeList = [
             </Stack>
         ),
     },
+    {
+        title: "업데이트 예정 기능",
+        content: (
+            <Typography
+                whiteSpace="pre-line"
+                sx={{ wordBreak: "break-word" }}
+            >{`1. 학습 진행도 저장 기능
+            2. 어려운 단어, 쉬운 단어 선택 후 학습 빈도 조절
+            3. 기출 문제를 풀어볼 수 있는 모의 테스트
+        `}</Typography>
+        ),
+    },
     // {
     //     title: "진행도 저장에 관한 공지",
     //     content: (
