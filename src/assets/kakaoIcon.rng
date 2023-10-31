@@ -1,0 +1,30 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" ns="http://www.w3.org/2000/svg"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name="svgContent" />
+    </start>
+    <define name="svgContent">
+        <element name="svg">
+            <ref name="gContent" />
+            <attribute name="viewBox" />
+        </element>
+    </define>
+    <define name="gContent">
+        <element name="g">
+            <ref name="polygonContent" />
+            <ref name="pathContent" />
+        </element>
+    </define>
+    <define name="polygonContent">
+        <element name="polygon">
+            <attribute name="class" />
+            <attribute name="points" />
+        </element>
+    </define>
+    <define name="pathContent">
+        <element name="path">
+            <attribute name="class" />
+            <attribute name="d" />
+        </element>
+    </define>
+</grammar>

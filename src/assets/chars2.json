@@ -1,0 +1,598 @@
+[
+    {
+        "front": "井",
+        "back": "정"
+    },
+    {
+        "front": "刀",
+        "back": "도"
+    },
+    {
+        "front": "促",
+        "back": "촉"
+    },
+    {
+        "front": "初",
+        "back": "초"
+    },
+    {
+        "front": "顧",
+        "back": "고"
+    },
+    {
+        "front": "簡",
+        "back": "간"
+    },
+    {
+        "front": "乳",
+        "back": "유"
+    },
+    {
+        "front": "浮",
+        "back": "부"
+    },
+    {
+        "front": "肺",
+        "back": "폐"
+    },
+    {
+        "front": "尋",
+        "back": "심"
+    },
+    {
+        "front": "囚",
+        "back": "수"
+    },
+    {
+        "front": "抽",
+        "back": "추"
+    },
+    {
+        "front": "樞",
+        "back": "추"
+    },
+    {
+        "front": "醜",
+        "back": "추"
+    },
+    {
+        "front": "亂",
+        "back": "란"
+    },
+    {
+        "front": "掃",
+        "back": "소"
+    },
+    {
+        "front": "所",
+        "back": "소"
+    },
+    {
+        "front": "旋",
+        "back": "선"
+    },
+    {
+        "front": "團",
+        "back": "단"
+    },
+    {
+        "front": "貴",
+        "back": "귀"
+    },
+    {
+        "front": "相",
+        "back": "상"
+    },
+    {
+        "front": "逝",
+        "back": "서"
+    },
+    {
+        "front": "詳",
+        "back": "상"
+    },
+    {
+        "front": "妻",
+        "back": "처"
+    },
+    {
+        "front": "婦",
+        "back": "부"
+    },
+    {
+        "front": "曉",
+        "back": "효"
+    },
+    {
+        "front": "雪",
+        "back": "설"
+    },
+    {
+        "front": "角",
+        "back": "각"
+    },
+    {
+        "front": "嗣",
+        "back": "사"
+    },
+    {
+        "front": "庶",
+        "back": "서"
+    },
+    {
+        "front": "件",
+        "back": "거"
+    },
+    {
+        "front": "孔",
+        "back": "공"
+    },
+    {
+        "front": "後",
+        "back": "후"
+    },
+    {
+        "front": "薄",
+        "back": "박"
+    },
+    {
+        "front": "厚",
+        "back": "후"
+    },
+    {
+        "front": "扇",
+        "back": "선"
+    },
+    {
+        "front": "陽",
+        "back": "양"
+    },
+    {
+        "front": "巾",
+        "back": "건"
+    },
+    {
+        "front": "乞",
+        "back": "걸"
+    },
+    {
+        "front": "過",
+        "back": "과"
+    },
+    {
+        "front": "及",
+        "back": "급"
+    },
+    {
+        "front": "君",
+        "back": "군"
+    },
+    {
+        "front": "休",
+        "back": "휴"
+    },
+    {
+        "front": "舌",
+        "back": "설"
+    },
+    {
+        "front": "器",
+        "back": "기"
+    },
+    {
+        "front": "引",
+        "back": "인"
+    },
+    {
+        "front": "優",
+        "back": "우"
+    },
+    {
+        "front": "瓦",
+        "back": "와"
+    },
+    {
+        "front": "寡",
+        "back": "과"
+    },
+    {
+        "front": "蘭",
+        "back": "란"
+    },
+    {
+        "front": "勤",
+        "back": "근"
+    },
+    {
+        "front": "奇",
+        "back": "기"
+    },
+    {
+        "front": "堅",
+        "back": "견"
+    },
+    {
+        "front": "吉",
+        "back": "길"
+    },
+    {
+        "front": "至",
+        "back": "지"
+    },
+    {
+        "front": "武",
+        "back": "무"
+    },
+    {
+        "front": "戌",
+        "back": "술"
+    },
+    {
+        "front": "止",
+        "back": "지"
+    },
+    {
+        "front": "賦",
+        "back": "부"
+    },
+    {
+        "front": "舞",
+        "back": "무"
+    },
+    {
+        "front": "邑",
+        "back": "읍"
+    },
+    {
+        "front": "泣",
+        "back": "읍"
+    },
+    {
+        "front": "凝",
+        "back": "응"
+    },
+    {
+        "front": "把",
+        "back": "파"
+    },
+    {
+        "front": "吸",
+        "back": "홉"
+    },
+    {
+        "front": "蜜",
+        "back": "밀"
+    },
+    {
+        "front": "玉",
+        "back": "옥"
+    },
+    {
+        "front": "寫",
+        "back": "사"
+    },
+    {
+        "front": "星",
+        "back": "성"
+    },
+    {
+        "front": "走",
+        "back": "주"
+    },
+    {
+        "front": "太",
+        "back": "태"
+    },
+    {
+        "front": "快",
+        "back": "쾌"
+    },
+    {
+        "front": "鶴",
+        "back": "학"
+    },
+    {
+        "front": "笠",
+        "back": "립"
+    },
+    {
+        "front": "葉",
+        "back": "엽"
+    },
+    {
+        "front": "重",
+        "back": "중"
+    },
+    {
+        "front": "酒",
+        "back": "주"
+    },
+    {
+        "front": "酸",
+        "back": "산"
+    },
+    {
+        "front": "酉",
+        "back": "유"
+    },
+    {
+        "front": "醉",
+        "back": "취"
+    },
+    {
+        "front": "冬",
+        "back": "동"
+    },
+    {
+        "front": "紅",
+        "back": "홍"
+    },
+    {
+        "front": "春",
+        "back": "춘"
+    },
+    {
+        "front": "秋",
+        "back": "추"
+    },
+    {
+        "front": "夏",
+        "back": "하"
+    },
+    {
+        "front": "得",
+        "back": "득"
+    },
+    {
+        "front": "幸",
+        "back": "행"
+    },
+    {
+        "front": "偏",
+        "back": "편"
+    },
+    {
+        "front": "飽",
+        "back": "포"
+    },
+    {
+        "front": "純",
+        "back": "순"
+    },
+    {
+        "front": "滅",
+        "back": "멸"
+    },
+    {
+        "front": "表",
+        "back": "표"
+    },
+    {
+        "front": "歸",
+        "back": "귀"
+    },
+    {
+        "front": "豈",
+        "back": "기"
+    },
+    {
+        "front": "何",
+        "back": "하"
+    },
+    {
+        "front": "雖",
+        "back": "수"
+    },
+    {
+        "front": "孰",
+        "back": "숙"
+    },
+    {
+        "front": "疲",
+        "back": "피"
+    },
+    {
+        "front": "比",
+        "back": "비"
+    },
+    {
+        "front": "夕",
+        "back": "석"
+    },
+    {
+        "front": "旦",
+        "back": "단"
+    },
+    {
+        "front": "夜",
+        "back": "야"
+    },
+    {
+        "front": "晝",
+        "back": "주"
+    },
+    {
+        "front": "歌",
+        "back": "가"
+    },
+    {
+        "front": "憤",
+        "back": "분"
+    },
+    {
+        "front": "美",
+        "back": "미"
+    },
+    {
+        "front": "揚",
+        "back": "양"
+    },
+    {
+        "front": "讚",
+        "back": "찬"
+    },
+    {
+        "front": "電",
+        "back": "전"
+    },
+    {
+        "front": "雨",
+        "back": "우"
+    },
+    {
+        "front": "霜",
+        "back": "상"
+    },
+    {
+        "front": "露",
+        "back": "로"
+    },
+    {
+        "front": "責",
+        "back": "책"
+    },
+    {
+        "front": "只",
+        "back": "지"
+    },
+    {
+        "front": "乎",
+        "back": "호"
+    },
+    {
+        "front": "矣",
+        "back": "의"
+    },
+    {
+        "front": "必",
+        "back": "필"
+    },
+    {
+        "front": "悔",
+        "back": "회"
+    },
+    {
+        "front": "逃",
+        "back": "도"
+    },
+    {
+        "front": "述",
+        "back": "술"
+    },
+    {
+        "front": "逆",
+        "back": "역"
+    },
+    {
+        "front": "返",
+        "back": "반"
+    },
+    {
+        "front": "佳",
+        "back": "가"
+    },
+    {
+        "front": "刊",
+        "back": "간"
+    },
+    {
+        "front": "甘",
+        "back": "감"
+    },
+    {
+        "front": "丞",
+        "back": "승"
+    },
+    {
+        "front": "寺",
+        "back": "사"
+    },
+    {
+        "front": "勝",
+        "back": "승"
+    },
+    {
+        "front": "豆",
+        "back": "두"
+    },
+    {
+        "front": "登",
+        "back": "등"
+    },
+    {
+        "front": "吳",
+        "back": "오"
+    },
+    {
+        "front": "危",
+        "back": "위"
+    },
+    {
+        "front": "由",
+        "back": "유"
+    },
+    {
+        "front": "殆",
+        "back": "태"
+    },
+    {
+        "front": "允",
+        "back": "윤"
+    },
+    {
+        "front": "充",
+        "back": "충"
+    },
+    {
+        "front": "完",
+        "back": "완"
+    },
+    {
+        "front": "育",
+        "back": "육"
+    },
+    {
+        "front": "減",
+        "back": "감"
+    },
+    {
+        "front": "淡",
+        "back": "담"
+    },
+    {
+        "front": "浴",
+        "back": "욕"
+    },
+    {
+        "front": "泳",
+        "back": "영"
+    },
+    {
+        "front": "章",
+        "back": "장"
+    },
+    {
+        "front": "央",
+        "back": "앙"
+    },
+    {
+        "front": "恒",
+        "back": "항"
+    },
+    {
+        "front": "方",
+        "back": "방"
+    },
+    {
+        "front": "替",
+        "back": "체"
+    },
+    {
+        "front": "竟",
+        "back": "경"
+    },
+    {
+        "front": "雙",
+        "back": "쌍"
+    }
+]

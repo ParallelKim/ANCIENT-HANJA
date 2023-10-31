@@ -2,9 +2,10 @@ import { createBrowserRouter } from "react-router-dom";
 
 import { App } from "./App";
 import { StudyPage } from "./pages/StudyPage";
-import { LoginPage } from "./pages/LoginPage";
+import { SignUpPage } from "./pages/SignUpPage";
 import { UserPage } from "./pages/UserPage";
 import { IntroducePage } from "./pages/IntroducePage";
+import { NoticePage } from "./pages/NoticePage";
 
 export const router = createBrowserRouter([
     {
@@ -14,17 +15,24 @@ export const router = createBrowserRouter([
             {
                 path: "/study",
                 element: <StudyPage />,
+                children: [
+                    {
+                        path: ":setName",
+                        element: <StudyPage />,
+                    },
+                ],
             },
             {
-                path: "/login",
-                element: <LoginPage />,
+                path: "/signUp",
+                element: <SignUpPage />,
             },
             {
                 path: "/user",
                 element: <UserPage />,
             },
+            { path: "/notice", element: <NoticePage /> },
             {
-                path: "/intro",
+                path: "/",
                 element: <IntroducePage />,
             },
         ],
