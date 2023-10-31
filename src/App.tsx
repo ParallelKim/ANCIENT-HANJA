@@ -17,11 +17,11 @@ export const App = () => {
             id="app"
             style={{ display: "flex", flexDirection: "column" }}
         >
-            <AuthProvider sdk={auth}>
+            {/* <AuthProvider sdk={auth}>
                 <DatabaseProvider sdk={database}>
                     <SessionManager />
                 </DatabaseProvider>
-            </AuthProvider>
+            </AuthProvider> */}
             <Header />
             <Outlet />
             <Footer />
