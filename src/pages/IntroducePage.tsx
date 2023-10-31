@@ -1,4 +1,4 @@
-import { Button, Container, Stack } from "@mui/material";
+import { Button, Container, Stack, Typography } from "@mui/material";
 
 import { IntroTextBlock } from "../components/intro/IntroTextBlock";
 import { LinkBlock } from "../components/intro/LinkBlock";
@@ -19,8 +19,15 @@ export const IntroducePage = () => {
                 <Button
                     href="/study"
                     variant="contained"
+                    size="large"
                 >
-                    공부하러 가기
+                    <Typography
+                        variant="h5"
+                        py={1}
+                        fontWeight={700}
+                    >
+                        공부하러 가기
+                    </Typography>
                 </Button>
                 <LinkBlock />
             </Stack>
