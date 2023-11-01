@@ -3,6 +3,8 @@ import { useAtom, useAtomValue } from "jotai";
 
 import { hashIdAtom, userInfoAtom } from "../stores/atoms";
 import { child, get, ref, update } from "firebase/database";
+import { analytics } from "../firebase/analytics";
+import { logEvent } from "firebase/analytics";
 
 export const SessionManager = () => {
     const detectedSessionList = useRef<{
@@ -107,6 +109,11 @@ export const SessionManager = () => {
     };
 
     useEffect(initSession, [hashId, isLoggedIn]);
+
+    useEffect(() => {
+        logEvent(analytics, "pageview");
+        console.log("gasdf");
+    }, []);
 
     return null;
 };
