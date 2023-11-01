@@ -5,7 +5,7 @@ import { StatusBar } from "../components/study/cards/StatusBar";
 import { ControlButtons } from "../components/study/cards/ControlButtons";
 import { FlashCard } from "../components/study/cards/FlashCard";
 import { CurrentRunManager } from "../managers/CurrentRunManager";
-import { SelectStudySet } from "../components/study/selectStudySet";
+import { SelectStudySet } from "../components/study/SelectStudySet";
 import { currentCardSetAtom } from "../stores/atoms";
 
 export const StudyPage = () => {

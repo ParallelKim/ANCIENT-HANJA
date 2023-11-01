@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useAtom, useSetAtom } from "jotai";
+import { useSetAtom } from "jotai";
 import {
     Box,
     Button,
@@ -43,7 +43,7 @@ export const SelectStudySet = () => {
                 variant="h5"
                 fontWeight={700}
             >
-                학습할 코스를 선택해 주세요
+                공부할 코스를 선택해 주세요
             </Typography>
             <Stack gap={2}>
                 {SELECTABLE.map((btn) => (
@@ -150,7 +150,7 @@ export const SelectStudySet = () => {
                                         setCurrentCardSet(preview?.contents)
                                     }
                                 >
-                                    학습 시작
+                                    시작
                                 </Button>
                                 <Button
                                     size="large"
