@@ -37,9 +37,9 @@
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
     "react-router-dom": "^6.17.0",
     "react-uuid": "^2.0.0",
-    "reactfire": "^4.2.3",
     "reactjs-flip-card": "^2.0.3"
   },
   "devDependencies": {
