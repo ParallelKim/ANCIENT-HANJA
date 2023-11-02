@@ -4,17 +4,17 @@ import { HeaderMenu } from "./HeaderMenu";
 import { HeaderProfile } from "./HeaderProfile";
 
 export const Header = () => {
-    return (
-        <AppBar position="static">
-            <Container maxWidth="xl">
-                <Toolbar disableGutters>
-                    <HeaderTitle />
-                    <HeaderMenu isXs />
-                    <HeaderTitle isXs />
-                    <HeaderMenu />
-                    {/* <HeaderProfile /> */}
-                </Toolbar>
-            </Container>
-        </AppBar>
-    );
+  return (
+    <AppBar position="static">
+      <Container maxWidth="xl">
+        <Toolbar disableGutters>
+          <HeaderTitle />
+          <HeaderMenu isXs />
+          <HeaderTitle isXs />
+          <HeaderMenu />
+          {/* <HeaderProfile /> */}
+        </Toolbar>
+      </Container>
+    </AppBar>
+  );
 };

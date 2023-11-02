@@ -1,19 +1,19 @@
-import {
-    Auth,
-    GoogleAuthProvider,
-    signInAnonymously,
-    signInWithPopup,
-} from "firebase/auth";
+import { GoogleAuthProvider, getAuth, signInAnonymously, signInWithPopup } from "firebase/auth";
+import { app } from ".";
 
-export const signOut = (auth: Auth) =>
-    auth.signOut().then(() => console.log("signed out"));
+export const auth = getAuth(app);
 
-export const anonymousSignIn = async (auth: Auth) => {
-    await signInAnonymously(auth);
+export const signOut = () =>
+  auth.signOut().then(() => {
+    console.log("signed out");
+  });
+
+export const anonymousSignIn = async () => {
+  await signInAnonymously(auth);
 };
 
-export const googleSignIn = async (auth: Auth) => {
-    const provider = new GoogleAuthProvider();
+export const googleSignIn = async () => {
+  const provider = new GoogleAuthProvider();
 
-    await signInWithPopup(auth, provider);
+  await signInWithPopup(auth, provider);
 };
