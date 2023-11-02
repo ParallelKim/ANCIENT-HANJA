@@ -6,6 +6,7 @@ import { SignUpPage } from "./pages/SignUpPage";
 import { UserPage } from "./pages/UserPage";
 import { IntroducePage } from "./pages/IntroducePage";
 import { NoticePage } from "./pages/NoticePage";
+import { Lab } from "./pages/Lab";
 
 export const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <IntroducePage />,
+      },
+      {
+        path: "Lab",
+        element: <Lab />,
       },
     ],
   },
