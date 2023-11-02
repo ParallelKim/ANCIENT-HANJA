@@ -8,7 +8,8 @@ export const requestPermission = () => {
   return Notification.requestPermission().then((permission) => {
     if (permission === "granted") {
       console.log("Notification permission granted.");
-      return true;
+      const noti = new Notification("푸시 알림 권한 설정 완료", { body: "test" });
+      return Boolean(noti);
     }
     return false;
   });
@@ -32,4 +33,11 @@ export const getMsgToken = () => {
       // ...
       throw new Error("푸시 알림 권한 설정 중 오류가 발생했습니다.");
     });
+};
+
+export const disableMsg = () => {
+  navigator.serviceWorker.getRegistrations().then((registrations) => {
+    console.log(registrations);
+    registrations.forEach((registration) => registration.unregister());
+  });
 };
