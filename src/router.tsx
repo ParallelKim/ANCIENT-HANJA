@@ -8,33 +8,33 @@ import { IntroducePage } from "./pages/IntroducePage";
 import { NoticePage } from "./pages/NoticePage";
 
 export const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <App />,
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        path: "/study",
+        element: <StudyPage />,
         children: [
-            {
-                path: "/study",
-                element: <StudyPage />,
-                children: [
-                    {
-                        path: ":setName",
-                        element: <StudyPage />,
-                    },
-                ],
-            },
-            {
-                path: "/signUp",
-                element: <SignUpPage />,
-            },
-            {
-                path: "/user",
-                element: <UserPage />,
-            },
-            { path: "/notice", element: <NoticePage /> },
-            {
-                path: "/",
-                element: <IntroducePage />,
-            },
+          {
+            path: ":setName",
+            element: <StudyPage />,
+          },
         ],
-    },
+      },
+      {
+        path: "/signUp",
+        element: <SignUpPage />,
+      },
+      {
+        path: "/user",
+        element: <UserPage />,
+      },
+      { path: "/notice", element: <NoticePage /> },
+      {
+        path: "/",
+        element: <IntroducePage />,
+      },
+    ],
+  },
 ]);

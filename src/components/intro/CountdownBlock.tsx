@@ -8,47 +8,42 @@ const 접수시작 = moment(202311060900, "YYYYMMDDhhmm");
 // const 시험일 = moment(202311191500, "YYYYMMDDhhmm");
 
 export const CountdownBlock = () => {
-    return (
-        <Box>
-            <Paper sx={{ p: 1, fontSize: { md: "3rem", xs: "2rem" } }}>
-                <Typography
-                    variant="h5"
-                    p={1}
-                    fontWeight={700}
-                >
-                    접수일까지
-                </Typography>
-                <Paper
-                    sx={{
-                        p: 1,
-                        textAlign: "center",
-                        fontFamily: "calculator",
-                        backgroundColor: "primary.main",
-                        color: "white",
-                    }}
-                >
-                    <CountDown
-                        date={접수시작.toDate()}
-                        renderer={({
-                            days,
-                            hours,
-                            minutes,
-                            seconds,
-                        }: {
-                            days: number;
-                            hours: number;
-                            minutes: number;
-                            seconds: number;
-                        }) => (
-                            <>
-                                {days}D {String(hours).padStart(2, "0")}h{" "}
-                                {String(minutes).padStart(2, "0")}m{" "}
-                                {String(seconds).padStart(2, "0")}s
-                            </>
-                        )}
-                    />
-                </Paper>
-            </Paper>
-        </Box>
-    );
+  return (
+    <Box>
+      <Paper sx={{ p: 1, fontSize: { md: "3rem", xs: "2rem" } }}>
+        <Typography variant="h5" p={1} fontWeight={700}>
+          접수일까지
+        </Typography>
+        <Paper
+          sx={{
+            p: 1,
+            textAlign: "center",
+            fontFamily: "calculator",
+            backgroundColor: "primary.main",
+            color: "white",
+          }}
+        >
+          <CountDown
+            date={접수시작.toDate()}
+            renderer={({
+              days,
+              hours,
+              minutes,
+              seconds,
+            }: {
+              days: number;
+              hours: number;
+              minutes: number;
+              seconds: number;
+            }) => (
+              <>
+                {days}D {String(hours).padStart(2, "0")}h {String(minutes).padStart(2, "0")}m{" "}
+                {String(seconds).padStart(2, "0")}s
+              </>
+            )}
+          />
+        </Paper>
+      </Paper>
+    </Box>
+  );
 };
