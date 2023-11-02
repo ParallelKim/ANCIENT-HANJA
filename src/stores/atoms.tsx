@@ -1,5 +1,6 @@
 import { atom } from "jotai";
 import { atomWithHash } from "jotai-location";
+import { atomWithStorage } from "jotai/utils";
 
 import { CARD } from "../types/card";
 
@@ -24,3 +25,5 @@ export const currentCardAtom = atom((get) => {
 
 export const hashIdAtom = atomWithHash<null | string>("uid", null);
 export const userInfoAtom = atom<null | unknown>(null);
+
+export const isNotiOnAtom = atomWithStorage("isNotiOn", false);
