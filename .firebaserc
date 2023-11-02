@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "ancient-hanja"
-  }
+    "default": "ancient-hanja",
+    "fcm": "ancient-hanja"
+  },
+  "targets": {},
+  "etags": {}
 }
