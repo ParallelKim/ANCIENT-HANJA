@@ -1,16 +1,19 @@
 import { useEffect } from "react";
-import { useSetAtom } from "jotai";
+import { useAtomValue, useSetAtom } from "jotai";
 import { getMsgToken } from "../firebase/message";
-import { isNotiOnAtom } from "../stores/atoms";
+import { isNotiOnAtom, msgTokenAtom } from "../stores/atoms";
 
 export const MessageManager = () => {
-  const setIsNotificationOn = useSetAtom(isNotiOnAtom);
+  const isNotificationOn = useAtomValue(isNotiOnAtom);
+  const setMsgToken = useSetAtom(msgTokenAtom);
 
   useEffect(() => {
-    getMsgToken().then((res) => {
-      setIsNotificationOn(res);
-    });
-  }, [setIsNotificationOn]);
+    if (isNotificationOn) {
+      getMsgToken().then((res) => {
+        if (res) setMsgToken(res);
+      });
+    }
+  }, [isNotificationOn, setMsgToken]);
 
   return null;
 };

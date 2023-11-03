@@ -7,14 +7,14 @@ import { FlashCard } from "../components/study/cards/FlashCard";
 import { CurrentRunManager } from "../managers/CurrentRunManager";
 import { SelectStudySet } from "../components/study/SelectStudySet";
 import { currentCardSetAtom } from "../stores/atoms";
-import { SessionManager } from "../managers/SessionManager";
+// import { SessionManager } from "../managers/SessionManager";
 
 export const StudyPage = () => {
   const currentCardSet = useAtomValue(currentCardSetAtom);
 
   return (
     <Container id="study-page">
-      <SessionManager />
+      {/* <SessionManager /> */}
       <CurrentRunManager />
       {currentCardSet.length > 0 ? (
         <>
