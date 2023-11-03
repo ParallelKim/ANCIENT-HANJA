@@ -14,7 +14,7 @@ firebase.initializeApp({
 
 const messaging = firebase.messaging();
 
-const topics = [];
+let topics = [];
 
 const broadcast = new BroadcastChannel("fcm-sw");
 
@@ -43,10 +43,9 @@ messaging.onBackgroundMessage((payload) => {
   };
 
   console.log(self);
-  if (topics.includes(payload.topic)) {
+  if (topics.includes(payload.data.topic)) {
     self.registration.showNotification(notificationTitle, notificationOptions);
   } else {
-    console(payload);
     self.registration.showNotification("이건 토픽에 없는걸", notificationOptions);
   }
 });

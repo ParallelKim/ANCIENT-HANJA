@@ -1,15 +1,16 @@
-import { getMessaging, getToken, onMessage } from "firebase/messaging";
+import { getMessaging, getToken } from "firebase/messaging";
 import { app } from ".";
 
 export const messaging = getMessaging(app);
 
 export const requestPermission = () => {
   console.log("Requesting permission...");
+
   return Notification.requestPermission().then((permission) => {
     if (permission === "granted") {
       console.log("Notification permission granted.");
-      const noti = new Notification("푸시 알림 권한 설정 완료", { body: "test" });
-      return Boolean(noti);
+
+      return true;
     }
     return false;
   });
@@ -52,16 +53,3 @@ export const unsubscribe = (topic: string) => {
 
   broadcast.close();
 };
-
-onMessage(messaging, (payload) => {
-  console.log("[firebase-messaging-sw.js] Received Foreground message ", payload);
-
-  console.log("Message received. ", payload);
-  const notificationTitle = "Foreground Message Title";
-  const notificationOptions = {
-    body: "Foreground Message body.",
-    icon: "/firebase-logo.png",
-  };
-
-  return new Notification(notificationTitle, notificationOptions);
-});
