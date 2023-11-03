@@ -14,6 +14,25 @@ firebase.initializeApp({
 
 const messaging = firebase.messaging();
 
+const topics = [];
+
+const broadcast = new BroadcastChannel("fcm-sw");
+
+broadcast.onmessage = (event) => {
+  if (event.data) {
+    const { type, topic } = event.data;
+
+    if (event.data.type === "SUBSCRIBE") {
+      topics.push(event.data.topic);
+      topics = [...new Set(topics)];
+    }
+
+    if (event.data.type === "UNSUBSCRIBE") {
+      topics.splice(topics.indexOf(topic), 1);
+    }
+  }
+};
+
 messaging.onBackgroundMessage((payload) => {
   console.log("[firebase-messaging-sw.js] Received background message ", payload);
 
@@ -23,5 +42,11 @@ messaging.onBackgroundMessage((payload) => {
     icon: "/firebase-logo.png",
   };
 
-  self.registration.showNotification(notificationTitle, notificationOptions);
+  console.log(self);
+  if (topics.includes(payload.topic)) {
+    self.registration.showNotification(notificationTitle, notificationOptions);
+  } else {
+    console(payload);
+    self.registration.showNotification("이건 토픽에 없는걸", notificationOptions);
+  }
 });
