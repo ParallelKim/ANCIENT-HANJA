@@ -1,7 +1,8 @@
 import { AppBar, Toolbar, Container } from "@mui/material";
 import { HeaderTitle } from "./HeaderTitle";
 import { HeaderMenu } from "./HeaderMenu";
-import { HeaderProfile } from "./HeaderProfile";
+// import { HeaderProfile } from "./HeaderProfile";
+import { ToggleNotiButton } from "./ToggleNotiButton";
 
 export const Header = () => {
   return (
@@ -13,6 +14,7 @@ export const Header = () => {
           <HeaderTitle isXs />
           <HeaderMenu />
           {/* <HeaderProfile /> */}
+          <ToggleNotiButton />
         </Toolbar>
       </Container>
     </AppBar>
