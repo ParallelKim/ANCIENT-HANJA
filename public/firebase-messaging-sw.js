@@ -37,7 +37,7 @@ const messaging = firebase.messaging();
 
 messaging.onBackgroundMessage((payload) => {
   console.log("[firebase-messaging-sw.js] Received background message ", payload);
-  if (!payload.data || !payload.notifications) return;
+  if (!payload.data || !payload.notification) return;
 
   const {
     data: { topic },
@@ -46,7 +46,7 @@ messaging.onBackgroundMessage((payload) => {
 
   console.log({
     topics: topics,
-    data: data,
+    data: payload.data,
     topic: topic,
     isSub: topics.includes(topic),
   });
@@ -60,11 +60,6 @@ messaging.onBackgroundMessage((payload) => {
       });
     } else {
       console.warn("이건 토픽에 없는걸", topics, payload);
-
-      await self.registration.showNotification("To delete", {
-        body: "이건 보여주면 안됨",
-        data: "HIDDEN",
-      });
     }
 
     self.registration.getNotifications().then((notifications) => {
