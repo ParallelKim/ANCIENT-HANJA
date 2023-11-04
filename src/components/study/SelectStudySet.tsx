@@ -54,8 +54,8 @@ export const SelectStudySet = () => {
 
   return (
     <Paper sx={{ my: 2, p: 2 }}>
-      <Typography mb={2} variant="h5" fontWeight={700}>
-        공부할 코스를 선택해 주세요
+      <Typography mb={2} variant="h5" fontWeight={800}>
+        코스 선택
       </Typography>
       <Stack gap={2} justifyContent="center">
         <Typography variant="h6" fontWeight={700}>
