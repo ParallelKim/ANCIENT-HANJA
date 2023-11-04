@@ -3,7 +3,7 @@ import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
 import { IconButton } from "@mui/material";
 import { useAtom } from "jotai";
 import { isNotiOnAtom } from "../../../stores/atoms";
-import { requestPermission, subscribe, unsubscribe } from "../../../firebase/message";
+import { requestPermission } from "../../../firebase/message";
 
 export const ToggleNotiButton = () => {
   const [isNotificationOn, setIsNotificationOn] = useAtom(isNotiOnAtom);
@@ -15,15 +15,9 @@ export const ToggleNotiButton = () => {
       onClick={() => {
         if (isNotificationOn) {
           setIsNotificationOn(false);
-          unsubscribe("event");
         } else {
           requestPermission().then((res) => {
             setIsNotificationOn(res);
-            if (res) {
-              subscribe("event");
-            } else {
-              unsubscribe("event");
-            }
           });
         }
       }}

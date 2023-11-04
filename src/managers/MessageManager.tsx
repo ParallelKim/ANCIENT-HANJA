@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useAtomValue, useSetAtom } from "jotai";
-import { getMsgToken } from "../firebase/message";
+import { subscribe, unsubscribe } from "../firebase/message";
 import { isNotiOnAtom, msgTokenAtom } from "../stores/atoms";
 
 export const MessageManager = () => {
@@ -9,9 +9,9 @@ export const MessageManager = () => {
 
   useEffect(() => {
     if (isNotificationOn) {
-      getMsgToken().then((res) => {
-        if (res) setMsgToken(res);
-      });
+      ["event"].forEach((topic) => subscribe(topic)); // only user selected topic later
+    } else {
+      ["event"].forEach((topic) => unsubscribe(topic)); // only user selected topic later
     }
   }, [isNotificationOn, setMsgToken]);
 

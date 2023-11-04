@@ -12,8 +12,6 @@ firebase.initializeApp({
   measurementId: "G-XTNPLDVM69",
 });
 
-const messaging = firebase.messaging();
-
 let topics = [];
 
 const broadcast = new BroadcastChannel("fcm-sw");
@@ -30,22 +28,53 @@ broadcast.onmessage = (event) => {
     if (event.data.type === "UNSUBSCRIBE") {
       topics.splice(topics.indexOf(topic), 1);
     }
+
+    console.log("current topic:", topics);
   }
 };
 
+const messaging = firebase.messaging();
+
 messaging.onBackgroundMessage((payload) => {
   console.log("[firebase-messaging-sw.js] Received background message ", payload);
+  if (!payload.data || !payload.notifications) return;
 
-  const notificationTitle = "Background Message Title";
-  const notificationOptions = {
-    body: "Background Message body.",
-    icon: "/firebase-logo.png",
-  };
+  const {
+    data: { topic },
+    notification,
+  } = payload;
 
-  console.log(self);
-  if (topics.includes(payload.data.topic)) {
-    self.registration.showNotification(notificationTitle, notificationOptions);
-  } else {
-    self.registration.showNotification("이건 토픽에 없는걸", notificationOptions);
-  }
+  console.log({
+    topics: topics,
+    data: data,
+    topic: topic,
+    isSub: topics.includes(topic),
+  });
+
+  (async () => {
+    if (topics.includes(topic)) {
+      await self.registration.showNotification(notification.title, {
+        body: notification.body,
+        icon: "/firebase-logo.png",
+        data: "SHOW",
+      });
+    } else {
+      console.warn("이건 토픽에 없는걸", topics, payload);
+
+      await self.registration.showNotification("To delete", {
+        body: "이건 보여주면 안됨",
+        data: "HIDDEN",
+      });
+    }
+
+    self.registration.getNotifications().then((notifications) => {
+      console.log(notifications);
+      notifications.forEach((noti) => {
+        if (noti.data !== "SHOW") {
+          console.log("closing notification", noti);
+          noti.close();
+        }
+      });
+    });
+  })();
 });
