@@ -8,7 +8,7 @@ export const Header = () => {
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
-        <Toolbar disableGutters>
+        <Toolbar disableGutters sx={{ justifyContent: "space-between" }}>
           <HeaderTitle />
           <HeaderMenu isXs />
           <HeaderTitle isXs />

@@ -72,7 +72,7 @@ export const noticeList = [
             },
           ].map((link) => {
             return (
-              <Link href={link.url} target="_blank" key={link.label} color="inherit" rel="noreferrer" underline="hover">
+              <Link href={link.url} target="_blank" key={link.label} rel="noreferrer" underline="hover">
                 {link.label}
               </Link>
             );
