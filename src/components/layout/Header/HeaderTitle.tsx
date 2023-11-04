@@ -9,9 +9,7 @@ export const HeaderTitle = ({ isXs = false }: { isXs?: boolean }) => {
       href="/"
       textAlign="center"
       sx={{
-        mr: 2,
         display: isXs ? { xs: "flex", md: "none" } : { xs: "none", md: "flex" },
-        flexGrow: isXs ? 1 : undefined,
         fontFamily: "monospace",
         fontWeight: 700,
         letterSpacing: ".3rem",

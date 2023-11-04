@@ -1,7 +1,6 @@
 import { Box, IconButton, Paper, Stack, SvgIcon } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import EmailIcon from "@mui/icons-material/Email";
-
+import InstagramIcon from "@mui/icons-material/Instagram";
 import { ReactComponent as KakaoTalkIcon } from "../../assets/kakaoIcon.svg";
 
 export const LinkBlock = () => {
@@ -24,10 +23,10 @@ export const LinkBlock = () => {
             aria-label="email-icon"
             color="primary"
             sx={{ width: "30%" }}
-            href="mailto:parallelkim12@gamil.com"
+            href="https://www.instagram.com/ancient_hanja"
             target="_blank"
           >
-            <EmailIcon fontSize="large" />
+            <InstagramIcon fontSize="large" />
           </IconButton>
           <IconButton
             aria-label="github-icon"

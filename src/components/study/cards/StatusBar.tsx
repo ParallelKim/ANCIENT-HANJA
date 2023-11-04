@@ -1,6 +1,12 @@
-import { Box, Paper, Stack, IconButton, Typography } from "@mui/material";
-import RepeatIcon from "@mui/icons-material/Repeat";
-import SettingsIcon from "@mui/icons-material/Settings";
+import {
+  Box,
+  Paper,
+  Stack,
+  //  IconButton,
+  Typography,
+} from "@mui/material";
+// import RepeatIcon from "@mui/icons-material/Repeat";
+// import SettingsIcon from "@mui/icons-material/Settings";
 import { useAtomValue } from "jotai";
 
 import { currentIndexAtom, currentCardSetLengthAtom } from "../../../stores/atoms";
