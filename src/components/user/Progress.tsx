@@ -1,3 +1,3 @@
 export const Progress = () => {
-    return <></>;
+  return <>progress</>;
 };
