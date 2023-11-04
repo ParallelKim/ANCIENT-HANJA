@@ -1,4 +1,4 @@
-import { Link, Stack, Typography } from "@mui/material";
+import { Box, Link, Stack, Typography } from "@mui/material";
 
 export const noticeList = [
   {
@@ -18,38 +18,67 @@ export const noticeList = [
     ),
   },
   {
-    title: "자료 출처",
+    title: "자료 출처에 관한 공지",
     content: (
-      <Stack color="primary.main">
-        {[
-          {
-            label: "한자 데이터 1",
-            url: "https://quizlet.com/802668244/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90-%ED%95%9C%EC%9E%90%EC%8B%9C%ED%97%98-flash-cards/",
-          },
-          {
-            label: "단어 데이터 2",
-            url: "https://quizlet.com/kr/216112185/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90-%ED%95%9C%EC%9E%90%EC%8B%9C%ED%97%98-flash-cards/",
-          },
-          {
-            label: "단어 데이터 3",
-            url: "https://quizlet.com/kr/177828443/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90-%EC%A1%B8%EC%97%85%ED%95%9C%EC%9E%90-flash-cards/",
-          },
-          {
-            label: "계산기 폰트",
-            url: "https://www.bvfonts.com/fonts/details.php?id=18",
-          },
-          {
-            label: "카카오톡 아이콘",
-            url: "https://marshall-ku.tistory.com/204",
-          },
-        ].map((link) => {
-          return (
-            <Link href={link.url} target="_blank" key={link.label} color="inherit" rel="noreferrer" underline="hover">
-              {link.label}
-            </Link>
-          );
-        })}
-      </Stack>
+      <Box>
+        <Typography whiteSpace="pre-line" sx={{ wordBreak: "break-word" }}>
+          {`현재 학교와 먼 곳에서 직장을 다니는 상황이라
+          아직 교재나 기출문제를 검토하지 못했습니다
+          
+          지금 고대한자에서 사용되는 데이터는 퀴즐렛에서 "고려대학교 한자"를 검색해서 나온 데이터와 친구에게 공유 받은 데이터를 검수 없이 사용하고 있습니다
+          그래서 오류가 있거나 세트끼리 중복되는 부분이 있을 거에요 ㅠ..
+
+          빠른 시일 내로 교재와 기출문제 데이터를 검토해 자료 퀄리티를 올리고
+          카테고리 별 퀴즈 목록 등을 지원하겠습니다
+
+          추가로 퀴즐렛에서 공부하시는 게 더 편한 학우님들을 위해
+          해당 퀴즈 링크들도 올려두었습니다
+          
+          `}
+        </Typography>
+        <Stack color="primary.main">
+          {[
+            {
+              label: "기출 50회",
+              url: "https://quizlet.com/kr/659383641/%EA%B3%A0%EB%A0%A4%EB%8C%80-%ED%95%9C%EC%9E%90-%EA%B8%B0%EC%B6%9C-50%ED%9A%8C-flash-cards/",
+            },
+            {
+              label: "기출 40회",
+              url: "https://quizlet.com/kr/659387601/%EA%B3%A0%EB%A0%A4%EB%8C%80-%ED%95%9C%EC%9E%90-%EA%B8%B0%EC%B6%9C-40%ED%9A%8C-flash-cards/",
+            },
+            {
+              label: "기출 30회",
+              url: "https://quizlet.com/kr/659383455/%EA%B3%A0%EB%A0%A4%EB%8C%80-%ED%95%9C%EC%9E%90-%EA%B8%B0%EC%B6%9C-30%ED%9A%8C-flash-cards/",
+            },
+            {
+              label: "한자 데이터 1",
+              url: "https://quizlet.com/802668244/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90-%ED%95%9C%EC%9E%90%EC%8B%9C%ED%97%98-flash-cards/",
+            },
+            {
+              label: "단어 데이터 2",
+              url: "https://quizlet.com/kr/216112185/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90-%ED%95%9C%EC%9E%90%EC%8B%9C%ED%97%98-flash-cards/",
+            },
+            {
+              label: "단어 데이터 3",
+              url: "https://quizlet.com/kr/177828443/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90-%EC%A1%B8%EC%97%85%ED%95%9C%EC%9E%90-flash-cards/",
+            },
+            {
+              label: "계산기 폰트",
+              url: "https://www.bvfonts.com/fonts/details.php?id=18",
+            },
+            {
+              label: "카카오톡 아이콘",
+              url: "https://marshall-ku.tistory.com/204",
+            },
+          ].map((link) => {
+            return (
+              <Link href={link.url} target="_blank" key={link.label} color="inherit" rel="noreferrer" underline="hover">
+                {link.label}
+              </Link>
+            );
+          })}
+        </Stack>
+      </Box>
     ),
   },
   {
@@ -81,7 +110,7 @@ export const noticeList = [
           2. 구글 캘린더 공유
           3. 공지용 인스타그램
           셋 중 편하신 방법을 이용하셔 일정 놓치지 않으시길 바라요
-          
+
           `}
         </Typography>
         <Typography variant="h6" whiteSpace="pre-line" sx={{ wordBreak: "break-word" }}>
