@@ -45,6 +45,7 @@
               "arrow-function", 
               "function-declaration"
             ] }
-          ]
+          ],
+        "no-console":"off"
     }
 }
