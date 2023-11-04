@@ -13,7 +13,7 @@ export const App = () => {
   }, []);
 
   return (
-    <div id="app" style={{ display: "flex", flexDirection: "column" }}>
+    <div id="app" style={{ display: "flex", flexDirection: "column", overflowY: "scroll" }}>
       <MessageManager />
       <Header />
       <Outlet />
