@@ -1,19 +1,23 @@
 import { Outlet } from "react-router-dom";
 
+import { logEvent } from "firebase/analytics";
+import { useEffect } from "react";
 import { Header } from "./components/layout/Header";
+import { analytics } from "./firebase/analytics";
 import { Footer } from "./components/layout/Footer";
-import { SessionManager } from "./managers/SessionManager";
+import { MessageManager } from "./managers/MessageManager";
 
 export const App = () => {
-    return (
-        <div
-            id="app"
-            style={{ display: "flex", flexDirection: "column" }}
-        >
-            <SessionManager />
-            <Header />
-            <Outlet />
-            <Footer />
-        </div>
-    );
+  useEffect(() => {
+    logEvent(analytics, "pageview");
+  }, []);
+
+  return (
+    <div id="app" style={{ display: "flex", flexDirection: "column", overflowY: "scroll" }}>
+      <MessageManager />
+      <Header />
+      <Outlet />
+      <Footer />
+    </div>
+  );
 };
