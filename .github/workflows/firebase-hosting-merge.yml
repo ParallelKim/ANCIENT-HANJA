@@ -11,6 +11,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
+            - uses: oven-sh/setup-bun@v1
+            - run: bun i
             - run: bun run build
             - uses: FirebaseExtended/action-hosting-deploy@v0
               with:
@@ -18,3 +20,5 @@ jobs:
                   firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_ANCIENT_HANJA }}"
                   channelId: live
                   projectId: ancient-hanja
+              env:
+                FIREBASE_CLI_EXPERIMENTS: webframeworks
