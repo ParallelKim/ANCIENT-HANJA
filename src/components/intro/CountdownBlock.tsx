@@ -2,8 +2,8 @@ import { Box, Link, Paper, Typography } from "@mui/material";
 import CountDown from "count-down-react";
 import moment from "moment";
 
-const 접수시작 = moment(202311060900, "YYYYMMDDhhmm");
-// const 접수마감 = moment(202311101600, "YYYYMMDDhhmm");
+// const 접수시작 = moment(202311060900, "YYYYMMDDhhmm");
+const 접수마감 = moment(202311101600, "YYYYMMDDhhmm");
 // const 입실시간 = moment(202311191440, "YYYYMMDDhhmm");
 // const 시험일 = moment(202311191500, "YYYYMMDDhhmm");
 
@@ -12,7 +12,7 @@ export const CountdownBlock = () => {
     <Box>
       <Paper sx={{ p: 1, fontSize: { md: "3rem", xs: "2rem" } }}>
         <Typography variant="h5" p={1} fontWeight={700}>
-          시험 접수까지
+          접수 마감까지
         </Typography>
         <Paper
           sx={{
@@ -24,7 +24,7 @@ export const CountdownBlock = () => {
           }}
         >
           <CountDown
-            date={접수시작.toDate()}
+            date={접수마감.toDate()}
             renderer={({
               days,
               hours,
