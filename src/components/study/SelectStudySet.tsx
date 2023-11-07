@@ -192,7 +192,7 @@ export const SelectStudySet = () => {
             <DialogContent>
               <DialogContentText id="alert-dialog-description">
                 <Stack gap={2} p={2} mx={-3} sx={{ backgroundColor: "primary.dark" }}>
-                  {preview?.contents.map((card, idx) => (
+                  {preview.contents.map((card, idx) => (
                     <Paper key={card.id}>
                       <Stack flex={1} px={4} py={1} direction="row" gap={2} justifyContent="space-around">
                         <Typography textAlign="right" lineHeight="3rem" fontSize="1.5rem">
@@ -209,7 +209,7 @@ export const SelectStudySet = () => {
               </DialogContentText>
             </DialogContent>
             <DialogActions sx={{ p: 2 }}>
-              <Button size="large" variant="contained" onClick={() => setCurrentCardSet(preview?.contents)}>
+              <Button size="large" variant="contained" onClick={() => setCurrentCardSet(preview.contents)}>
                 시작
               </Button>
               <Button size="large" variant="contained" onClick={() => setPreview(null)}>
