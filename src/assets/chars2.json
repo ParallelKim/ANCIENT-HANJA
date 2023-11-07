@@ -1,597 +1,746 @@
 [
     {
+        "id": "chars2 - 0",
         "front": "井",
         "back": "정"
     },
     {
+        "id": "chars2 - 1",
         "front": "刀",
         "back": "도"
     },
     {
+        "id": "chars2 - 2",
         "front": "促",
         "back": "촉"
     },
     {
+        "id": "chars2 - 3",
         "front": "初",
         "back": "초"
     },
     {
+        "id": "chars2 - 4",
         "front": "顧",
         "back": "고"
     },
     {
+        "id": "chars2 - 5",
         "front": "簡",
         "back": "간"
     },
     {
+        "id": "chars2 - 6",
         "front": "乳",
         "back": "유"
     },
     {
+        "id": "chars2 - 7",
         "front": "浮",
         "back": "부"
     },
     {
+        "id": "chars2 - 8",
         "front": "肺",
         "back": "폐"
     },
     {
+        "id": "chars2 - 9",
         "front": "尋",
         "back": "심"
     },
     {
+        "id": "chars2 - 10",
         "front": "囚",
         "back": "수"
     },
     {
+        "id": "chars2 - 11",
         "front": "抽",
         "back": "추"
     },
     {
+        "id": "chars2 - 12",
         "front": "樞",
         "back": "추"
     },
     {
+        "id": "chars2 - 13",
         "front": "醜",
         "back": "추"
     },
     {
+        "id": "chars2 - 14",
         "front": "亂",
         "back": "란"
     },
     {
+        "id": "chars2 - 15",
         "front": "掃",
         "back": "소"
     },
     {
+        "id": "chars2 - 16",
         "front": "所",
         "back": "소"
     },
     {
+        "id": "chars2 - 17",
         "front": "旋",
         "back": "선"
     },
     {
+        "id": "chars2 - 18",
         "front": "團",
         "back": "단"
     },
     {
+        "id": "chars2 - 19",
         "front": "貴",
         "back": "귀"
     },
     {
+        "id": "chars2 - 20",
         "front": "相",
         "back": "상"
     },
     {
+        "id": "chars2 - 21",
         "front": "逝",
         "back": "서"
     },
     {
+        "id": "chars2 - 22",
         "front": "詳",
         "back": "상"
     },
     {
+        "id": "chars2 - 23",
         "front": "妻",
         "back": "처"
     },
     {
+        "id": "chars2 - 24",
         "front": "婦",
         "back": "부"
     },
     {
+        "id": "chars2 - 25",
         "front": "曉",
         "back": "효"
     },
     {
+        "id": "chars2 - 26",
         "front": "雪",
         "back": "설"
     },
     {
+        "id": "chars2 - 27",
         "front": "角",
         "back": "각"
     },
     {
+        "id": "chars2 - 28",
         "front": "嗣",
         "back": "사"
     },
     {
+        "id": "chars2 - 29",
         "front": "庶",
         "back": "서"
     },
     {
+        "id": "chars2 - 30",
         "front": "件",
         "back": "거"
     },
     {
+        "id": "chars2 - 31",
         "front": "孔",
         "back": "공"
     },
     {
+        "id": "chars2 - 32",
         "front": "後",
         "back": "후"
     },
     {
+        "id": "chars2 - 33",
         "front": "薄",
         "back": "박"
     },
     {
+        "id": "chars2 - 34",
         "front": "厚",
         "back": "후"
     },
     {
+        "id": "chars2 - 35",
         "front": "扇",
         "back": "선"
     },
     {
+        "id": "chars2 - 36",
         "front": "陽",
         "back": "양"
     },
     {
+        "id": "chars2 - 37",
         "front": "巾",
         "back": "건"
     },
     {
+        "id": "chars2 - 38",
         "front": "乞",
         "back": "걸"
     },
     {
+        "id": "chars2 - 39",
         "front": "過",
         "back": "과"
     },
     {
+        "id": "chars2 - 40",
         "front": "及",
         "back": "급"
     },
     {
+        "id": "chars2 - 41",
         "front": "君",
         "back": "군"
     },
     {
+        "id": "chars2 - 42",
         "front": "休",
         "back": "휴"
     },
     {
+        "id": "chars2 - 43",
         "front": "舌",
         "back": "설"
     },
     {
+        "id": "chars2 - 44",
         "front": "器",
         "back": "기"
     },
     {
+        "id": "chars2 - 45",
         "front": "引",
         "back": "인"
     },
     {
+        "id": "chars2 - 46",
         "front": "優",
         "back": "우"
     },
     {
+        "id": "chars2 - 47",
         "front": "瓦",
         "back": "와"
     },
     {
+        "id": "chars2 - 48",
         "front": "寡",
         "back": "과"
     },
     {
+        "id": "chars2 - 49",
         "front": "蘭",
         "back": "란"
     },
     {
+        "id": "chars2 - 50",
         "front": "勤",
         "back": "근"
     },
     {
+        "id": "chars2 - 51",
         "front": "奇",
         "back": "기"
     },
     {
+        "id": "chars2 - 52",
         "front": "堅",
         "back": "견"
     },
     {
+        "id": "chars2 - 53",
         "front": "吉",
         "back": "길"
     },
     {
+        "id": "chars2 - 54",
         "front": "至",
         "back": "지"
     },
     {
+        "id": "chars2 - 55",
         "front": "武",
         "back": "무"
     },
     {
+        "id": "chars2 - 56",
         "front": "戌",
         "back": "술"
     },
     {
+        "id": "chars2 - 57",
         "front": "止",
         "back": "지"
     },
     {
+        "id": "chars2 - 58",
         "front": "賦",
         "back": "부"
     },
     {
+        "id": "chars2 - 59",
         "front": "舞",
         "back": "무"
     },
     {
+        "id": "chars2 - 60",
         "front": "邑",
         "back": "읍"
     },
     {
+        "id": "chars2 - 61",
         "front": "泣",
         "back": "읍"
     },
     {
+        "id": "chars2 - 62",
         "front": "凝",
         "back": "응"
     },
     {
+        "id": "chars2 - 63",
         "front": "把",
         "back": "파"
     },
     {
+        "id": "chars2 - 64",
         "front": "吸",
         "back": "홉"
     },
     {
+        "id": "chars2 - 65",
         "front": "蜜",
         "back": "밀"
     },
     {
+        "id": "chars2 - 66",
         "front": "玉",
         "back": "옥"
     },
     {
+        "id": "chars2 - 67",
         "front": "寫",
         "back": "사"
     },
     {
+        "id": "chars2 - 68",
         "front": "星",
         "back": "성"
     },
     {
+        "id": "chars2 - 69",
         "front": "走",
         "back": "주"
     },
     {
+        "id": "chars2 - 70",
         "front": "太",
         "back": "태"
     },
     {
+        "id": "chars2 - 71",
         "front": "快",
         "back": "쾌"
     },
     {
+        "id": "chars2 - 72",
         "front": "鶴",
         "back": "학"
     },
     {
+        "id": "chars2 - 73",
         "front": "笠",
         "back": "립"
     },
     {
+        "id": "chars2 - 74",
         "front": "葉",
         "back": "엽"
     },
     {
+        "id": "chars2 - 75",
         "front": "重",
         "back": "중"
     },
     {
+        "id": "chars2 - 76",
         "front": "酒",
         "back": "주"
     },
     {
+        "id": "chars2 - 77",
         "front": "酸",
         "back": "산"
     },
     {
+        "id": "chars2 - 78",
         "front": "酉",
         "back": "유"
     },
     {
+        "id": "chars2 - 79",
         "front": "醉",
         "back": "취"
     },
     {
+        "id": "chars2 - 80",
         "front": "冬",
         "back": "동"
     },
     {
+        "id": "chars2 - 81",
         "front": "紅",
         "back": "홍"
     },
     {
+        "id": "chars2 - 82",
         "front": "春",
         "back": "춘"
     },
     {
+        "id": "chars2 - 83",
         "front": "秋",
         "back": "추"
     },
     {
+        "id": "chars2 - 84",
         "front": "夏",
         "back": "하"
     },
     {
+        "id": "chars2 - 85",
         "front": "得",
         "back": "득"
     },
     {
+        "id": "chars2 - 86",
         "front": "幸",
         "back": "행"
     },
     {
+        "id": "chars2 - 87",
         "front": "偏",
         "back": "편"
     },
     {
+        "id": "chars2 - 88",
         "front": "飽",
         "back": "포"
     },
     {
+        "id": "chars2 - 89",
         "front": "純",
         "back": "순"
     },
     {
+        "id": "chars2 - 90",
         "front": "滅",
         "back": "멸"
     },
     {
+        "id": "chars2 - 91",
         "front": "表",
         "back": "표"
     },
     {
+        "id": "chars2 - 92",
         "front": "歸",
         "back": "귀"
     },
     {
+        "id": "chars2 - 93",
         "front": "豈",
         "back": "기"
     },
     {
+        "id": "chars2 - 94",
         "front": "何",
         "back": "하"
     },
     {
+        "id": "chars2 - 95",
         "front": "雖",
         "back": "수"
     },
     {
+        "id": "chars2 - 96",
         "front": "孰",
         "back": "숙"
     },
     {
+        "id": "chars2 - 97",
         "front": "疲",
         "back": "피"
     },
     {
+        "id": "chars2 - 98",
         "front": "比",
         "back": "비"
     },
     {
+        "id": "chars2 - 99",
         "front": "夕",
         "back": "석"
     },
     {
+        "id": "chars2 - 100",
         "front": "旦",
         "back": "단"
     },
     {
+        "id": "chars2 - 101",
         "front": "夜",
         "back": "야"
     },
     {
+        "id": "chars2 - 102",
         "front": "晝",
         "back": "주"
     },
     {
+        "id": "chars2 - 103",
         "front": "歌",
         "back": "가"
     },
     {
+        "id": "chars2 - 104",
         "front": "憤",
         "back": "분"
     },
     {
+        "id": "chars2 - 105",
         "front": "美",
         "back": "미"
     },
     {
+        "id": "chars2 - 106",
         "front": "揚",
         "back": "양"
     },
     {
+        "id": "chars2 - 107",
         "front": "讚",
         "back": "찬"
     },
     {
+        "id": "chars2 - 108",
         "front": "電",
         "back": "전"
     },
     {
+        "id": "chars2 - 109",
         "front": "雨",
         "back": "우"
     },
     {
+        "id": "chars2 - 110",
         "front": "霜",
         "back": "상"
     },
     {
+        "id": "chars2 - 111",
         "front": "露",
         "back": "로"
     },
     {
+        "id": "chars2 - 112",
         "front": "責",
         "back": "책"
     },
     {
+        "id": "chars2 - 113",
         "front": "只",
         "back": "지"
     },
     {
+        "id": "chars2 - 114",
         "front": "乎",
         "back": "호"
     },
     {
+        "id": "chars2 - 115",
         "front": "矣",
         "back": "의"
     },
     {
+        "id": "chars2 - 116",
         "front": "必",
         "back": "필"
     },
     {
+        "id": "chars2 - 117",
         "front": "悔",
         "back": "회"
     },
     {
+        "id": "chars2 - 118",
         "front": "逃",
         "back": "도"
     },
     {
+        "id": "chars2 - 119",
         "front": "述",
         "back": "술"
     },
     {
+        "id": "chars2 - 120",
         "front": "逆",
         "back": "역"
     },
     {
+        "id": "chars2 - 121",
         "front": "返",
         "back": "반"
     },
     {
+        "id": "chars2 - 122",
         "front": "佳",
         "back": "가"
     },
     {
+        "id": "chars2 - 123",
         "front": "刊",
         "back": "간"
     },
     {
+        "id": "chars2 - 124",
         "front": "甘",
         "back": "감"
     },
     {
+        "id": "chars2 - 125",
         "front": "丞",
         "back": "승"
     },
     {
+        "id": "chars2 - 126",
         "front": "寺",
         "back": "사"
     },
     {
+        "id": "chars2 - 127",
         "front": "勝",
         "back": "승"
     },
     {
+        "id": "chars2 - 128",
         "front": "豆",
         "back": "두"
     },
     {
+        "id": "chars2 - 129",
         "front": "登",
         "back": "등"
     },
     {
+        "id": "chars2 - 130",
         "front": "吳",
         "back": "오"
     },
     {
+        "id": "chars2 - 131",
         "front": "危",
         "back": "위"
     },
     {
+        "id": "chars2 - 132",
         "front": "由",
         "back": "유"
     },
     {
+        "id": "chars2 - 133",
         "front": "殆",
         "back": "태"
     },
     {
+        "id": "chars2 - 134",
         "front": "允",
         "back": "윤"
     },
     {
+        "id": "chars2 - 135",
         "front": "充",
         "back": "충"
     },
     {
+        "id": "chars2 - 136",
         "front": "完",
         "back": "완"
     },
     {
+        "id": "chars2 - 137",
         "front": "育",
         "back": "육"
     },
     {
+        "id": "chars2 - 138",
         "front": "減",
         "back": "감"
     },
     {
+        "id": "chars2 - 139",
         "front": "淡",
         "back": "담"
     },
     {
+        "id": "chars2 - 140",
         "front": "浴",
         "back": "욕"
     },
     {
+        "id": "chars2 - 141",
         "front": "泳",
         "back": "영"
     },
     {
+        "id": "chars2 - 142",
         "front": "章",
         "back": "장"
     },
     {
+        "id": "chars2 - 143",
         "front": "央",
         "back": "앙"
     },
     {
+        "id": "chars2 - 144",
         "front": "恒",
         "back": "항"
     },
     {
+        "id": "chars2 - 145",
         "front": "方",
         "back": "방"
     },
     {
+        "id": "chars2 - 146",
         "front": "替",
         "back": "체"
     },
     {
+        "id": "chars2 - 147",
         "front": "竟",
         "back": "경"
     },
     {
+        "id": "chars2 - 148",
         "front": "雙",
         "back": "쌍"
     }

@@ -1,6 +1,6 @@
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { useEffect } from "react";
-import { currentCardSetAtom, currentClassAtom, moveCurrentIndexAtom } from "../stores/atoms";
+import { currentCardSetAtom, currentCourseAtom, moveCurrentIndexAtom } from "../stores/atoms";
 
 import { shuffleArray } from "../utils";
 
@@ -8,14 +8,14 @@ const setSize = 20;
 
 export const CurrentRunManager = () => {
   const [currentCardSet, setCurrentCardSet] = useAtom(currentCardSetAtom);
-  const currentClass = useAtomValue(currentClassAtom);
+  const currentCourse = useAtomValue(currentCourseAtom);
   const moveCurrentIndex = useSetAtom(moveCurrentIndexAtom);
 
   const initRun = () => {
     // check user's study session
 
-    if (currentCardSet.length === 0) {
-      const studySet = [...currentClass];
+    if (currentCardSet.length === 0 && currentCourse) {
+      const studySet = [...currentCourse.contents];
       const rand = Math.round(Math.random() * (studySet.length - setSize));
 
       shuffleArray(studySet);
@@ -44,7 +44,7 @@ export const CurrentRunManager = () => {
     };
   };
 
-  useEffect(initRun, [currentCardSet.length, currentClass, moveCurrentIndex, setCurrentCardSet]);
+  useEffect(initRun, [currentCardSet.length, currentCourse, moveCurrentIndex, setCurrentCardSet]);
 
   return null;
 };

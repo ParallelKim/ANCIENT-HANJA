@@ -1,51 +1,48 @@
-// import { useState } from "react";
-import {
-  Box,
-  Button,
-  IconButton,
-  //  IconButton, Menu, MenuItem, Typography
-} from "@mui/material";
+import { useState } from "react";
+import { Box, Button, IconButton, Menu, MenuItem, Typography } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const pages = [
   { label: "공부하기", path: "/study", disabled: false },
-  // { label: "모의시험", path: "/test", disabled: true },
+  { label: "모의시험", path: "/test", disabled: true },
   { label: "공지사항", path: "/notice", disabled: false },
 ]; // TEST, GAME, RANKING 등 추가
 
 export const HeaderMenu = ({ isXs = false }: { isXs?: boolean }) => {
-  // const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
+  const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
 
-  // const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
-  //   setAnchorElNav(event.currentTarget);
-  // };
+  const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
+    setAnchorElNav(event.currentTarget);
+  };
 
-  // const handleCloseNavMenu = () => {
-  //   setAnchorElNav(null);
-  // };
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
 
   if (!isXs) {
+    const navButtons = pages.map((page) => (
+      <Button
+        key={page.label}
+        href={page.path}
+        onClick={handleCloseNavMenu}
+        disabled={page.disabled}
+        sx={{
+          my: 2,
+          color: "white",
+          display: "block",
+        }}
+      >
+        {page.label}
+      </Button>
+    ));
+
     return (
       <Box
         sx={{
           display: { xs: "none", md: "flex" },
         }}
       >
-        {pages.map((page) => (
-          <Button
-            key={page.label}
-            href={page.path}
-            // onClick={handleCloseNavMenu}
-            disabled={page.disabled}
-            sx={{
-              my: 2,
-              color: "white",
-              display: "block",
-            }}
-          >
-            {page.label}
-          </Button>
-        ))}
+        {navButtons}
       </Box>
     );
   }
@@ -61,12 +58,12 @@ export const HeaderMenu = ({ isXs = false }: { isXs?: boolean }) => {
         aria-label="account of current user"
         aria-controls="menu-app-bar"
         aria-haspopup="true"
-        // onClick={handleOpenNavMenu}
-        color="primary"
+        onClick={handleOpenNavMenu}
+        color="inherit"
       >
         <MenuIcon />
       </IconButton>
-      {/* <Menu
+      <Menu
         id="menu-app-bar"
         anchorEl={anchorElNav}
         anchorOrigin={{
@@ -107,7 +104,7 @@ export const HeaderMenu = ({ isXs = false }: { isXs?: boolean }) => {
             </MenuItem>
           );
         })}
-      </Menu> */}
+      </Menu>
     </Box>
   );
 };

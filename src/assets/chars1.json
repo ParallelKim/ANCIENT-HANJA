@@ -1,597 +1,746 @@
 [
     {
+        "id": "chars1 - 0",
         "front": "達",
         "back": "통할 달"
     },
     {
+        "id": "chars1 - 1",
         "front": "談",
         "back": "이야기할 담"
     },
     {
+        "id": "chars1 - 2",
         "front": "淡",
         "back": "싱거울 담"
     },
     {
+        "id": "chars1 - 3",
         "front": "擔",
         "back": "멜 담"
     },
     {
+        "id": "chars1 - 4",
         "front": "潭",
         "back": "깊을 담"
     },
     {
+        "id": "chars1 - 5",
         "front": "畓",
         "back": "논 답"
     },
     {
+        "id": "chars1 - 6",
         "front": "踏",
         "back": "밟을 답"
     },
     {
+        "id": "chars1 - 7",
         "front": "答",
         "back": "답할 답"
     },
     {
+        "id": "chars1 - 8",
         "front": "當",
         "back": "마땅할 당"
     },
     {
+        "id": "chars1 - 9",
         "front": "唐",
         "back": "황당할 당"
     },
     {
+        "id": "chars1 - 10",
         "front": "糖",
         "back": "사탕 당"
     },
     {
+        "id": "chars1 - 11",
         "front": "黨",
         "back": "무리 당"
     },
     {
+        "id": "chars1 - 12",
         "front": "堂",
         "back": "집 당"
     },
     {
+        "id": "chars1 - 13",
         "front": "大",
         "back": "클 대"
     },
     {
+        "id": "chars1 - 14",
         "front": "對",
         "back": "마주할 대"
     },
     {
+        "id": "chars1 - 15",
         "front": "代",
         "back": "대신할 대"
     },
     {
+        "id": "chars1 - 16",
         "front": "待",
         "back": "기다릴 대"
     },
     {
+        "id": "chars1 - 17",
         "front": "貸",
         "back": "빌릴 대"
     },
     {
+        "id": "chars1 - 18",
         "front": "臺",
         "back": "대 대"
     },
     {
+        "id": "chars1 - 19",
         "front": "隊",
         "back": "대오, 무리 대"
     },
     {
+        "id": "chars1 - 20",
         "front": "帶",
         "back": "띠 대"
     },
     {
+        "id": "chars1 - 21",
         "front": "德",
         "back": "큰 덕"
     },
     {
+        "id": "chars1 - 22",
         "front": "刀",
         "back": "칼 도"
     },
     {
+        "id": "chars1 - 23",
         "front": "到",
         "back": "이를 도"
     },
     {
+        "id": "chars1 - 24",
         "front": "度",
         "back": "지경 도"
     },
     {
+        "id": "chars1 - 25",
         "front": "道",
         "back": "길 도"
     },
     {
+        "id": "chars1 - 26",
         "front": "島",
         "back": "섬 도"
     },
     {
+        "id": "chars1 - 27",
         "front": "都",
         "back": "모두, 도읍 도"
     },
     {
+        "id": "chars1 - 28",
         "front": "圖",
         "back": "그림 도"
     },
     {
+        "id": "chars1 - 29",
         "front": "徒",
         "back": "무리 도"
     },
     {
+        "id": "chars1 - 30",
         "front": "桃",
         "back": "복숭아나무 도"
     },
     {
+        "id": "chars1 - 31",
         "front": "稻",
         "back": "벼 도"
     },
     {
+        "id": "chars1 - 32",
         "front": "跳",
         "back": "뛸 도"
     },
     {
+        "id": "chars1 - 33",
         "front": "途",
         "back": "길 도"
     },
     {
+        "id": "chars1 - 34",
         "front": "陶",
         "back": "질그릇 도"
     },
     {
+        "id": "chars1 - 35",
         "front": "逃",
         "back": "달아날 도"
     },
     {
+        "id": "chars1 - 36",
         "front": "倒",
         "back": "넘어질 도"
     },
     {
+        "id": "chars1 - 37",
         "front": "導",
         "back": "이끌 도"
     },
     {
+        "id": "chars1 - 38",
         "front": "挑",
         "back": "돋울 도"
     },
     {
+        "id": "chars1 - 39",
         "front": "盜",
         "back": "훔칠 도"
     },
     {
+        "id": "chars1 - 40",
         "front": "渡",
         "back": "건널 도"
     },
     {
+        "id": "chars1 - 41",
         "front": "塗",
         "back": "칠할 도"
     },
     {
+        "id": "chars1 - 42",
         "front": "讀",
         "back": "읽을 독"
     },
     {
+        "id": "chars1 - 43",
         "front": "毒",
         "back": "독 독"
     },
     {
+        "id": "chars1 - 44",
         "front": "篤",
         "back": "도타울 독"
     },
     {
+        "id": "chars1 - 45",
         "front": "督",
         "back": "살필 독"
     },
     {
+        "id": "chars1 - 46",
         "front": "獨",
         "back": "홀로 독"
     },
     {
+        "id": "chars1 - 47",
         "front": "敦",
         "back": "도타울 돈"
     },
     {
+        "id": "chars1 - 48",
         "front": "豚",
         "back": "돼지 돈"
     },
     {
+        "id": "chars1 - 49",
         "front": "突",
         "back": "부딪힐 돌"
     },
     {
+        "id": "chars1 - 50",
         "front": "同",
         "back": "같을 동"
     },
     {
+        "id": "chars1 - 51",
         "front": "洞",
         "back": "마을 동, 통할 통"
     },
     {
+        "id": "chars1 - 52",
         "front": "童",
         "back": "아이 동"
     },
     {
+        "id": "chars1 - 53",
         "front": "東",
         "back": "동녘 동"
     },
     {
+        "id": "chars1 - 54",
         "front": "動",
         "back": "움직일 동"
     },
     {
+        "id": "chars1 - 55",
         "front": "凍",
         "back": "얼 동"
     },
     {
+        "id": "chars1 - 56",
         "front": "銅",
         "back": "구리 동"
     },
     {
+        "id": "chars1 - 57",
         "front": "桐",
         "back": "오동나무 동"
     },
     {
+        "id": "chars1 - 58",
         "front": "豆",
         "back": "콩 두"
     },
     {
+        "id": "chars1 - 59",
         "front": "頭",
         "back": "머리 두"
     },
     {
+        "id": "chars1 - 60",
         "front": "斗",
         "back": "말 두"
     },
     {
+        "id": "chars1 - 61",
         "front": "杜",
         "back": "막을 두"
     },
     {
+        "id": "chars1 - 62",
         "front": "屯",
         "back": "진칠 둔"
     },
     {
+        "id": "chars1 - 63",
         "front": "鈍",
         "back": "무딜 둔"
     },
     {
+        "id": "chars1 - 64",
         "front": "得",
         "back": "얻을 득"
     },
     {
+        "id": "chars1 - 65",
         "front": "登",
         "back": "오를 등 (등반)"
     },
     {
+        "id": "chars1 - 66",
         "front": "燈",
         "back": "등잔 등"
     },
     {
+        "id": "chars1 - 67",
         "front": "騰",
         "back": "오를 등 (급등)"
     },
     {
+        "id": "chars1 - 68",
         "front": "等",
         "back": "같을 등"
     },
     {
+        "id": "chars1 - 69",
         "front": "藤",
         "back": "등나무 등"
     },
     {
+        "id": "chars1 - 70",
         "front": "羅",
         "back": "벌릴 라"
     },
     {
+        "id": "chars1 - 71",
         "front": "螺",
         "back": "소라 라"
     },
     {
+        "id": "chars1 - 72",
         "front": "樂",
         "back": "즐거울 락, 음악 악, 좋아할 요"
     },
     {
+        "id": "chars1 - 73",
         "front": "絡",
         "back": "두를 락"
     },
     {
+        "id": "chars1 - 74",
         "front": "落",
         "back": "떨어질 락"
     },
     {
+        "id": "chars1 - 75",
         "front": "洛",
         "back": "강이름 락"
     },
     {
+        "id": "chars1 - 76",
         "front": "卵",
         "back": "알 란"
     },
     {
+        "id": "chars1 - 77",
         "front": "亂",
         "back": "어지러울 란"
     },
     {
+        "id": "chars1 - 78",
         "front": "欄",
         "back": "난간 란"
     },
     {
+        "id": "chars1 - 79",
         "front": "蘭",
         "back": "난초 란"
     },
     {
+        "id": "chars1 - 80",
         "front": "爛",
         "back": "문드러질 란"
     },
     {
+        "id": "chars1 - 81",
         "front": "覽",
         "back": "볼 람"
     },
     {
+        "id": "chars1 - 82",
         "front": "濫",
         "back": "넘칠 람"
     },
     {
+        "id": "chars1 - 83",
         "front": "浪",
         "back": "물결 랑"
     },
     {
+        "id": "chars1 - 84",
         "front": "郞",
         "back": "사내 랑"
     },
     {
+        "id": "chars1 - 85",
         "front": "廊",
         "back": "복도 랑"
     },
     {
+        "id": "chars1 - 86",
         "front": "朗",
         "back": "밝을 랑"
     },
     {
+        "id": "chars1 - 87",
         "front": "來",
         "back": "올 래"
     },
     {
+        "id": "chars1 - 88",
         "front": "萊",
         "back": "명아주 래"
     },
     {
+        "id": "chars1 - 89",
         "front": "冷",
         "back": "찰 랭"
     },
     {
+        "id": "chars1 - 90",
         "front": "略",
         "back": "간략할 략"
     },
     {
+        "id": "chars1 - 91",
         "front": "掠",
         "back": "뺏을 략"
     },
     {
+        "id": "chars1 - 92",
         "front": "粮",
         "back": "양식 량"
     },
     {
+        "id": "chars1 - 93",
         "front": "諒",
         "back": "살펴 알 량"
     },
     {
+        "id": "chars1 - 94",
         "front": "樑",
         "back": "들보 량"
     },
     {
+        "id": "chars1 - 95",
         "front": "良",
         "back": "좋을 량"
     },
     {
+        "id": "chars1 - 96",
         "front": "量",
         "back": "헤아릴 량"
     },
     {
+        "id": "chars1 - 97",
         "front": "凉",
         "back": "시원할 량"
     },
     {
+        "id": "chars1 - 98",
         "front": "兩",
         "back": "두 량"
     },
     {
+        "id": "chars1 - 99",
         "front": "樑",
         "back": "들보 량"
     },
     {
+        "id": "chars1 - 100",
         "front": "亮",
         "back": "밝을 량"
     },
     {
+        "id": "chars1 - 101",
         "front": "慮",
         "back": "생각할 려"
     },
     {
+        "id": "chars1 - 102",
         "front": "旅",
         "back": "나그네 려"
     },
     {
+        "id": "chars1 - 103",
         "front": "麗",
         "back": "고울 려"
     },
     {
+        "id": "chars1 - 104",
         "front": "勵",
         "back": "힘쓸 려"
     },
     {
+        "id": "chars1 - 105",
         "front": "驪",
         "back": "가라말 려"
     },
     {
+        "id": "chars1 - 106",
         "front": "呂",
         "back": "음률 려"
     },
     {
+        "id": "chars1 - 107",
         "front": "藜",
         "back": "명아주 려"
     },
     {
+        "id": "chars1 - 108",
         "front": "廬",
         "back": "오두막집 려"
     },
     {
+        "id": "chars1 - 109",
         "front": "力",
         "back": "힘 력"
     },
     {
+        "id": "chars1 - 110",
         "front": "曆",
         "back": "달력 력"
     },
     {
+        "id": "chars1 - 111",
         "front": "歷",
         "back": "지낼 력"
     },
     {
+        "id": "chars1 - 112",
         "front": "鍊",
         "back": "단련할 련"
     },
     {
+        "id": "chars1 - 113",
         "front": "憐",
         "back": "불쌍히 여길 련"
     },
     {
+        "id": "chars1 - 114",
         "front": "練",
         "back": "익힐 련"
     },
     {
+        "id": "chars1 - 115",
         "front": "聯",
         "back": "잇닿을 련"
     },
     {
+        "id": "chars1 - 116",
         "front": "戀",
         "back": "사모할 련"
     },
     {
+        "id": "chars1 - 117",
         "front": "蓮",
         "back": "연밥 연"
     },
     {
+        "id": "chars1 - 118",
         "front": "烈",
         "back": "매울 렬"
     },
     {
+        "id": "chars1 - 119",
         "front": "劣",
         "back": "못할 렬"
     },
     {
+        "id": "chars1 - 120",
         "front": "裂",
         "back": "찢을 렬"
     },
     {
+        "id": "chars1 - 121",
         "front": "列",
         "back": "줄 열"
     },
     {
+        "id": "chars1 - 122",
         "front": "廉",
         "back": "청렴할 렴"
     },
     {
+        "id": "chars1 - 123",
         "front": "獵",
         "back": "사냥 렵"
     },
     {
+        "id": "chars1 - 124",
         "front": "令",
         "back": "명령할 령"
     },
     {
+        "id": "chars1 - 125",
         "front": "領",
         "back": "거느릴 령"
     },
     {
+        "id": "chars1 - 126",
         "front": "零",
         "back": "떨어질 령"
     },
     {
+        "id": "chars1 - 127",
         "front": "靈",
         "back": "신령 령"
     },
     {
+        "id": "chars1 - 128",
         "front": "嶺",
         "back": "고개 령"
     },
     {
+        "id": "chars1 - 129",
         "front": "齡",
         "back": "나이 령"
     },
     {
+        "id": "chars1 - 130",
         "front": "禮",
         "back": "예도 례"
     },
     {
+        "id": "chars1 - 131",
         "front": "例",
         "back": "법식 례"
     },
     {
+        "id": "chars1 - 132",
         "front": "爐",
         "back": "화로 로"
     },
     {
+        "id": "chars1 - 133",
         "front": "露",
         "back": "이슬 로"
     },
     {
+        "id": "chars1 - 134",
         "front": "路",
         "back": "길 로"
     },
     {
+        "id": "chars1 - 135",
         "front": "勞",
         "back": "일할 로"
     },
     {
+        "id": "chars1 - 136",
         "front": "老",
         "back": "늙을 로"
     },
     {
+        "id": "chars1 - 137",
         "front": "蘆",
         "back": "갈대 로"
     },
     {
+        "id": "chars1 - 138",
         "front": "魯",
         "back": "둔할 로"
     },
     {
+        "id": "chars1 - 139",
         "front": "綠",
         "back": "초록빛 록"
     },
     {
+        "id": "chars1 - 140",
         "front": "祿",
         "back": "복 록"
     },
     {
+        "id": "chars1 - 141",
         "front": "錄",
         "back": "기록할 록"
     },
     {
+        "id": "chars1 - 142",
         "front": "鹿",
         "back": "사슴 록"
     },
     {
+        "id": "chars1 - 143",
         "front": "論",
         "back": "논의할 론"
     },
     {
+        "id": "chars1 - 144",
         "front": "弄",
         "back": "희롱할 롱"
     },
     {
+        "id": "chars1 - 145",
         "front": "賴",
         "back": "힘입을 뢰"
     },
     {
+        "id": "chars1 - 146",
         "front": "雷",
         "back": "우뢰 뢰"
     },
     {
+        "id": "chars1 - 147",
         "front": "了",
         "back": "마칠 료"
     },
     {
+        "id": "chars1 - 148",
         "front": "料",
         "back": "헤아릴 료"
     }
