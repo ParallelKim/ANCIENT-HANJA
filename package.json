@@ -1,7 +1,7 @@
 {
   "name": "ancient-hanja",
   "private": true,
-  "version": "0.2.1",
+  "version": "0.2.2",
   "type": "module",
   "description": "A service to study for the graduation Chinese character exam at Korea University",
   "keywords": [
