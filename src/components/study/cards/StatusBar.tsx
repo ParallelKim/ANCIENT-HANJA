@@ -1,15 +1,9 @@
-import {
-  Box,
-  Paper,
-  Stack,
-  //  IconButton,
-  Typography,
-} from "@mui/material";
-// import RepeatIcon from "@mui/icons-material/Repeat";
-// import SettingsIcon from "@mui/icons-material/Settings";
-import { useAtomValue } from "jotai";
+import { Box, Paper, Stack, IconButton, Typography } from "@mui/material";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import SettingsIcon from "@mui/icons-material/Settings";
+import { useAtomValue, useSetAtom } from "jotai";
 
-import { currentIndexAtom, currentCardSetLengthAtom } from "../../../stores/atoms";
+import { currentIndexAtom, currentCardSetLengthAtom, currentCardSetAtom } from "../../../stores/atoms";
 
 const SX = {
   STATUS_PAPER: {
@@ -28,28 +22,26 @@ const SX = {
 export const StatusBar = () => {
   const currentIndex = useAtomValue(currentIndexAtom);
   const currentCardSetLength = useAtomValue(currentCardSetLengthAtom);
+  const setCurrentCardSet = useSetAtom(currentCardSetAtom);
 
   return (
     <Box mt={2} p={2}>
       <Paper elevation={10} sx={SX.STATUS_PAPER}>
-        <Stack direction="row" justifyContent="center">
-          {/* <IconButton
-                        aria-label="refresh-icon"
-                        color="primary"
-                        sx={{ width: "30%" }}
-                    >
-                        <RepeatIcon fontSize="large" />
-                    </IconButton> */}
+        <Stack direction="row" justifyContent="space-between">
+          <IconButton aria-label="refresh-icon" color="primary" sx={{ width: "30%" }}>
+            <ArrowBackIcon
+              fontSize="large"
+              onClick={() => {
+                setCurrentCardSet([]);
+              }}
+            />
+          </IconButton>
           <Typography sx={SX.STATUS_TYPO} textAlign="center">
             {currentIndex + 1}/{currentCardSetLength}
           </Typography>
-          {/* <IconButton
-                        aria-label="refresh-icon"
-                        color="primary"
-                        sx={{ width: "30%" }}
-                    >
-                        <SettingsIcon fontSize="large" />
-                    </IconButton> */}
+          <IconButton aria-label="refresh-icon" color="primary" sx={{ width: "30%" }}>
+            <SettingsIcon fontSize="large" />
+          </IconButton>
         </Stack>
       </Paper>
     </Box>

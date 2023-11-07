@@ -61,30 +61,30 @@ export const SelectStudySet = () => {
           기출문제 회차 별
         </Typography>
         <Stack gap={2} direction="row" justifyContent="center">
-          {PREVIOUS.map((btn) => (
-            <ButtonGroup key={btn.label} sx={{ justifyContent: "center" }}>
+          {PREVIOUS.map((item) => (
+            <ButtonGroup key={item.label} sx={{ justifyContent: "center" }}>
               <Button
                 variant="contained"
                 size="medium"
                 onClick={() =>
                   setCurrentCardSet(
-                    btn.set.map((card, idx) => ({
-                      id: `${btn.label} - ${idx}`,
+                    item.set.map((card, idx) => ({
+                      id: `${item.label} - ${idx}`,
                       ...card,
                     })),
                   )
                 }
               >
-                {btn.label}
+                {item.label}
               </Button>
               <Button
                 size="small"
                 color="primary"
                 onClick={() => {
                   setPreview({
-                    title: btn.label,
-                    contents: btn.set.map((card, idx) => ({
-                      id: `${btn.label} - ${idx}`,
+                    title: item.label,
+                    contents: item.set.map((card, idx) => ({
+                      id: `${item.label} - ${idx}`,
                       ...card,
                     })),
                   });
@@ -99,30 +99,30 @@ export const SelectStudySet = () => {
           종합
         </Typography>
         <Stack gap={2} direction="row" justifyContent="center">
-          {CHARS.map((btn) => (
-            <ButtonGroup key={btn.label} sx={{ justifyContent: "center" }}>
+          {CHARS.map((item) => (
+            <ButtonGroup key={item.label} sx={{ justifyContent: "center" }}>
               <Button
                 variant="contained"
                 size="medium"
                 onClick={() =>
                   setCurrentCardSet(
-                    btn.set.map((card, idx) => ({
-                      id: `${btn.label} - ${idx}`,
+                    item.set.map((card, idx) => ({
+                      id: `${item.label} - ${idx}`,
                       ...card,
                     })),
                   )
                 }
               >
-                {btn.label}
+                {item.label}
               </Button>
               <Button
                 size="small"
                 color="primary"
                 onClick={() => {
                   setPreview({
-                    title: btn.label,
-                    contents: btn.set.map((card, idx) => ({
-                      id: `${btn.label} - ${idx}`,
+                    title: item.label,
+                    contents: item.set.map((card, idx) => ({
+                      id: `${item.label} - ${idx}`,
                       ...card,
                     })),
                   });
@@ -134,30 +134,30 @@ export const SelectStudySet = () => {
           ))}
         </Stack>
         <Stack gap={2} direction="row" justifyContent="center">
-          {WORDS.map((btn) => (
-            <ButtonGroup key={btn.label} sx={{ justifyContent: "center" }}>
+          {WORDS.map((item) => (
+            <ButtonGroup key={item.label} sx={{ justifyContent: "center" }}>
               <Button
                 variant="contained"
                 size="medium"
                 onClick={() =>
                   setCurrentCardSet(
-                    btn.set.map((card, idx) => ({
-                      id: `${btn.label} - ${idx}`,
+                    item.set.map((card, idx) => ({
+                      id: `${item.label} - ${idx}`,
                       ...card,
                     })),
                   )
                 }
               >
-                {btn.label}
+                {item.label}
               </Button>
               <Button
                 size="small"
                 color="primary"
                 onClick={() => {
                   setPreview({
-                    title: btn.label,
-                    contents: btn.set.map((card, idx) => ({
-                      id: `${btn.label} - ${idx}`,
+                    title: item.label,
+                    contents: item.set.map((card, idx) => ({
+                      id: `${item.label} - ${idx}`,
                       ...card,
                     })),
                   });
