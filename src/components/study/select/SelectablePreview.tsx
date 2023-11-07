@@ -12,23 +12,14 @@ import {
 import { useSetAtom } from "jotai";
 
 import { currentCourseAtom } from "../../../stores/atoms";
-import { CARD } from "../../../types/card";
+import { Course } from "../../../types/card";
 
 export const SelectablePreview = ({
   preview,
   setPreview,
 }: {
-  preview: { title: string; contents: CARD[] } | null;
-  setPreview: (
-    course: {
-      title: string;
-      contents: {
-        id: string;
-        front: string;
-        back: string;
-      }[];
-    } | null,
-  ) => void;
+  preview: Course | null;
+  setPreview: (course: Course | null) => void;
 }) => {
   const setCurrentCardSet = useSetAtom(currentCourseAtom);
 

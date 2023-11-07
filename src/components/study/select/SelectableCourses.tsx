@@ -5,19 +5,9 @@ import { useSetAtom } from "jotai";
 
 import { currentCourseAtom } from "../../../stores/atoms";
 import { CATEGORIES } from "../../../constants/course";
+import { Course } from "../../../types/card";
 
-export const SelectableCourses = ({
-  setPreview,
-}: {
-  setPreview: (course: {
-    title: string;
-    contents: {
-      id: string;
-      front: string;
-      back: string;
-    }[];
-  }) => void;
-}) => {
+export const SelectableCourses = ({ setPreview }: { setPreview: (course: Course) => void }) => {
   const setCurrentCardSet = useSetAtom(currentCourseAtom);
 
   return (
@@ -33,13 +23,7 @@ export const SelectableCourses = ({
                 <Button variant="contained" size="medium" onClick={() => setCurrentCardSet(item)}>
                   {item.title}
                 </Button>
-                <Button
-                  size="small"
-                  color="primary"
-                  onClick={() => {
-                    setPreview(item);
-                  }}
-                >
+                <Button size="small" color="primary" onClick={() => setPreview(item)}>
                   <ManageSearchIcon />
                 </Button>
               </ButtonGroup>

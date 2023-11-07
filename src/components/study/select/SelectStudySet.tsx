@@ -1,15 +1,12 @@
 import { useState } from "react";
 import { Box, Link, Paper, Typography } from "@mui/material";
 
-import { CARD } from "../../../types/card";
+import { Course } from "../../../types/card";
 import { SelectableCourses } from "./SelectableCourses";
 import { SelectablePreview } from "./SelectablePreview";
 
 export const SelectStudySet = () => {
-  const [preview, setPreview] = useState<{
-    title: string;
-    contents: CARD[];
-  } | null>(null);
+  const [preview, setPreview] = useState<Course | null>(null);
 
   return (
     <Paper sx={{ my: 2, p: 2 }}>

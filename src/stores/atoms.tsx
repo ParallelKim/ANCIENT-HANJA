@@ -2,9 +2,9 @@ import { atom } from "jotai";
 import { atomWithHash } from "jotai-location";
 import { atomWithStorage } from "jotai/utils";
 
-import { CARD } from "../types/card";
+import { Card, Course } from "../types/card";
 
-export const currentCardSetAtom = atom<CARD[]>([]);
+export const currentCardSetAtom = atom<Card[]>([]);
 export const currentCardSetLengthAtom = atom((get) => {
   return get(currentCardSetAtom).length;
 });
@@ -17,7 +17,7 @@ export const moveCurrentIndexAtom = atom(null, (get, set, action: "next" | "prev
   set(currentIndexAtom, action === "prev" ? Math.max(current - 1, 0) : Math.min(current + 1, max));
 });
 
-export const currentCourseAtom = atom<{ title: string; contents: CARD[] } | null>(null);
+export const currentCourseAtom = atom<Course | null>(null);
 
 export const currentCardAtom = atom((get) => {
   return get(currentCardSetAtom)[get(currentIndexAtom)] ?? null;
