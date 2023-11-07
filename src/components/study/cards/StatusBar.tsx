@@ -28,13 +28,15 @@ export const StatusBar = () => {
     <Box mt={2} p={2}>
       <Paper elevation={10} sx={SX.STATUS_PAPER}>
         <Stack direction="row" justifyContent="space-between">
-          <IconButton aria-label="refresh-icon" color="primary" sx={{ width: "30%" }}>
-            <ArrowBackIcon
-              fontSize="large"
-              onClick={() => {
-                setCurrentCardSet([]);
-              }}
-            />
+          <IconButton
+            aria-label="refresh-icon"
+            color="primary"
+            sx={{ width: "30%" }}
+            onClick={() => {
+              setCurrentCardSet([]);
+            }}
+          >
+            <ArrowBackIcon fontSize="large" />
           </IconButton>
           <Typography sx={SX.STATUS_TYPO} textAlign="center">
             {currentIndex + 1}/{currentCardSetLength}
