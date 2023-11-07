@@ -1,4 +1,5 @@
 import { Box, Link, Stack, Typography } from "@mui/material";
+import { CREDITS, NOTICE_LINK } from "./externalURL";
 
 export const noticeList = [
   {
@@ -57,43 +58,10 @@ export const noticeList = [
           `}
         </Typography>
         <Stack color="primary.main">
-          {[
-            {
-              label: "기출 50회",
-              url: "https://quizlet.com/kr/659383641/%EA%B3%A0%EB%A0%A4%EB%8C%80-%ED%95%9C%EC%9E%90-%EA%B8%B0%EC%B6%9C-50%ED%9A%8C-flash-cards/",
-            },
-            {
-              label: "기출 40회",
-              url: "https://quizlet.com/kr/659387601/%EA%B3%A0%EB%A0%A4%EB%8C%80-%ED%95%9C%EC%9E%90-%EA%B8%B0%EC%B6%9C-40%ED%9A%8C-flash-cards/",
-            },
-            {
-              label: "기출 30회",
-              url: "https://quizlet.com/kr/659383455/%EA%B3%A0%EB%A0%A4%EB%8C%80-%ED%95%9C%EC%9E%90-%EA%B8%B0%EC%B6%9C-30%ED%9A%8C-flash-cards/",
-            },
-            {
-              label: "한자 데이터 1",
-              url: "https://quizlet.com/802668244/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90-%ED%95%9C%EC%9E%90%EC%8B%9C%ED%97%98-flash-cards/",
-            },
-            {
-              label: "단어 데이터 2",
-              url: "https://quizlet.com/kr/216112185/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90-%ED%95%9C%EC%9E%90%EC%8B%9C%ED%97%98-flash-cards/",
-            },
-            {
-              label: "단어 데이터 3",
-              url: "https://quizlet.com/kr/177828443/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90-%EC%A1%B8%EC%97%85%ED%95%9C%EC%9E%90-flash-cards/",
-            },
-            {
-              label: "계산기 폰트",
-              url: "https://www.bvfonts.com/fonts/details.php?id=18",
-            },
-            {
-              label: "카카오톡 아이콘",
-              url: "https://marshall-ku.tistory.com/204",
-            },
-          ].map((link) => {
+          {CREDITS.map((credit) => {
             return (
-              <Link href={link.url} target="_blank" key={link.label} rel="noreferrer" underline="hover">
-                {link.label}
+              <Link href={credit.url} target="_blank" key={credit.label} rel="noreferrer" underline="hover">
+                {credit.label}
               </Link>
             );
           })}
@@ -117,7 +85,7 @@ export const noticeList = [
       <Stack gap={1}>
         <Typography whiteSpace="pre-line" sx={{ wordBreak: "break-word" }}>
           {`일정 정보의 출처는 당연하게도 `}
-          <Link href="https://kuhjhm.korea.ac.kr/hjhm/exam/notice.do?mode=view&articleNo=334950&article.offset=0&articleLimit=10&totalNoticeYn=N&totalBoardNo=">
+          <Link href={NOTICE_LINK} target="_blank" underline="hover">
             한자한문연구소
           </Link>
           입니다

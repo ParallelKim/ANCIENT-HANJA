@@ -1,6 +1,7 @@
 import { Box, Link, Paper, Typography } from "@mui/material";
 import { ScheduleCountdown } from "./ScheduleCountdown";
 import { nearest } from "../../constants/schedules";
+import { GOOGLE_CALENDER } from "../../constants/externalURL";
 
 export const ScheduleBlock = () => {
   return (
@@ -11,11 +12,7 @@ export const ScheduleBlock = () => {
         </Typography>
         <ScheduleCountdown />
         <Typography variant="h6" mt={1} p={1} fontWeight={700} textAlign="center">
-          <Link
-            underline="hover"
-            target="_blank"
-            href="https://calendar.google.com/calendar/u/0/r?cid=YW5jaWVudC5oYW5qYUBnbWFpbC5jb20"
-          >
+          <Link underline="hover" target="_blank" href={GOOGLE_CALENDER}>
             구글 캘린더 추가하기
           </Link>
         </Typography>
