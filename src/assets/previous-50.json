@@ -1,705 +1,881 @@
 [
     {
+        "id": "prv50 - 0",
         "front": "佳",
         "back": "아름다울 가"
     },
     {
+        "id": "prv50 - 1",
         "front": "鳴",
         "back": "울 명"
     },
     {
+        "id": "prv50 - 2",
         "front": "望",
         "back": "바랄 망"
     },
     {
+        "id": "prv50 - 3",
         "front": "恕",
         "back": "용서할 서"
     },
     {
+        "id": "prv50 - 4",
         "front": "池",
         "back": "못 지"
     },
     {
+        "id": "prv50 - 5",
         "front": "捕",
         "back": "잡을 포"
     },
     {
+        "id": "prv50 - 6",
         "front": "晩",
         "back": "늦을 만"
     },
     {
+        "id": "prv50 - 7",
         "front": "覺",
         "back": "깨달을 각"
     },
     {
+        "id": "prv50 - 8",
         "front": "範",
         "back": "법 범"
     },
     {
+        "id": "prv50 - 9",
         "front": "珍",
         "back": "보배 진"
     },
     {
+        "id": "prv50 - 10",
         "front": "首",
         "back": "머리 수"
     },
     {
+        "id": "prv50 - 11",
         "front": "甲",
         "back": "갑옷 갑"
     },
     {
+        "id": "prv50 - 12",
         "front": "遣",
         "back": "보낼 견"
     },
     {
+        "id": "prv50 - 13",
         "front": "突",
         "back": "갑자기 돌"
     },
     {
+        "id": "prv50 - 14",
         "front": "寧",
         "back": "편안할 녕(영)"
     },
     {
+        "id": "prv50 - 15",
         "front": "牛",
         "back": "소 우"
     },
     {
+        "id": "prv50 - 16",
         "front": "哀",
         "back": "슬플 애"
     },
     {
+        "id": "prv50 - 17",
         "front": "慨",
         "back": "슬퍼할 개"
     },
     {
+        "id": "prv50 - 18",
         "front": "屈",
         "back": "굽힐 굴"
     },
     {
+        "id": "prv50 - 19",
         "front": "犬",
         "back": "개 견"
     },
     {
+        "id": "prv50 - 20",
         "front": "暮",
         "back": "저물 모"
     },
     {
+        "id": "prv50 - 21",
         "front": "由",
         "back": "말미암을 유"
     },
     {
+        "id": "prv50 - 22",
         "front": "用",
         "back": "쓸 용"
     },
     {
+        "id": "prv50 - 23",
         "front": "申",
         "back": "거듭 신"
     },
     {
+        "id": "prv50 - 24",
         "front": "逸",
         "back": "편안할 일"
     },
     {
+        "id": "prv50 - 25",
         "front": "閱",
         "back": "볼 열"
     },
     {
+        "id": "prv50 - 26",
         "front": "亭",
         "back": "정자 정"
     },
     {
+        "id": "prv50 - 27",
         "front": "血",
         "back": "피 혈"
     },
     {
+        "id": "prv50 - 28",
         "front": "陷",
         "back": "빠질 함"
     },
     {
+        "id": "prv50 - 29",
         "front": "沓",
         "back": "겹칠 답"
     },
     {
+        "id": "prv50 - 30",
         "front": "那",
         "back": "어찌 나"
     },
     {
+        "id": "prv50 - 31",
         "front": "納",
         "back": "들일 납"
     },
     {
+        "id": "prv50 - 32",
         "front": "千",
         "back": "일천 천"
     },
     {
+        "id": "prv50 - 33",
         "front": "年",
         "back": "해 년"
     },
     {
+        "id": "prv50 - 34",
         "front": "于",
         "back": "어조사 우"
     },
     {
+        "id": "prv50 - 35",
         "front": "畏",
         "back": "두려워할 외"
     },
     {
+        "id": "prv50 - 36",
         "front": "衣",
         "back": "옷 의"
     },
     {
+        "id": "prv50 - 37",
         "front": "衷",
         "back": "속마음 충"
     },
     {
+        "id": "prv50 - 38",
         "front": "悔",
         "back": "뉘우칠 회"
     },
     {
+        "id": "prv50 - 39",
         "front": "惟",
         "back": "생각할 유"
     },
     {
+        "id": "prv50 - 40",
         "front": "恒",
         "back": "항상 항"
     },
     {
+        "id": "prv50 - 41",
         "front": "愚",
         "back": "어리석을 우"
     },
     {
+        "id": "prv50 - 42",
         "front": "述",
         "back": "펼 술"
     },
     {
+        "id": "prv50 - 43",
         "front": "醉",
         "back": "취할 취"
     },
     {
+        "id": "prv50 - 44",
         "front": "太",
         "back": "클 태"
     },
     {
+        "id": "prv50 - 45",
         "front": "幕",
         "back": "장막 막"
     },
     {
+        "id": "prv50 - 46",
         "front": "漠",
         "back": "넓을 막"
     },
     {
+        "id": "prv50 - 47",
         "front": "膜",
         "back": "꺼풀 막"
     },
     {
+        "id": "prv50 - 48",
         "front": "卷",
         "back": "책 권"
     },
     {
+        "id": "prv50 - 49",
         "front": "泰",
         "back": "클 태"
     },
     {
+        "id": "prv50 - 50",
         "front": "在",
         "back": "있을 재"
     },
     {
+        "id": "prv50 - 51",
         "front": "坐",
         "back": "앉을 좌"
     },
     {
+        "id": "prv50 - 52",
         "front": "修",
         "back": "닦을 수"
     },
     {
+        "id": "prv50 - 53",
         "front": "守",
         "back": "지킬 수"
     },
     {
+        "id": "prv50 - 54",
         "front": "致",
         "back": "이를 치"
     },
     {
+        "id": "prv50 - 55",
         "front": "網",
         "back": "그물 망"
     },
     {
+        "id": "prv50 - 56",
         "front": "孝",
         "back": "효도 효"
     },
     {
+        "id": "prv50 - 57",
         "front": "郊",
         "back": "둘 교"
     },
     {
+        "id": "prv50 - 58",
         "front": "量",
         "back": "헤아릴 량(양)"
     },
     {
+        "id": "prv50 - 59",
         "front": "良",
         "back": "어질 량(양)"
     },
     {
+        "id": "prv50 - 60",
         "front": "尾",
         "back": "꼬리 미"
     },
     {
+        "id": "prv50 - 61",
         "front": "眠",
         "back": "잘 면"
     },
     {
+        "id": "prv50 - 62",
         "front": "筆",
         "back": "붓 필"
     },
     {
+        "id": "prv50 - 63",
         "front": "獲",
         "back": "얻을 획"
     },
     {
+        "id": "prv50 - 64",
         "front": "草",
         "back": "풀 초"
     },
     {
+        "id": "prv50 - 65",
         "front": "忍",
         "back": "참을 인"
     },
     {
+        "id": "prv50 - 66",
         "front": "半",
         "back": "반 반"
     },
     {
+        "id": "prv50 - 67",
         "front": "迷",
         "back": "미혹할 미"
     },
     {
+        "id": "prv50 - 68",
         "front": "勸",
         "back": "권할 권"
     },
     {
+        "id": "prv50 - 69",
         "front": "歡",
         "back": "기쁠 환"
     },
     {
+        "id": "prv50 - 70",
         "front": "秦",
         "back": "성씨 진"
     },
     {
+        "id": "prv50 - 71",
         "front": "辛",
         "back": "매울 신"
     },
     {
+        "id": "prv50 - 72",
         "front": "災",
         "back": "재앙 재"
     },
     {
+        "id": "prv50 - 73",
         "front": "罪",
         "back": "허물 죄"
     },
     {
+        "id": "prv50 - 74",
         "front": "宇",
         "back": "집 우"
     },
     {
+        "id": "prv50 - 75",
         "front": "宙",
         "back": "집 주"
     },
     {
+        "id": "prv50 - 76",
         "front": "宅",
         "back": "댁 댁"
     },
     {
+        "id": "prv50 - 77",
         "front": "伸",
         "back": "펼 신"
     },
     {
+        "id": "prv50 - 78",
         "front": "橫",
         "back": "가로 횡"
     },
     {
+        "id": "prv50 - 79",
         "front": "置",
         "back": "둘 치"
     },
     {
+        "id": "prv50 - 80",
         "front": "路",
         "back": "길 로"
     },
     {
+        "id": "prv50 - 81",
         "front": "資",
         "back": "재물 자"
     },
     {
+        "id": "prv50 - 82",
         "front": "效",
         "back": "본받을 효"
     },
     {
+        "id": "prv50 - 83",
         "front": "埋",
         "back": "묻을 매"
     },
     {
+        "id": "prv50 - 84",
         "front": "僅",
         "back": "겨우 근"
     },
     {
+        "id": "prv50 - 85",
         "front": "旦",
         "back": "아침 단"
     },
     {
+        "id": "prv50 - 86",
         "front": "麥",
         "back": "보리 맥"
     },
     {
+        "id": "prv50 - 87",
         "front": "侮",
         "back": "업신여길 모"
     },
     {
+        "id": "prv50 - 88",
         "front": "美",
         "back": "아름다울 미"
     },
     {
+        "id": "prv50 - 89",
         "front": "匹",
         "back": "짝 필"
     },
     {
+        "id": "prv50 - 90",
         "front": "品",
         "back": "물건 품"
     },
     {
+        "id": "prv50 - 91",
         "front": "得",
         "back": "얻을 득"
     },
     {
+        "id": "prv50 - 92",
         "front": "早",
         "back": "이를 조"
     },
     {
+        "id": "prv50 - 93",
         "front": "初",
         "back": "처음 초"
     },
     {
+        "id": "prv50 - 94",
         "front": "洋",
         "back": "큰 바다 양"
     },
     {
+        "id": "prv50 - 95",
         "front": "連",
         "back": "잇다을 연"
     },
     {
+        "id": "prv50 - 96",
         "front": "邊",
         "back": "가 변"
     },
     {
+        "id": "prv50 - 97",
         "front": "返",
         "back": "돌이킬 반"
     },
     {
+        "id": "prv50 - 98",
         "front": "雨",
         "back": "비 우"
     },
     {
+        "id": "prv50 - 99",
         "front": "登",
         "back": "오를 등"
     },
     {
+        "id": "prv50 - 100",
         "front": "受",
         "back": "받을 수"
     },
     {
+        "id": "prv50 - 101",
         "front": "臥",
         "back": "누울 와"
     },
     {
+        "id": "prv50 - 102",
         "front": "父",
         "back": "아버지 부"
     },
     {
+        "id": "prv50 - 103",
         "front": "央",
         "back": "가운데 앙"
     },
     {
+        "id": "prv50 - 104",
         "front": "殺",
         "back": "죽일 살"
     },
     {
+        "id": "prv50 - 105",
         "front": "悲",
         "back": "슬플 비"
     },
     {
+        "id": "prv50 - 106",
         "front": "鹿",
         "back": "사슴 록"
     },
     {
+        "id": "prv50 - 107",
         "front": "米",
         "back": "쌀 미"
     },
     {
+        "id": "prv50 - 108",
         "front": "金",
         "back": "쇠 금"
     },
     {
+        "id": "prv50 - 109",
         "front": "秋",
         "back": "가을 추"
     },
     {
+        "id": "prv50 - 110",
         "front": "鼻",
         "back": "코 비"
     },
     {
+        "id": "prv50 - 111",
         "front": "驚",
         "back": "놀랄 경"
     },
     {
+        "id": "prv50 - 112",
         "front": "留",
         "back": "머무를 류(유)"
     },
     {
+        "id": "prv50 - 113",
         "front": "聽",
         "back": "들을 청"
     },
     {
+        "id": "prv50 - 114",
         "front": "散",
         "back": "흩을 산"
     },
     {
+        "id": "prv50 - 115",
         "front": "藏",
         "back": "감출 장"
     },
     {
+        "id": "prv50 - 116",
         "front": "分類",
         "back": "분류"
     },
     {
+        "id": "prv50 - 117",
         "front": "空氣",
         "back": "공기"
     },
     {
+        "id": "prv50 - 118",
         "front": "同時多發",
         "back": "동시다발"
     },
     {
+        "id": "prv50 - 119",
         "front": "空間的",
         "back": "공간적"
     },
     {
+        "id": "prv50 - 120",
         "front": "上司",
         "back": "상사"
     },
     {
+        "id": "prv50 - 121",
         "front": "後輩",
         "back": "후배"
     },
     {
+        "id": "prv50 - 122",
         "front": "引導",
         "back": "인도"
     },
     {
+        "id": "prv50 - 123",
         "front": "態度",
         "back": "태도"
     },
     {
+        "id": "prv50 - 124",
         "front": "主體",
         "back": "주체"
     },
     {
+        "id": "prv50 - 125",
         "front": "展開",
         "back": "전개"
     },
     {
+        "id": "prv50 - 126",
         "front": "盲目的",
         "back": "주관이나 원칙이 없이 덮어놓고 행동하는"
     },
     {
+        "id": "prv50 - 127",
         "front": "復古",
         "back": "복고"
     },
     {
+        "id": "prv50 - 128",
         "front": "復興",
         "back": "부흥"
     },
     {
+        "id": "prv50 - 129",
         "front": "自身",
         "back": "자신"
     },
     {
+        "id": "prv50 - 130",
         "front": "訓鍊",
         "back": "훈련"
     },
     {
+        "id": "prv50 - 131",
         "front": "基本",
         "back": "기본"
     },
     {
+        "id": "prv50 - 132",
         "front": "基",
         "back": "터 기"
     },
     {
+        "id": "prv50 - 133",
         "front": "廣",
         "back": "넓을 광"
     },
     {
+        "id": "prv50 - 134",
         "front": "奪還",
         "back": "탈환"
     },
     {
+        "id": "prv50 - 135",
         "front": "賤民",
         "back": "천민"
     },
     {
+        "id": "prv50 - 136",
         "front": "頭腦",
         "back": "두뇌"
     },
     {
+        "id": "prv50 - 137",
         "front": "貴族",
         "back": "귀족"
     },
     {
+        "id": "prv50 - 138",
         "front": "默默不答",
         "back": "아무런 대답도 없이"
     },
     {
+        "id": "prv50 - 139",
         "front": "加速",
         "back": "속도를 덧붙일"
     },
     {
+        "id": "prv50 - 140",
         "front": "苦悶",
         "back": "고민"
     },
     {
+        "id": "prv50 - 141",
         "front": "投票率",
         "back": "투표율"
     },
     {
+        "id": "prv50 - 142",
         "front": "信賴",
         "back": "신뢰"
     },
     {
+        "id": "prv50 - 143",
         "front": "政黨",
         "back": "정당"
     },
     {
+        "id": "prv50 - 144",
         "front": "正當性",
         "back": "정당성"
     },
     {
+        "id": "prv50 - 145",
         "front": "背山臨水",
         "back": "배산임수"
     },
     {
+        "id": "prv50 - 146",
         "front": "作用",
         "back": "작용"
     },
     {
+        "id": "prv50 - 147",
         "front": "急",
         "back": "급할 급"
     },
     {
+        "id": "prv50 - 148",
         "front": "緩",
         "back": "느릴 완"
     },
     {
+        "id": "prv50 - 149",
         "front": "接合",
         "back": "접합"
     },
     {
+        "id": "prv50 - 150",
         "front": "塵",
         "back": "티끌 진"
     },
     {
+        "id": "prv50 - 151",
         "front": "志操",
         "back": "지조"
     },
     {
+        "id": "prv50 - 152",
         "front": "信念",
         "back": "신념"
     },
     {
+        "id": "prv50 - 153",
         "front": "苦痛",
         "back": "괴로움 (고통)"
     },
     {
+        "id": "prv50 - 154",
         "front": "評價",
         "back": "평가"
     },
     {
+        "id": "prv50 - 155",
         "front": "價",
         "back": "값 가"
     },
     {
+        "id": "prv50 - 156",
         "front": "許諾",
         "back": "허락"
     },
     {
+        "id": "prv50 - 157",
         "front": "尊敬",
         "back": "존경"
     },
     {
+        "id": "prv50 - 158",
         "front": "感謝",
         "back": "감사"
     },
     {
+        "id": "prv50 - 159",
         "front": "健康",
         "back": "건강"
     },
     {
+        "id": "prv50 - 160",
         "front": "國籍",
         "back": "국적"
     },
     {
+        "id": "prv50 - 161",
         "front": "情報",
         "back": "정보"
     },
     {
+        "id": "prv50 - 162",
         "front": "適用",
         "back": "적용"
     },
     {
+        "id": "prv50 - 163",
         "front": "遂行",
         "back": "수행"
     },
     {
+        "id": "prv50 - 164",
         "front": "經營戰略",
         "back": "경영전략"
     },
     {
+        "id": "prv50 - 165",
         "front": "理解",
         "back": "이해"
     },
     {
+        "id": "prv50 - 166",
         "front": "利用",
         "back": "이용"
     },
     {
+        "id": "prv50 - 167",
         "front": "條件",
         "back": "조건"
     },
     {
+        "id": "prv50 - 168",
         "front": "決",
         "back": "결단할 결 (결코)"
     },
     {
+        "id": "prv50 - 169",
         "front": "趣向",
         "back": "취향"
     },
     {
+        "id": "prv50 - 170",
         "front": "透明",
         "back": "투명"
     },
     {
+        "id": "prv50 - 171",
         "front": "生活",
         "back": "생활"
     },
     {
+        "id": "prv50 - 172",
         "front": "人物",
         "back": "인물"
     },
     {
+        "id": "prv50 - 173",
         "front": "敎化",
         "back": "교화"
     },
     {
+        "id": "prv50 - 174",
         "front": "兄弟",
         "back": "형제"
     },
     {
+        "id": "prv50 - 175",
         "front": "必要",
         "back": "필요"
     }
