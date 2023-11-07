@@ -17,7 +17,7 @@ export const moveCurrentIndexAtom = atom(null, (get, set, action: "next" | "prev
   set(currentIndexAtom, action === "prev" ? Math.max(current - 1, 0) : Math.min(current + 1, max));
 });
 
-export const currentClassAtom = atom<CARD[]>([]);
+export const currentClassAtom = atom<{ title: string; contents: CARD[] } | null>(null);
 
 export const currentCardAtom = atom((get) => {
   return get(currentCardSetAtom)[get(currentIndexAtom)] ?? null;

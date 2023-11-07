@@ -14,8 +14,8 @@ export const CurrentRunManager = () => {
   const initRun = () => {
     // check user's study session
 
-    if (currentCardSet.length === 0) {
-      const studySet = [...currentClass];
+    if (currentCardSet.length === 0 && currentClass) {
+      const studySet = [...currentClass.contents];
       const rand = Math.round(Math.random() * (studySet.length - setSize));
 
       shuffleArray(studySet);
