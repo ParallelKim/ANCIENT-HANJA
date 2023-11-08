@@ -13,7 +13,6 @@ export const CurrentRunManager = () => {
 
   const initRun = () => {
     // check user's study session
-
     if (currentCardSet.length === 0 && currentCourse) {
       const studySet = [...currentCourse.contents];
       const rand = Math.round(Math.random() * (studySet.length - setSize));
@@ -21,6 +20,7 @@ export const CurrentRunManager = () => {
       shuffleArray(studySet);
 
       setCurrentCardSet(studySet.slice(rand, rand + setSize));
+      moveCurrentIndex("reset");
     }
 
     const keyboardListener = (e: KeyboardEvent) => {
@@ -44,7 +44,7 @@ export const CurrentRunManager = () => {
     };
   };
 
-  useEffect(initRun, [currentCardSet.length, currentCourse, moveCurrentIndex, setCurrentCardSet]);
+  useEffect(initRun, [currentCardSet, currentCardSet.length, currentCourse, moveCurrentIndex, setCurrentCardSet]);
 
   return null;
 };
