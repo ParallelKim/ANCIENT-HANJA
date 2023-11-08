@@ -6,7 +6,7 @@ import { CurrentRun } from "../components/study/CurrentRun";
 import { CurrentRunManager } from "../managers/CurrentRunManager";
 import { currentCardSetAtom } from "../stores/atoms";
 
-export const StudyPage = () => {
+const StudyPage = () => {
   const currentCardSet = useAtomValue(currentCardSetAtom);
 
   return (
@@ -16,3 +16,5 @@ export const StudyPage = () => {
     </Container>
   );
 };
+
+export default StudyPage;
