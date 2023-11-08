@@ -27,7 +27,7 @@
         "sourceType": "module",
         "project": "./tsconfig.json"
     },
-    "ignorePatterns": ["build", "dist", "public"],
+    "ignorePatterns": ["build", "dist", "public", "vite.config.ts"],
     "plugins": ["@typescript-eslint", "prettier"],
     "rules": {
         "import/prefer-default-export": "off",
