@@ -8,7 +8,7 @@ import {
   currentCardSetLengthAtom,
   currentCardSetAtom,
   currentCourseAtom,
-} from "../../../stores/atoms";
+} from "../../../stores/course";
 
 const SX = {
   STATUS_PAPER: {

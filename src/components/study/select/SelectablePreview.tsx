@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import { useSetAtom } from "jotai";
 
-import { currentCourseAtom } from "../../../stores/atoms";
+import { currentCourseAtom } from "../../../stores/course";
 import { Course } from "../../../types/card";
 
 export const SelectablePreview = ({
