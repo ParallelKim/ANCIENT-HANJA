@@ -1,4 +1,4 @@
-export const Lab = () => {
+const Lab = () => {
   return (
     <div>
       <button
@@ -13,3 +13,5 @@ export const Lab = () => {
     </div>
   );
 };
+
+export default Lab;

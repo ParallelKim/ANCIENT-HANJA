@@ -4,7 +4,7 @@ import { IntroTextBlock } from "../components/intro/IntroTextBlock";
 import { LinkBlock } from "../components/intro/LinkBlock";
 import { ScheduleBlock } from "../components/intro/ScheduleBlock";
 
-export const IntroducePage = () => {
+const IntroducePage = () => {
   return (
     <Container id="intro-page" sx={{ height: "100%" }}>
       <Stack py={2} gap={2}>
@@ -25,3 +25,5 @@ export const IntroducePage = () => {
     </Container>
   );
 };
+
+export default IntroducePage;

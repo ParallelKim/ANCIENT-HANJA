@@ -1,12 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
+import { lazy } from "react";
 
 import { App } from "./App";
-import { StudyPage } from "./pages/StudyPage";
-import { SignUpPage } from "./pages/SignUpPage";
-import { UserPage } from "./pages/UserPage";
-import { IntroducePage } from "./pages/IntroducePage";
-import { NoticePage } from "./pages/NoticePage";
-import { Lab } from "./pages/Lab";
+
+const StudyPage = lazy(() => import("./pages/StudyPage"));
+const SignUpPage = lazy(() => import("./pages/SignUpPage"));
+const UserPage = lazy(() => import("./pages/UserPage"));
+const IntroducePage = lazy(() => import("./pages/IntroducePage"));
+const NoticePage = lazy(() => import("./pages/NoticePage"));
+const Lab = lazy(() => import("./pages/Lab"));
 
 export const router = createBrowserRouter([
   {
