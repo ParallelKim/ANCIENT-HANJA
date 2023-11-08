@@ -1,485 +1,606 @@
 [
     {
+        "id": "prv40 - 0",
         "front": "井",
         "back": "우물 정"
     },
     {
+        "id": "prv40 - 1",
         "front": "尋",
         "back": "찾을 심"
     },
     {
+        "id": "prv40 - 2",
         "front": "團",
         "back": "둥글 단"
     },
     {
+        "id": "prv40 - 3",
         "front": "角",
         "back": "뿔 각"
     },
     {
+        "id": "prv40 - 4",
         "front": "陽",
         "back": "볕 양"
     },
     {
+        "id": "prv40 - 5",
         "front": "引",
         "back": "끌 인"
     },
     {
+        "id": "prv40 - 6",
         "front": "至",
         "back": "이를 지"
     },
     {
+        "id": "prv40 - 7",
         "front": "鶴",
         "back": "학 학"
     },
     {
+        "id": "prv40 - 8",
         "front": "紅",
         "back": "붉을 홍"
     },
     {
+        "id": "prv40 - 9",
         "front": "悔",
         "back": "뉘우칠 회"
     },
     {
+        "id": "prv40 - 10",
         "front": "逆",
         "back": "거스를 역"
     },
     {
+        "id": "prv40 - 11",
         "front": "佳",
         "back": "아름다울 가"
     },
     {
+        "id": "prv40 - 12",
         "front": "登",
         "back": "오를 등"
     },
     {
+        "id": "prv40 - 13",
         "front": "危",
         "back": "위태할 위"
     },
     {
+        "id": "prv40 - 14",
         "front": "充",
         "back": "채울 충"
     },
     {
+        "id": "prv40 - 15",
         "front": "浴",
         "back": "목욕할 욕"
     },
     {
+        "id": "prv40 - 16",
         "front": "章",
         "back": "글 장"
     },
     {
+        "id": "prv40 - 17",
         "front": "初",
         "back": "처음 초"
     },
     {
+        "id": "prv40 - 18",
         "front": "貴",
         "back": "귀할 귀"
     },
     {
+        "id": "prv40 - 19",
         "front": "囚",
         "back": "가둘 수"
     },
     {
+        "id": "prv40 - 20",
         "front": "相",
         "back": "서로 상"
     },
     {
+        "id": "prv40 - 21",
         "front": "詳",
         "back": "자세할 상"
     },
     {
+        "id": "prv40 - 22",
         "front": "件",
         "back": "물건 건"
     },
     {
+        "id": "prv40 - 23",
         "front": "巾",
         "back": "수건 건"
     },
     {
+        "id": "prv40 - 24",
         "front": "蘭",
         "back": "난초 난(란)"
     },
     {
+        "id": "prv40 - 25",
         "front": "亂",
         "back": "어지러울 난(란)"
     },
     {
+        "id": "prv40 - 26",
         "front": "掃",
         "back": "쓸 소"
     },
     {
+        "id": "prv40 - 27",
         "front": "所",
         "back": "바 소"
     },
     {
+        "id": "prv40 - 28",
         "front": "後",
         "back": "뒤 후"
     },
     {
+        "id": "prv40 - 29",
         "front": "厚",
         "back": "두터울 후"
     },
     {
+        "id": "prv40 - 30",
         "front": "舌",
         "back": "혀 설"
     },
     {
+        "id": "prv40 - 31",
         "front": "雪",
         "back": "눈 설"
     },
     {
+        "id": "prv40 - 32",
         "front": "器",
         "back": "그릇 기"
     },
     {
+        "id": "prv40 - 33",
         "front": "奇",
         "back": "기특할 기"
     },
     {
+        "id": "prv40 - 34",
         "front": "武",
         "back": "호반 무"
     },
     {
+        "id": "prv40 - 35",
         "front": "舞",
         "back": "춤출 무"
     },
     {
+        "id": "prv40 - 36",
         "front": "邑",
         "back": "고을 읍"
     },
     {
+        "id": "prv40 - 37",
         "front": "泣",
         "back": "울 읍"
     },
     {
+        "id": "prv40 - 38",
         "front": "玉",
         "back": "구슬 옥"
     },
     {
+        "id": "prv40 - 39",
         "front": "蜜",
         "back": "꿀 밀"
     },
     {
+        "id": "prv40 - 40",
         "front": "寫",
         "back": "베낄 사"
     },
     {
+        "id": "prv40 - 41",
         "front": "星",
         "back": "별 성"
     },
     {
+        "id": "prv40 - 42",
         "front": "走",
         "back": "달릴 주"
     },
     {
+        "id": "prv40 - 43",
         "front": "太",
         "back": "클 태"
     },
     {
+        "id": "prv40 - 44",
         "front": "快",
         "back": "쾌할 쾌"
     },
     {
+        "id": "prv40 - 45",
         "front": "笠",
         "back": "삿갓 립(입)"
     },
     {
+        "id": "prv40 - 46",
         "front": "葉",
         "back": "잎 엽"
     },
     {
+        "id": "prv40 - 47",
         "front": "重",
         "back": "무거울 중"
     },
     {
+        "id": "prv40 - 48",
         "front": "酒",
         "back": "술 주"
     },
     {
+        "id": "prv40 - 49",
         "front": "夏",
         "back": "여름 하"
     },
     {
+        "id": "prv40 - 50",
         "front": "得",
         "back": "얻을 득"
     },
     {
+        "id": "prv40 - 51",
         "front": "歸",
         "back": "돌아갈 귀"
     },
     {
+        "id": "prv40 - 52",
         "front": "比",
         "back": "견줄 비"
     },
     {
+        "id": "prv40 - 53",
         "front": "旦",
         "back": "아침 단"
     },
     {
+        "id": "prv40 - 54",
         "front": "責",
         "back": "꾸짖을 책"
     },
     {
+        "id": "prv40 - 55",
         "front": "電",
         "back": "번개 전"
     },
     {
+        "id": "prv40 - 56",
         "front": "必",
         "back": "반드시 필"
     },
     {
+        "id": "prv40 - 57",
         "front": "氣壓",
         "back": "기압"
     },
     {
+        "id": "prv40 - 58",
         "front": "要因",
         "back": "요인"
     },
     {
+        "id": "prv40 - 59",
         "front": "遂行",
         "back": "수행"
     },
     {
+        "id": "prv40 - 60",
         "front": "當然",
         "back": "당연"
     },
     {
+        "id": "prv40 - 61",
         "front": "葡萄糖",
         "back": "포도당"
     },
     {
+        "id": "prv40 - 62",
         "front": "供給",
         "back": "공급"
     },
     {
+        "id": "prv40 - 63",
         "front": "生産",
         "back": "생산"
     },
     {
+        "id": "prv40 - 64",
         "front": "原理",
         "back": "원리"
     },
     {
+        "id": "prv40 - 65",
         "front": "絕對的",
         "back": "절대적"
     },
     {
+        "id": "prv40 - 66",
         "front": "垂直的",
         "back": "수직적"
     },
     {
+        "id": "prv40 - 67",
         "front": "婚姻",
         "back": "혼인"
     },
     {
+        "id": "prv40 - 68",
         "front": "擴大",
         "back": "확대"
     },
     {
+        "id": "prv40 - 69",
         "front": "別途",
         "back": "별도"
     },
     {
+        "id": "prv40 - 70",
         "front": "途中",
         "back": "도중"
     },
     {
+        "id": "prv40 - 71",
         "front": "疑問",
         "back": "의문"
     },
     {
+        "id": "prv40 - 72",
         "front": "哀惜",
         "back": "애석"
     },
     {
+        "id": "prv40 - 73",
         "front": "等",
         "back": "~등(무리 등)"
     },
     {
+        "id": "prv40 - 74",
         "front": "登校",
         "back": "등교"
     },
     {
+        "id": "prv40 - 75",
         "front": "驅使",
         "back": "구사"
     },
     {
+        "id": "prv40 - 76",
         "front": "結局",
         "back": "결국"
     },
     {
+        "id": "prv40 - 77",
         "front": "價値",
         "back": "가치"
     },
     {
+        "id": "prv40 - 78",
         "front": "拒否",
         "back": "거부"
     },
     {
+        "id": "prv40 - 79",
         "front": "內在",
         "back": "내재"
     },
     {
+        "id": "prv40 - 80",
         "front": "變化",
         "back": "변화"
     },
     {
+        "id": "prv40 - 81",
         "front": "隨伴",
         "back": "수반"
     },
     {
+        "id": "prv40 - 82",
         "front": "發達",
         "back": "발달"
     },
     {
+        "id": "prv40 - 83",
         "front": "流通",
         "back": "유통"
     },
     {
+        "id": "prv40 - 84",
         "front": "漸次",
         "back": "점차"
     },
     {
+        "id": "prv40 - 85",
         "front": "失敗",
         "back": "실패"
     },
     {
+        "id": "prv40 - 86",
         "front": "投資",
         "back": "투자"
     },
     {
+        "id": "prv40 - 87",
         "front": "時節",
         "back": "시절"
     },
     {
+        "id": "prv40 - 88",
         "front": "一石二鳥",
         "back": "일석이조"
     },
     {
+        "id": "prv40 - 89",
         "front": "大統領",
         "back": "대통령"
     },
     {
+        "id": "prv40 - 90",
         "front": "指導者",
         "back": "지도자"
     },
     {
+        "id": "prv40 - 91",
         "front": "世上",
         "back": "세상"
     },
     {
+        "id": "prv40 - 92",
         "front": "衝擊",
         "back": "충격"
     },
     {
+        "id": "prv40 - 93",
         "front": "慰勞",
         "back": "위로"
     },
     {
+        "id": "prv40 - 94",
         "front": "獻金",
         "back": "헌금"
     },
     {
+        "id": "prv40 - 95",
         "front": "沒頭",
         "back": "몰두"
     },
     {
+        "id": "prv40 - 96",
         "front": "全國",
         "back": "전국"
     },
     {
+        "id": "prv40 - 97",
         "front": "報償",
         "back": "보상"
     },
     {
+        "id": "prv40 - 98",
         "front": "呼訴",
         "back": "호소"
     },
     {
+        "id": "prv40 - 99",
         "front": "强調",
         "back": "강조"
     },
     {
+        "id": "prv40 - 100",
         "front": "均",
         "back": "고를 균"
     },
     {
+        "id": "prv40 - 101",
         "front": "專攻",
         "back": "전공"
     },
     {
+        "id": "prv40 - 102",
         "front": "履修",
         "back": "이수"
     },
     {
+        "id": "prv40 - 103",
         "front": "判斷力",
         "back": "판단력"
     },
     {
+        "id": "prv40 - 104",
         "front": "限定",
         "back": "한정"
     },
     {
+        "id": "prv40 - 105",
         "front": "卷",
         "back": "책 권"
     },
     {
+        "id": "prv40 - 106",
         "front": "冊",
         "back": "책 책"
     },
     {
+        "id": "prv40 - 107",
         "front": "王歷",
         "back": "왕력"
     },
     {
+        "id": "prv40 - 108",
         "front": "命令",
         "back": "명령"
     },
     {
+        "id": "prv40 - 109",
         "front": "民俗",
         "back": "민속"
     },
     {
+        "id": "prv40 - 110",
         "front": "豊富",
         "back": "풍부"
     },
     {
+        "id": "prv40 - 111",
         "front": "內容",
         "back": "내용"
     },
     {
+        "id": "prv40 - 112",
         "front": "成立",
         "back": "성립"
     },
     {
+        "id": "prv40 - 113",
         "front": "政治",
         "back": "정치"
     },
     {
+        "id": "prv40 - 114",
         "front": "交易",
         "back": "교역"
     },
     {
+        "id": "prv40 - 115",
         "front": "新鮮",
         "back": "신선"
     },
     {
+        "id": "prv40 - 116",
         "front": "外面",
         "back": "외면"
     },
     {
+        "id": "prv40 - 117",
         "front": "塚",
         "back": "무덤 총"
     },
     {
+        "id": "prv40 - 118",
         "front": "墓",
         "back": "무덤 묘"
     },
     {
+        "id": "prv40 - 119",
         "front": "墳",
         "back": "무덤 분"
     },
     {
+        "id": "prv40 - 120",
         "front": "寡",
         "back": "적을 과"
     }

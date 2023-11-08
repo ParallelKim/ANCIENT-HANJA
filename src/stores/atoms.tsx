@@ -2,11 +2,11 @@ import { atom } from "jotai";
 import { atomWithHash } from "jotai-location";
 import { atomWithStorage } from "jotai/utils";
 
-import { CARD } from "../types/card";
+import { Card, Course } from "../types/card";
 
-export const currentClassAtom = atom<CARD[]>([]);
+export const currentCourseAtom = atom<Course | null>(null);
 
-export const currentCardSetAtom = atomWithStorage<CARD[]>("current card set", []);
+export const currentCardSetAtom = atomWithStorage<Card[]>("current card set", []);
 export const currentCardSetLengthAtom = atom((get) => {
   return get(currentCardSetAtom).length;
 });

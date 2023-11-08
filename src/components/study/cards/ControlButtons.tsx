@@ -10,6 +10,7 @@ import {
   currentCardSetLengthAtom,
   currentIndexAtom,
 } from "../../../stores/atoms";
+import { HANJA_SEARCH } from "../../../constants/externalURL";
 
 const SX = {
   BT_GROUP: {
@@ -39,7 +40,7 @@ export const ControlButtons = () => {
     {
       icon: <AutoStoriesIcon fontSize="large" />,
       label: "auto-stories-icon",
-      href: currentCard && `https://hanja.dict.naver.com/#/search?query=${currentCard.front}`,
+      href: currentCard && HANJA_SEARCH + currentCard.front,
       disabled: !currentCard,
     },
     {
