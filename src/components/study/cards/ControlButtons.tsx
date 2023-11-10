@@ -2,13 +2,10 @@ import { useAtomValue, useSetAtom } from "jotai";
 import { Box, ButtonGroup, IconButton, Paper } from "@mui/material";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
+import ReplayIcon from "@mui/icons-material/Replay";
 
-import {
-  moveCurrentIndexAtom,
-  currentCardAtom,
-  currentCardSetLengthAtom,
-  currentIndexAtom,
-} from "../../../stores/atoms";
+import { moveCurrentIndexAtom, currentCardAtom, currentIndexStateAtom } from "../../../stores/atoms";
+import { HANJA_SEARCH } from "../../../constants/externalURL";
 
 const SX = {
   BT_GROUP: {
@@ -23,9 +20,8 @@ const SX = {
 };
 
 export const ControlButtons = () => {
-  const currentIndex = useAtomValue(currentIndexAtom);
+  const currentIndexState = useAtomValue(currentIndexStateAtom);
   const currentCard = useAtomValue(currentCardAtom);
-  const currentCardSetLength = useAtomValue(currentCardSetLengthAtom);
   const moveCurrentIndex = useSetAtom(moveCurrentIndexAtom);
 
   const iconsInfos = [
@@ -33,19 +29,24 @@ export const ControlButtons = () => {
       icon: <ArrowBack fontSize="large" />,
       label: "arrow-back",
       onClick: () => moveCurrentIndex("prev"),
-      disabled: currentIndex === 0,
+      disabled: currentIndexState === "first",
     },
     {
       icon: <AutoStoriesIcon fontSize="large" />,
       label: "auto-stories-icon",
-      href: currentCard && `https://hanja.dict.naver.com/#/search?query=${currentCard.front}`,
+      href: HANJA_SEARCH + currentCard.front,
       disabled: !currentCard,
     },
     {
-      icon: <ArrowForward fontSize="large" />,
+      icon: currentIndexState === "last" ? <ReplayIcon fontSize="large" /> : <ArrowForward fontSize="large" />,
       label: "arrow-forward",
-      onClick: () => moveCurrentIndex("next"),
-      disabled: currentIndex >= currentCardSetLength - 1,
+      onClick: () => {
+        if (currentIndexState === "last") {
+          moveCurrentIndex("reset");
+        } else {
+          moveCurrentIndex("next");
+        }
+      },
     },
   ];
 
