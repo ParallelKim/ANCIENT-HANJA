@@ -1,28 +1,13 @@
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import { useAtom, useSetAtom } from "jotai";
 import { useEffect } from "react";
-import { currentCardSetAtom, currentCourseAtom, moveCurrentIndexAtom } from "../stores/course";
 
-import { shuffleArray } from "../utils";
-
-const setSize = 20;
+import { currentExamAtom, moveCurrentIndexAtom } from "../stores/test";
 
 export const CurrentRunManager = () => {
-  const [currentCardSet, setCurrentCardSet] = useAtom(currentCardSetAtom);
-  const currentCourse = useAtomValue(currentCourseAtom);
+  const [currentCardSet, setCurrentCardSet] = useAtom(currentExamAtom);
   const moveCurrentIndex = useSetAtom(moveCurrentIndexAtom);
 
   const initRun = () => {
-    // check user's study session
-    if (currentCardSet.length === 0 && currentCourse) {
-      const studySet = [...currentCourse.contents];
-      const rand = Math.round(Math.random() * (studySet.length - setSize));
-
-      shuffleArray(studySet);
-
-      setCurrentCardSet(studySet.slice(rand, rand + setSize));
-      moveCurrentIndex("reset");
-    }
-
     const keyboardListener = (e: KeyboardEvent) => {
       switch (e.code) {
         case "Space":
@@ -44,7 +29,7 @@ export const CurrentRunManager = () => {
     };
   };
 
-  useEffect(initRun, [currentCardSet, currentCardSet.length, currentCourse, moveCurrentIndex, setCurrentCardSet]);
+  useEffect(initRun, [currentCardSet, moveCurrentIndex, setCurrentCardSet]);
 
   return null;
 };

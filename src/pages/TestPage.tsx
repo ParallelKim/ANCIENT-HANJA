@@ -10,7 +10,10 @@ const TestPage = () => {
   const currentExam = useAtomValue(currentExamAtom);
 
   return (
-    <Container id="test-page">
+    <Container
+      id="test-page"
+      sx={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between", pb: 4 }}
+    >
       <CurrentRunManager />
       {currentExam ? <CurrentRun /> : <SelectTest />}
     </Container>

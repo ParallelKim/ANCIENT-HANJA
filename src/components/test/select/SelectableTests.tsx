@@ -21,14 +21,6 @@ const parseExam = (exam: RawExamData) => {
             question: item,
           };
 
-        if (group.type === "multipleChoice")
-          return {
-            id: id,
-            share: group.share,
-            question: item.Q,
-            answers: item.A,
-          };
-
         if (group.type === "withPassage")
           return {
             id: id,
@@ -37,6 +29,13 @@ const parseExam = (exam: RawExamData) => {
             question: item.Q,
             answers: item.A,
           };
+
+        return {
+          id: id,
+          share: group.share,
+          question: item.Q,
+          answers: item.A,
+        };
       }),
     )
     .flat();
@@ -54,6 +53,10 @@ export const SelectableTests = () => {
             size="medium"
             onClick={() => {
               console.log(parseExam(item.exam));
+              setCurrentExam({
+                title: item.title,
+                contents: parseExam(item.exam),
+              });
             }}
           >
             {item.title}

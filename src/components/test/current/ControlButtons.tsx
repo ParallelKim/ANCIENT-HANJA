@@ -34,7 +34,6 @@ export const ControlButtons = () => {
     {
       icon: <AutoStoriesIcon fontSize="large" />,
       label: "auto-stories-icon",
-      href: HANJA_SEARCH + currentCard.front,
       disabled: !currentCard,
     },
     {
@@ -61,10 +60,6 @@ export const ControlButtons = () => {
                 aria-label={iconInfo.label}
                 color="primary"
                 sx={{ width: "30%" }}
-                {...(iconInfo.href && {
-                  href: iconInfo.href,
-                  target: "_blank",
-                })}
                 onClick={iconInfo.onClick}
                 disabled={iconInfo.disabled}
               >

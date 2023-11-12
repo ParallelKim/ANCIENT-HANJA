@@ -1,12 +1,14 @@
-import { ControlButtons } from "./cards/ControlButtons";
-import { FlashCard } from "./cards/FlashCard";
-import { StatusBar } from "./cards/StatusBar";
+import { ControlButtons } from "./current/ControlButtons";
+import { Question } from "./current/Question";
+import { StatusBar } from "./current/StatusBar";
+import { CheckAnswer } from "./current/CheckAnswer";
 
 export const CurrentRun = () => {
   return (
     <>
       <StatusBar />
-      <FlashCard />
+      <Question />
+      <CheckAnswer />
       <ControlButtons />
     </>
   );

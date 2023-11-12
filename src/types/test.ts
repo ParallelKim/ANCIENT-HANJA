@@ -1,8 +1,9 @@
 export interface Question {
-  id: string;
+  id: number;
   share: string;
+  passage?: string;
   question: string;
-  answers: string[];
+  answers?: string[];
 }
 
 export interface Exam {
