@@ -27,7 +27,7 @@ export interface WithPassage {
 export interface ShortAnswer {
   type: "shortAnswer";
   share: string;
-  questions: string[];
+  questions: { P: string; Q: string }[];
 }
 
 export type RawExamData = (MultipleChoice | WithPassage | ShortAnswer)[];

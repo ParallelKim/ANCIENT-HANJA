@@ -13,12 +13,13 @@ const parseExam = (exam: RawExamData) => {
       group.questions.map((item) => {
         id += 1;
 
-        if (typeof item === "string")
+        if ("P" in item)
           // shortAnswer
           return {
             id: id,
             share: group.share,
-            question: item,
+            passage: item.P,
+            question: item.Q,
           };
 
         if (group.type === "withPassage")
