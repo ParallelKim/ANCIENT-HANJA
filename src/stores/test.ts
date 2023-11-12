@@ -1,9 +1,8 @@
 import { atom } from "jotai";
 import { atomWithStorage } from "jotai/utils";
-import { Exam, Question } from "../types/test";
+import { Question } from "../types/test";
 
-export const currentExamAtom = atom<Exam | null>(null);
-
+export const currentExamAtom = atomWithStorage<string | null>("exam title", null);
 export const currentQuestionSetAtom = atomWithStorage<Question[]>("current Question set", []);
 export const currentQuestionSetLengthAtom = atom((get) => {
   return get(currentQuestionSetAtom).length;
