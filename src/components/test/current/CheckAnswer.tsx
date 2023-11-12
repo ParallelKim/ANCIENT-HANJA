@@ -1,4 +1,4 @@
-import { Box, Button, Input, Paper, Stack } from "@mui/material";
+import { Box, Button, ButtonGroup, Input, Paper, Stack } from "@mui/material";
 import { useAtomValue, useSetAtom } from "jotai";
 import { answerableAtom, inputAnswerAtom } from "../../../stores/test";
 
@@ -12,9 +12,10 @@ export const CheckAnswer = () => {
     <Box p={2}>
       <Paper>
         {answerable ? (
-          <Stack direction="row" justifyContent="center">
+          <Stack direction="row" flexWrap="wrap">
             {answerable.map((ans, idx) => (
               <Button
+                sx={{ p: 0, width: ans.length > 5 ? "100%" : "50%" }}
                 key={ans}
                 onClick={() => {
                   inputAnswer(idx);
