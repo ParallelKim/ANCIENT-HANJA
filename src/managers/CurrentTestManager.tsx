@@ -1,13 +1,16 @@
-import { useAtom, useSetAtom } from "jotai";
+import { useAtomValue, useSetAtom } from "jotai";
 import { useEffect } from "react";
 
-import { currentExamAtom, moveCurrentIndexAtom } from "../stores/test";
+import { currentQuestionSetLengthAtom, moveCurrentIndexAtom, userAnswersAtom } from "../stores/test";
 
 export const CurrentRunManager = () => {
-  const [currentCardSet, setCurrentCardSet] = useAtom(currentExamAtom);
+  const currentQuestionSetLength = useAtomValue(currentQuestionSetLengthAtom);
   const moveCurrentIndex = useSetAtom(moveCurrentIndexAtom);
+  const userAnswers = useSetAtom(userAnswersAtom);
 
   const initRun = () => {
+    userAnswers(Array(currentQuestionSetLength).fill(null));
+
     const keyboardListener = (e: KeyboardEvent) => {
       switch (e.code) {
         case "Space":
@@ -29,7 +32,7 @@ export const CurrentRunManager = () => {
     };
   };
 
-  useEffect(initRun, [currentCardSet, moveCurrentIndex, setCurrentCardSet]);
+  useEffect(initRun, [moveCurrentIndex]);
 
   return null;
 };

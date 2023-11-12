@@ -34,8 +34,28 @@ export const currentQuestionAtom = atom((get) => {
   return get(currentQuestionSetAtom)[get(currentExamIndexAtom)] ?? null;
 });
 
+export const answerableAtom = atom((get) => {
+  return get(currentQuestionAtom)?.answers ?? null;
+});
+
 export const currentIndexStateAtom = atom((get) => {
   if (get(currentExamIndexAtom) >= get(currentQuestionSetLengthAtom) - 1) return "last";
   if (get(currentExamIndexAtom) <= 0) return "first";
   return "inside";
+});
+
+export const userAnswersAtom = atomWithStorage<(string | number | null)[]>("user answer", []);
+
+export const inputAnswerAtom = atom(null, (get, set, value: string | number) => {
+  const current = get(currentExamIndexAtom);
+
+  const temp = get(userAnswersAtom);
+
+  temp[current] = value ?? null;
+
+  if (value) {
+    set(moveCurrentIndexAtom, "next");
+  }
+
+  set(userAnswersAtom, temp);
 });

@@ -3,9 +3,9 @@ import { Box, Button, IconButton, Menu, MenuItem, Typography } from "@mui/materi
 import MenuIcon from "@mui/icons-material/Menu";
 
 const pages = [
-  { label: "공부하기", path: "/study", disabled: false },
-  { label: "모의시험", path: "/test", disabled: true },
-  { label: "공지사항", path: "/notice", disabled: false },
+  { label: "공부하기", path: "/study" },
+  { label: "모의시험", path: "/test" },
+  { label: "공지사항", path: "/notice" },
 ]; // TEST, GAME, RANKING 등 추가
 
 export const HeaderMenu = ({ isXs = false }: { isXs?: boolean }) => {
