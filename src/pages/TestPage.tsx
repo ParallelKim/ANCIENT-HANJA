@@ -1,18 +1,18 @@
 import { useAtomValue } from "jotai";
 import { Container } from "@mui/material";
 
-import { SelectStudySet } from "../components/study/select/SelectStudySet";
-import { CurrentRun } from "../components/study/CurrentRun";
+import { SelectTest } from "../components/test/select/SelectTest";
+import { CurrentRun } from "../components/test/CurrentRun";
 import { CurrentRunManager } from "../managers/CurrentRunManager";
-import { currentCardSetAtom } from "../stores/course";
+import { currentExamAtom } from "../stores/test";
 
 const TestPage = () => {
-  const currentCardSet = useAtomValue(currentCardSetAtom);
+  const currentExam = useAtomValue(currentExamAtom);
 
   return (
     <Container id="test-page">
       <CurrentRunManager />
-      {currentCardSet.length > 0 ? <CurrentRun /> : <SelectStudySet />}
+      {currentExam ? <CurrentRun /> : <SelectTest />}
     </Container>
   );
 };
