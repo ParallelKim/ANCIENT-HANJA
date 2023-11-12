@@ -6,12 +6,17 @@ import { ScheduleBlock } from "../components/intro/ScheduleBlock";
 
 const IntroducePage = () => {
   return (
-    <Container id="intro-page" sx={{ height: "100%" }}>
+    <Container id="intro-page" sx={{ height: "100%", overflowY: "scroll" }}>
       <Stack py={2} gap={2}>
         <ScheduleBlock />
         <Button href="/study" variant="contained" size="large">
           <Typography variant="h5" py={1} fontWeight={700}>
             공부하기
+          </Typography>
+        </Button>
+        <Button href="/test" variant="contained" size="large">
+          <Typography variant="h5" py={1} fontWeight={700}>
+            모의시험
           </Typography>
         </Button>
         <IntroTextBlock />
