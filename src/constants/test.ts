@@ -1,5 +1,6 @@
-export const TEST = {
-  "50": {
+export const TEST = [
+  {
+    title: "50회 모의고사",
     exam: [
       {
         share: "[1~10] 다음 한자의 독음이 바른 것은?",
@@ -596,4 +597,4 @@ export const TEST = {
       "必要",
     ],
   },
-};
+];

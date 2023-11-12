@@ -11,7 +11,7 @@ export const SelectStudySet = () => {
   return (
     <Paper sx={{ my: 2, p: 2 }}>
       <Typography mb={2} variant="h5" fontWeight={800}>
-        코스 선택
+        시험 선택
       </Typography>
       <SelectableCourses setPreview={setPreview} />
       <Box sx={{ pt: 4, width: "100%", textAlign: "center" }}>
