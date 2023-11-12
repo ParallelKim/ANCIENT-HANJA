@@ -1,7 +1,7 @@
 import { useAtomValue, useSetAtom } from "jotai";
 import { Box, ButtonGroup, IconButton, Paper } from "@mui/material";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
-import ReplayIcon from "@mui/icons-material/Replay";
+import GradingIcon from "@mui/icons-material/Grading";
 
 import { moveCurrentIndexAtom, currentIndexStateAtom } from "../../../stores/test";
 
@@ -17,7 +17,7 @@ const SX = {
   },
 };
 
-export const ControlButtons = () => {
+export const ControlButtons = ({ setIsOpen }: { setIsOpen: (arg: boolean) => void }) => {
   const currentIndexState = useAtomValue(currentIndexStateAtom);
   const moveCurrentIndex = useSetAtom(moveCurrentIndexAtom);
 
@@ -29,11 +29,12 @@ export const ControlButtons = () => {
       disabled: currentIndexState === "first",
     },
     {
-      icon: currentIndexState === "last" ? <ReplayIcon fontSize="small" /> : <ArrowForward fontSize="small" />,
+      icon: currentIndexState === "last" ? <GradingIcon fontSize="small" /> : <ArrowForward fontSize="small" />,
       label: "arrow-forward",
       onClick: () => {
         if (currentIndexState === "last") {
-          moveCurrentIndex("reset");
+          console.log();
+          setIsOpen(true);
         } else {
           moveCurrentIndex("next");
         }
