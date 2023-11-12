@@ -45,6 +45,9 @@ export const currentIndexStateAtom = atom((get) => {
 });
 
 export const userAnswersAtom = atomWithStorage<(string | number | null)[]>("user answer", []);
+export const currentUserAnswerAtom = atom((get) => {
+  return get(userAnswersAtom)[get(currentExamIndexAtom)] ?? null;
+});
 
 export const inputAnswerAtom = atom(null, (get, set, value: string | number) => {
   const current = get(currentExamIndexAtom);
@@ -83,4 +86,12 @@ export const gradeUserAnswerAtom = atom(null, (get, set) => {
   console.log(temp);
 
   set(lastResultAtom, temp);
+});
+
+export const resetUserAnswerAtom = atom(null, (get, set) => {
+  const len = get(currentQuestionSetLengthAtom);
+
+  const temp = Array(len).fill(null);
+
+  set(userAnswersAtom, temp);
 });

@@ -1,15 +1,14 @@
-import { useAtomValue, useSetAtom } from "jotai";
+import { useSetAtom } from "jotai";
 import { useEffect } from "react";
 
-import { currentQuestionSetLengthAtom, moveCurrentIndexAtom, userAnswersAtom } from "../stores/test";
+import { moveCurrentIndexAtom, resetUserAnswerAtom } from "../stores/test";
 
 export const CurrentTestManager = () => {
-  const currentQuestionSetLength = useAtomValue(currentQuestionSetLengthAtom);
   const moveCurrentIndex = useSetAtom(moveCurrentIndexAtom);
-  const userAnswers = useSetAtom(userAnswersAtom);
+  const resetUserAnswer = useSetAtom(resetUserAnswerAtom);
 
   const initRun = () => {
-    userAnswers(Array(currentQuestionSetLength).fill(null));
+    resetUserAnswer();
 
     const keyboardListener = (e: KeyboardEvent) => {
       switch (e.code) {

@@ -2,7 +2,12 @@ import { Box, Paper, Stack, IconButton, Typography } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 
-import { currentExamIndexAtom, currentQuestionSetLengthAtom, currentExamAtom } from "../../../stores/test";
+import {
+  currentExamIndexAtom,
+  currentQuestionSetLengthAtom,
+  currentExamAtom,
+  resetUserAnswerAtom,
+} from "../../../stores/test";
 
 const SX = {
   STATUS_PAPER: {
@@ -22,6 +27,7 @@ export const StatusBar = () => {
   const [currentIndex, setCurrentIndex] = useAtom(currentExamIndexAtom);
   const currentCardSetLength = useAtomValue(currentQuestionSetLengthAtom);
   const setCurrentExam = useSetAtom(currentExamAtom);
+  const resetUserAnswer = useSetAtom(resetUserAnswerAtom);
 
   return (
     <Box mt={2} p={2}>
@@ -34,6 +40,7 @@ export const StatusBar = () => {
             onClick={() => {
               setCurrentExam(null);
               setCurrentIndex(0);
+              resetUserAnswer();
             }}
           >
             <ArrowBackIcon fontSize="medium" />
