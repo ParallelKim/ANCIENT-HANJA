@@ -10,7 +10,7 @@ const TestPage = () => {
   const currentCardSet = useAtomValue(currentCardSetAtom);
 
   return (
-    <Container id="study-page">
+    <Container id="test-page">
       <CurrentRunManager />
       {currentCardSet.length > 0 ? <CurrentRun /> : <SelectStudySet />}
     </Container>
