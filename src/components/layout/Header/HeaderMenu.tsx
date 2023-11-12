@@ -2,10 +2,10 @@ import { useState } from "react";
 import { Box, Button, IconButton, Menu, MenuItem, Typography } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
-const pages = [
-  { label: "공부하기", path: "/study", disabled: false },
-  { label: "모의시험", path: "/test", disabled: true },
-  { label: "공지사항", path: "/notice", disabled: false },
+const pages: { label: string; path: string; disabled?: boolean }[] = [
+  { label: "공부하기", path: "/study" },
+  { label: "모의시험", path: "/test" },
+  { label: "공지사항", path: "/notice" },
 ]; // TEST, GAME, RANKING 등 추가
 
 export const HeaderMenu = ({ isXs = false }: { isXs?: boolean }) => {
@@ -88,7 +88,7 @@ export const HeaderMenu = ({ isXs = false }: { isXs?: boolean }) => {
             <MenuItem
               key={page.label}
               onClick={handleCloseNavMenu}
-              disabled={page.disabled}
+              disabled={page?.disabled}
               sx={{
                 backgroundColor: isCurrentPath ? "primary.main" : "inherit",
               }}

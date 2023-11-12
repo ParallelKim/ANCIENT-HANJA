@@ -3,7 +3,7 @@ import { Stack, Typography, ButtonGroup, Button } from "@mui/material";
 import ManageSearchIcon from "@mui/icons-material/ManageSearch";
 import { useSetAtom } from "jotai";
 
-import { currentCourseAtom } from "../../../stores/atoms";
+import { currentCourseAtom } from "../../../stores/course";
 import { CATEGORIES } from "../../../constants/course";
 import { Course } from "../../../types/card";
 

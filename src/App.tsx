@@ -13,7 +13,7 @@ export const App = () => {
   }, []);
 
   return (
-    <div id="app" style={{ display: "flex", flexDirection: "column", overflowY: "scroll" }}>
+    <div id="app" style={{ display: "flex", flexDirection: "column", overflow: "hidden" }}>
       <MessageManager />
       <Header />
       <Suspense fallback={<div />}>

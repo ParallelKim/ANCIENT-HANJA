@@ -1,34 +1,33 @@
 import { Box, Paper, Stack, IconButton, Typography } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-// import SettingsIcon from "@mui/icons-material/Settings";
-import { useAtomValue, useSetAtom } from "jotai";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
 
 import {
-  currentIndexAtom,
-  currentCardSetLengthAtom,
-  currentCardSetAtom,
-  currentCourseAtom,
-} from "../../../stores/course";
+  currentExamIndexAtom,
+  currentQuestionSetLengthAtom,
+  currentExamAtom,
+  resetUserAnswerAtom,
+} from "../../../stores/test";
 
 const SX = {
   STATUS_PAPER: {
     width: "100%",
-    height: "6rem",
+    height: "4rem",
     position: "relative",
   },
   STATUS_TYPO: {
     textAlign: "center",
-    fontSize: "2rem",
+    fontSize: "1.5rem",
     fontWeight: "bold",
-    lineHeight: "6rem",
+    lineHeight: "4rem",
   },
 };
 
 export const StatusBar = () => {
-  const currentIndex = useAtomValue(currentIndexAtom);
-  const currentCardSetLength = useAtomValue(currentCardSetLengthAtom);
-  const setCurrentCardSet = useSetAtom(currentCardSetAtom);
-  const setCurrentCourse = useSetAtom(currentCourseAtom);
+  const [currentIndex, setCurrentIndex] = useAtom(currentExamIndexAtom);
+  const currentCardSetLength = useAtomValue(currentQuestionSetLengthAtom);
+  const setCurrentExam = useSetAtom(currentExamAtom);
+  const resetUserAnswer = useSetAtom(resetUserAnswerAtom);
 
   return (
     <Box mt={2} p={2}>
@@ -39,18 +38,17 @@ export const StatusBar = () => {
             color="primary"
             sx={{ width: "30%" }}
             onClick={() => {
-              setCurrentCardSet([]);
-              setCurrentCourse(null);
+              setCurrentExam(null);
+              setCurrentIndex(0);
+              resetUserAnswer();
             }}
           >
-            <ArrowBackIcon fontSize="large" />
+            <ArrowBackIcon fontSize="medium" />
           </IconButton>
           <Typography sx={SX.STATUS_TYPO} textAlign="center">
             {currentIndex + 1}/{currentCardSetLength}
           </Typography>
-          <IconButton aria-label="refresh-icon" color="primary" sx={{ width: "30%" }}>
-            {/* <SettingsIcon fontSize="large" /> */}
-          </IconButton>
+          <IconButton aria-label="refresh-icon" color="primary" sx={{ width: "30%" }}></IconButton>
         </Stack>
       </Paper>
     </Box>
