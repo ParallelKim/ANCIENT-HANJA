@@ -1,31 +1,25 @@
 import { Box, Paper, Stack, IconButton, Typography } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-// import SettingsIcon from "@mui/icons-material/Settings";
-import { useAtomValue, useSetAtom } from "jotai";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
 
-import {
-  currentExamIndexAtom,
-  currentQuestionSetLengthAtom,
-  currentQuestionAtom,
-  currentExamAtom,
-} from "../../../stores/test";
+import { currentExamIndexAtom, currentQuestionSetLengthAtom, currentExamAtom } from "../../../stores/test";
 
 const SX = {
   STATUS_PAPER: {
     width: "100%",
-    height: "6rem",
+    height: "4rem",
     position: "relative",
   },
   STATUS_TYPO: {
     textAlign: "center",
-    fontSize: "2rem",
+    fontSize: "1.5rem",
     fontWeight: "bold",
-    lineHeight: "6rem",
+    lineHeight: "4rem",
   },
 };
 
 export const StatusBar = () => {
-  const currentIndex = useAtomValue(currentExamIndexAtom);
+  const [currentIndex, setCurrentIndex] = useAtom(currentExamIndexAtom);
   const currentCardSetLength = useAtomValue(currentQuestionSetLengthAtom);
   const setCurrentExam = useSetAtom(currentExamAtom);
 
@@ -39,16 +33,15 @@ export const StatusBar = () => {
             sx={{ width: "30%" }}
             onClick={() => {
               setCurrentExam(null);
+              setCurrentIndex(0);
             }}
           >
-            <ArrowBackIcon fontSize="large" />
+            <ArrowBackIcon fontSize="medium" />
           </IconButton>
           <Typography sx={SX.STATUS_TYPO} textAlign="center">
             {currentIndex + 1}/{currentCardSetLength}
           </Typography>
-          <IconButton aria-label="refresh-icon" color="primary" sx={{ width: "30%" }}>
-            {/* <SettingsIcon fontSize="large" /> */}
-          </IconButton>
+          <IconButton aria-label="refresh-icon" color="primary" sx={{ width: "30%" }}></IconButton>
         </Stack>
       </Paper>
     </Box>

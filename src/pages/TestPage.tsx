@@ -12,7 +12,14 @@ const TestPage = () => {
   return (
     <Container
       id="test-page"
-      sx={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between", pb: 4 }}
+      sx={{
+        height: "100%",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        pb: 4,
+        overflowY: "scroll",
+      }}
     >
       <CurrentRunManager />
       {currentExam ? <CurrentRun /> : <SelectTest />}
