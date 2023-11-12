@@ -9,6 +9,7 @@ export interface Question {
 export interface Exam {
   title: string;
   contents: Question[];
+  answers: (number | string)[];
 }
 
 export interface MultipleChoice {

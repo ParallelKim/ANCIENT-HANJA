@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 import { currentQuestionSetLengthAtom, moveCurrentIndexAtom, userAnswersAtom } from "../stores/test";
 
-export const CurrentRunManager = () => {
+export const CurrentTestManager = () => {
   const currentQuestionSetLength = useAtomValue(currentQuestionSetLengthAtom);
   const moveCurrentIndex = useSetAtom(moveCurrentIndexAtom);
   const userAnswers = useSetAtom(userAnswersAtom);

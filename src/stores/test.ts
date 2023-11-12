@@ -59,3 +59,28 @@ export const inputAnswerAtom = atom(null, (get, set, value: string | number) => 
 
   set(userAnswersAtom, temp);
 });
+
+export const lastResultAtom = atomWithStorage<
+  { id: number; correct: boolean; Q: string; A: string | number; U: string | number }[] | null
+>("last result", null);
+
+export const gradeUserAnswerAtom = atom(null, (get, set) => {
+  const userAnswers = get(userAnswersAtom);
+  const realAnswers = get(currentExamAtom);
+
+  if (!realAnswers) return;
+
+  const temp = realAnswers.answers.map((ans, idx) => {
+    return {
+      id: idx,
+      correct: ans === userAnswers[idx],
+      Q: get(currentQuestionSetAtom)[idx].question,
+      A: ans,
+      U: userAnswers[idx] ?? "",
+    };
+  });
+
+  console.log(temp);
+
+  set(lastResultAtom, temp);
+});

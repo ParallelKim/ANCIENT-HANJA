@@ -14,7 +14,6 @@ const parseExam = (exam: RawExamData) => {
         id += 1;
 
         if ("P" in item)
-          // shortAnswer
           return {
             id: id,
             share: group.share,
@@ -53,10 +52,10 @@ export const SelectableTests = () => {
             variant="contained"
             size="medium"
             onClick={() => {
-              console.log(parseExam(item.exam));
               setCurrentExam({
                 title: item.title,
                 contents: parseExam(item.exam),
+                answers: item.answer,
               });
             }}
           >

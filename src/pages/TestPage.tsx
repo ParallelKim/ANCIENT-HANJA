@@ -3,7 +3,7 @@ import { Container } from "@mui/material";
 
 import { SelectTest } from "../components/test/select/SelectTest";
 import { CurrentRun } from "../components/test/CurrentRun";
-import { CurrentRunManager } from "../managers/CurrentRunManager";
+import { CurrentTestManager } from "../managers/CurrentTestManager";
 import { currentExamAtom } from "../stores/test";
 
 const TestPage = () => {
@@ -21,7 +21,7 @@ const TestPage = () => {
         overflowY: "scroll",
       }}
     >
-      <CurrentRunManager />
+      <CurrentTestManager />
       {currentExam ? <CurrentRun /> : <SelectTest />}
     </Container>
   );

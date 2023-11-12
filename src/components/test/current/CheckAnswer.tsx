@@ -27,7 +27,7 @@ export const CheckAnswer = () => {
             ))}
           </Stack>
         ) : (
-          <Input />
+          <Input fullWidth />
         )}
       </Paper>
     </Box>
