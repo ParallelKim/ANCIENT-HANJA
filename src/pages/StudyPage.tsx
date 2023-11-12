@@ -4,7 +4,7 @@ import { Container } from "@mui/material";
 import { SelectStudySet } from "../components/study/select/SelectStudySet";
 import { CurrentRun } from "../components/study/CurrentRun";
 import { CurrentRunManager } from "../managers/CurrentRunManager";
-import { currentCardSetAtom } from "../stores/atoms";
+import { currentCardSetAtom } from "../stores/course";
 
 const StudyPage = () => {
   const currentCardSet = useAtomValue(currentCardSetAtom);

@@ -1,6 +1,6 @@
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { useEffect } from "react";
-import { currentCardSetAtom, currentCourseAtom, moveCurrentIndexAtom } from "../stores/atoms";
+import { currentCardSetAtom, currentCourseAtom, moveCurrentIndexAtom } from "../stores/course";
 
 import { shuffleArray } from "../utils";
 
