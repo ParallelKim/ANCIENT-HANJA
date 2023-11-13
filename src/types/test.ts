@@ -1,14 +1,14 @@
 export interface Question {
   id: number;
-  share: string;
-  passage?: string;
+  share: number;
+  passage?: number;
   question: string;
   answers?: string[];
 }
 
 export interface Exam {
   title: string;
-  contents: Question[];
+  contents: { exam: Question[]; shareList: string[]; passageList: string[] };
   answers: (number | string)[];
 }
 

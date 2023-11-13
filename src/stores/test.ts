@@ -4,10 +4,10 @@ import { Exam } from "../types/test";
 
 export const currentExamAtom = atomWithStorage<Exam | null>("exam data", null);
 export const currentQuestionSetAtom = atom((get) => {
-  return get(currentExamAtom)?.contents ?? [];
+  return get(currentExamAtom)?.contents ?? { exam: [] };
 });
 export const currentQuestionSetLengthAtom = atom((get) => {
-  return get(currentQuestionSetAtom).length;
+  return get(currentQuestionSetAtom).exam.length;
 });
 
 export const currentExamIndexAtom = atomWithStorage("current index for exam", 0);
@@ -31,7 +31,7 @@ export const moveCurrentIndexAtom = atom(null, (get, set, action: "next" | "prev
 });
 
 export const currentQuestionAtom = atom((get) => {
-  return get(currentQuestionSetAtom)[get(currentExamIndexAtom)] ?? null;
+  return get(currentQuestionSetAtom).exam[get(currentExamIndexAtom)] ?? null;
 });
 
 export const answerableAtom = atom((get) => {
@@ -77,7 +77,7 @@ export const gradeUserAnswerAtom = atom(null, (get, set) => {
     return {
       id: idx,
       correct: ans === userAnswers[idx],
-      Q: get(currentQuestionSetAtom)[idx].question,
+      Q: get(currentQuestionSetAtom).exam[idx].question,
       A: ans,
       U: userAnswers[idx] ?? "",
     };

@@ -7,38 +7,70 @@ import { RawExamData } from "../../../types/test";
 
 const parseExam = (exam: RawExamData) => {
   let id = 0;
+  const shareList: string[] = [];
+  const passageList: string[] = [];
 
-  return exam
-    .map((group) =>
-      group.questions.map((item) => {
-        id += 1;
+  const parsed = exam.map((group) => {
+    let shareIndex = 0;
 
-        if ("P" in item)
-          return {
-            id: id,
-            share: group.share,
-            passage: item.P,
-            question: item.Q,
-          };
+    if (shareList.includes(group.share)) {
+      shareIndex = shareList.findIndex((share) => share === group.share);
+    } else {
+      shareList.push(group.share);
+      shareIndex = shareList.length - 1;
+    }
 
-        if (group.type === "withPassage")
-          return {
-            id: id,
-            share: group.share,
-            passage: group.passage,
-            question: item.Q,
-            answers: item.A,
-          };
+    return group.questions.map((item) => {
+      id += 1;
+      let passageIndex = 0;
+
+      if ("P" in item) {
+        if (passageList.includes(item.P)) {
+          passageIndex = passageList.findIndex((passage) => passage === item.P);
+        } else {
+          passageList.push(item.P);
+          passageIndex = passageList.length - 1;
+        }
 
         return {
-          id: id,
-          share: group.share,
+          id,
+          share: shareIndex,
+          passage: passageIndex,
+          question: item.Q,
+        };
+      }
+
+      if (group.type === "withPassage") {
+        if (passageList.includes(group.passage)) {
+          passageIndex = passageList.findIndex((passage) => passage === group.passage);
+        } else {
+          passageList.push(group.passage);
+          passageIndex = passageList.length - 1;
+        }
+
+        return {
+          id,
+          share: shareIndex,
+          passage: passageIndex,
           question: item.Q,
           answers: item.A,
         };
-      }),
-    )
-    .flat();
+      }
+
+      return {
+        id,
+        share: shareIndex,
+        question: item.Q,
+        answers: item.A,
+      };
+    });
+  });
+
+  return {
+    shareList,
+    passageList,
+    exam: parsed.flat(),
+  };
 };
 
 export const SelectableTests = () => {
