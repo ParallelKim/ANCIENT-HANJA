@@ -1,9 +1,11 @@
 import { Dialog, DialogTitle, DialogActions, Button } from "@mui/material";
 import { useSetAtom } from "jotai";
+import { useNavigate } from "react-router-dom";
 import { gradeUserAnswerAtom } from "../../../stores/test";
 
 export const FinishDialog = ({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: (arg: boolean) => void }) => {
   const gradeUserAnswer = useSetAtom(gradeUserAnswerAtom);
+  const nav = useNavigate();
 
   return (
     <Dialog
@@ -18,6 +20,7 @@ export const FinishDialog = ({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen
           onClick={() => {
             setIsOpen(false);
             gradeUserAnswer();
+            nav("/result");
           }}
           autoFocus
         >
