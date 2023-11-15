@@ -7,7 +7,7 @@ export const currentQuestionSetAtom = atom((get) => {
   return get(currentExamAtom)?.contents ?? { exam: [] };
 });
 export const currentQuestionSetLengthAtom = atom((get) => {
-  return get(currentQuestionSetAtom).exam.length;
+  return get(currentQuestionSetAtom)?.exam?.length ?? 0;
 });
 
 export const currentExamIndexAtom = atomWithStorage("current index for exam", 0);
@@ -32,6 +32,23 @@ export const moveCurrentIndexAtom = atom(null, (get, set, action: "next" | "prev
 
 export const currentQuestionAtom = atom((get) => {
   return get(currentQuestionSetAtom).exam[get(currentExamIndexAtom)] ?? null;
+});
+
+export const currentShareAtom = atom((get) => {
+  return get(currentExamAtom)?.contents.shareList[get(currentQuestionAtom).share] ?? null;
+});
+
+export const currentPassageAtom = atom((get) => {
+  const exam = get(currentExamAtom);
+  if (!exam) return null;
+
+  const { passage } = get(currentQuestionAtom);
+  if (!passage) return null;
+
+  const res = exam.contents.passageList[passage];
+  if (!res) return null;
+
+  return res;
 });
 
 export const answerableAtom = atom((get) => {

@@ -66,6 +66,11 @@ const parseExam = (exam: RawExamData) => {
     });
   });
 
+  console.log({
+    shareList,
+    passageList,
+    exam: parsed.flat(),
+  });
   return {
     shareList,
     passageList,

@@ -31,7 +31,7 @@ export const CurrentTestManager = () => {
     };
   };
 
-  useEffect(initRun, [moveCurrentIndex]);
+  useEffect(initRun, [moveCurrentIndex, resetUserAnswer]);
 
   return null;
 };
