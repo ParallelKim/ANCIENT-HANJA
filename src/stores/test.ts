@@ -98,7 +98,7 @@ export const gradeUserAnswerAtom = atom(null, (get, set) => {
   };
 
   realAnswers.answers.forEach((ans, idx) => {
-    const { share, passage, question } = get(currentQuestionSetAtom).exam[idx];
+    const { share, passage, question, answers } = get(currentQuestionSetAtom).exam[idx];
     const userAnswer = userAnswers[idx];
 
     const innerTemp: ExamResult = {
@@ -110,6 +110,11 @@ export const gradeUserAnswerAtom = atom(null, (get, set) => {
       A: ans,
       U: userAnswer,
     };
+
+    if (answers && typeof ans === "number" && typeof userAnswer === "number") {
+      innerTemp.A = answers[ans];
+      innerTemp.U = answers[userAnswer];
+    }
 
     if (passage) {
       const P = passageList[passage];
