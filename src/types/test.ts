@@ -32,3 +32,13 @@ export interface ShortAnswer {
 }
 
 export type RawExamData = (MultipleChoice | WithPassage | ShortAnswer)[];
+
+export interface ExamResult {
+  id: number;
+  correct: boolean;
+  S: string;
+  P: string | null;
+  Q: string;
+  A: string | number;
+  U: string | number | null;
+}
