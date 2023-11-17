@@ -24,7 +24,7 @@ export const StatusBar = () => {
           <IconButton
             aria-label="refresh-icon"
             color="primary"
-            sx={{ width: "30%" }}
+            sx={{ width: "10%" }}
             onClick={() => {
               setCurrentExam(null);
               setCurrentIndex(0);
@@ -34,7 +34,7 @@ export const StatusBar = () => {
             <ExitToAppIcon fontSize="medium" />
           </IconButton>
           <ExamTimer />
-          <IconButton aria-label="refresh-icon" color="primary" sx={{ width: "30%" }}></IconButton>
+          <IconButton aria-label="refresh-icon" color="primary" sx={{ width: "10%" }}></IconButton>
         </Stack>
       </Paper>
     </Box>
