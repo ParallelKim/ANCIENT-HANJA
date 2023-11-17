@@ -1,7 +1,7 @@
 import { Box, Button, Container, Divider, Link, Paper, Typography } from "@mui/material";
 import GoogleIcon from "@mui/icons-material/Google";
 
-export const SignUpPage = () => {
+const SignUpPage = () => {
   return (
     <Container
       id="sign-up-page"
@@ -58,3 +58,5 @@ export const SignUpPage = () => {
     </Container>
   );
 };
+
+export default SignUpPage;

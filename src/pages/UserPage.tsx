@@ -1,3 +1,5 @@
-export const UserPage = () => {
+const UserPage = () => {
   return <>d</>;
 };
+
+export default UserPage;

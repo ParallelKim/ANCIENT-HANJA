@@ -1,8 +1,6 @@
 import { atom } from "jotai";
-import { atomWithHash } from "jotai-location";
 import { atomWithStorage } from "jotai/utils";
-
-import { Card, Course } from "../types/card";
+import { Course, Card } from "../types/card";
 
 export const currentCourseAtom = atom<Course | null>(null);
 
@@ -40,9 +38,3 @@ export const currentIndexStateAtom = atom((get) => {
   if (get(currentIndexAtom) <= 0) return "first";
   return "inside";
 });
-
-export const hashIdAtom = atomWithHash<null | string>("uid", null);
-export const userInfoAtom = atom<null | unknown>(null);
-
-export const isNotiOnAtom = atomWithStorage<boolean | undefined>("isNotiOn", undefined);
-export const msgTokenAtom = atom<null | string>(null);

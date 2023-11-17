@@ -2,7 +2,7 @@ import ReactFlipCard from "reactjs-flip-card";
 import { Box, Paper, Typography } from "@mui/material";
 import { useAtomValue } from "jotai";
 
-import { currentCardAtom } from "../../../stores/atoms";
+import { currentCardAtom } from "../../../stores/course";
 
 const SX = {
   CARD_PAPER: {
