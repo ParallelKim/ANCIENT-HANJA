@@ -33,8 +33,8 @@ export const ControlButtons = ({ setIsOpen }: { setIsOpen: (arg: boolean) => voi
       <Paper>
         <ButtonGroup size="small" sx={SX.BT_GROUP} variant="contained" aria-label="outlined button group">
           <IconButton
-            key={"arrow-back"}
-            aria-label={"arrow-back"}
+            key="arrow-back"
+            aria-label="arrow-back"
             color="primary"
             sx={{ p: 2 }}
             onClick={() => moveCurrentIndex("prev")}
