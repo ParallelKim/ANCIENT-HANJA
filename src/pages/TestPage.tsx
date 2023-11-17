@@ -21,7 +21,6 @@ const TestPage = () => {
         overflowY: "scroll",
       }}
     >
-      <CurrentTestManager />
       {currentExam ? <CurrentRun /> : <SelectTest />}
     </Container>
   );
