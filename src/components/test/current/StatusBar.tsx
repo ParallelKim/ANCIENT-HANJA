@@ -1,13 +1,8 @@
-import { Box, Paper, Stack, IconButton, Typography } from "@mui/material";
+import { Box, Paper, Stack, IconButton } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import { useSetAtom } from "jotai";
 
-import {
-  currentExamIndexAtom,
-  currentQuestionSetLengthAtom,
-  currentExamAtom,
-  resetUserAnswerAtom,
-} from "../../../stores/test";
+import { currentExamIndexAtom, currentExamAtom, resetUserAnswerAtom } from "../../../stores/test";
 
 const SX = {
   STATUS_PAPER: {
@@ -24,8 +19,7 @@ const SX = {
 };
 
 export const StatusBar = () => {
-  const [currentIndex, setCurrentIndex] = useAtom(currentExamIndexAtom);
-  const currentCardSetLength = useAtomValue(currentQuestionSetLengthAtom);
+  const setCurrentIndex = useSetAtom(currentExamIndexAtom);
   const setCurrentExam = useSetAtom(currentExamAtom);
   const resetUserAnswer = useSetAtom(resetUserAnswerAtom);
 
@@ -45,9 +39,7 @@ export const StatusBar = () => {
           >
             <ArrowBackIcon fontSize="medium" />
           </IconButton>
-          <Typography sx={SX.STATUS_TYPO} textAlign="center">
-            {currentIndex + 1}/{currentCardSetLength}
-          </Typography>
+
           <IconButton aria-label="refresh-icon" color="primary" sx={{ width: "30%" }}></IconButton>
         </Stack>
       </Paper>
