@@ -23,7 +23,7 @@ export const ExamTimer = () => {
     >
       <CountDown
         date={moment(new Date(Date.now() + 3600000), "YYYYMMDDhhmm").toDate()}
-        renderer={({ days, hours, minutes, seconds }: DateType) => (
+        renderer={({ hours, minutes, seconds }: DateType) => (
           <>
             {hours}h {String(minutes).padStart(2, "0")}m {String(seconds).padStart(2, "0")}s
           </>
