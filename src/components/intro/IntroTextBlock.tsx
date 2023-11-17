@@ -10,8 +10,10 @@ export const IntroTextBlock = () => {
         <Typography variant="h6">업데이트 내역</Typography>
         <Typography>모의시험 기능을 드디어 업데이트 했습니다...</Typography>
         <p />
-        <Typography>기능 자체는 완성했지만 아직 기출문제들을 정리하지 못해 50회 데이터만 들어간 상태입니다</Typography>
-        <Typography>40 ~ 10회도 어서 추가해드릴게요..</Typography>
+        <Typography>
+          기능 자체는 완성했지만 아직 기출문제들을 정리하지 못해 모든 데이터가 들어가진 못한 상태입니다
+        </Typography>
+        <Typography>30 ~ 10회도 어서 추가해드릴게요..</Typography>
         <p />
         <Typography>기능 요청, 버그 제보, 팀 참여 희망, 커피챗 등</Typography>
         <Typography>모든 문의 환영입니다 아래 링크로 편하게 연락 주세요</Typography>
