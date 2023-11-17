@@ -4,12 +4,14 @@ import { StatusBar } from "./current/StatusBar";
 import { CheckAnswer } from "./current/CheckAnswer";
 import { FinishDialog } from "./current/FinishDialog";
 import { useState } from "react";
+import { CurrentTestManager } from "../../managers/CurrentTestManager";
 
 export const CurrentRun = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
+      <CurrentTestManager />
       <StatusBar />
       <Question />
       <CheckAnswer />

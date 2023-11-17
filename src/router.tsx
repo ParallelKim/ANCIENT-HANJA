@@ -5,6 +5,7 @@ import { App } from "./App";
 
 const StudyPage = lazy(() => import("./pages/StudyPage"));
 const TestPage = lazy(() => import("./pages/TestPage"));
+const ResultPage = lazy(() => import("./pages/ResultPage"));
 const SignUpPage = lazy(() => import("./pages/SignUpPage"));
 const UserPage = lazy(() => import("./pages/UserPage"));
 const IntroducePage = lazy(() => import("./pages/IntroducePage"));
@@ -27,7 +28,7 @@ export const router = createBrowserRouter([
         ],
       },
       {
-        path: "/test",
+        path: "/exam",
         element: <TestPage />,
         children: [
           {
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
             element: <TestPage />,
           },
         ],
+      },
+      {
+        path: "/result",
+        element: <ResultPage />,
       },
       {
         path: "/signUp",

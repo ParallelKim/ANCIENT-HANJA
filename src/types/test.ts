@@ -1,14 +1,14 @@
 export interface Question {
   id: number;
-  share: string;
-  passage?: string;
+  share: number;
+  passage?: number;
   question: string;
   answers?: string[];
 }
 
 export interface Exam {
   title: string;
-  contents: Question[];
+  contents: { exam: Question[]; shareList: string[]; passageList: string[] };
   answers: (number | string)[];
 }
 
@@ -32,3 +32,13 @@ export interface ShortAnswer {
 }
 
 export type RawExamData = (MultipleChoice | WithPassage | ShortAnswer)[];
+
+export interface ExamResult {
+  id: number;
+  correct: boolean;
+  S: string;
+  P: string | null;
+  Q: string;
+  A: string | number;
+  U: string | number | null;
+}

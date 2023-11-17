@@ -1,13 +1,13 @@
 import { atom } from "jotai";
 import { atomWithStorage } from "jotai/utils";
-import { Exam } from "../types/test";
+import { Exam, ExamResult } from "../types/test";
 
 export const currentExamAtom = atomWithStorage<Exam | null>("exam data", null);
 export const currentQuestionSetAtom = atom((get) => {
-  return get(currentExamAtom)?.contents ?? [];
+  return get(currentExamAtom)?.contents ?? { exam: [] };
 });
 export const currentQuestionSetLengthAtom = atom((get) => {
-  return get(currentQuestionSetAtom).length;
+  return get(currentQuestionSetAtom)?.exam?.length ?? 0;
 });
 
 export const currentExamIndexAtom = atomWithStorage("current index for exam", 0);
@@ -31,7 +31,24 @@ export const moveCurrentIndexAtom = atom(null, (get, set, action: "next" | "prev
 });
 
 export const currentQuestionAtom = atom((get) => {
-  return get(currentQuestionSetAtom)[get(currentExamIndexAtom)] ?? null;
+  return get(currentQuestionSetAtom).exam[get(currentExamIndexAtom)] ?? null;
+});
+
+export const currentShareAtom = atom((get) => {
+  return get(currentExamAtom)?.contents.shareList[get(currentQuestionAtom).share] ?? null;
+});
+
+export const currentPassageAtom = atom((get) => {
+  const exam = get(currentExamAtom);
+  if (!exam) return null;
+
+  const { passage } = get(currentQuestionAtom);
+  if (!passage) return null;
+
+  const res = exam.contents.passageList[passage];
+  if (!res) return null;
+
+  return res;
 });
 
 export const answerableAtom = atom((get) => {
@@ -63,29 +80,65 @@ export const inputAnswerAtom = atom(null, (get, set, value: string | number) => 
   set(userAnswersAtom, temp);
 });
 
-export const lastResultAtom = atomWithStorage<
-  { id: number; correct: boolean; Q: string; A: string | number; U: string | number }[] | null
->("last result", null);
+export const lastResultAtom = atomWithStorage<{ passage: string[]; res: { [key: string]: ExamResult[] } } | null>(
+  "last result",
+  null,
+);
 
 export const gradeUserAnswerAtom = atom(null, (get, set) => {
   const userAnswers = get(userAnswersAtom);
   const realAnswers = get(currentExamAtom);
+  const { shareList, passageList } = get(currentExamAtom)?.contents ?? { shareList: [], passageList: [] };
 
   if (!realAnswers) return;
 
-  const temp = realAnswers.answers.map((ans, idx) => {
-    return {
+  const passages = ["empty"];
+  const res: { [key: string]: ExamResult[] } = {
+    empty: [],
+  };
+
+  realAnswers.answers.forEach((ans, idx) => {
+    const { share, passage, question, answers } = get(currentQuestionSetAtom).exam[idx];
+    const userAnswer = userAnswers[idx];
+
+    const innerTemp: ExamResult = {
       id: idx,
-      correct: ans === userAnswers[idx],
-      Q: get(currentQuestionSetAtom)[idx].question,
+      correct: ans === userAnswer,
+      S: shareList[share],
+      P: null,
+      Q: question,
       A: ans,
-      U: userAnswers[idx] ?? "",
+      U: userAnswer,
     };
+
+    if (answers && typeof ans === "number" && typeof userAnswer === "number") {
+      innerTemp.A = answers[ans];
+      innerTemp.U = answers[userAnswer];
+    }
+
+    if (passage) {
+      const P = passageList[passage];
+
+      passages.push(P);
+      res[P] = res[P] ?? [];
+      innerTemp.P = P;
+      res[P].push(innerTemp);
+    } else {
+      res.empty.push(innerTemp);
+    }
   });
 
-  console.log(temp);
+  const tempP = [...new Set(passages)];
 
-  set(lastResultAtom, temp);
+  set(lastResultAtom, {
+    passage: tempP,
+    res,
+  });
+
+  console.log({
+    passage: tempP,
+    res,
+  });
 });
 
 export const resetUserAnswerAtom = atom(null, (get, set) => {

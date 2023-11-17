@@ -4,7 +4,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 const pages: { label: string; path: string; disabled?: boolean }[] = [
   { label: "공부하기", path: "/study" },
-  { label: "모의시험", path: "/test" },
+  { label: "모의시험", path: "/exam" },
   { label: "공지사항", path: "/notice" },
 ]; // TEST, GAME, RANKING 등 추가
 
