@@ -1,20 +1,14 @@
 import { Box, Paper, Stack, IconButton } from "@mui/material";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import { useSetAtom } from "jotai";
 
 import { currentExamIndexAtom, currentExamAtom, resetUserAnswerAtom } from "../../../stores/test";
+import { ExamTimer } from "./ExamTimer";
 
 const SX = {
   STATUS_PAPER: {
     width: "100%",
-    height: "4rem",
     position: "relative",
-  },
-  STATUS_TYPO: {
-    textAlign: "center",
-    fontSize: "1.5rem",
-    fontWeight: "bold",
-    lineHeight: "4rem",
   },
 };
 
@@ -26,7 +20,7 @@ export const StatusBar = () => {
   return (
     <Box mt={2} p={2}>
       <Paper elevation={10} sx={SX.STATUS_PAPER}>
-        <Stack direction="row" justifyContent="space-between">
+        <Stack direction="row" justifyContent="space-between" sx={{ p: 2 }}>
           <IconButton
             aria-label="refresh-icon"
             color="primary"
@@ -37,9 +31,9 @@ export const StatusBar = () => {
               resetUserAnswer();
             }}
           >
-            <ArrowBackIcon fontSize="medium" />
+            <ExitToAppIcon fontSize="medium" />
           </IconButton>
-
+          <ExamTimer />
           <IconButton aria-label="refresh-icon" color="primary" sx={{ width: "30%" }}></IconButton>
         </Stack>
       </Paper>
