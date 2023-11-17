@@ -10,7 +10,7 @@ export const Question = () => {
   const currentPassage = useAtomValue(currentPassageAtom);
 
   return (
-    <Box px={2} sx={{ flex: 1, my: 2, minHeight: 0, overflowY: "scroll" }}>
+    <Box px={2} sx={{ flex: 1, my: 2, minHeight: 0, overflowY: "scroll", boxSizing: "border-box" }}>
       <Paper sx={{ minHeight: "90%", p: 2 }}>
         <Typography fontWeight={700}>
           {currentIndex + 1}. {currentShare}
@@ -25,7 +25,7 @@ export const Question = () => {
             </Typography>
           </>
         ) : (
-          <Typography fontSize="3rem" lineHeight={8} textAlign="center" sx={{ mt: 2 }}>
+          <Typography fontSize="3rem" textAlign="center" sx={{ mt: 3 }}>
             {currentQuestion.question}
           </Typography>
         )}
