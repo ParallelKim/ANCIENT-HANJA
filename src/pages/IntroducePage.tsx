@@ -14,7 +14,7 @@ const IntroducePage = () => {
             공부하기
           </Typography>
         </Button>
-        <Button href="/test" variant="contained" size="large">
+        <Button href="/exam" variant="contained" size="large">
           <Typography variant="h5" py={1} fontWeight={700}>
             모의시험
           </Typography>
