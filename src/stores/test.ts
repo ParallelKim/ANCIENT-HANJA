@@ -85,6 +85,16 @@ export const lastResultAtom = atomWithStorage<{ passage: string[]; res: { [key: 
   null,
 );
 
+export const resetUserAnswerAtom = atom(null, (get, set) => {
+  const len = get(currentQuestionSetLengthAtom);
+
+  const temp = Array(len).fill(null);
+
+  set(userAnswersAtom, temp);
+  set(currentExamIndexAtom, 0);
+  set(currentExamAtom, null);
+});
+
 export const gradeUserAnswerAtom = atom(null, (get, set) => {
   const userAnswers = get(userAnswersAtom);
   const realAnswers = get(currentExamAtom);
@@ -112,7 +122,8 @@ export const gradeUserAnswerAtom = atom(null, (get, set) => {
     };
 
     if (answers && typeof ans === "number" && typeof userAnswer === "number") {
-      innerTemp.A = answers[ans];
+      console.log(answers, ans);
+      innerTemp.A = answers[ans - 1];
       innerTemp.U = answers[userAnswer];
     }
 
@@ -135,18 +146,10 @@ export const gradeUserAnswerAtom = atom(null, (get, set) => {
     res,
   });
 
+  set(resetUserAnswerAtom);
+
   console.log({
     passage: tempP,
     res,
   });
-});
-
-export const resetUserAnswerAtom = atom(null, (get, set) => {
-  const len = get(currentQuestionSetLengthAtom);
-
-  const temp = Array(len).fill(null);
-
-  set(userAnswersAtom, temp);
-  set(currentExamIndexAtom, 0);
-  set(currentExamAtom, null);
 });
