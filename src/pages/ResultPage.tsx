@@ -22,22 +22,44 @@ const ResultPage = () => {
     >
       <Paper sx={{ p: 2 }}>
         {lastResult.passage.map((p) => {
+          let prevShare = "";
+          let prevPassage = "empty";
+
           return (
             <Stack key={p}>
-              {p !== "empty" && <Typography variant="h6">{p}</Typography>}
-              <Typography>{lastResult.res[p][0].S}</Typography>
-              {lastResult.res[p].map((r) => (
-                <Box key={`${p} - ${r.id}`} sx={{ textAlign: "center" }}>
-                  {/* <Typography>{r.S}</Typography> */}
-                  <Typography variant="h5" sx={{ p: 2 }}>
-                    {r.Q}
-                  </Typography>
-                  <Stack direction="row" justifyContent="space-around">
-                    <Typography>정답: {r.A}</Typography>
-                    <Typography>제출: {r.U ?? "없음"}</Typography>
-                  </Stack>
-                </Box>
-              ))}
+              {lastResult.res[p].map((r) => {
+                return (
+                  <Box key={`${p} - ${r.id}`} sx={{ textAlign: "center" }}>
+                    {prevShare !== r.S && (
+                      <>
+                        <Typography variant="h6" fontWeight={700} py={2} sx={{ borderTop: 2, borderBottom: 2 }}>
+                          {r.S}
+                        </Typography>
+                        {p !== prevPassage && (
+                          <>
+                            <Typography variant="h6" p={1}>
+                              {p}
+                            </Typography>
+                            {(() => {
+                              prevPassage = p;
+                            })()}
+                          </>
+                        )}
+                        {(() => {
+                          prevShare = r.S;
+                        })()}
+                      </>
+                    )}
+                    <Typography variant={r.Q.length < 5 ? "h4" : "inherit"} sx={{ p: 2 }}>
+                      {r.id + 1}. {r.Q}
+                    </Typography>
+                    <Stack direction="row" justifyContent="space-around" sx={{ pb: 2, borderBottom: 1 }}>
+                      <Typography>정답: {r.A}</Typography>
+                      <Typography>제출: {r.U ?? "없음"}</Typography>
+                    </Stack>
+                  </Box>
+                );
+              })}
             </Stack>
           );
         })}
