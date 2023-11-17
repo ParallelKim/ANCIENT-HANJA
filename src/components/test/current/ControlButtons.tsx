@@ -1,9 +1,14 @@
 import { useAtomValue, useSetAtom } from "jotai";
-import { Box, ButtonGroup, IconButton, Paper } from "@mui/material";
+import { Box, ButtonGroup, IconButton, Paper, Typography } from "@mui/material";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import GradingIcon from "@mui/icons-material/Grading";
 
-import { moveCurrentIndexAtom, currentIndexStateAtom } from "../../../stores/test";
+import {
+  moveCurrentIndexAtom,
+  currentIndexStateAtom,
+  currentExamIndexAtom,
+  currentQuestionSetLengthAtom,
+} from "../../../stores/test";
 
 const SX = {
   BT_GROUP: {
@@ -18,48 +23,61 @@ const SX = {
 };
 
 export const ControlButtons = ({ setIsOpen }: { setIsOpen: (arg: boolean) => void }) => {
+  const currentIndex = useAtomValue(currentExamIndexAtom);
+  const currentCardSetLength = useAtomValue(currentQuestionSetLengthAtom);
   const currentIndexState = useAtomValue(currentIndexStateAtom);
   const moveCurrentIndex = useSetAtom(moveCurrentIndexAtom);
-
-  const iconsInfos = [
-    {
-      icon: <ArrowBack fontSize="small" />,
-      label: "arrow-back",
-      onClick: () => moveCurrentIndex("prev"),
-      disabled: currentIndexState === "first",
-    },
-    {
-      icon: currentIndexState === "last" ? <GradingIcon fontSize="small" /> : <ArrowForward fontSize="small" />,
-      label: "arrow-forward",
-      onClick: () => {
-        if (currentIndexState === "last") {
-          console.log();
-          setIsOpen(true);
-        } else {
-          moveCurrentIndex("next");
-        }
-      },
-    },
-  ];
 
   return (
     <Box px={2}>
       <Paper>
         <ButtonGroup size="small" sx={SX.BT_GROUP} variant="contained" aria-label="outlined button group">
-          {iconsInfos.map((iconInfo) => {
-            return (
-              <IconButton
-                key={iconInfo.label}
-                aria-label={iconInfo.label}
-                color="primary"
-                sx={{ p: 2 }}
-                onClick={iconInfo.onClick}
-                disabled={iconInfo.disabled}
-              >
-                {iconInfo.icon}
-              </IconButton>
-            );
-          })}
+          <IconButton
+            key={"arrow-back"}
+            aria-label={"arrow-back"}
+            color="primary"
+            sx={{ p: 2 }}
+            onClick={() => moveCurrentIndex("prev")}
+            disabled={currentIndexState === "first"}
+          >
+            <ArrowBack fontSize="small" />
+          </IconButton>
+          <Typography
+            sx={{
+              textAlign: "center",
+              fontWeight: "bold",
+              lineHeight: "3rem",
+            }}
+            textAlign="center"
+          >
+            {currentIndex + 1}/{currentCardSetLength}
+          </Typography>
+          {currentIndexState === "last" ? (
+            <IconButton
+              key="arrow-forward"
+              aria-label="arrow-forward"
+              color="primary"
+              sx={{ p: 2 }}
+              onClick={() => {
+                console.log();
+                setIsOpen(true);
+              }}
+            >
+              <GradingIcon fontSize="small" />
+            </IconButton>
+          ) : (
+            <IconButton
+              key="finish-exam"
+              aria-label="finish-exam"
+              color="primary"
+              sx={{ p: 2 }}
+              onClick={() => {
+                moveCurrentIndex("next");
+              }}
+            >
+              <ArrowForward fontSize="small" />
+            </IconButton>
+          )}
         </ButtonGroup>
       </Paper>
     </Box>

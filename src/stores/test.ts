@@ -147,4 +147,6 @@ export const resetUserAnswerAtom = atom(null, (get, set) => {
   const temp = Array(len).fill(null);
 
   set(userAnswersAtom, temp);
+  set(currentExamIndexAtom, 0);
+  set(currentExamAtom, null);
 });

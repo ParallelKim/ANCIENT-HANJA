@@ -1,38 +1,26 @@
-import { Box, Paper, Stack, IconButton, Typography } from "@mui/material";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import { Box, Paper, Stack, IconButton } from "@mui/material";
+import ExitToAppIcon from "@mui/icons-material/ExitToApp";
+import { useSetAtom } from "jotai";
 
-import {
-  currentExamIndexAtom,
-  currentQuestionSetLengthAtom,
-  currentExamAtom,
-  resetUserAnswerAtom,
-} from "../../../stores/test";
+import { currentExamIndexAtom, currentExamAtom, resetUserAnswerAtom } from "../../../stores/test";
+import { ExamTimer } from "./ExamTimer";
 
 const SX = {
   STATUS_PAPER: {
     width: "100%",
-    height: "4rem",
     position: "relative",
-  },
-  STATUS_TYPO: {
-    textAlign: "center",
-    fontSize: "1.5rem",
-    fontWeight: "bold",
-    lineHeight: "4rem",
   },
 };
 
 export const StatusBar = () => {
-  const [currentIndex, setCurrentIndex] = useAtom(currentExamIndexAtom);
-  const currentCardSetLength = useAtomValue(currentQuestionSetLengthAtom);
+  const setCurrentIndex = useSetAtom(currentExamIndexAtom);
   const setCurrentExam = useSetAtom(currentExamAtom);
   const resetUserAnswer = useSetAtom(resetUserAnswerAtom);
 
   return (
     <Box mt={2} p={2}>
       <Paper elevation={10} sx={SX.STATUS_PAPER}>
-        <Stack direction="row" justifyContent="space-between">
+        <Stack direction="row" justifyContent="space-between" sx={{ p: 2 }}>
           <IconButton
             aria-label="refresh-icon"
             color="primary"
@@ -43,11 +31,9 @@ export const StatusBar = () => {
               resetUserAnswer();
             }}
           >
-            <ArrowBackIcon fontSize="medium" />
+            <ExitToAppIcon fontSize="medium" />
           </IconButton>
-          <Typography sx={SX.STATUS_TYPO} textAlign="center">
-            {currentIndex + 1}/{currentCardSetLength}
-          </Typography>
+          <ExamTimer />
           <IconButton aria-label="refresh-icon" color="primary" sx={{ width: "30%" }}></IconButton>
         </Stack>
       </Paper>

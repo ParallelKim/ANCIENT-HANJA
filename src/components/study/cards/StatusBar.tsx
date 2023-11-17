@@ -1,7 +1,8 @@
 import { Box, Paper, Stack, IconButton, Typography } from "@mui/material";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+
 // import SettingsIcon from "@mui/icons-material/Settings";
 import { useAtomValue, useSetAtom } from "jotai";
+import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 
 import {
   currentIndexAtom,
@@ -43,7 +44,7 @@ export const StatusBar = () => {
               setCurrentCourse(null);
             }}
           >
-            <ArrowBackIcon fontSize="large" />
+            <ExitToAppIcon fontSize="large" />
           </IconButton>
           <Typography sx={SX.STATUS_TYPO} textAlign="center">
             {currentIndex + 1}/{currentCardSetLength}
