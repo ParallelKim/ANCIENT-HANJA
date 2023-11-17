@@ -25,7 +25,7 @@ export const ExamTimer = () => {
         date={moment(new Date(Date.now() + 3600000), "YYYYMMDDhhmm").toDate()}
         renderer={({ hours, minutes, seconds }: DateType) => (
           <>
-            {hours}h {String(minutes).padStart(2, "0")}m {String(seconds).padStart(2, "0")}s
+            {hours ? `${hours}h` : ""} {String(minutes).padStart(2, "0")}m {String(seconds).padStart(2, "0")}s
           </>
         )}
       />
