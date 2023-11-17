@@ -8,14 +8,15 @@ export const IntroTextBlock = () => {
           고대한자(베타)
         </Typography>
         <Typography variant="h6">업데이트 내역</Typography>
-        <Typography>1. 일정 알림 기능 추가</Typography>
-        <Typography>2. 기출 문제 별 데이터 추가</Typography>
-        <Typography>3. 소소한 디자인 업데이트</Typography>
+        <Typography>모의시험 기능을 드디어 업데이트 했습니다...</Typography>
+        <p />
+        <Typography>기능 자체는 완성했지만 아직 기출문제들을 정리하지 못해 50회 데이터만 들어간 상태입니다</Typography>
+        <Typography>40 ~ 10회도 어서 추가해드릴게요..</Typography>
         <p />
         <Typography>기능 요청, 버그 제보, 팀 참여 희망, 커피챗 등</Typography>
-        <Typography>모든 문의 환영입니다 편하게 연락 주세요</Typography>
+        <Typography>모든 문의 환영입니다 아래 링크로 편하게 연락 주세요</Typography>
         <p />
-        <Typography>다들 한자 시험 파이팅입니다</Typography>
+        <Typography>다들 끝까지 한자 시험 파이팅입니다</Typography>
       </Paper>
     </Box>
   );

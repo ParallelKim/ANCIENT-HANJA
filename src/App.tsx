@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 
 import { logEvent } from "firebase/analytics";
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import { Header } from "./components/layout/Header";
 import { analytics } from "./firebase/analytics";
 import { Footer } from "./components/layout/Footer";
@@ -13,10 +13,12 @@ export const App = () => {
   }, []);
 
   return (
-    <div id="app" style={{ display: "flex", flexDirection: "column", overflowY: "scroll" }}>
+    <div id="app" style={{ display: "flex", flexDirection: "column", overflow: "hidden" }}>
       <MessageManager />
       <Header />
-      <Outlet />
+      <Suspense fallback={<div />}>
+        <Outlet />
+      </Suspense>
       <Footer />
     </div>
   );

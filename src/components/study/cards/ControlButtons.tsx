@@ -4,7 +4,7 @@ import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import ReplayIcon from "@mui/icons-material/Replay";
 
-import { moveCurrentIndexAtom, currentCardAtom, currentIndexStateAtom } from "../../../stores/atoms";
+import { moveCurrentIndexAtom, currentCardAtom, currentIndexStateAtom } from "../../../stores/course";
 import { HANJA_SEARCH } from "../../../constants/externalURL";
 
 const SX = {
