@@ -1,15 +1,12 @@
 import { useSetAtom } from "jotai";
 import { useEffect } from "react";
 
-import { moveCurrentIndexAtom, resetUserAnswerAtom } from "../stores/test";
+import { moveCurrentIndexAtom } from "../stores/test";
 
 export const CurrentTestManager = () => {
   const moveCurrentIndex = useSetAtom(moveCurrentIndexAtom);
-  const resetUserAnswer = useSetAtom(resetUserAnswerAtom);
 
   const initRun = () => {
-    resetUserAnswer();
-
     const keyboardListener = (e: KeyboardEvent) => {
       switch (e.code) {
         case "Space":
@@ -31,7 +28,7 @@ export const CurrentTestManager = () => {
     };
   };
 
-  useEffect(initRun, [moveCurrentIndex, resetUserAnswer]);
+  useEffect(initRun, [moveCurrentIndex]);
 
   return null;
 };
