@@ -20,7 +20,7 @@ export const FinishDialog = ({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen
           onClick={() => {
             setIsOpen(false);
             gradeUserAnswer();
-            nav("/result");
+            nav("/result", { replace: true });
           }}
           autoFocus
         >
