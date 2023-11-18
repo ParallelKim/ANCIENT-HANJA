@@ -40,7 +40,8 @@
     "react-firebase-hooks": "^5.1.1",
     "react-router-dom": "^6.17.0",
     "react-uuid": "^2.0.0",
-    "reactjs-flip-card": "^2.0.3"
+    "reactjs-flip-card": "^2.0.3",
+    "tachyonjs": "^2.0.1"
   },
   "devDependencies": {
     "@svgr/rollup": "^8.1.0",
