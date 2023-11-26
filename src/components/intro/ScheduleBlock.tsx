@@ -1,6 +1,6 @@
 import { Box, Link, Paper, Typography } from "@mui/material";
 import { ScheduleCountdown } from "./ScheduleCountdown";
-import { nearest } from "../../constants/schedules";
+// import { nearest } from "../../constants/schedules";
 import { GOOGLE_CALENDER } from "../../constants/externalURL";
 
 export const ScheduleBlock = () => {
@@ -8,7 +8,7 @@ export const ScheduleBlock = () => {
     <Box>
       <Paper sx={{ p: 1, fontSize: { md: "3rem", xs: "2rem" } }}>
         <Typography variant="h5" p={1} fontWeight={700}>
-          {nearest.eventName}까지
+          다음 시험까지
         </Typography>
         <ScheduleCountdown />
         <Typography variant="h6" mt={1} p={1} fontWeight={700} textAlign="center">
