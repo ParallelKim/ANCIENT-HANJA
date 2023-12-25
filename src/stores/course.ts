@@ -1,10 +1,11 @@
 import { atom } from "jotai";
 import { atomWithStorage } from "jotai/utils";
-import { Course, Card } from "../types/card";
+import { atomWithHash } from "jotai-location";
+import { Card } from "../types/card";
 
-export const currentCourseAtom = atom<Course | null>(null);
+export const currentCourseAtom = atomWithHash<string | null>("course", null);
 
-export const currentCardSetAtom = atomWithStorage<Card[]>("current card set", []);
+export const currentCardSetAtom = atom<Card[]>([]);
 export const currentCardSetLengthAtom = atom((get) => {
   return get(currentCardSetAtom).length;
 });
@@ -30,7 +31,7 @@ export const moveCurrentIndexAtom = atom(null, (get, set, action: "next" | "prev
 });
 
 export const currentCardAtom = atom((get) => {
-  return get(currentCardSetAtom)[get(currentIndexAtom)] ?? null;
+  return get(currentCardSetAtom)[get(currentIndexAtom)] ?? { front: "?", back: "?" };
 });
 
 export const currentIndexStateAtom = atom((get) => {

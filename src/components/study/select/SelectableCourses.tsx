@@ -20,7 +20,7 @@ export const SelectableCourses = ({ setPreview }: { setPreview: (course: Course)
           <Stack gap={2} direction="row" justifyContent="center">
             {cat.list.map((item) => (
               <ButtonGroup key={item.title} sx={{ justifyContent: "center" }}>
-                <Button variant="contained" size="medium" onClick={() => setCurrentCardSet(item)}>
+                <Button variant="contained" size="medium" onClick={() => setCurrentCardSet(item.title)}>
                   {item.title}
                 </Button>
                 <Button size="small" color="primary" onClick={() => setPreview(item)}>
