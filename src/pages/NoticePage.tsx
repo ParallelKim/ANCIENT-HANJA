@@ -3,7 +3,7 @@ import { NoticeAccordion } from "../components/notice/NoticeAccordion";
 
 const NoticePage = () => {
   return (
-    <Container id="notice-page" sx={{ height: "100%", overflowY: "scroll" }}>
+    <Container id="notice-page" sx={{ height: "100%" }}>
       <NoticeAccordion />
     </Container>
   );
