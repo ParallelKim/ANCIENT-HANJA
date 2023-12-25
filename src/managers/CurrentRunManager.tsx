@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { currentCardSetAtom, currentCourseAtom, moveCurrentIndexAtom } from "../stores/course";
 
 import { shuffleArray } from "../utils";
+import { COURSE } from "../constants/course";
 
 const setSize = 20;
 
@@ -14,7 +15,12 @@ export const CurrentRunManager = () => {
   const initRun = () => {
     // check user's study session
     if (currentCardSet.length === 0 && currentCourse) {
-      const studySet = [...currentCourse.contents];
+      const currentCourseObject = COURSE[currentCourse];
+      if (!currentCourseObject) {
+        console.log("없는디", currentCourse);
+        return;
+      }
+      const studySet = [...currentCourseObject];
       const rand = Math.round(Math.random() * (studySet.length - setSize));
 
       shuffleArray(studySet);

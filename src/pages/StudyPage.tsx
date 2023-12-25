@@ -4,15 +4,15 @@ import { Container } from "@mui/material";
 import { SelectStudySet } from "../components/study/select/SelectStudySet";
 import { CurrentRun } from "../components/study/CurrentRun";
 import { CurrentRunManager } from "../managers/CurrentRunManager";
-import { currentCardSetAtom } from "../stores/course";
+import { currentCourseAtom } from "../stores/course";
 
 const StudyPage = () => {
-  const currentCardSet = useAtomValue(currentCardSetAtom);
+  const currentCourse = useAtomValue(currentCourseAtom);
 
   return (
     <Container id="study-page">
       <CurrentRunManager />
-      {currentCardSet.length > 0 ? <CurrentRun /> : <SelectStudySet />}
+      {currentCourse ? <CurrentRun /> : <SelectStudySet />}
     </Container>
   );
 };

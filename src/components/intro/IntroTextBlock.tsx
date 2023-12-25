@@ -8,6 +8,7 @@ export const IntroTextBlock = () => {
           고대한자(베타)
         </Typography>
         {/* <Typography variant="h6">업데이트 내역</Typography> */}
+        <p />
         <Typography>안녕하세요 오랜만입니다.</Typography>
         <Typography>요새 너무 바빠서 일정 업데이트를 빨리 못해드렸네요</Typography>
         <p />

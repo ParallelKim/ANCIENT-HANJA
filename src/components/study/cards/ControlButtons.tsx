@@ -51,7 +51,7 @@ export const ControlButtons = () => {
   ];
 
   return (
-    <Box px={2}>
+    <Box px={2} mb={4}>
       <Paper>
         <ButtonGroup sx={SX.BT_GROUP} variant="contained" aria-label="outlined button group">
           {iconsInfos.map((iconInfo) => {
