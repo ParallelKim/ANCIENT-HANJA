@@ -4,7 +4,7 @@ import { Course, Card } from "../types/card";
 
 export const currentCourseAtom = atom<Course | null>(null);
 
-export const currentCardSetAtom = atomWithStorage<Card[]>("current card set", []);
+export const currentCardSetAtom = atom<Card[]>([]);
 export const currentCardSetLengthAtom = atom((get) => {
   return get(currentCardSetAtom).length;
 });
