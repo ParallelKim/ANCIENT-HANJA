@@ -22,12 +22,17 @@ export const ScheduleCountdown = () => (
   >
     <CountDown
       date={moment(nearest.date, "YYYYMMDDhhmm").toDate()}
-      renderer={({ days, hours, minutes, seconds }: DateType) => (
-        <>
-          {days}D {String(hours).padStart(2, "0")}h {String(minutes).padStart(2, "0")}m{" "}
-          {String(seconds).padStart(2, "0")}s
-        </>
-      )}
+      renderer={({ days, hours, minutes, seconds }: DateType) => {
+        const total = days + hours + minutes + seconds;
+
+        if (!total) return <>--D --h --m --s</>;
+        return (
+          <>
+            {days}D {String(hours).padStart(2, "0")}h {String(minutes).padStart(2, "0")}m{" "}
+            {String(seconds).padStart(2, "0")}s
+          </>
+        );
+      }}
     />
   </Paper>
 );
