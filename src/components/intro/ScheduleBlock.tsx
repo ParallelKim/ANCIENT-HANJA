@@ -1,7 +1,8 @@
 import { Box, Link, Paper, Typography } from "@mui/material";
 import { ScheduleCountdown } from "./ScheduleCountdown";
-import { nearest } from "../../constants/schedules";
+// import { nearest } from "../../constants/schedules";
 import { GOOGLE_CALENDER } from "../../constants/externalURL";
+import { nearest } from "../../constants/schedules";
 
 export const ScheduleBlock = () => {
   return (

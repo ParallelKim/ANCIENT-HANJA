@@ -1,8 +1,7 @@
 import { Box, IconButton, Paper, Stack, SvgIcon } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import { ReactComponent as KakaoTalkIcon } from "../../assets/kakaoIcon.svg";
-import { GITHUB, INSTAGRAM, OPEN_KAKAO } from "../../constants/externalURL";
+import { GITHUB, OPEN_KAKAO } from "../../constants/externalURL";
 
 const LINKS = [
   {
@@ -14,11 +13,7 @@ const LINKS = [
       </SvgIcon>
     ),
   },
-  {
-    label: "instagram-icon",
-    href: INSTAGRAM,
-    icon: <InstagramIcon fontSize="large" />,
-  },
+
   {
     label: "github-icon",
     href: GITHUB,
