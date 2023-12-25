@@ -1,4 +1,6 @@
-export const COURSE = {
+import { Card } from "../types/card";
+
+export const COURSE: { [key: string]: Card[] } = {
   기출30: [
     {
       id: "prv30 - 0",
@@ -8895,15 +8897,15 @@ export const CATEGORIES = [
     label: "기출문제 회차 별",
     list: [
       {
-        title: "30회",
+        title: "기출30",
         contents: COURSE["기출30"],
       },
       {
-        title: "40회",
+        title: "기출40",
         contents: COURSE["기출40"],
       },
       {
-        title: "50회",
+        title: "기출50",
         contents: COURSE["기출50"],
       },
     ],
@@ -8912,11 +8914,11 @@ export const CATEGORIES = [
     label: "종합 한자",
     list: [
       {
-        title: "한자 1",
+        title: "한자1",
         contents: COURSE["한자1"],
       },
       {
-        title: "한자 2",
+        title: "한자2",
         contents: COURSE["한자2"],
       },
     ],
@@ -8925,11 +8927,11 @@ export const CATEGORIES = [
     label: "종합 단어",
     list: [
       {
-        title: "단어 1",
+        title: "단어1",
         contents: COURSE["단어1"],
       },
       {
-        title: "단어 2",
+        title: "단어2",
         contents: COURSE["단어2"],
       },
     ],
