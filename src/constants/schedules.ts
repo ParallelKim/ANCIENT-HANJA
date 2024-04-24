@@ -6,9 +6,9 @@ type Schedule = {
 };
 
 const SCHEDULES: Schedule[] = [
-  { eventName: "접수 시작", date: "202312250900" },
-  { eventName: "접수 마감", date: "202312291600" },
-  { eventName: "시험일", date: "202401071500" },
+  { eventName: "접수 시작", date: "202405130900" },
+  { eventName: "접수 마감", date: "202405171600" },
+  { eventName: "시험일", date: "202405261500" },
 ];
 
 export const nearest = SCHEDULES[0];
@@ -26,3 +26,8 @@ SCHEDULES.forEach((SCHEDULE, idx) => {
 // { eventName: "접수 시작", date: "202311060900" },
 // { eventName: "접수 마감", date: "202311101600" },
 // { eventName: "시험일", date: "202311191500" },
+
+// 76
+// { eventName: "접수 시작", date: "202312250900" },
+// { eventName: "접수 마감", date: "202312291600" },
+// { eventName: "시험일", date: "202401071500" },
