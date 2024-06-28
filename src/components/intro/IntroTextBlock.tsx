@@ -9,16 +9,15 @@ export const IntroTextBlock = () => {
         </Typography>
         {/* <Typography variant="h6">업데이트 내역</Typography> */}
         <p />
-        <Typography>안녕하세요 또 다시 오랜만입니다!</Typography>
+        <Typography>안녕하세요</Typography>
         <p />
-        <Typography>저는 이번 시험도 패스합니다...!</Typography>
+        <Typography>2번의 시험을 건너뛰고 나서 드디어 시험을 보게 되었네요</Typography>
         <p />
-        <Typography>여유 생기면 틈틈히 사이트는 업데이트 하겠다고 했으나</Typography>
-        <Typography>마음과 몸의 여유가 부족하군요...</Typography>
-        <Typography>하고 싶은 것은 참 많으나 몸이 하나라 아쉽습니다</Typography>
+        <Typography>잠깐 휴직을 하며 졸업 준비를 하려 합니다</Typography>
+        <Typography>이번에는 시험 공부를 하며 짬이 날 때마다 사이트도 업데이트 해보겠습니다</Typography>
         <p />
-        <Typography>환절기 감기 조심 미세먼지 조심 산성비 조심입니다..!</Typography>
-        <Typography>특히 산성비 맞으면 머리 빠집니다.. 조심하세요!</Typography>
+        <Typography>폭염과 폭우 조심하세요!!</Typography>
+        <Typography>다들 좋은 결과 있었으면 좋겠습니다</Typography>
         <p />
         <Typography>모든 문의 환영입니다 아래 링크로 편하게 연락 주세요</Typography>
       </Paper>

@@ -10,8 +10,6 @@ export const shuffleArray = <T>(array: T[]): T[] => {
 
 // 202405261500
 export const scheduler = (targetDate: string, callback: () => void) => {
-  console.log(targetDate);
-
   const year = Number(targetDate.substring(0, 4));
   const month = Number(targetDate.substring(4, 6));
   const day = Number(targetDate.substring(6, 8));
