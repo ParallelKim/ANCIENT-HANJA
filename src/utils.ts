@@ -25,7 +25,6 @@ export const scheduler = (targetDate: string, callback: () => void) => {
   const timer = oprDate - nowDate;
 
   console.log(timer);
-  if (timer > 360000000) return;
 
   if (timer >= 0) {
     setTimeout(callback, timer);

@@ -1,17 +1,31 @@
 import { Box, Link, Paper, Typography } from "@mui/material";
 import { ScheduleCountdown } from "./ScheduleCountdown";
 // import { nearest } from "../../constants/schedules";
+import { useEffect, useState } from "react";
 import { GOOGLE_CALENDER } from "../../constants/externalURL";
-import { nearest } from "../../constants/schedules";
+import { SCHEDULES } from "../../constants/schedules";
+import { scheduler } from "../../utils";
 
 export const ScheduleBlock = () => {
+  const [nearest, setNearest] = useState(SCHEDULES[0]);
+
+  useEffect(() => {
+    SCHEDULES.forEach((SCHEDULE, idx) => {
+      scheduler(SCHEDULE.date, () => {
+        const next = SCHEDULES[idx + 1] ?? SCHEDULES[idx];
+
+        setNearest(next);
+      });
+    });
+  }, [nearest]);
+
   return (
     <Box>
       <Paper sx={{ p: 1, fontSize: { md: "3rem", xs: "2rem" } }}>
         <Typography variant="h5" p={1} fontWeight={700}>
           {nearest.eventName}까지
         </Typography>
-        <ScheduleCountdown />
+        <ScheduleCountdown nearest={nearest} />
         <Typography variant="h6" mt={1} p={1} fontWeight={700} textAlign="center">
           <Link underline="hover" target="_blank" href={GOOGLE_CALENDER}>
             구글 캘린더 추가하기
