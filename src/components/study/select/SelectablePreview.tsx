@@ -56,7 +56,7 @@ export const SelectablePreview = ({
             </Stack>
           </DialogContent>
           <DialogActions sx={{ p: 2 }}>
-            <Button size="large" variant="contained" onClick={() => setCurrentCardSet(preview)}>
+            <Button size="large" variant="contained" onClick={() => setCurrentCardSet(preview.title)}>
               시작
             </Button>
             <Button size="large" variant="contained" onClick={() => setPreview(null)}>
