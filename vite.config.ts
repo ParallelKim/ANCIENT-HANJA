@@ -15,7 +15,7 @@ const manifest = {
     name: "고대한자",
     short_name: "고대한자",
     description: "고려대학교 한자이해능력인증시험을 대비한 한자 학습 어플리케이션",
-    theme_color: "#ffffff",
+    theme_color: "#bd0e32",
     display: "standalone",
     scope: "/",
     start_url: "/",
