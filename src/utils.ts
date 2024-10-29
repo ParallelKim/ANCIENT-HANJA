@@ -17,14 +17,10 @@ export const scheduler = (targetDate: string, callback: () => void) => {
   const minute = Number(targetDate.substring(10, 12));
   const second = Number(targetDate.substring(12, 14));
 
-  console.log(year, month, day, time, minute, second);
-
   const oprDate = new Date(year, month, day, time, minute, second).getTime();
   const nowDate = Date.now();
 
   const timer = oprDate - nowDate;
-
-  console.log(timer);
 
   if (timer >= 0) {
     setTimeout(callback, timer);
