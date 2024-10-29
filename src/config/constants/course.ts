@@ -1,4 +1,4 @@
-import { Card } from "../types/card";
+import { Card } from "@/types/card";
 
 export const COURSE: { [key: string]: Card[] } = {
   기출30: [

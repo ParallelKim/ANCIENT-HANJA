@@ -1,11 +1,11 @@
-import { useAtomValue, useSetAtom } from "jotai";
-import { Box, ButtonGroup, IconButton, Paper } from "@mui/material";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import ReplayIcon from "@mui/icons-material/Replay";
+import { Box, ButtonGroup, IconButton, Paper } from "@mui/material";
+import { useAtomValue, useSetAtom } from "jotai";
 
-import { moveCurrentIndexAtom, currentCardAtom, currentIndexStateAtom } from "../../../stores/course";
-import { HANJA_SEARCH } from "../../../constants/externalURL";
+import { HANJA_SEARCH } from "../../../../config/constants/externalURL";
+import { currentCardAtom, currentIndexStateAtom, moveCurrentIndexAtom } from "../../../../stores/course";
 
 const SX = {
   BT_GROUP: {

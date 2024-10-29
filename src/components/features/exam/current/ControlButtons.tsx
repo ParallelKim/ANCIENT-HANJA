@@ -1,14 +1,14 @@
-import { useAtomValue, useSetAtom } from "jotai";
-import { Box, ButtonGroup, IconButton, Paper, Typography } from "@mui/material";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import GradingIcon from "@mui/icons-material/Grading";
+import { Box, ButtonGroup, IconButton, Paper, Typography } from "@mui/material";
+import { useAtomValue, useSetAtom } from "jotai";
 
 import {
-  moveCurrentIndexAtom,
-  currentIndexStateAtom,
   currentExamIndexAtom,
+  currentIndexStateAtom,
   currentQuestionSetLengthAtom,
-} from "../../../stores/test";
+  moveCurrentIndexAtom,
+} from "@/stores/test";
 
 const SX = {
   BT_GROUP: {

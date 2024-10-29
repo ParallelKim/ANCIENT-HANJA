@@ -1,7 +1,7 @@
 import { Box, Paper, Typography } from "@mui/material";
 import { useAtomValue } from "jotai";
 
-import { currentExamIndexAtom, currentPassageAtom, currentQuestionAtom, currentShareAtom } from "../../../stores/test";
+import { currentExamIndexAtom, currentPassageAtom, currentQuestionAtom, currentShareAtom } from "@/stores/test";
 
 export const Question = () => {
   const currentIndex = useAtomValue(currentExamIndexAtom);

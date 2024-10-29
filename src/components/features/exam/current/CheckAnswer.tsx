@@ -1,6 +1,6 @@
+import { answerableAtom, currentUserAnswerAtom, inputAnswerAtom } from "@/stores/test";
 import { Box, Button, Input, Paper, Stack } from "@mui/material";
 import { useAtomValue, useSetAtom } from "jotai";
-import { answerableAtom, currentUserAnswerAtom, inputAnswerAtom } from "../../../stores/test";
 
 const NUM_ICON = ["①", "②", "③", "④"];
 

@@ -4,7 +4,7 @@ import { logEvent } from "firebase/analytics";
 import { Suspense, useEffect } from "react";
 import { Footer } from "./components/layout/Footer";
 import { Header } from "./components/layout/Header";
-import { analytics } from "./firebase/analytics";
+import { analytics } from "./lib/firebase/analytics";
 import { MessageManager } from "./managers/MessageManager";
 
 export const App = () => {

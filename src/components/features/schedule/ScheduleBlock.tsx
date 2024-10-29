@@ -1,10 +1,9 @@
 import { Box, Link, Paper, Typography } from "@mui/material";
-import { ScheduleCountdown } from "./ScheduleCountdown";
-// import { nearest } from "../../constants/schedules";
 import { useEffect, useState } from "react";
-import { GOOGLE_CALENDER } from "../../constants/externalURL";
-import { SCHEDULES } from "../../constants/schedules";
-import { scheduler } from "../../utils";
+import { GOOGLE_CALENDER } from "../../../config/constants/externalURL";
+import { SCHEDULES } from "../../../config/constants/schedules";
+import { scheduler } from "../../../utils";
+import { ScheduleCountdown } from "./ScheduleCountdown";
 
 export const ScheduleBlock = () => {
   const [nearest, setNearest] = useState(SCHEDULES[0]);

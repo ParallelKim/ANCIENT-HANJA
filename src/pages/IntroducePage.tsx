@@ -1,8 +1,8 @@
 import { Button, Container, Stack, Typography } from "@mui/material";
 
-import { IntroTextBlock } from "../components/intro/IntroTextBlock";
-import { LinkBlock } from "../components/intro/LinkBlock";
-import { ScheduleBlock } from "../components/intro/ScheduleBlock";
+import { IntroTextBlock } from "@/components/features/schedule/IntroTextBlock";
+import { LinkBlock } from "@/components/features/schedule/LinkBlock";
+import { ScheduleBlock } from "@/components/features/schedule/ScheduleBlock";
 
 const IntroducePage = () => {
   return (

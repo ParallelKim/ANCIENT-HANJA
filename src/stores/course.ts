@@ -1,26 +1,40 @@
 import { atom } from "jotai";
-import { atomWithStorage } from "jotai/utils";
-import { atomWithHash } from "jotai-location";
-import { Card } from "../types/card";
+import { Card, CourseKey } from "../types/card";
 
-export const currentCourseAtom = atomWithHash<string | null>("course", null);
-
+export const currentCourseAtom = atom<CourseKey | null>(null);
 export const currentCardSetAtom = atom<Card[]>([]);
-export const currentCardSetLengthAtom = atom((get) => {
-  return get(currentCardSetAtom).length;
+export const currentIndexAtom = atom<number>(0);
+export const currentCardSetLengthAtom = atom((get) => get(currentCardSetAtom).length);
+
+export const currentCardAtom = atom((get) => {
+  const currentCardSet = get(currentCardSetAtom);
+  const currentIndex = get(currentIndexAtom);
+  return currentCardSet[currentIndex];
 });
 
-export const currentIndexAtom = atomWithStorage("current index", 0);
+export const currentIndexStateAtom = atom((get) => {
+  const currentIndex = get(currentIndexAtom);
+  const currentCardSetLength = get(currentCardSetLengthAtom);
+
+  if (currentIndex === 0) return "first";
+  if (currentIndex === currentCardSetLength - 1) return "last";
+  return "middle";
+});
+
 export const moveCurrentIndexAtom = atom(null, (get, set, action: "next" | "prev" | "reset") => {
-  const current = get(currentIndexAtom);
-  const max = get(currentCardSetLengthAtom) - 1;
+  const currentIndex = get(currentIndexAtom);
+  const currentCardSetLength = get(currentCardSetLengthAtom);
 
   switch (action) {
     case "next":
-      set(currentIndexAtom, Math.min(current + 1, max));
+      if (currentIndex < currentCardSetLength - 1) {
+        set(currentIndexAtom, currentIndex + 1);
+      }
       break;
     case "prev":
-      set(currentIndexAtom, Math.max(current - 1, 0));
+      if (currentIndex > 0) {
+        set(currentIndexAtom, currentIndex - 1);
+      }
       break;
     case "reset":
       set(currentIndexAtom, 0);
@@ -28,14 +42,4 @@ export const moveCurrentIndexAtom = atom(null, (get, set, action: "next" | "prev
     default:
       break;
   }
-});
-
-export const currentCardAtom = atom((get) => {
-  return get(currentCardSetAtom)[get(currentIndexAtom)] ?? { front: "?", back: "?" };
-});
-
-export const currentIndexStateAtom = atom((get) => {
-  if (get(currentIndexAtom) >= get(currentCardSetLengthAtom) - 1) return "last";
-  if (get(currentIndexAtom) <= 0) return "first";
-  return "inside";
 });

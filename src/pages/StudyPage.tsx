@@ -1,8 +1,8 @@
-import { useAtomValue } from "jotai";
 import { Container } from "@mui/material";
+import { useAtomValue } from "jotai";
 
-import { SelectStudySet } from "../components/study/select/SelectStudySet";
-import { CurrentRun } from "../components/study/CurrentRun";
+import { CurrentRun } from "../components/features/study/CurrentRun";
+import { SelectStudySet } from "../components/features/study/select/SelectStudySet";
 import { CurrentRunManager } from "../managers/CurrentRunManager";
 import { currentCourseAtom } from "../stores/course";
 

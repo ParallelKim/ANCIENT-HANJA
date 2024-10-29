@@ -1,9 +1,9 @@
-import { Stack, ButtonGroup, Button } from "@mui/material";
+import { Button, ButtonGroup, Stack } from "@mui/material";
 import { useSetAtom } from "jotai";
 
-import { TEST } from "../../../constants/test";
-import { currentExamAtom } from "../../../stores/test";
-import { RawExamData } from "../../../types/test";
+import { TEST } from "@/config/constants/test";
+import { currentExamAtom } from "@/stores/test";
+import { RawExamData } from "@/types/test";
 
 const parseExam = (exam: RawExamData) => {
   let id = 0;

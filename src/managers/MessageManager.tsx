@@ -1,7 +1,7 @@
-import { useEffect } from "react";
 import { useAtomValue, useSetAtom } from "jotai";
-import { subscribe, unsubscribe } from "../firebase/message";
-import { isNotiOnAtom, msgTokenAtom } from "../stores/atoms";
+import { useEffect } from "react";
+import { subscribe, unsubscribe } from "../lib/firebase/message";
+import { isNotiOnAtom, msgTokenAtom } from "../stores/notification";
 
 export const MessageManager = () => {
   const isNotificationOn = useAtomValue(isNotiOnAtom);

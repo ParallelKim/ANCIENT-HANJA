@@ -7,8 +7,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 
-import { theme } from "./constants/styles";
 import "./index.css";
+import { theme } from "./lib/mui/theme";
 import { router } from "./router";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

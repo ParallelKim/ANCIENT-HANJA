@@ -1,9 +1,8 @@
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { useEffect } from "react";
+import { COURSE } from "../config/constants/course";
 import { currentCardSetAtom, currentCourseAtom, moveCurrentIndexAtom } from "../stores/course";
-
 import { shuffleArray } from "../utils";
-import { COURSE } from "../constants/course";
 
 const setSize = 20;
 

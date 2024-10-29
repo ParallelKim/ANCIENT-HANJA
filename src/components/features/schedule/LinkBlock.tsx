@@ -1,7 +1,7 @@
-import { Box, IconButton, Paper, Stack, SvgIcon } from "@mui/material";
+import { ReactComponent as KakaoTalkIcon } from "@/assets/kakaoIcon.svg";
+import { GITHUB, OPEN_KAKAO } from "@/config/constants/externalURL";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import { ReactComponent as KakaoTalkIcon } from "../../assets/kakaoIcon.svg";
-import { GITHUB, OPEN_KAKAO } from "../../constants/externalURL";
+import { Box, IconButton, Paper, Stack, SvgIcon } from "@mui/material";
 
 const LINKS = [
   {

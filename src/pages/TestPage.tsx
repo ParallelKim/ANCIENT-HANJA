@@ -1,9 +1,9 @@
-import { useAtomValue } from "jotai";
 import { Container } from "@mui/material";
+import { useAtomValue } from "jotai";
 
-import { SelectTest } from "../components/test/select/SelectTest";
-import { CurrentRun } from "../components/test/CurrentRun";
-import { currentExamAtom } from "../stores/test";
+import { CurrentRun } from "@/components/features/exam/current/CurrentRun";
+import { SelectTest } from "@/components/features/exam/select/SelectTest";
+import { currentExamAtom } from "@/stores/test";
 
 const TestPage = () => {
   const currentExam = useAtomValue(currentExamAtom);

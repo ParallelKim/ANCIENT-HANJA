@@ -1,4 +1,4 @@
-import { RawExamData } from "../types/test";
+import { RawExamData } from "@/types/test";
 
 export const TEST: { title: string; exam: RawExamData; answer: (string | number)[] }[] = [
   {

@@ -1,5 +1,6 @@
 import svgr from "@svgr/rollup";
 import react from "@vitejs/plugin-react-swc";
+import path from "path";
 import { visualizer } from "rollup-plugin-visualizer";
 import { PluginOption, defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
@@ -55,4 +56,13 @@ export default defineConfig({
     visualizer() as unknown as PluginOption,
     VitePWA(manifest as any),
   ],
+  resolve: {
+    alias: [
+      { find: "@", replacement: path.resolve(__dirname, "src") },
+      {
+        find: "@components",
+        replacement: path.resolve(__dirname, "src/components"),
+      },
+    ],
+  },
 });

@@ -1,15 +1,12 @@
-import { Box, Paper, Stack, IconButton, Typography } from "@mui/material";
-
-// import SettingsIcon from "@mui/icons-material/Settings";
-import { useAtomValue, useSetAtom } from "jotai";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
-
+import { Box, IconButton, Paper, Stack, Typography } from "@mui/material";
+import { useAtomValue, useSetAtom } from "jotai";
 import {
-  currentIndexAtom,
-  currentCardSetLengthAtom,
   currentCardSetAtom,
+  currentCardSetLengthAtom,
   currentCourseAtom,
-} from "../../../stores/course";
+  currentIndexAtom,
+} from "../../../../stores/course";
 
 const SX = {
   STATUS_PAPER: {

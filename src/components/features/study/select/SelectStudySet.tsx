@@ -1,7 +1,6 @@
-import { useState } from "react";
 import { Box, Link, Paper, Typography } from "@mui/material";
-
-import { Course } from "../../../types/card";
+import { useState } from "react";
+import { Course } from "../../../../types/card";
 import { SelectableCourses } from "./SelectableCourses";
 import { SelectablePreview } from "./SelectablePreview";
 

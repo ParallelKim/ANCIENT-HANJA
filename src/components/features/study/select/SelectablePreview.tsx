@@ -1,27 +1,26 @@
 import {
-  Dialog,
-  DialogTitle,
-  DialogContent,
-  Stack,
-  Paper,
-  Typography,
   Box,
-  DialogActions,
   Button,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogTitle,
+  Paper,
+  Stack,
+  Typography,
 } from "@mui/material";
 import { useSetAtom } from "jotai";
 
-import { currentCourseAtom } from "../../../stores/course";
-import { Course } from "../../../types/card";
+import { currentCourseAtom } from "../../../../stores/course";
+import { Course } from "../../../../types/card";
 
-export const SelectablePreview = ({
-  preview,
-  setPreview,
-}: {
+interface SelectablePreviewProps {
   preview: Course | null;
   setPreview: (course: Course | null) => void;
-}) => {
-  const setCurrentCardSet = useSetAtom(currentCourseAtom);
+}
+
+export const SelectablePreview = ({ preview, setPreview }: SelectablePreviewProps) => {
+  const setCurrentCourse = useSetAtom(currentCourseAtom);
 
   return (
     <Dialog
@@ -56,7 +55,7 @@ export const SelectablePreview = ({
             </Stack>
           </DialogContent>
           <DialogActions sx={{ p: 2 }}>
-            <Button size="large" variant="contained" onClick={() => setCurrentCardSet(preview.title)}>
+            <Button size="large" variant="contained" onClick={() => setCurrentCourse(preview.title)}>
               시작
             </Button>
             <Button size="large" variant="contained" onClick={() => setPreview(null)}>
