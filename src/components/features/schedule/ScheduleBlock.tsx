@@ -9,14 +9,25 @@ export const ScheduleBlock = () => {
   const [nearest, setNearest] = useState(SCHEDULES[0]);
 
   useEffect(() => {
-    SCHEDULES.forEach((SCHEDULE, idx) => {
-      scheduler(SCHEDULE.date, () => {
-        const next = SCHEDULES[idx + 1] ?? SCHEDULES[idx];
+    // 현재 시간보다 이후인 일정들만 필터링
+    const upcomingSchedules = SCHEDULES.filter((schedule) => new Date(schedule.date) > new Date());
 
-        setNearest(next);
+    // 가장 가까운 일정 찾기
+    const nextSchedule = upcomingSchedules[0];
+
+    if (nextSchedule) {
+      // 다음 일정에 대해서만 스케줄러 설정
+      scheduler(nextSchedule.date, () => {
+        const nextIdx = SCHEDULES.findIndex((s) => s === nextSchedule);
+        const following = SCHEDULES[nextIdx + 1] ?? SCHEDULES[nextIdx];
+
+        setNearest(following);
       });
-    });
-  }, [nearest]);
+
+      // 초기 상태 설정
+      setNearest(nextSchedule);
+    }
+  }, []); // 의존성 배열을 비워서 컴포넌트 마운트 시에만 실행
 
   return (
     <Box>
