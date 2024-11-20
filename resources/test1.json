@@ -1,0 +1,7526 @@
+{
+  "hanjas": [
+    {
+      "id": "HANJA_8AFE",
+      "character": "諾",
+      "meaning": "허락할",
+      "pronunciation": "낙",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_001"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8A98",
+      "character": "誘",
+      "meaning": "이끌",
+      "pronunciation": "유",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_002"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6C83",
+      "character": "沃",
+      "meaning": "기름질",
+      "pronunciation": "옥",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_003"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5DE2",
+      "character": "巢",
+      "meaning": "새집",
+      "pronunciation": "소",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_004"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_58DE",
+      "character": "壞",
+      "meaning": "무너질",
+      "pronunciation": "괴",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_005"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_4EAE",
+      "character": "亮",
+      "meaning": "밝을",
+      "pronunciation": "량",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_006"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_819C",
+      "character": "膜",
+      "meaning": "막",
+      "pronunciation": "막",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_007"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6247",
+      "character": "扇",
+      "meaning": "부채",
+      "pronunciation": "선",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_008"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5B54",
+      "character": "孔",
+      "meaning": "구멍",
+      "pronunciation": "공",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_009"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_4E86",
+      "character": "了",
+      "meaning": "마칠",
+      "pronunciation": "료",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_010"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_7709",
+      "character": "眉",
+      "meaning": "눈썹",
+      "pronunciation": "미",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_021"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_65A4",
+      "character": "斤",
+      "meaning": "도끼",
+      "pronunciation": "근",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_022"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_7235",
+      "character": "爵",
+      "meaning": "벼슬",
+      "pronunciation": "작",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_023"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6D25",
+      "character": "津",
+      "meaning": "나루",
+      "pronunciation": "진",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_024"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5C6C",
+      "character": "屬",
+      "meaning": "붙일",
+      "pronunciation": "속",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_025"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6BBF",
+      "character": "殿",
+      "meaning": "전",
+      "pronunciation": "전",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_026"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_76F2",
+      "character": "盲",
+      "meaning": "눈멀",
+      "pronunciation": "맹",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_027"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_75BE",
+      "character": "疾",
+      "meaning": "병",
+      "pronunciation": "질",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_028"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_96EA",
+      "character": "雪",
+      "meaning": "눈",
+      "pronunciation": "설",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_029"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6696",
+      "character": "暖",
+      "meaning": "따뜻할",
+      "pronunciation": "난",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_030"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_84CB",
+      "character": "蓋",
+      "meaning": "덮을",
+      "pronunciation": "개",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_031"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6162",
+      "character": "慢",
+      "meaning": "게으를",
+      "pronunciation": "만",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_032"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_58C1",
+      "character": "壁",
+      "meaning": "벽",
+      "pronunciation": "벽",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_033"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_66B4",
+      "character": "暴",
+      "meaning": "사나울",
+      "pronunciation": "폭",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_034"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6691",
+      "character": "暑",
+      "meaning": "더울",
+      "pronunciation": "서",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_035"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5C3E",
+      "character": "尾",
+      "meaning": "꼬리",
+      "pronunciation": "미",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_036"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5384",
+      "character": "厄",
+      "meaning": "액",
+      "pronunciation": "액",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_037"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5EF6",
+      "character": "延",
+      "meaning": "늘일",
+      "pronunciation": "연",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_038",
+        "PROB_BASIC_001_082"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_4F50",
+      "character": "佐",
+      "meaning": "도울",
+      "pronunciation": "좌",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_039"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_76FE",
+      "character": "盾",
+      "meaning": "방패",
+      "pronunciation": "순",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_040"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_7DE3",
+      "character": "緣",
+      "meaning": "나무, 인연",
+      "pronunciation": "연",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_6728",
+      "character": "木",
+      "meaning": "나무",
+      "pronunciation": "목",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6C42",
+      "character": "求",
+      "meaning": "구할",
+      "pronunciation": "구",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_9B5A",
+      "character": "魚",
+      "meaning": "물고기",
+      "pronunciation": "어",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_611A",
+      "character": "愚",
+      "meaning": "어리석을",
+      "pronunciation": "우",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_516C",
+      "character": "公",
+      "meaning": "공평할",
+      "pronunciation": "공",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_79FB",
+      "character": "移",
+      "meaning": "옮길",
+      "pronunciation": "이",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5C71",
+      "character": "山",
+      "meaning": "산",
+      "pronunciation": "산",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_4E5D",
+      "character": "九",
+      "meaning": "아홉",
+      "pronunciation": "구",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_725B",
+      "character": "牛",
+      "meaning": "소",
+      "pronunciation": "우",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_4E00",
+      "character": "一",
+      "meaning": "한",
+      "pronunciation": "일",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_069",
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_6BDB",
+      "character": "毛",
+      "meaning": "털",
+      "pronunciation": "모",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_77EF",
+      "character": "矯",
+      "meaning": "바로잡을",
+      "pronunciation": "교",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_89D2",
+      "character": "角",
+      "meaning": "뿔",
+      "pronunciation": "각",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6BBA",
+      "character": "殺",
+      "meaning": "죽일",
+      "pronunciation": "살",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_093"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_53C3",
+      "character": "參",
+      "meaning": "참여할",
+      "pronunciation": "참",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001"
+      ]
+    },
+    {
+      "id": "HANJA_8207",
+      "character": "與",
+      "meaning": "더불",
+      "pronunciation": "여",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001",
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_652F",
+      "character": "支",
+      "meaning": "지탱할",
+      "pronunciation": "지",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_6301",
+      "character": "持",
+      "meaning": "가질",
+      "pronunciation": "지",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_53CD",
+      "character": "反",
+      "meaning": "돌이킬",
+      "pronunciation": "반",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_058"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001"
+      ]
+    },
+    {
+      "id": "HANJA_5C0D",
+      "character": "對",
+      "meaning": "대적할, 대할",
+      "pronunciation": "대",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_074"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001",
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_5236",
+      "character": "制",
+      "meaning": "절제할",
+      "pronunciation": "제",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001"
+      ]
+    },
+    {
+      "id": "HANJA_9650",
+      "character": "限",
+      "meaning": "한할",
+      "pronunciation": "한",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001"
+      ]
+    },
+    {
+      "id": "HANJA_8B8A",
+      "character": "變",
+      "meaning": "변할",
+      "pronunciation": "변",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_051",
+        "PROB_BASIC_001_053"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6578",
+      "character": "數",
+      "meaning": "셈",
+      "pronunciation": "수",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_051",
+        "PROB_BASIC_001_053"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_758F",
+      "character": "疏",
+      "meaning": "소통할",
+      "pronunciation": "소",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_051",
+        "PROB_BASIC_001_055"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_901A",
+      "character": "通",
+      "meaning": "통할",
+      "pronunciation": "통",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_051",
+        "PROB_BASIC_001_055"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_5F79",
+      "character": "役",
+      "meaning": "부릴",
+      "pronunciation": "역",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_055"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5272",
+      "character": "割",
+      "meaning": "나눌",
+      "pronunciation": "할",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_055"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_57F7",
+      "character": "執",
+      "meaning": "잡을",
+      "pronunciation": "집",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_053"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_98A8",
+      "character": "風",
+      "meaning": "바람",
+      "pronunciation": "풍",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_053"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5927",
+      "character": "大",
+      "meaning": "큰",
+      "pronunciation": "대",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_053",
+        "PROB_BASIC_001_062",
+        "PROB_BASIC_001_082"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_5584",
+      "character": "善",
+      "meaning": "착할",
+      "pronunciation": "선",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_053"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_89C0",
+      "character": "觀",
+      "meaning": "볼",
+      "pronunciation": "관",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_053"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5FC3",
+      "character": "心",
+      "meaning": "마음",
+      "pronunciation": "심",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_051",
+        "PROB_BASIC_001_053"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_52A9",
+      "character": "助",
+      "meaning": "도울",
+      "pronunciation": "조",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_054"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5FA1",
+      "character": "御",
+      "meaning": "거느릴",
+      "pronunciation": "어",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_054"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8A9E",
+      "character": "語",
+      "meaning": "말씀",
+      "pronunciation": "어",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_054"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_9020",
+      "character": "造",
+      "meaning": "지을",
+      "pronunciation": "조",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_054"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_9023",
+      "character": "連",
+      "meaning": "이을",
+      "pronunciation": "연",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_7E6B",
+      "character": "繫",
+      "meaning": "맬",
+      "pronunciation": "계",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6642",
+      "character": "時",
+      "meaning": "때",
+      "pronunciation": "시",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056",
+        "PROB_BASIC_001_074"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_8A08",
+      "character": "計",
+      "meaning": "셀",
+      "pronunciation": "계",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_4E16",
+      "character": "世",
+      "meaning": "세상",
+      "pronunciation": "세",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_754C",
+      "character": "界",
+      "meaning": "지경",
+      "pronunciation": "계",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_79CB",
+      "character": "秋",
+      "meaning": "가을",
+      "pronunciation": "추",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5B63",
+      "character": "季",
+      "meaning": "계절",
+      "pronunciation": "계",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8B66",
+      "character": "警",
+      "meaning": "경계할",
+      "pronunciation": "경",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_5BDF",
+      "character": "察",
+      "meaning": "살필",
+      "pronunciation": "찰",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056",
+        "PROB_BASIC_001_083"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_7F72",
+      "character": "署",
+      "meaning": "서",
+      "pronunciation": "서",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_88AB",
+      "character": "被",
+      "meaning": "입을",
+      "pronunciation": "피",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_5BB3",
+      "character": "害",
+      "meaning": "해로울",
+      "pronunciation": "해",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_8005",
+      "character": "者",
+      "meaning": "놈",
+      "pronunciation": "자",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_9673",
+      "character": "陳",
+      "meaning": "베풀",
+      "pronunciation": "진",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_8FF0",
+      "character": "述",
+      "meaning": "펼",
+      "pronunciation": "술",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_5211",
+      "character": "刑",
+      "meaning": "형벌",
+      "pronunciation": "형",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_53F8",
+      "character": "司",
+      "meaning": "맡을",
+      "pronunciation": "사",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056",
+        "PROB_BASIC_001_083"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6620",
+      "character": "映",
+      "meaning": "비칠",
+      "pronunciation": "영",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_058"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_5E7B",
+      "character": "幻",
+      "meaning": "환할",
+      "pronunciation": "환",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_058"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5F71",
+      "character": "影",
+      "meaning": "그림자",
+      "pronunciation": "영",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_058",
+        "PROB_BASIC_001_069"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_80B2",
+      "character": "育",
+      "meaning": "기를",
+      "pronunciation": "육",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_058"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_82F1",
+      "character": "英",
+      "meaning": "꽃부리",
+      "pronunciation": "영",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_058",
+        "PROB_BASIC_001_080"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_904B",
+      "character": "運",
+      "meaning": "옮길",
+      "pronunciation": "운",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_058"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_71DF",
+      "character": "營",
+      "meaning": "경영할",
+      "pronunciation": "영",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_058"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ]
+    },
+    {
+      "id": "HANJA_4E8B",
+      "character": "事",
+      "meaning": "일",
+      "pronunciation": "사",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_6545",
+      "character": "故",
+      "meaning": "만날",
+      "pronunciation": "고",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_60E1",
+      "character": "惡",
+      "meaning": "악할",
+      "pronunciation": "악, 오",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_062"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_81ED",
+      "character": "臭",
+      "meaning": "냄새",
+      "pronunciation": "취",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_6C5A",
+      "character": "汚",
+      "meaning": "더러울",
+      "pronunciation": "오",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_67D3",
+      "character": "染",
+      "meaning": "물들",
+      "pronunciation": "염",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_7528",
+      "character": "用",
+      "meaning": "쓸",
+      "pronunciation": "용",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_7406",
+      "character": "理",
+      "meaning": "이치, 다스릴",
+      "pronunciation": "리",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_061"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_5FF5",
+      "character": "念",
+      "meaning": "생각",
+      "pronunciation": "념",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_061"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_578B",
+      "character": "型",
+      "meaning": "본",
+      "pronunciation": "형",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_061"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_4E8C",
+      "character": "二",
+      "meaning": "두",
+      "pronunciation": "이",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_061"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_91CD",
+      "character": "重",
+      "meaning": "겹칠, 무거울",
+      "pronunciation": "중",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_061",
+        "PROB_BASIC_001_062",
+        "PROB_BASIC_001_084"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_6027",
+      "character": "性",
+      "meaning": "성품",
+      "pronunciation": "성",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_061"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_006",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_6240",
+      "character": "所",
+      "meaning": "바",
+      "pronunciation": "소",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_061"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_4EE5",
+      "character": "以",
+      "meaning": "말미암을",
+      "pronunciation": "이",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_061"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_7136",
+      "character": "然",
+      "meaning": "그럴",
+      "pronunciation": "연",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_061"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6771",
+      "character": "東",
+      "meaning": "동녘",
+      "pronunciation": "동",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_061"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5937",
+      "character": "夷",
+      "meaning": "오랑캐",
+      "pronunciation": "이",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_061"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_65CF",
+      "character": "族",
+      "meaning": "겨레",
+      "pronunciation": "족",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_061",
+        "PROB_BASIC_001_095"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_597D",
+      "character": "好",
+      "meaning": "좋을",
+      "pronunciation": "호",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_062"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5C0F",
+      "character": "小",
+      "meaning": "작을",
+      "pronunciation": "소",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_062"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_8F15",
+      "character": "輕",
+      "meaning": "가벼울",
+      "pronunciation": "경",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_062",
+        "PROB_BASIC_001_066"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_9577",
+      "character": "長",
+      "meaning": "길",
+      "pronunciation": "장",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_062"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_77ED",
+      "character": "短",
+      "meaning": "짧을",
+      "pronunciation": "단",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_062"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8A55",
+      "character": "評",
+      "meaning": "평할",
+      "pronunciation": "평",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_063"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_50F9",
+      "character": "價",
+      "meaning": "값",
+      "pronunciation": "가",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_063"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_57FA",
+      "character": "基",
+      "meaning": "기초",
+      "pronunciation": "기",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_063",
+        "PROB_BASIC_001_081"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_6E96",
+      "character": "準",
+      "meaning": "준할",
+      "pronunciation": "준",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_063"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ]
+    },
+    {
+      "id": "HANJA_5730",
+      "character": "地",
+      "meaning": "땅",
+      "pronunciation": "지",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_063",
+        "PROB_BASIC_001_081"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8868",
+      "character": "表",
+      "meaning": "겉, 표할",
+      "pronunciation": "표",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_063"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_5206",
+      "character": "分",
+      "meaning": "나눌",
+      "pronunciation": "분",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_063"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_89E3",
+      "character": "解",
+      "meaning": "풀",
+      "pronunciation": "해",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_063"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_003",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_7D93",
+      "character": "經",
+      "meaning": "경영할, 지날",
+      "pronunciation": "경",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_065"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_6FDF",
+      "character": "濟",
+      "meaning": "아낄",
+      "pronunciation": "제",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_065"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ]
+    },
+    {
+      "id": "HANJA_79D1",
+      "character": "科",
+      "meaning": "과정",
+      "pronunciation": "과",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_065"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ]
+    },
+    {
+      "id": "HANJA_76EE",
+      "character": "目",
+      "meaning": "목표",
+      "pronunciation": "목",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_065",
+        "PROB_BASIC_001_086"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004",
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_6295",
+      "character": "投",
+      "meaning": "던질",
+      "pronunciation": "투",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_065"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ]
+    },
+    {
+      "id": "HANJA_8CC7",
+      "character": "資",
+      "meaning": "댈",
+      "pronunciation": "자",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_065"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ]
+    },
+    {
+      "id": "HANJA_6CE8",
+      "character": "注",
+      "meaning": "부을",
+      "pronunciation": "주",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_067"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ]
+    },
+    {
+      "id": "HANJA_6587",
+      "character": "文",
+      "meaning": "글월",
+      "pronunciation": "문",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_067"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ]
+    },
+    {
+      "id": "HANJA_653F",
+      "character": "政",
+      "meaning": "정사",
+      "pronunciation": "정",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ]
+    },
+    {
+      "id": "HANJA_5E9C",
+      "character": "府",
+      "meaning": "지아비",
+      "pronunciation": "부",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ]
+    },
+    {
+      "id": "HANJA_69AE",
+      "character": "榮",
+      "meaning": "영광",
+      "pronunciation": "영",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_065"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6E1B",
+      "character": "減",
+      "meaning": "덜",
+      "pronunciation": "감",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_066"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_589E",
+      "character": "增",
+      "meaning": "더할",
+      "pronunciation": "증",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_066"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_76CA",
+      "character": "益",
+      "meaning": "더할",
+      "pronunciation": "익",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_066"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_4F38",
+      "character": "伸",
+      "meaning": "펼",
+      "pronunciation": "신",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_066"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_7E2E",
+      "character": "縮",
+      "meaning": "줄어들",
+      "pronunciation": "축",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_066"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_51CD",
+      "character": "凍",
+      "meaning": "얼",
+      "pronunciation": "동",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_066"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_7D50",
+      "character": "結",
+      "meaning": "맺을",
+      "pronunciation": "결",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_066",
+        "PROB_BASIC_001_086"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_4E3B",
+      "character": "主",
+      "meaning": "임금",
+      "pronunciation": "주",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_067"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_554F",
+      "character": "問",
+      "meaning": "물을",
+      "pronunciation": "문",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_067"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_9042",
+      "character": "遂",
+      "meaning": "이룰",
+      "pronunciation": "수",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_884C",
+      "character": "行",
+      "meaning": "행할",
+      "pronunciation": "행",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_8AB2",
+      "character": "課",
+      "meaning": "과정",
+      "pronunciation": "과",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_984C",
+      "character": "題",
+      "meaning": "제목",
+      "pronunciation": "제",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_7B4B",
+      "character": "筋",
+      "meaning": "힘줄",
+      "pronunciation": "근",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_8089",
+      "character": "肉",
+      "meaning": "고기",
+      "pronunciation": "육",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_4F9B",
+      "character": "供",
+      "meaning": "이바지할",
+      "pronunciation": "공",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_7D66",
+      "character": "給",
+      "meaning": "줄",
+      "pronunciation": "급",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_5FAA",
+      "character": "循",
+      "meaning": "돌",
+      "pronunciation": "순",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_74B0",
+      "character": "環",
+      "meaning": "돌",
+      "pronunciation": "환",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_751F",
+      "character": "生",
+      "meaning": "날",
+      "pronunciation": "생",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_082"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003",
+        "TEXT_BASIC_001_005",
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_7523",
+      "character": "産",
+      "meaning": "낳을",
+      "pronunciation": "산",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_6548",
+      "character": "效",
+      "meaning": "본받을",
+      "pronunciation": "효",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_7387",
+      "character": "率",
+      "meaning": "비율",
+      "pronunciation": "률",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_092"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_6025",
+      "character": "急",
+      "meaning": "급할",
+      "pronunciation": "급",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_6FC0",
+      "character": "激",
+      "meaning": "격렬할",
+      "pronunciation": "격",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_087"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_9115",
+      "character": "鄕",
+      "meaning": "시골",
+      "pronunciation": "향",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_069"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6C88",
+      "character": "沈",
+      "meaning": "잠길",
+      "pronunciation": "침",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_6F5B",
+      "character": "潛",
+      "meaning": "잠길",
+      "pronunciation": "잠",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_6D88",
+      "character": "消",
+      "meaning": "사라질",
+      "pronunciation": "소",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_6EC5",
+      "character": "滅",
+      "meaning": "멸할",
+      "pronunciation": "멸",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_5410",
+      "character": "吐",
+      "meaning": "토할",
+      "pronunciation": "토",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_9732",
+      "character": "露",
+      "meaning": "이슬",
+      "pronunciation": "로",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_6DF7",
+      "character": "混",
+      "meaning": "섞을",
+      "pronunciation": "혼",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_4E82",
+      "character": "亂",
+      "meaning": "어지러울",
+      "pronunciation": "란",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_50B3",
+      "character": "傳",
+      "meaning": "전할",
+      "pronunciation": "전",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_076"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_7D71",
+      "character": "統",
+      "meaning": "이을",
+      "pronunciation": "통",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_076"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_7269",
+      "character": "物",
+      "meaning": "물건",
+      "pronunciation": "물",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_076"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003",
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_8CEA",
+      "character": "質",
+      "meaning": "바탕",
+      "pronunciation": "질",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_076"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_767B",
+      "character": "登",
+      "meaning": "오를",
+      "pronunciation": "등",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_076"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_5834",
+      "character": "場",
+      "meaning": "마당",
+      "pronunciation": "장",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_076"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_7F8E",
+      "character": "美",
+      "meaning": "아름다울",
+      "pronunciation": "미",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_5B78",
+      "character": "學",
+      "meaning": "배울",
+      "pronunciation": "학",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_5411",
+      "character": "向",
+      "meaning": "향할",
+      "pronunciation": "향",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_073"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_4E0A",
+      "character": "上",
+      "meaning": "위",
+      "pronunciation": "상",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_068",
+        "PROB_BASIC_001_073"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6D41",
+      "character": "流",
+      "meaning": "흐를",
+      "pronunciation": "류",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_073"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6D6E",
+      "character": "浮",
+      "meaning": "뜰",
+      "pronunciation": "부",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_073"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6607",
+      "character": "昇",
+      "meaning": "오를",
+      "pronunciation": "승",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_073"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_671F",
+      "character": "期",
+      "meaning": "기약할",
+      "pronunciation": "기",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_074"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_7232",
+      "character": "爲",
+      "meaning": "위할",
+      "pronunciation": "위",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_074"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_52E2",
+      "character": "勢",
+      "meaning": "세력",
+      "pronunciation": "세",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_074"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_5C16",
+      "character": "尖",
+      "meaning": "뾰족할",
+      "pronunciation": "첨",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_074"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_7AEF",
+      "character": "端",
+      "meaning": "끝",
+      "pronunciation": "단",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_074"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_006"
+      ]
+    },
+    {
+      "id": "HANJA_9762",
+      "character": "面",
+      "meaning": "낯",
+      "pronunciation": "면",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_074",
+        "PROB_BASIC_001_084"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006",
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_7570",
+      "character": "異",
+      "meaning": "다를",
+      "pronunciation": "이",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_076"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_59D3",
+      "character": "姓",
+      "meaning": "성씨",
+      "pronunciation": "성",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_076"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5047",
+      "character": "假",
+      "meaning": "거짓",
+      "pronunciation": "가",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_8AAA",
+      "character": "說",
+      "meaning": "말씀",
+      "pronunciation": "설",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_80FD",
+      "character": "能",
+      "meaning": "능할",
+      "pronunciation": "능",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_095"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_529B",
+      "character": "力",
+      "meaning": "힘",
+      "pronunciation": "력",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_96C6",
+      "character": "集",
+      "meaning": "모일",
+      "pronunciation": "집",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_4E2D",
+      "character": "中",
+      "meaning": "가운데",
+      "pronunciation": "중",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_084"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_8C6B",
+      "character": "豫",
+      "meaning": "미리",
+      "pronunciation": "예",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_6E2C",
+      "character": "測",
+      "meaning": "헤아릴",
+      "pronunciation": "측",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_6307",
+      "character": "指",
+      "meaning": "가리킬",
+      "pronunciation": "지",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003",
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_6458",
+      "character": "摘",
+      "meaning": "뽑을",
+      "pronunciation": "적",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_4EBA",
+      "character": "人",
+      "meaning": "사람",
+      "pronunciation": "인",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_985E",
+      "character": "類",
+      "meaning": "무리",
+      "pronunciation": "류",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_63D0",
+      "character": "提",
+      "meaning": "들, 내놓을",
+      "pronunciation": "제",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_079"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_793A",
+      "character": "示",
+      "meaning": "보일",
+      "pronunciation": "시",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_079",
+        "PROB_BASIC_001_083"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_8C46",
+      "character": "豆",
+      "meaning": "콩",
+      "pronunciation": "두",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_077"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_60F1",
+      "character": "惱",
+      "meaning": "번뇌할",
+      "pronunciation": "뇌",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_077"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6279",
+      "character": "批",
+      "meaning": "비평할",
+      "pronunciation": "비",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_077"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8F03",
+      "character": "較",
+      "meaning": "견줄",
+      "pronunciation": "교",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_077"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8166",
+      "character": "腦",
+      "meaning": "뇌",
+      "pronunciation": "뇌",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_077"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6BD4",
+      "character": "比",
+      "meaning": "견줄",
+      "pronunciation": "비",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_077"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_982D",
+      "character": "頭",
+      "meaning": "머리",
+      "pronunciation": "두",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_077"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5947",
+      "character": "奇",
+      "meaning": "기이할",
+      "pronunciation": "기",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_081"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8A8C",
+      "character": "誌",
+      "meaning": "뜻",
+      "pronunciation": "지",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_081"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6A5F",
+      "character": "機",
+      "meaning": "때",
+      "pronunciation": "기",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_064",
+        "PROB_BASIC_001_081"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_667A",
+      "character": "智",
+      "meaning": "지혜",
+      "pronunciation": "지",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_081"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ]
+    },
+    {
+      "id": "HANJA_6C23",
+      "character": "氣",
+      "meaning": "기운",
+      "pronunciation": "기",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_069",
+        "PROB_BASIC_001_081"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ]
+    },
+    {
+      "id": "HANJA_5FD7",
+      "character": "志",
+      "meaning": "뜻",
+      "pronunciation": "지",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_081"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_521D",
+      "character": "初",
+      "meaning": "처음",
+      "pronunciation": "초",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_6F14",
+      "character": "演",
+      "meaning": "베풀",
+      "pronunciation": "연",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_6A02",
+      "character": "樂",
+      "meaning": "즐거울",
+      "pronunciation": "락",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_8B5C",
+      "character": "譜",
+      "meaning": "글",
+      "pronunciation": "보",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_8907",
+      "character": "複",
+      "meaning": "겹칠",
+      "pronunciation": "복",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_96DC",
+      "character": "雜",
+      "meaning": "어지러울",
+      "pronunciation": "잡",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_60B2",
+      "character": "悲",
+      "meaning": "슬플",
+      "pronunciation": "비",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_75DB",
+      "character": "痛",
+      "meaning": "아플",
+      "pronunciation": "통",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_5C55",
+      "character": "展",
+      "meaning": "펼",
+      "pronunciation": "전",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_083"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8996",
+      "character": "視",
+      "meaning": "볼",
+      "pronunciation": "시",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_083"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_8A66",
+      "character": "試",
+      "meaning": "시험",
+      "pronunciation": "시",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_083"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_662F",
+      "character": "是",
+      "meaning": "이",
+      "pronunciation": "시",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_083"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6B63",
+      "character": "正",
+      "meaning": "바를",
+      "pronunciation": "정",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_083"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5C64",
+      "character": "層",
+      "meaning": "층",
+      "pronunciation": "층",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_084"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_7684",
+      "character": "的",
+      "meaning": "본",
+      "pronunciation": "적",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_084",
+        "PROB_BASIC_001_087"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_008",
+        "TEXT_BASIC_001_009",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_591A",
+      "character": "多",
+      "meaning": "많을",
+      "pronunciation": "다",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_084"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_8336",
+      "character": "茶",
+      "meaning": "차",
+      "pronunciation": "다",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_084"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8B93",
+      "character": "讓",
+      "meaning": "양보할",
+      "pronunciation": "양",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_6B65",
+      "character": "步",
+      "meaning": "걸음",
+      "pronunciation": "보",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_5408",
+      "character": "合",
+      "meaning": "합할",
+      "pronunciation": "합",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_610F",
+      "character": "意",
+      "meaning": "뜻",
+      "pronunciation": "의",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_090"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_009",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_5148",
+      "character": "先",
+      "meaning": "먼저",
+      "pronunciation": "선",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_4F8B",
+      "character": "例",
+      "meaning": "법",
+      "pronunciation": "례",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_8AD6",
+      "character": "論",
+      "meaning": "논할",
+      "pronunciation": "론",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_96E3",
+      "character": "難",
+      "meaning": "어려울",
+      "pronunciation": "난",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_030"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_5354",
+      "character": "協",
+      "meaning": "화할",
+      "pronunciation": "협",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_089"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_5546",
+      "character": "商",
+      "meaning": "장사",
+      "pronunciation": "상",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_089"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_58AE",
+      "character": "墮",
+      "meaning": "떨어질",
+      "pronunciation": "타",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_086"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_9805",
+      "character": "項",
+      "meaning": "항목",
+      "pronunciation": "항",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_086"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_59A5",
+      "character": "妥",
+      "meaning": "온당할",
+      "pronunciation": "타",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_086"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_6253",
+      "character": "打",
+      "meaning": "칠",
+      "pronunciation": "타",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_086"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_9803",
+      "character": "頃",
+      "meaning": "이랑",
+      "pronunciation": "경",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_086"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_4ED6",
+      "character": "他",
+      "meaning": "다를",
+      "pronunciation": "타",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_086"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5168",
+      "character": "全",
+      "meaning": "온전할",
+      "pronunciation": "전",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_087"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_683C",
+      "character": "格",
+      "meaning": "격식",
+      "pronunciation": "격",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_087"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_96FB",
+      "character": "電",
+      "meaning": "번개",
+      "pronunciation": "전",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_087"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_64CA",
+      "character": "擊",
+      "meaning": "칠",
+      "pronunciation": "격",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_087"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ]
+    },
+    {
+      "id": "HANJA_6230",
+      "character": "戰",
+      "meaning": "싸울",
+      "pronunciation": "전",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_087"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8105",
+      "character": "脅",
+      "meaning": "위협할",
+      "pronunciation": "협",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_089"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8A73",
+      "character": "詳",
+      "meaning": "자세할",
+      "pronunciation": "상",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_089"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_654E",
+      "character": "敎",
+      "meaning": "가르칠",
+      "pronunciation": "교",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_090"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8A13",
+      "character": "訓",
+      "meaning": "가르칠",
+      "pronunciation": "훈",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_090"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_7591",
+      "character": "疑",
+      "meaning": "의심할",
+      "pronunciation": "의",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_090"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_7FA9",
+      "character": "義",
+      "meaning": "옳을",
+      "pronunciation": "의",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_090"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6821",
+      "character": "校",
+      "meaning": "학교",
+      "pronunciation": "교",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_090"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5BE6",
+      "character": "實",
+      "meaning": "실상",
+      "pronunciation": "실",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_969B",
+      "character": "際",
+      "meaning": "이룰",
+      "pronunciation": "제",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_5473",
+      "character": "味",
+      "meaning": "뜻",
+      "pronunciation": "미",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_6B78",
+      "character": "歸",
+      "meaning": "돌아갈",
+      "pronunciation": "귀",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_7D0D",
+      "character": "納",
+      "meaning": "들일",
+      "pronunciation": "납",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_63A8",
+      "character": "推",
+      "meaning": "밀",
+      "pronunciation": "추",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_5883",
+      "character": "境",
+      "meaning": "지경",
+      "pronunciation": "경",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_9047",
+      "character": "遇",
+      "meaning": "만날",
+      "pronunciation": "우",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_524D",
+      "character": "前",
+      "meaning": "앞",
+      "pronunciation": "전",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_73FE",
+      "character": "現",
+      "meaning": "나타날",
+      "pronunciation": "현",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_7E79",
+      "character": "繹",
+      "meaning": "풀이할",
+      "pronunciation": "역",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_5316",
+      "character": "化",
+      "meaning": "될",
+      "pronunciation": "화",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_7A0B",
+      "character": "程",
+      "meaning": "정할",
+      "pronunciation": "정",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_094"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_5EA6",
+      "character": "度",
+      "meaning": "도수",
+      "pronunciation": "도",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_069",
+        "PROB_BASIC_001_094"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_9818",
+      "character": "領",
+      "meaning": "거느릴",
+      "pronunciation": "영",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_080",
+        "PROB_BASIC_001_094"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_57DF",
+      "character": "域",
+      "meaning": "지경",
+      "pronunciation": "역",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_094"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_77EE",
+      "character": "矮",
+      "meaning": "작을",
+      "pronunciation": "왜",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_539F",
+      "character": "原",
+      "meaning": "근원",
+      "pronunciation": "원",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_094"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_4F86",
+      "character": "來",
+      "meaning": "올",
+      "pronunciation": "래",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_064",
+        "PROB_BASIC_001_094"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_9A57",
+      "character": "驗",
+      "meaning": "겪을",
+      "pronunciation": "험",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_7279",
+      "character": "特",
+      "meaning": "특별할",
+      "pronunciation": "특",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_660E",
+      "character": "明",
+      "meaning": "밝을",
+      "pronunciation": "명",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_7D76",
+      "character": "絶",
+      "meaning": "끊을",
+      "pronunciation": "절",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_4E0D",
+      "character": "不",
+      "meaning": "아닐",
+      "pronunciation": "불",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_094"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_904E",
+      "character": "過",
+      "meaning": "지날",
+      "pronunciation": "과",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002",
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_5BB6",
+      "character": "家",
+      "meaning": "집",
+      "pronunciation": "가",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_095"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_78BA",
+      "character": "確",
+      "meaning": "굳을",
+      "pronunciation": "확",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_092"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_5F8B",
+      "character": "律",
+      "meaning": "법",
+      "pronunciation": "률",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_024",
+        "PROB_BASIC_001_082",
+        "PROB_BASIC_001_092"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_5024",
+      "character": "値",
+      "meaning": "값",
+      "pronunciation": "치",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_092"
+      ],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ]
+    },
+    {
+      "id": "HANJA_64F4",
+      "character": "擴",
+      "meaning": "넓힐",
+      "pronunciation": "확",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_013",
+        "PROB_BASIC_001_092"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_7F6E",
+      "character": "置",
+      "meaning": "둘",
+      "pronunciation": "치",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_092"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_679C",
+      "character": "果",
+      "meaning": "과실",
+      "pronunciation": "과",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_094"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_91CB",
+      "character": "釋",
+      "meaning": "풀",
+      "pronunciation": "석",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_095"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_8FE6",
+      "character": "迦",
+      "meaning": "가",
+      "pronunciation": "가",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_095"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_53EF",
+      "character": "可",
+      "meaning": "옳을",
+      "pronunciation": "가",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_095"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_4F11",
+      "character": "休",
+      "meaning": "쉴",
+      "pronunciation": "휴",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_095"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_6687",
+      "character": "暇",
+      "meaning": "겨를",
+      "pronunciation": "가",
+      "reference_problem_ids": [
+        "PROB_BASIC_001_095"
+      ],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_81EA",
+      "character": "自",
+      "meaning": "스스로",
+      "pronunciation": "자",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_8EAB",
+      "character": "身",
+      "meaning": "몸",
+      "pronunciation": "신",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ]
+    },
+    {
+      "id": "HANJA_4F5C",
+      "character": "作",
+      "meaning": "지을",
+      "pronunciation": "작",
+      "reference_problem_ids": [],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_52D5",
+      "character": "動",
+      "meaning": "움직일",
+      "pronunciation": "동",
+      "reference_problem_ids": [],
+      "reference_passage_ids": []
+    },
+    {
+      "id": "HANJA_5F62",
+      "character": "形",
+      "meaning": "모양",
+      "pronunciation": "형",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    },
+    {
+      "id": "HANJA_5F0F",
+      "character": "式",
+      "meaning": "본",
+      "pronunciation": "식",
+      "reference_problem_ids": [],
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ]
+    }
+  ],
+  "hanja_words": [
+    {
+      "id": "WORD_緣木求魚",
+      "characters": "緣木求魚",
+      "meaning": "나무, 구할, 물고기",
+      "pronunciation": "연, 목, 구, 어",
+      "hanja_ids": [
+        "HANJA_7DE3",
+        "HANJA_6728",
+        "HANJA_6C42",
+        "HANJA_9B5A"
+      ]
+    },
+    {
+      "id": "WORD_愚公移山",
+      "characters": "愚公移山",
+      "meaning": "어리석을, 공평할, 옮길, 산",
+      "pronunciation": "우, 공, 이, 산",
+      "hanja_ids": [
+        "HANJA_611A",
+        "HANJA_516C",
+        "HANJA_79FB",
+        "HANJA_5C71"
+      ]
+    },
+    {
+      "id": "WORD_九牛一毛",
+      "characters": "九牛一毛",
+      "meaning": "아홉, 소, 한, 털",
+      "pronunciation": "구, 우, 일, 모",
+      "hanja_ids": [
+        "HANJA_4E5D",
+        "HANJA_725B",
+        "HANJA_4E00",
+        "HANJA_6BDB"
+      ]
+    },
+    {
+      "id": "WORD_矯角殺牛",
+      "characters": "矯角殺牛",
+      "meaning": "바로잡을, 뿔, 죽일, 소",
+      "pronunciation": "교, 각, 살, 우",
+      "hanja_ids": [
+        "HANJA_77EF",
+        "HANJA_89D2",
+        "HANJA_6BBA",
+        "HANJA_725B"
+      ]
+    },
+    {
+      "id": "WORD_參與",
+      "characters": "參與",
+      "meaning": "참여할, 더불",
+      "pronunciation": "참, 여",
+      "hanja_ids": [
+        "HANJA_53C3",
+        "HANJA_8207"
+      ]
+    },
+    {
+      "id": "WORD_支持",
+      "characters": "支持",
+      "meaning": "지탱할, 가질",
+      "pronunciation": "지",
+      "hanja_ids": [
+        "HANJA_652F",
+        "HANJA_6301"
+      ]
+    },
+    {
+      "id": "WORD_反對",
+      "characters": "反對",
+      "meaning": "돌이킬, 대적할",
+      "pronunciation": "반, 대",
+      "hanja_ids": [
+        "HANJA_53CD",
+        "HANJA_5C0D"
+      ]
+    },
+    {
+      "id": "WORD_制限",
+      "characters": "制限",
+      "meaning": "절제할, 한할",
+      "pronunciation": "제, 한",
+      "hanja_ids": [
+        "HANJA_5236",
+        "HANJA_9650"
+      ]
+    },
+    {
+      "id": "WORD_變數",
+      "characters": "變數",
+      "meaning": "변할, 셈",
+      "pronunciation": "변, 수",
+      "hanja_ids": [
+        "HANJA_8B8A",
+        "HANJA_6578"
+      ]
+    },
+    {
+      "id": "WORD_疏通",
+      "characters": "疏通",
+      "meaning": "소통할, 통할",
+      "pronunciation": "소, 통",
+      "hanja_ids": [
+        "HANJA_758F",
+        "HANJA_901A"
+      ]
+    },
+    {
+      "id": "WORD_役割",
+      "characters": "役割",
+      "meaning": "부릴, 나눌",
+      "pronunciation": "역, 할",
+      "hanja_ids": [
+        "HANJA_5F79",
+        "HANJA_5272"
+      ]
+    },
+    {
+      "id": "WORD_執風",
+      "characters": "執風",
+      "meaning": "잡을, 바람",
+      "pronunciation": "집, 풍",
+      "hanja_ids": [
+        "HANJA_57F7",
+        "HANJA_98A8"
+      ]
+    },
+    {
+      "id": "WORD_大善",
+      "characters": "大善",
+      "meaning": "큰, 착할",
+      "pronunciation": "대, 선",
+      "hanja_ids": [
+        "HANJA_5927",
+        "HANJA_5584"
+      ]
+    },
+    {
+      "id": "WORD_觀心",
+      "characters": "觀心",
+      "meaning": "볼, 마음",
+      "pronunciation": "관, 심",
+      "hanja_ids": [
+        "HANJA_89C0",
+        "HANJA_5FC3"
+      ]
+    },
+    {
+      "id": "WORD_助御",
+      "characters": "助御",
+      "meaning": "도울, 거느릴",
+      "pronunciation": "조, 어",
+      "hanja_ids": [
+        "HANJA_52A9",
+        "HANJA_5FA1"
+      ]
+    },
+    {
+      "id": "WORD_助語",
+      "characters": "助語",
+      "meaning": "도울, 말씀",
+      "pronunciation": "조, 어",
+      "hanja_ids": [
+        "HANJA_52A9",
+        "HANJA_8A9E"
+      ]
+    },
+    {
+      "id": "WORD_造御",
+      "characters": "造御",
+      "meaning": "지을, 거느릴",
+      "pronunciation": "조, 어",
+      "hanja_ids": [
+        "HANJA_9020",
+        "HANJA_5FA1"
+      ]
+    },
+    {
+      "id": "WORD_造語",
+      "characters": "造語",
+      "meaning": "지을, 말씀",
+      "pronunciation": "조, 어",
+      "hanja_ids": [
+        "HANJA_9020",
+        "HANJA_8A9E"
+      ]
+    },
+    {
+      "id": "WORD_連繫",
+      "characters": "連繫",
+      "meaning": "이을, 맬",
+      "pronunciation": "연, 계",
+      "hanja_ids": [
+        "HANJA_9023",
+        "HANJA_7E6B"
+      ]
+    },
+    {
+      "id": "WORD_時計",
+      "characters": "時計",
+      "meaning": "때, 셀",
+      "pronunciation": "시, 계",
+      "hanja_ids": [
+        "HANJA_6642",
+        "HANJA_8A08"
+      ]
+    },
+    {
+      "id": "WORD_世界",
+      "characters": "世界",
+      "meaning": "세상, 지경",
+      "pronunciation": "세, 계",
+      "hanja_ids": [
+        "HANJA_4E16",
+        "HANJA_754C"
+      ]
+    },
+    {
+      "id": "WORD_秋季",
+      "characters": "秋季",
+      "meaning": "가을, 계절",
+      "pronunciation": "추, 계",
+      "hanja_ids": [
+        "HANJA_79CB",
+        "HANJA_5B63"
+      ]
+    },
+    {
+      "id": "WORD_警察署",
+      "characters": "警察署",
+      "meaning": "경계할, 살필, 서",
+      "pronunciation": "경, 찰, 서",
+      "hanja_ids": [
+        "HANJA_8B66",
+        "HANJA_5BDF",
+        "HANJA_7F72"
+      ]
+    },
+    {
+      "id": "WORD_被害者",
+      "characters": "被害者",
+      "meaning": "입을, 해로울, 놈",
+      "pronunciation": "피, 해, 자",
+      "hanja_ids": [
+        "HANJA_88AB",
+        "HANJA_5BB3",
+        "HANJA_8005"
+      ]
+    },
+    {
+      "id": "WORD_陳述",
+      "characters": "陳述",
+      "meaning": "베풀, 펼",
+      "pronunciation": "진, 술",
+      "hanja_ids": [
+        "HANJA_9673",
+        "HANJA_8FF0"
+      ]
+    },
+    {
+      "id": "WORD_刑司",
+      "characters": "刑司",
+      "meaning": "형벌, 맡을",
+      "pronunciation": "형, 사",
+      "hanja_ids": [
+        "HANJA_5211",
+        "HANJA_53F8"
+      ]
+    },
+    {
+      "id": "WORD_反映",
+      "characters": "反映",
+      "meaning": "돌이킬, 비칠",
+      "pronunciation": "반, 영",
+      "hanja_ids": [
+        "HANJA_53CD",
+        "HANJA_6620"
+      ]
+    },
+    {
+      "id": "WORD_幻影",
+      "characters": "幻影",
+      "meaning": "환할, 그림자",
+      "pronunciation": "환, 영",
+      "hanja_ids": [
+        "HANJA_5E7B",
+        "HANJA_5F71"
+      ]
+    },
+    {
+      "id": "WORD_育英",
+      "characters": "育英",
+      "meaning": "기를, 꽃부리",
+      "pronunciation": "육, 영",
+      "hanja_ids": [
+        "HANJA_80B2",
+        "HANJA_82F1"
+      ]
+    },
+    {
+      "id": "WORD_運營",
+      "characters": "運營",
+      "meaning": "옮길, 경영할",
+      "pronunciation": "운, 영",
+      "hanja_ids": [
+        "HANJA_904B",
+        "HANJA_71DF"
+      ]
+    },
+    {
+      "id": "WORD_事故",
+      "characters": "事故",
+      "meaning": "일, 만날",
+      "pronunciation": "사, 고",
+      "hanja_ids": [
+        "HANJA_4E8B",
+        "HANJA_6545"
+      ]
+    },
+    {
+      "id": "WORD_惡臭",
+      "characters": "惡臭",
+      "meaning": "악할, 냄새",
+      "pronunciation": "악, 취",
+      "hanja_ids": [
+        "HANJA_60E1",
+        "HANJA_81ED"
+      ]
+    },
+    {
+      "id": "WORD_汚染",
+      "characters": "汚染",
+      "meaning": "더러울, 물들",
+      "pronunciation": "오, 염",
+      "hanja_ids": [
+        "HANJA_6C5A",
+        "HANJA_67D3"
+      ]
+    },
+    {
+      "id": "WORD_用語",
+      "characters": "用語",
+      "meaning": "쓸, 말씀",
+      "pronunciation": "용, 어",
+      "hanja_ids": [
+        "HANJA_7528",
+        "HANJA_8A9E"
+      ]
+    },
+    {
+      "id": "WORD_理念型",
+      "characters": "理念型",
+      "meaning": "이치, 생각, 본",
+      "pronunciation": "리, 념, 형",
+      "hanja_ids": [
+        "HANJA_7406",
+        "HANJA_5FF5",
+        "HANJA_578B"
+      ]
+    },
+    {
+      "id": "WORD_二重性",
+      "characters": "二重性",
+      "meaning": "두, 겹칠, 성품",
+      "pronunciation": "이, 중, 성",
+      "hanja_ids": [
+        "HANJA_4E8C",
+        "HANJA_91CD",
+        "HANJA_6027"
+      ]
+    },
+    {
+      "id": "WORD_所以然",
+      "characters": "所以然",
+      "meaning": "바, 말미암을, 그럴",
+      "pronunciation": "소, 이, 연",
+      "hanja_ids": [
+        "HANJA_6240",
+        "HANJA_4EE5",
+        "HANJA_7136"
+      ]
+    },
+    {
+      "id": "WORD_東夷族",
+      "characters": "東夷族",
+      "meaning": "동녘, 오랑캐, 겨레",
+      "pronunciation": "동, 이, 족",
+      "hanja_ids": [
+        "HANJA_6771",
+        "HANJA_5937",
+        "HANJA_65CF"
+      ]
+    },
+    {
+      "id": "WORD_好惡",
+      "characters": "好惡",
+      "meaning": "좋을, 악할",
+      "pronunciation": "호, 오",
+      "hanja_ids": [
+        "HANJA_597D",
+        "HANJA_60E1"
+      ]
+    },
+    {
+      "id": "WORD_大小",
+      "characters": "大小",
+      "meaning": "큰, 작을",
+      "pronunciation": "대, 소",
+      "hanja_ids": [
+        "HANJA_5927",
+        "HANJA_5C0F"
+      ]
+    },
+    {
+      "id": "WORD_輕重",
+      "characters": "輕重",
+      "meaning": "가벼울, 무거울",
+      "pronunciation": "경, 중",
+      "hanja_ids": [
+        "HANJA_8F15",
+        "HANJA_91CD"
+      ]
+    },
+    {
+      "id": "WORD_長短",
+      "characters": "長短",
+      "meaning": "길, 짧을",
+      "pronunciation": "장, 단",
+      "hanja_ids": [
+        "HANJA_9577",
+        "HANJA_77ED"
+      ]
+    },
+    {
+      "id": "WORD_評價",
+      "characters": "評價",
+      "meaning": "평할, 값",
+      "pronunciation": "평, 가",
+      "hanja_ids": [
+        "HANJA_8A55",
+        "HANJA_50F9"
+      ]
+    },
+    {
+      "id": "WORD_基準",
+      "characters": "基準",
+      "meaning": "기초, 준할",
+      "pronunciation": "기, 준",
+      "hanja_ids": [
+        "HANJA_57FA",
+        "HANJA_6E96"
+      ]
+    },
+    {
+      "id": "WORD_地表",
+      "characters": "地表",
+      "meaning": "땅, 겉",
+      "pronunciation": "지, 표",
+      "hanja_ids": [
+        "HANJA_5730",
+        "HANJA_8868"
+      ]
+    },
+    {
+      "id": "WORD_分解",
+      "characters": "分解",
+      "meaning": "나눌, 풀",
+      "pronunciation": "분, 해",
+      "hanja_ids": [
+        "HANJA_5206",
+        "HANJA_89E3"
+      ]
+    },
+    {
+      "id": "WORD_經濟",
+      "characters": "經濟",
+      "meaning": "경영할, 아낄",
+      "pronunciation": "경, 제",
+      "hanja_ids": [
+        "HANJA_7D93",
+        "HANJA_6FDF"
+      ]
+    },
+    {
+      "id": "WORD_經營",
+      "characters": "經營",
+      "meaning": "경영할",
+      "pronunciation": "경, 영",
+      "hanja_ids": [
+        "HANJA_7D93",
+        "HANJA_71DF"
+      ]
+    },
+    {
+      "id": "WORD_科目",
+      "characters": "科目",
+      "meaning": "과정, 목표",
+      "pronunciation": "과, 목",
+      "hanja_ids": [
+        "HANJA_79D1",
+        "HANJA_76EE"
+      ]
+    },
+    {
+      "id": "WORD_投資",
+      "characters": "投資",
+      "meaning": "던질, 댈",
+      "pronunciation": "투, 자",
+      "hanja_ids": [
+        "HANJA_6295",
+        "HANJA_8CC7"
+      ]
+    },
+    {
+      "id": "WORD_注文",
+      "characters": "注文",
+      "meaning": "부을, 글월",
+      "pronunciation": "주, 문",
+      "hanja_ids": [
+        "HANJA_6CE8",
+        "HANJA_6587"
+      ]
+    },
+    {
+      "id": "WORD_政府",
+      "characters": "政府",
+      "meaning": "정사, 지아비",
+      "pronunciation": "정, 부",
+      "hanja_ids": [
+        "HANJA_653F",
+        "HANJA_5E9C"
+      ]
+    },
+    {
+      "id": "WORD_經榮",
+      "characters": "經榮",
+      "meaning": "경영할, 영광",
+      "pronunciation": "경, 영",
+      "hanja_ids": [
+        "HANJA_7D93",
+        "HANJA_69AE"
+      ]
+    },
+    {
+      "id": "WORD_輕減",
+      "characters": "輕減",
+      "meaning": "가벼울, 덜",
+      "pronunciation": "경, 감",
+      "hanja_ids": [
+        "HANJA_8F15",
+        "HANJA_6E1B"
+      ]
+    },
+    {
+      "id": "WORD_增益",
+      "characters": "增益",
+      "meaning": "더할",
+      "pronunciation": "증, 익",
+      "hanja_ids": [
+        "HANJA_589E",
+        "HANJA_76CA"
+      ]
+    },
+    {
+      "id": "WORD_伸縮",
+      "characters": "伸縮",
+      "meaning": "펼, 줄어들",
+      "pronunciation": "신, 축",
+      "hanja_ids": [
+        "HANJA_4F38",
+        "HANJA_7E2E"
+      ]
+    },
+    {
+      "id": "WORD_凍結",
+      "characters": "凍結",
+      "meaning": "얼, 맺을",
+      "pronunciation": "동, 결",
+      "hanja_ids": [
+        "HANJA_51CD",
+        "HANJA_7D50"
+      ]
+    },
+    {
+      "id": "WORD_主文",
+      "characters": "主文",
+      "meaning": "임금, 글월",
+      "pronunciation": "주, 문",
+      "hanja_ids": [
+        "HANJA_4E3B",
+        "HANJA_6587"
+      ]
+    },
+    {
+      "id": "WORD_主問",
+      "characters": "主問",
+      "meaning": "임금, 물을",
+      "pronunciation": "주, 문",
+      "hanja_ids": [
+        "HANJA_4E3B",
+        "HANJA_554F"
+      ]
+    },
+    {
+      "id": "WORD_注問",
+      "characters": "注問",
+      "meaning": "부을, 물을",
+      "pronunciation": "주, 문",
+      "hanja_ids": [
+        "HANJA_6CE8",
+        "HANJA_554F"
+      ]
+    },
+    {
+      "id": "WORD_遂行",
+      "characters": "遂行",
+      "meaning": "이룰, 행할",
+      "pronunciation": "수, 행",
+      "hanja_ids": [
+        "HANJA_9042",
+        "HANJA_884C"
+      ]
+    },
+    {
+      "id": "WORD_課題",
+      "characters": "課題",
+      "meaning": "과정, 제목",
+      "pronunciation": "과, 제",
+      "hanja_ids": [
+        "HANJA_8AB2",
+        "HANJA_984C"
+      ]
+    },
+    {
+      "id": "WORD_筋肉",
+      "characters": "筋肉",
+      "meaning": "힘줄, 고기",
+      "pronunciation": "근, 육",
+      "hanja_ids": [
+        "HANJA_7B4B",
+        "HANJA_8089"
+      ]
+    },
+    {
+      "id": "WORD_供給",
+      "characters": "供給",
+      "meaning": "이바지할, 줄",
+      "pronunciation": "공, 급",
+      "hanja_ids": [
+        "HANJA_4F9B",
+        "HANJA_7D66"
+      ]
+    },
+    {
+      "id": "WORD_循環",
+      "characters": "循環",
+      "meaning": "돌",
+      "pronunciation": "순, 환",
+      "hanja_ids": [
+        "HANJA_5FAA",
+        "HANJA_74B0"
+      ]
+    },
+    {
+      "id": "WORD_生産",
+      "characters": "生産",
+      "meaning": "날, 낳을",
+      "pronunciation": "생, 산",
+      "hanja_ids": [
+        "HANJA_751F",
+        "HANJA_7523"
+      ]
+    },
+    {
+      "id": "WORD_效率",
+      "characters": "效率",
+      "meaning": "본받을, 비율",
+      "pronunciation": "효, 률",
+      "hanja_ids": [
+        "HANJA_6548",
+        "HANJA_7387"
+      ]
+    },
+    {
+      "id": "WORD_急激",
+      "characters": "急激",
+      "meaning": "급할, 격렬할",
+      "pronunciation": "급, 격",
+      "hanja_ids": [
+        "HANJA_6025",
+        "HANJA_6FC0"
+      ]
+    },
+    {
+      "id": "WORD_影鄕",
+      "characters": "影鄕",
+      "meaning": "그림자, 시골",
+      "pronunciation": "영, 향",
+      "hanja_ids": [
+        "HANJA_5F71",
+        "HANJA_9115"
+      ]
+    },
+    {
+      "id": "WORD_沈潛",
+      "characters": "沈潛",
+      "meaning": "잠길",
+      "pronunciation": "침, 잠",
+      "hanja_ids": [
+        "HANJA_6C88",
+        "HANJA_6F5B"
+      ]
+    },
+    {
+      "id": "WORD_消滅",
+      "characters": "消滅",
+      "meaning": "사라질, 멸할",
+      "pronunciation": "소, 멸",
+      "hanja_ids": [
+        "HANJA_6D88",
+        "HANJA_6EC5"
+      ]
+    },
+    {
+      "id": "WORD_吐露",
+      "characters": "吐露",
+      "meaning": "토할, 이슬",
+      "pronunciation": "토, 로",
+      "hanja_ids": [
+        "HANJA_5410",
+        "HANJA_9732"
+      ]
+    },
+    {
+      "id": "WORD_混亂",
+      "characters": "混亂",
+      "meaning": "섞을, 어지러울",
+      "pronunciation": "혼, 란",
+      "hanja_ids": [
+        "HANJA_6DF7",
+        "HANJA_4E82"
+      ]
+    },
+    {
+      "id": "WORD_傳統",
+      "characters": "傳統",
+      "meaning": "전할, 이을",
+      "pronunciation": "전, 통",
+      "hanja_ids": [
+        "HANJA_50B3",
+        "HANJA_7D71"
+      ]
+    },
+    {
+      "id": "WORD_物質",
+      "characters": "物質",
+      "meaning": "물건, 바탕",
+      "pronunciation": "물, 질",
+      "hanja_ids": [
+        "HANJA_7269",
+        "HANJA_8CEA"
+      ]
+    },
+    {
+      "id": "WORD_登場",
+      "characters": "登場",
+      "meaning": "오를, 마당",
+      "pronunciation": "등, 장",
+      "hanja_ids": [
+        "HANJA_767B",
+        "HANJA_5834"
+      ]
+    },
+    {
+      "id": "WORD_理性",
+      "characters": "理性",
+      "meaning": "다스릴, 성품",
+      "pronunciation": "리, 성",
+      "hanja_ids": [
+        "HANJA_7406",
+        "HANJA_6027"
+      ]
+    },
+    {
+      "id": "WORD_美學",
+      "characters": "美學",
+      "meaning": "아름다울, 배울",
+      "pronunciation": "미, 학",
+      "hanja_ids": [
+        "HANJA_7F8E",
+        "HANJA_5B78"
+      ]
+    },
+    {
+      "id": "WORD_向上",
+      "characters": "向上",
+      "meaning": "향할, 위",
+      "pronunciation": "향, 상",
+      "hanja_ids": [
+        "HANJA_5411",
+        "HANJA_4E0A"
+      ]
+    },
+    {
+      "id": "WORD_上流",
+      "characters": "上流",
+      "meaning": "위, 흐를",
+      "pronunciation": "상, 류",
+      "hanja_ids": [
+        "HANJA_4E0A",
+        "HANJA_6D41"
+      ]
+    },
+    {
+      "id": "WORD_浮上",
+      "characters": "浮上",
+      "meaning": "뜰, 위",
+      "pronunciation": "부, 상",
+      "hanja_ids": [
+        "HANJA_6D6E",
+        "HANJA_4E0A"
+      ]
+    },
+    {
+      "id": "WORD_上昇",
+      "characters": "上昇",
+      "meaning": "위, 오를",
+      "pronunciation": "상, 승",
+      "hanja_ids": [
+        "HANJA_4E0A",
+        "HANJA_6607"
+      ]
+    },
+    {
+      "id": "WORD_時期",
+      "characters": "時期",
+      "meaning": "때, 기약할",
+      "pronunciation": "시, 기",
+      "hanja_ids": [
+        "HANJA_6642",
+        "HANJA_671F"
+      ]
+    },
+    {
+      "id": "WORD_爲勢",
+      "characters": "爲勢",
+      "meaning": "위할, 세력",
+      "pronunciation": "위, 세",
+      "hanja_ids": [
+        "HANJA_7232",
+        "HANJA_52E2"
+      ]
+    },
+    {
+      "id": "WORD_尖端",
+      "characters": "尖端",
+      "meaning": "뾰족할, 끝",
+      "pronunciation": "첨, 단",
+      "hanja_ids": [
+        "HANJA_5C16",
+        "HANJA_7AEF"
+      ]
+    },
+    {
+      "id": "WORD_對面",
+      "characters": "對面",
+      "meaning": "대할, 낯",
+      "pronunciation": "대, 면",
+      "hanja_ids": [
+        "HANJA_5C0D",
+        "HANJA_9762"
+      ]
+    },
+    {
+      "id": "WORD_異姓",
+      "characters": "異姓",
+      "meaning": "다를, 성씨",
+      "pronunciation": "이, 성",
+      "hanja_ids": [
+        "HANJA_7570",
+        "HANJA_59D3"
+      ]
+    },
+    {
+      "id": "WORD_假說",
+      "characters": "假說",
+      "meaning": "거짓, 말씀",
+      "pronunciation": "가, 설",
+      "hanja_ids": [
+        "HANJA_5047",
+        "HANJA_8AAA"
+      ]
+    },
+    {
+      "id": "WORD_能力",
+      "characters": "能力",
+      "meaning": "능할, 힘",
+      "pronunciation": "능, 력",
+      "hanja_ids": [
+        "HANJA_80FD",
+        "HANJA_529B"
+      ]
+    },
+    {
+      "id": "WORD_集中",
+      "characters": "集中",
+      "meaning": "모일, 가운데",
+      "pronunciation": "집, 중",
+      "hanja_ids": [
+        "HANJA_96C6",
+        "HANJA_4E2D"
+      ]
+    },
+    {
+      "id": "WORD_豫測",
+      "characters": "豫測",
+      "meaning": "미리, 헤아릴",
+      "pronunciation": "예, 측",
+      "hanja_ids": [
+        "HANJA_8C6B",
+        "HANJA_6E2C"
+      ]
+    },
+    {
+      "id": "WORD_指摘",
+      "characters": "指摘",
+      "meaning": "가리킬, 뽑을",
+      "pronunciation": "지, 적",
+      "hanja_ids": [
+        "HANJA_6307",
+        "HANJA_6458"
+      ]
+    },
+    {
+      "id": "WORD_人類",
+      "characters": "人類",
+      "meaning": "사람, 무리",
+      "pronunciation": "인, 류",
+      "hanja_ids": [
+        "HANJA_4EBA",
+        "HANJA_985E"
+      ]
+    },
+    {
+      "id": "WORD_提示",
+      "characters": "提示",
+      "meaning": "들, 보일",
+      "pronunciation": "제, 시",
+      "hanja_ids": [
+        "HANJA_63D0",
+        "HANJA_793A"
+      ]
+    },
+    {
+      "id": "WORD_豆惱",
+      "characters": "豆惱",
+      "meaning": "콩, 번뇌할",
+      "pronunciation": "두, 뇌",
+      "hanja_ids": [
+        "HANJA_8C46",
+        "HANJA_60F1"
+      ]
+    },
+    {
+      "id": "WORD_批較",
+      "characters": "批較",
+      "meaning": "비평할, 견줄",
+      "pronunciation": "비, 교",
+      "hanja_ids": [
+        "HANJA_6279",
+        "HANJA_8F03"
+      ]
+    },
+    {
+      "id": "WORD_豆腦",
+      "characters": "豆腦",
+      "meaning": "콩, 뇌",
+      "pronunciation": "두, 뇌",
+      "hanja_ids": [
+        "HANJA_8C46",
+        "HANJA_8166"
+      ]
+    },
+    {
+      "id": "WORD_比較",
+      "characters": "比較",
+      "meaning": "견줄",
+      "pronunciation": "비, 교",
+      "hanja_ids": [
+        "HANJA_6BD4",
+        "HANJA_8F03"
+      ]
+    },
+    {
+      "id": "WORD_頭惱",
+      "characters": "頭惱",
+      "meaning": "머리, 번뇌할",
+      "pronunciation": "두, 뇌",
+      "hanja_ids": [
+        "HANJA_982D",
+        "HANJA_60F1"
+      ]
+    },
+    {
+      "id": "WORD_頭腦",
+      "characters": "頭腦",
+      "meaning": "머리, 뇌",
+      "pronunciation": "두, 뇌",
+      "hanja_ids": [
+        "HANJA_982D",
+        "HANJA_8166"
+      ]
+    },
+    {
+      "id": "WORD_奇誌",
+      "characters": "奇誌",
+      "meaning": "기이할, 뜻",
+      "pronunciation": "기, 지",
+      "hanja_ids": [
+        "HANJA_5947",
+        "HANJA_8A8C"
+      ]
+    },
+    {
+      "id": "WORD_機智",
+      "characters": "機智",
+      "meaning": "때, 지혜",
+      "pronunciation": "기, 지",
+      "hanja_ids": [
+        "HANJA_6A5F",
+        "HANJA_667A"
+      ]
+    },
+    {
+      "id": "WORD_氣志",
+      "characters": "氣志",
+      "meaning": "기운, 뜻",
+      "pronunciation": "기, 지",
+      "hanja_ids": [
+        "HANJA_6C23",
+        "HANJA_5FD7"
+      ]
+    },
+    {
+      "id": "WORD_基地",
+      "characters": "基地",
+      "meaning": "기초, 땅",
+      "pronunciation": "기, 지",
+      "hanja_ids": [
+        "HANJA_57FA",
+        "HANJA_5730"
+      ]
+    },
+    {
+      "id": "WORD_初演",
+      "characters": "初演",
+      "meaning": "처음, 베풀",
+      "pronunciation": "초, 연",
+      "hanja_ids": [
+        "HANJA_521D",
+        "HANJA_6F14"
+      ]
+    },
+    {
+      "id": "WORD_樂譜",
+      "characters": "樂譜",
+      "meaning": "즐거울, 글",
+      "pronunciation": "락, 보",
+      "hanja_ids": [
+        "HANJA_6A02",
+        "HANJA_8B5C"
+      ]
+    },
+    {
+      "id": "WORD_複雜",
+      "characters": "複雜",
+      "meaning": "겹칠, 어지러울",
+      "pronunciation": "복, 잡",
+      "hanja_ids": [
+        "HANJA_8907",
+        "HANJA_96DC"
+      ]
+    },
+    {
+      "id": "WORD_悲痛",
+      "characters": "悲痛",
+      "meaning": "슬플, 아플",
+      "pronunciation": "비, 통",
+      "hanja_ids": [
+        "HANJA_60B2",
+        "HANJA_75DB"
+      ]
+    },
+    {
+      "id": "WORD_展示",
+      "characters": "展示",
+      "meaning": "펼, 보일",
+      "pronunciation": "전, 시",
+      "hanja_ids": [
+        "HANJA_5C55",
+        "HANJA_793A"
+      ]
+    },
+    {
+      "id": "WORD_視察",
+      "characters": "視察",
+      "meaning": "볼, 살필",
+      "pronunciation": "시, 찰",
+      "hanja_ids": [
+        "HANJA_8996",
+        "HANJA_5BDF"
+      ]
+    },
+    {
+      "id": "WORD_司試",
+      "characters": "司試",
+      "meaning": "맡을, 시험",
+      "pronunciation": "사, 시",
+      "hanja_ids": [
+        "HANJA_53F8",
+        "HANJA_8A66"
+      ]
+    },
+    {
+      "id": "WORD_是正",
+      "characters": "是正",
+      "meaning": "이, 바를",
+      "pronunciation": "시, 정",
+      "hanja_ids": [
+        "HANJA_662F",
+        "HANJA_6B63"
+      ]
+    },
+    {
+      "id": "WORD_重層的",
+      "characters": "重層的",
+      "meaning": "무거울, 층, 본",
+      "pronunciation": "중, 층, 적",
+      "hanja_ids": [
+        "HANJA_91CD",
+        "HANJA_5C64",
+        "HANJA_7684"
+      ]
+    },
+    {
+      "id": "WORD_多面的",
+      "characters": "多面的",
+      "meaning": "많을, 낯, 본",
+      "pronunciation": "다, 면, 적",
+      "hanja_ids": [
+        "HANJA_591A",
+        "HANJA_9762",
+        "HANJA_7684"
+      ]
+    },
+    {
+      "id": "WORD_中層的",
+      "characters": "中層的",
+      "meaning": "가운데, 층, 본",
+      "pronunciation": "중, 층, 적",
+      "hanja_ids": [
+        "HANJA_4E2D",
+        "HANJA_5C64",
+        "HANJA_7684"
+      ]
+    },
+    {
+      "id": "WORD_茶面的",
+      "characters": "茶面的",
+      "meaning": "차, 낯, 본",
+      "pronunciation": "다, 면, 적",
+      "hanja_ids": [
+        "HANJA_8336",
+        "HANJA_9762",
+        "HANJA_7684"
+      ]
+    },
+    {
+      "id": "WORD_讓步",
+      "characters": "讓步",
+      "meaning": "양보할, 걸음",
+      "pronunciation": "양, 보",
+      "hanja_ids": [
+        "HANJA_8B93",
+        "HANJA_6B65"
+      ]
+    },
+    {
+      "id": "WORD_合意",
+      "characters": "合意",
+      "meaning": "합할, 뜻",
+      "pronunciation": "합, 의",
+      "hanja_ids": [
+        "HANJA_5408",
+        "HANJA_610F"
+      ]
+    },
+    {
+      "id": "WORD_先例",
+      "characters": "先例",
+      "meaning": "먼저, 법",
+      "pronunciation": "선, 례",
+      "hanja_ids": [
+        "HANJA_5148",
+        "HANJA_4F8B"
+      ]
+    },
+    {
+      "id": "WORD_論難",
+      "characters": "論難",
+      "meaning": "논할, 어려울",
+      "pronunciation": "론, 난",
+      "hanja_ids": [
+        "HANJA_8AD6",
+        "HANJA_96E3"
+      ]
+    },
+    {
+      "id": "WORD_協商",
+      "characters": "協商",
+      "meaning": "화할, 장사",
+      "pronunciation": "협, 상",
+      "hanja_ids": [
+        "HANJA_5354",
+        "HANJA_5546"
+      ]
+    },
+    {
+      "id": "WORD_墮結",
+      "characters": "墮結",
+      "meaning": "떨어질, 맺을",
+      "pronunciation": "타, 결",
+      "hanja_ids": [
+        "HANJA_58AE",
+        "HANJA_7D50"
+      ]
+    },
+    {
+      "id": "WORD_項目",
+      "characters": "項目",
+      "meaning": "항목, 목표",
+      "pronunciation": "항, 목",
+      "hanja_ids": [
+        "HANJA_9805",
+        "HANJA_76EE"
+      ]
+    },
+    {
+      "id": "WORD_妥結",
+      "characters": "妥結",
+      "meaning": "온당할, 맺을",
+      "pronunciation": "타, 결",
+      "hanja_ids": [
+        "HANJA_59A5",
+        "HANJA_7D50"
+      ]
+    },
+    {
+      "id": "WORD_打結",
+      "characters": "打結",
+      "meaning": "칠, 맺을",
+      "pronunciation": "타, 결",
+      "hanja_ids": [
+        "HANJA_6253",
+        "HANJA_7D50"
+      ]
+    },
+    {
+      "id": "WORD_頃目",
+      "characters": "頃目",
+      "meaning": "이랑, 목표",
+      "pronunciation": "경, 목",
+      "hanja_ids": [
+        "HANJA_9803",
+        "HANJA_76EE"
+      ]
+    },
+    {
+      "id": "WORD_他結",
+      "characters": "他結",
+      "meaning": "다를, 맺을",
+      "pronunciation": "타, 결",
+      "hanja_ids": [
+        "HANJA_4ED6",
+        "HANJA_7D50"
+      ]
+    },
+    {
+      "id": "WORD_全格的",
+      "characters": "全格的",
+      "meaning": "온전할, 격식, 본",
+      "pronunciation": "전, 격, 적",
+      "hanja_ids": [
+        "HANJA_5168",
+        "HANJA_683C",
+        "HANJA_7684"
+      ]
+    },
+    {
+      "id": "WORD_電格的",
+      "characters": "電格的",
+      "meaning": "번개, 격식, 본",
+      "pronunciation": "전, 격, 적",
+      "hanja_ids": [
+        "HANJA_96FB",
+        "HANJA_683C",
+        "HANJA_7684"
+      ]
+    },
+    {
+      "id": "WORD_電擊的",
+      "characters": "電擊的",
+      "meaning": "번개, 칠, 본",
+      "pronunciation": "전, 격, 적",
+      "hanja_ids": [
+        "HANJA_96FB",
+        "HANJA_64CA",
+        "HANJA_7684"
+      ]
+    },
+    {
+      "id": "WORD_戰激的",
+      "characters": "戰激的",
+      "meaning": "싸울, 격렬할, 본",
+      "pronunciation": "전, 격, 적",
+      "hanja_ids": [
+        "HANJA_6230",
+        "HANJA_6FC0",
+        "HANJA_7684"
+      ]
+    },
+    {
+      "id": "WORD_脅詳",
+      "characters": "脅詳",
+      "meaning": "위협할, 자세할",
+      "pronunciation": "협, 상",
+      "hanja_ids": [
+        "HANJA_8105",
+        "HANJA_8A73"
+      ]
+    },
+    {
+      "id": "WORD_協詳",
+      "characters": "協詳",
+      "meaning": "화할, 자세할",
+      "pronunciation": "협, 상",
+      "hanja_ids": [
+        "HANJA_5354",
+        "HANJA_8A73"
+      ]
+    },
+    {
+      "id": "WORD_脅商",
+      "characters": "脅商",
+      "meaning": "위협할, 장사",
+      "pronunciation": "협, 상",
+      "hanja_ids": [
+        "HANJA_8105",
+        "HANJA_5546"
+      ]
+    },
+    {
+      "id": "WORD_敎訓",
+      "characters": "敎訓",
+      "meaning": "가르칠",
+      "pronunciation": "교, 훈",
+      "hanja_ids": [
+        "HANJA_654E",
+        "HANJA_8A13"
+      ]
+    },
+    {
+      "id": "WORD_疑義",
+      "characters": "疑義",
+      "meaning": "의심할, 옳을",
+      "pronunciation": "의",
+      "hanja_ids": [
+        "HANJA_7591",
+        "HANJA_7FA9"
+      ]
+    },
+    {
+      "id": "WORD_校訓",
+      "characters": "校訓",
+      "meaning": "학교, 가르칠",
+      "pronunciation": "교, 훈",
+      "hanja_ids": [
+        "HANJA_6821",
+        "HANJA_8A13"
+      ]
+    },
+    {
+      "id": "WORD_意義",
+      "characters": "意義",
+      "meaning": "뜻, 옳을",
+      "pronunciation": "의",
+      "hanja_ids": [
+        "HANJA_610F",
+        "HANJA_7FA9"
+      ]
+    },
+    {
+      "id": "WORD_實際",
+      "characters": "實際",
+      "meaning": "실상, 이룰",
+      "pronunciation": "실, 제",
+      "hanja_ids": [
+        "HANJA_5BE6",
+        "HANJA_969B"
+      ]
+    },
+    {
+      "id": "WORD_意味",
+      "characters": "意味",
+      "meaning": "뜻",
+      "pronunciation": "의, 미",
+      "hanja_ids": [
+        "HANJA_610F",
+        "HANJA_5473"
+      ]
+    },
+    {
+      "id": "WORD_歸納",
+      "characters": "歸納",
+      "meaning": "돌아갈, 들일",
+      "pronunciation": "귀, 납",
+      "hanja_ids": [
+        "HANJA_6B78",
+        "HANJA_7D0D"
+      ]
+    },
+    {
+      "id": "WORD_推論",
+      "characters": "推論",
+      "meaning": "밀, 논할",
+      "pronunciation": "추, 론",
+      "hanja_ids": [
+        "HANJA_63A8",
+        "HANJA_8AD6"
+      ]
+    },
+    {
+      "id": "WORD_境遇",
+      "characters": "境遇",
+      "meaning": "지경, 만날",
+      "pronunciation": "경, 우",
+      "hanja_ids": [
+        "HANJA_5883",
+        "HANJA_9047"
+      ]
+    },
+    {
+      "id": "WORD_前提",
+      "characters": "前提",
+      "meaning": "앞, 내놓을",
+      "pronunciation": "전, 제",
+      "hanja_ids": [
+        "HANJA_524D",
+        "HANJA_63D0"
+      ]
+    },
+    {
+      "id": "WORD_結論",
+      "characters": "結論",
+      "meaning": "맺을, 논할",
+      "pronunciation": "결, 론",
+      "hanja_ids": [
+        "HANJA_7D50",
+        "HANJA_8AD6"
+      ]
+    },
+    {
+      "id": "WORD_表現",
+      "characters": "表現",
+      "meaning": "표할, 나타날",
+      "pronunciation": "표, 현",
+      "hanja_ids": [
+        "HANJA_8868",
+        "HANJA_73FE"
+      ]
+    },
+    {
+      "id": "WORD_演繹化",
+      "characters": "演繹化",
+      "meaning": "베풀, 풀이할, 될",
+      "pronunciation": "연, 역, 화",
+      "hanja_ids": [
+        "HANJA_6F14",
+        "HANJA_7E79",
+        "HANJA_5316"
+      ]
+    },
+    {
+      "id": "WORD_程度",
+      "characters": "程度",
+      "meaning": "정할, 도수",
+      "pronunciation": "정, 도",
+      "hanja_ids": [
+        "HANJA_7A0B",
+        "HANJA_5EA6"
+      ]
+    },
+    {
+      "id": "WORD_領域",
+      "characters": "領域",
+      "meaning": "거느릴, 지경",
+      "pronunciation": "영, 역",
+      "hanja_ids": [
+        "HANJA_9818",
+        "HANJA_57DF"
+      ]
+    },
+    {
+      "id": "WORD_矮小",
+      "characters": "矮小",
+      "meaning": "작을",
+      "pronunciation": "왜, 소",
+      "hanja_ids": [
+        "HANJA_77EE",
+        "HANJA_5C0F"
+      ]
+    },
+    {
+      "id": "WORD_原來",
+      "characters": "原來",
+      "meaning": "근원, 올",
+      "pronunciation": "원, 래",
+      "hanja_ids": [
+        "HANJA_539F",
+        "HANJA_4F86"
+      ]
+    },
+    {
+      "id": "WORD_經驗的",
+      "characters": "經驗的",
+      "meaning": "지날, 겪을, 본",
+      "pronunciation": "경, 험, 적",
+      "hanja_ids": [
+        "HANJA_7D93",
+        "HANJA_9A57",
+        "HANJA_7684"
+      ]
+    },
+    {
+      "id": "WORD_特性",
+      "characters": "特性",
+      "meaning": "특별할, 성품",
+      "pronunciation": "특, 성",
+      "hanja_ids": [
+        "HANJA_7279",
+        "HANJA_6027"
+      ]
+    },
+    {
+      "id": "WORD_解明",
+      "characters": "解明",
+      "meaning": "풀, 밝을",
+      "pronunciation": "해, 명",
+      "hanja_ids": [
+        "HANJA_89E3",
+        "HANJA_660E"
+      ]
+    },
+    {
+      "id": "WORD_絶緣",
+      "characters": "絶緣",
+      "meaning": "끊을, 인연",
+      "pronunciation": "절, 연",
+      "hanja_ids": [
+        "HANJA_7D76",
+        "HANJA_7DE3"
+      ]
+    },
+    {
+      "id": "WORD_不過",
+      "characters": "不過",
+      "meaning": "아닐, 지날",
+      "pronunciation": "불, 과",
+      "hanja_ids": [
+        "HANJA_4E0D",
+        "HANJA_904E"
+      ]
+    },
+    {
+      "id": "WORD_分家",
+      "characters": "分家",
+      "meaning": "나눌, 집",
+      "pronunciation": "분, 가",
+      "hanja_ids": [
+        "HANJA_5206",
+        "HANJA_5BB6"
+      ]
+    },
+    {
+      "id": "WORD_確律値",
+      "characters": "確律値",
+      "meaning": "굳을, 법, 값",
+      "pronunciation": "확, 률, 치",
+      "hanja_ids": [
+        "HANJA_78BA",
+        "HANJA_5F8B",
+        "HANJA_5024"
+      ]
+    },
+    {
+      "id": "WORD_擴律置",
+      "characters": "擴律置",
+      "meaning": "넓힐, 법, 둘",
+      "pronunciation": "확, 률, 치",
+      "hanja_ids": [
+        "HANJA_64F4",
+        "HANJA_5F8B",
+        "HANJA_7F6E"
+      ]
+    },
+    {
+      "id": "WORD_確率値",
+      "characters": "確率値",
+      "meaning": "굳을, 비율, 값",
+      "pronunciation": "확, 률, 치",
+      "hanja_ids": [
+        "HANJA_78BA",
+        "HANJA_7387",
+        "HANJA_5024"
+      ]
+    },
+    {
+      "id": "WORD_擴率置",
+      "characters": "擴率置",
+      "meaning": "넓힐, 비율, 둘",
+      "pronunciation": "확, 률, 치",
+      "hanja_ids": [
+        "HANJA_64F4",
+        "HANJA_7387",
+        "HANJA_7F6E"
+      ]
+    },
+    {
+      "id": "WORD_不果",
+      "characters": "不果",
+      "meaning": "아닐, 과실",
+      "pronunciation": "불, 과",
+      "hanja_ids": [
+        "HANJA_4E0D",
+        "HANJA_679C"
+      ]
+    },
+    {
+      "id": "WORD_釋迦",
+      "characters": "釋迦",
+      "meaning": "풀, 가",
+      "pronunciation": "석, 가",
+      "hanja_ids": [
+        "HANJA_91CB",
+        "HANJA_8FE6"
+      ]
+    },
+    {
+      "id": "WORD_家族",
+      "characters": "家族",
+      "meaning": "집, 겨레",
+      "pronunciation": "가, 족",
+      "hanja_ids": [
+        "HANJA_5BB6",
+        "HANJA_65CF"
+      ]
+    },
+    {
+      "id": "WORD_可能",
+      "characters": "可能",
+      "meaning": "옳을, 능할",
+      "pronunciation": "가, 능",
+      "hanja_ids": [
+        "HANJA_53EF",
+        "HANJA_80FD"
+      ]
+    },
+    {
+      "id": "WORD_休暇",
+      "characters": "休暇",
+      "meaning": "쉴, 겨를",
+      "pronunciation": "휴, 가",
+      "hanja_ids": [
+        "HANJA_4F11",
+        "HANJA_6687"
+      ]
+    },
+    {
+      "id": "WORD_自身",
+      "characters": "自身",
+      "meaning": "스스로, 몸",
+      "pronunciation": "자, 신",
+      "hanja_ids": [
+        "HANJA_81EA",
+        "HANJA_8EAB"
+      ]
+    },
+    {
+      "id": "WORD_作動",
+      "characters": "作動",
+      "meaning": "지을, 움직일",
+      "pronunciation": "작, 동",
+      "hanja_ids": [
+        "HANJA_4F5C",
+        "HANJA_52D5"
+      ]
+    },
+    {
+      "id": "WORD_形式",
+      "characters": "形式",
+      "meaning": "모양, 본",
+      "pronunciation": "형, 식",
+      "hanja_ids": [
+        "HANJA_5F62",
+        "HANJA_5F0F"
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "id": "PROB_BASIC_001_001",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "諾 (허락할 낙)",
+      "options": [
+        "약",
+        "고",
+        "악",
+        "낙"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_8AFE"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_002",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "誘 (이끌 유)",
+      "options": [
+        "유",
+        "우",
+        "수",
+        "퇴"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_8A98"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_003",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "沃 (기름질 옥)",
+      "options": [
+        "악",
+        "억",
+        "옥",
+        "착"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_6C83"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_004",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "巢 (새집 소)",
+      "options": [
+        "과",
+        "소",
+        "라",
+        "차"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_5DE2"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_005",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "壞 (무너질 괴)",
+      "options": [
+        "곤",
+        "양",
+        "회",
+        "괴"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_58DE"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_006",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "亮 (밝을 량)",
+      "options": [
+        "간",
+        "경",
+        "량",
+        "형"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_4EAE"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_007",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "膜 (막 막)",
+      "options": [
+        "막",
+        "모",
+        "설",
+        "월"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_819C"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_008",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "扇 (부채 선)",
+      "options": [
+        "선",
+        "우",
+        "호",
+        "환"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_6247"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_009",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "孔 (구멍 공)",
+      "options": [
+        "자",
+        "후",
+        "공",
+        "찰"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_5B54"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_010",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "了 (마칠 료)",
+      "options": [
+        "료",
+        "혈",
+        "곤",
+        "형"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_4E86"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_011",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "내",
+      "options": [
+        "那 (어조사 나)",
+        "奈 (어찌 내)",
+        "叫 (부를 교)",
+        "仇 (원수 구)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_012",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "부",
+      "options": [
+        "走 (달릴 주)",
+        "赴 (갈 부)",
+        "伏 (엎드릴 복)",
+        "貿 (무역할 무)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_013",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "휘",
+      "options": [
+        "慰 (위로할 위)",
+        "輝 (빛날 휘)",
+        "禍 (재앙 화)",
+        "擴 (넓힐 확)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_64F4"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_014",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "삭",
+      "options": [
+        "賜 (줄 사)",
+        "削 (깎을 삭)",
+        "桑 (뽕나무 상)",
+        "刊 (새길 간)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_015",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "손",
+      "options": [
+        "刷 (닦을 쇄)",
+        "需 (쓸 수)",
+        "腺 (샘 선)",
+        "損 (덜 손)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_016",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "아",
+      "options": [
+        "賢 (어질 현)",
+        "衙 (아전 아)",
+        "施 (베풀 시)",
+        "邪 (사악할 사)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_017",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "궐",
+      "options": [
+        "厥 (그 궐)",
+        "圈 (둘레 권)",
+        "勵 (힘쓸 려)",
+        "罔 (없을 망)"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_018",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "연",
+      "options": [
+        "畏 (두려워할 외)",
+        "衍 (넘칠 연)",
+        "焉 (어찌 언)",
+        "允 (진실할 윤)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_019",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "와",
+      "options": [
+        "旭 (아침해 욱)",
+        "藜 (명아주 리)",
+        "窩 (굴 와)",
+        "渭 (물이름 위)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_020",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "란",
+      "options": [
+        "廊 (행랑 랑)",
+        "卵 (알 란)",
+        "絡 (얽을 락)",
+        "尼 (여승 니)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_021",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "眉 (눈썹 미)",
+      "options": [
+        "禽 (날짐승 금)",
+        "緊 (긴할 긴)",
+        "迷 (미혹할 미)",
+        "敏 (민첩할 민)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_7709"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_022",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "斤 (도끼 근)",
+      "options": [
+        "迎 (맞을 영)",
+        "岐 (갈림길 기)",
+        "那 (어조사 나)",
+        "僅 (겨우 근)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_65A4"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_023",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "爵 (벼슬 작)",
+      "options": [
+        "酌 (따를 작)",
+        "殘 (잔인할 잔)",
+        "紫 (자줏빛 자)",
+        "廛 (가게 전)"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_7235"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_024",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "津 (나루 진)",
+      "options": [
+        "秉 (잡을 병)",
+        "懲 (징계할 징)",
+        "塵 (티끌 진)",
+        "律 (법칙 률)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_6D25",
+        "HANJA_5F8B"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_025",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "屬 (붙일 속)",
+      "options": [
+        "濁 (흐릴 탁)",
+        "肅 (엄숙할 숙)",
+        "鎖 (쇠사슬 쇄)",
+        "束 (묶을 속)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_5C6C"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_026",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "殿 (전 전)",
+      "options": [
+        "遵 (좇을 준)",
+        "尊 (높을 존)",
+        "奠 (제사 전)",
+        "鄭 (정나라 정)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_6BBF"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_027",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "盲 (눈멀 맹)",
+      "options": [
+        "銘 (새길 명)",
+        "忘 (잊을 망)",
+        "晩 (늦을 만)",
+        "盟 (맹세 맹)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_76F2"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_028",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "疾 (병 질)",
+      "options": [
+        "病 (병 병)",
+        "珍 (보배 진)",
+        "姪 (조카 질)",
+        "矢 (화살 시)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_75BE"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_029",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "雪 (눈 설)",
+      "options": [
+        "雨 (비 우)",
+        "舌 (혀 설)",
+        "雲 (구름 운)",
+        "雷 (우레 뢰)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_96EA"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_030",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "暖 (따뜻할 난)",
+      "options": [
+        "援 (도울 원)",
+        "搖 (흔들 요)",
+        "難 (어려울 난)",
+        "晩 (늦을 만)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_6696",
+        "HANJA_96E3"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_031",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "蓋 (덮을 개)",
+      "options": [
+        "덮다",
+        "조이다",
+        "가다",
+        "베다"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_84CB"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_032",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "慢 (게으를 만)",
+      "options": [
+        "질펀하다",
+        "아득하다",
+        "괴롭다",
+        "게으르다"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_6162"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_033",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "壁 (벽 벽)",
+      "options": [
+        "하얗다",
+        "구슬",
+        "푸르다",
+        "벽"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_58C1"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_034",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "暴 (사나울 폭)",
+      "options": [
+        "때리다",
+        "어둡다",
+        "사납다",
+        "망하다"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_66B4"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_035",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "暑 (더울 서)",
+      "options": [
+        "덥다",
+        "춥다",
+        "마시다",
+        "먹다"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_6691"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_036",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "尾 (꼬리 미)",
+      "options": [
+        "머리",
+        "털",
+        "꼬리",
+        "시체"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_5C3E"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_037",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "厄 (액 액)",
+      "options": [
+        "벼랑",
+        "재앙",
+        "높다",
+        "위태하다"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_5384"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_038",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "延 (늘일 연)",
+      "options": [
+        "끌다",
+        "걷다",
+        "세우다",
+        "멈추다"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_5EF6"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_039",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "佐 (도울 좌)",
+      "options": [
+        "돕다",
+        "주다",
+        "죽이다",
+        "어긋나다"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_4F50"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_040",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "盾 (방패 순)",
+      "options": [
+        "창",
+        "방패",
+        "입술",
+        "열흘"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [
+        "HANJA_76FE"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_041",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "막다",
+      "options": [
+        "言 (말씀 언)",
+        "禦 (막을 어)",
+        "按 (누를 안)",
+        "蔭 (그늘 음)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_042",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "빚",
+      "options": [
+        "債 (빚 채)",
+        "贊 (도울 찬)",
+        "滯 (막힐 체)",
+        "樞 (지도리 추)"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_043",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "맡기다",
+      "options": [
+        "透 (통할 투)",
+        "胞 (태 포)",
+        "瓣 (꽃잎 판)",
+        "託 (부탁할 탁)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_044",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "어깨",
+      "options": [
+        "竟 (마침내 경)",
+        "肩 (어깨 견)",
+        "介 (낄 개)",
+        "健 (굳셀 건)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_045",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "고을",
+      "options": [
+        "軍 (군사 군)",
+        "君 (임금 군)",
+        "郡 (고을 군)",
+        "群 (무리 군)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_046",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "겸손하다",
+      "options": [
+        "兼 (겸할 겸)",
+        "整 (가지런할 정)",
+        "謙 (겸손할 겸)",
+        "儉 (검소할 검)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_047",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "만지다",
+      "options": [
+        "灣 (굽을 만)",
+        "摩 (문지를 마)",
+        "裏 (속 리)",
+        "折 (꺾을 절)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_048",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "힘입다",
+      "options": [
+        "勉 (힘쓸 면)",
+        "憐 (불쌍히 여길 련)",
+        "微 (작을 미)",
+        "賴 (힘입을 뢰)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_049",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "맑다",
+      "options": [
+        "靑 (푸를 청)",
+        "叔 (아저씨 숙)",
+        "請 (청할 청)",
+        "淑 (맑을 숙)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_050",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "비다",
+      "options": [
+        "虎 (범 호)",
+        "虛 (빌 허)",
+        "慶 (경사 경)",
+        "鹿 (사슴 록)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_051",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "0 ㉤열풍을 타고 등장한 이용자제작콘텐츠(UCC)는 '유저 크리에이트 체어맨(User Create Chairman)'이라는 ⓐ말까지 만들어낼 정도로 이번 2007년 ㉥대선의 주요 ㉦變數 (변할 변, 셈 수)로 떠오르고 있다. 언론과 정치권의 ㉧관심(關心: 관계할 관, 마음 심)의 초점이 되고 있는 동영상 UCC나 아직은 그 진가가 드러나지 않은 1인 미디어 블로그는 이용자들이 주체가 된다는 점에서 새로운 ㉨疏通 (소통할 소, 통할 통)의 장으로 평가받고 있다.",
+      "options": [],
+      "answer": "",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001"
+      ],
+      "hanja_ids": [
+        "HANJA_8B8A",
+        "HANJA_6578",
+        "HANJA_758F",
+        "HANJA_901A",
+        "HANJA_5FC3"
+      ],
+      "hanja_word_ids": [
+        "WORD_變數",
+        "WORD_疏通"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_052",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉠～㉣의 독음이 바르지 않은 것은?",
+      "options": [
+        "㉠참여",
+        "㉡지원",
+        "㉢반대",
+        "㉣제한"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001"
+      ],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_053",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉤～㉧의 한자 표기가 바른 것은?",
+      "options": [
+        "㉤執風 (잡을 집, 바람 풍)",
+        "㉥大善 (큰 대, 착할 선)",
+        "㉦變數 (변할 변, 셈 수)",
+        "㉧觀心 (볼 관, 마음 심)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001"
+      ],
+      "hanja_ids": [
+        "HANJA_57F7",
+        "HANJA_98A8",
+        "HANJA_5927",
+        "HANJA_5584",
+        "HANJA_8B8A",
+        "HANJA_6578",
+        "HANJA_89C0",
+        "HANJA_5FC3"
+      ],
+      "hanja_word_ids": [
+        "WORD_執風",
+        "WORD_大善",
+        "WORD_變數",
+        "WORD_觀心"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_054",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "ⓐ를 뜻하는 한자어는?",
+      "options": [
+        "助御 (도울 조, 거느릴 어)",
+        "助語 (도울 조, 말씀 어)",
+        "造御 (지을 조, 거느릴 어)",
+        "造語 (지을 조, 말씀 어)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001"
+      ],
+      "hanja_ids": [
+        "HANJA_52A9",
+        "HANJA_5FA1",
+        "HANJA_8A9E",
+        "HANJA_9020"
+      ],
+      "hanja_word_ids": [
+        "WORD_助御",
+        "WORD_助語",
+        "WORD_造御",
+        "WORD_造語"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_055",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉨'疏通'과 ㉩'役割'의 독음을 바르게 짝지은 것은?",
+      "options": [
+        "소통 - 역할",
+        "융통 - 역할",
+        "소통 - 역활",
+        "융통 - 역활"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001"
+      ],
+      "hanja_ids": [
+        "HANJA_758F",
+        "HANJA_901A",
+        "HANJA_5F79",
+        "HANJA_5272"
+      ],
+      "hanja_word_ids": [
+        "WORD_疏通",
+        "WORD_役割"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_056",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "ⓑ'업계'의 '계'와 같은 한자를 사용한 것은?",
+      "options": [
+        "連繫 (이을 연, 맬 계)",
+        "時計 (때 시, 셀 계)",
+        "世界 (세상 세, 지경 계)",
+        "秋季 (가을 추, 계절 계)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_001"
+      ],
+      "hanja_ids": [
+        "HANJA_9023",
+        "HANJA_7E6B",
+        "HANJA_6642",
+        "HANJA_8A08",
+        "HANJA_4E16",
+        "HANJA_754C",
+        "HANJA_79CB",
+        "HANJA_5B63"
+      ],
+      "hanja_word_ids": [
+        "WORD_連繫",
+        "WORD_時計",
+        "WORD_世界",
+        "WORD_秋季"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_056",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉠～㉣의 한자 표기가 바르지 않은 것은?",
+      "options": [
+        "㉠警察署 (경계할 경, 살필 찰, 서 서)",
+        "㉡被害者 (입을 피, 해로울 해, 놈 자)",
+        "㉢陳述 (베풀 진, 펼 술)",
+        "㉣刑司 (형벌 형, 맡을 사)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ],
+      "hanja_ids": [
+        "HANJA_8B66",
+        "HANJA_5BDF",
+        "HANJA_7F72",
+        "HANJA_88AB",
+        "HANJA_5BB3",
+        "HANJA_8005",
+        "HANJA_9673",
+        "HANJA_8FF0",
+        "HANJA_5211",
+        "HANJA_53F8"
+      ],
+      "hanja_word_ids": [
+        "WORD_警察署",
+        "WORD_被害者",
+        "WORD_陳述",
+        "WORD_刑司"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_057",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉤'노력'의 '노'의 한자 표기가 바른 것은?",
+      "options": [
+        "怒 (성낼 노)",
+        "努 (힘쓸 노)",
+        "老 (늙을 노)",
+        "奴 (종 노)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_058",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉥'영화'의 '영'과 같은 한자를 사용한 것은?",
+      "options": [
+        "反映 (돌이킬 반, 비칠 영)",
+        "幻影 (환할 환, 그림자 영)",
+        "育英 (기를 육, 꽃부리 영)",
+        "運營 (옮길 운, 경영할 영)"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ],
+      "hanja_ids": [
+        "HANJA_53CD",
+        "HANJA_6620",
+        "HANJA_5E7B",
+        "HANJA_5F71",
+        "HANJA_80B2",
+        "HANJA_82F1",
+        "HANJA_904B",
+        "HANJA_71DF"
+      ],
+      "hanja_word_ids": [
+        "WORD_反映",
+        "WORD_幻影",
+        "WORD_育英",
+        "WORD_運營"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_059",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉦～㉩의 독음이 바르지 않은 것은?",
+      "options": [
+        "㉦단적",
+        "㉧모욕",
+        "㉨빈번",
+        "㉩조사"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_002"
+      ],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_060",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉠～㉣의 독음이 바르지 않은 것은?",
+      "options": [
+        "㉠사건",
+        "㉡악취",
+        "㉢오염",
+        "㉣용어"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_061",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉤'이하'의 '이'와 같은 한자를 사용한 것은?",
+      "options": [
+        "理念型 (이치 리, 생각 념, 본 형)",
+        "二重性 (두 이, 겹칠 중, 성품 성)",
+        "所以然 (바 소, 말미암을 이, 그럴 연)",
+        "東夷族 (동녘 동, 오랑캐 이, 겨레 족)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ],
+      "hanja_ids": [
+        "HANJA_7406",
+        "HANJA_5FF5",
+        "HANJA_578B",
+        "HANJA_4E8C",
+        "HANJA_91CD",
+        "HANJA_6027",
+        "HANJA_6240",
+        "HANJA_4EE5",
+        "HANJA_7136",
+        "HANJA_6771",
+        "HANJA_5937",
+        "HANJA_65CF"
+      ],
+      "hanja_word_ids": [
+        "WORD_理念型",
+        "WORD_二重性",
+        "WORD_所以然",
+        "WORD_東夷族"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_062",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉥'좋고 나쁨'을 뜻하는 것은?",
+      "options": [
+        "好惡 (좋을 호, 악할 오)",
+        "大小 (큰 대, 작을 소)",
+        "輕重 (가벼울 경, 무거울 중)",
+        "長短 (길 장, 짧을 단)"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ],
+      "hanja_ids": [
+        "HANJA_597D",
+        "HANJA_60E1",
+        "HANJA_5927",
+        "HANJA_5C0F",
+        "HANJA_8F15",
+        "HANJA_91CD",
+        "HANJA_9577",
+        "HANJA_77ED"
+      ],
+      "hanja_word_ids": [
+        "WORD_好惡",
+        "WORD_大小",
+        "WORD_輕重",
+        "WORD_長短"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_063",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉦〜㉩의 한자 표기가 바르지 않은 것은?",
+      "options": [
+        "㉦評價 (평할 평, 값 가)",
+        "㉧基準 (기초 기, 준할 준)",
+        "㉨地表 (땅 지, 겉 표)",
+        "㉩分解 (나눌 분, 풀 해)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ],
+      "hanja_ids": [
+        "HANJA_8A55",
+        "HANJA_50F9",
+        "HANJA_57FA",
+        "HANJA_6E96",
+        "HANJA_5730",
+        "HANJA_8868",
+        "HANJA_5206",
+        "HANJA_89E3"
+      ],
+      "hanja_word_ids": [
+        "WORD_評價",
+        "WORD_基準",
+        "WORD_地表",
+        "WORD_分解"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_064",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "다음 □안에 ㉪'미생물'의 '미'와 다른 한자를 사용하는 것은?",
+      "options": [
+        "□來 (올 래)",
+        "□弱 (약할 약)",
+        "稀□ (드물 희)",
+        "機□ (기회 기)"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_003"
+      ],
+      "hanja_ids": [
+        "HANJA_4F86",
+        "HANJA_6A5F"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_065",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉠～㉣의 한자 표기가 바르지 않은 것은?",
+      "options": [
+        "㉠經濟(경영할 경, 아낄 제)",
+        "㉡經榮(경영할 경, 영광 영)",
+        "㉢科目(과목 과, 눈 목)",
+        "㉣投資(던질 투, 재물 자)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ],
+      "hanja_ids": [
+        "HANJA_7D93",
+        "HANJA_6FDF",
+        "HANJA_69AE",
+        "HANJA_79D1",
+        "HANJA_76EE",
+        "HANJA_6295",
+        "HANJA_8CC7"
+      ],
+      "hanja_word_ids": [
+        "WORD_經濟",
+        "WORD_經榮",
+        "WORD_科目",
+        "WORD_投資"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_066",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉤'더욱 늘릴'의 뜻과 가장 가까운 것은?",
+      "options": [
+        "輕減 (가벼울 경, 덜 감)",
+        "增益 (더할 증, 더할 익)",
+        "伸縮 (펼 신, 줄어들 축)",
+        "凍結 (얼 동, 맺을 결)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ],
+      "hanja_ids": [
+        "HANJA_8F15",
+        "HANJA_6E1B",
+        "HANJA_589E",
+        "HANJA_76CA",
+        "HANJA_4F38",
+        "HANJA_7E2E",
+        "HANJA_51CD",
+        "HANJA_7D50"
+      ],
+      "hanja_word_ids": [
+        "WORD_輕減",
+        "WORD_增益",
+        "WORD_伸縮",
+        "WORD_凍結"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_067",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉥'주문'의 한자 표기가 바른 것은?",
+      "options": [
+        "主文 (임금 주, 글월 문)",
+        "注文 (부을 주, 글월 문)",
+        "主問 (임금 주, 물을 문)",
+        "注問 (부을 주, 물을 문)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ],
+      "hanja_ids": [
+        "HANJA_4E3B",
+        "HANJA_6587",
+        "HANJA_6CE8",
+        "HANJA_554F"
+      ],
+      "hanja_word_ids": [
+        "WORD_主文",
+        "WORD_注文",
+        "WORD_主問",
+        "WORD_注問"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_068",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉦'개도국'은 '개발도상국'의 준말이다. 다음 중 '개발도상국'의 한자 표기가 바른 것은?",
+      "options": [
+        "開發圖上國 (열 개, 필 발, 그림 도, 위 상, 나라 국)",
+        "改發途上國 (고칠 개, 필 발, 길 도, 위 상, 나라 국)",
+        "改發圖上國 (고칠 개, 필 발, 그림 도, 위 상, 나라 국)",
+        "開發途上國 (열 개, 필 발, 길 도, 위 상, 나라 국)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_004"
+      ],
+      "hanja_ids": [
+        "HANJA_4E0A"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_069",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉠～㉣의 한자 표기가 바르지 않은 것은?",
+      "options": [
+        "㉠一般",
+        "㉡溫度",
+        "㉢氣壓",
+        "㉣影鄕(그림자 영, 시골 향)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ],
+      "hanja_ids": [
+        "HANJA_4E00",
+        "HANJA_5EA6",
+        "HANJA_6C23",
+        "HANJA_5F71",
+        "HANJA_9115"
+      ],
+      "hanja_word_ids": [
+        "WORD_影鄕"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_070",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉤'요인'과 ㉥'요소'에 공통으로 쓰이는 '요'의 한자 표기가 바른 것은?",
+      "options": [
+        "搖 (흔들 요)",
+        "要 (요긴할 요)",
+        "需 (쓸 수)",
+        "腰 (허리 요)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_071",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉦～㉩의 독음이 바르지 않은 것은?",
+      "options": [
+        "㉦시행",
+        "㉧과제",
+        "㉨근육",
+        "㉩공급"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_072",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "ⓐ～ⓓ의 독음이 바른 것은?",
+      "options": [
+        "ⓐ순환",
+        "ⓑ생장",
+        "ⓒ효과",
+        "ⓓ급속"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_005"
+      ],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_073",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉠'떠오르게'의 뜻을 가장 잘 나타낸 것은?",
+      "options": [
+        "向上 (향할 향, 위 상)",
+        "上流 (위 상, 흐를 류)",
+        "浮上 (뜰 부, 위 상)",
+        "上昇 (위 상, 오를 승)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ],
+      "hanja_ids": [
+        "HANJA_5411",
+        "HANJA_4E0A",
+        "HANJA_6D41",
+        "HANJA_6D6E",
+        "HANJA_6607"
+      ],
+      "hanja_word_ids": [
+        "WORD_向上",
+        "WORD_上流",
+        "WORD_浮上",
+        "WORD_上昇"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_074",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉡～㉤의 한자 표기가 바르지 않은 것은?",
+      "options": [
+        "㉡時期 (때 시, 기약할 기)",
+        "㉢爲勢 (위할 위, 세력 세)",
+        "㉣尖端 (뾰족할 첨, 끝 단)",
+        "㉤對面 (대할 대, 낯 면)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ],
+      "hanja_ids": [
+        "HANJA_6642",
+        "HANJA_671F",
+        "HANJA_7232",
+        "HANJA_52E2",
+        "HANJA_5C16",
+        "HANJA_7AEF",
+        "HANJA_5C0D",
+        "HANJA_9762"
+      ],
+      "hanja_word_ids": [
+        "WORD_時期",
+        "WORD_爲勢",
+        "WORD_尖端",
+        "WORD_對面"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_075",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉥～㉨의 독음이 바르지 않은 것은?",
+      "options": [
+        "㉥침투",
+        "㉦소멸",
+        "㉧토로",
+        "㉨혼란"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_076",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉩～㉬의 한자 표기가 바르지 않은 것은?",
+      "options": [
+        "㉩傳統 (전할 전, 이을 통)",
+        "㉪物質 (물건 물, 바탕 질)",
+        "㉫登場 (오를 등, 마당 장)",
+        "㉬異姓 (다를 이, 성씨 성)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_006"
+      ],
+      "hanja_ids": [
+        "HANJA_50B3",
+        "HANJA_7D71",
+        "HANJA_7269",
+        "HANJA_8CEA",
+        "HANJA_767B",
+        "HANJA_5834",
+        "HANJA_7570",
+        "HANJA_59D3"
+      ],
+      "hanja_word_ids": [
+        "WORD_傳統",
+        "WORD_物質",
+        "WORD_登場",
+        "WORD_異姓"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_077",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉠'두뇌'와 ㉡'비교'의 한자 표기를 바르게 짝지은 것은?",
+      "options": [
+        "豆惱 (콩 두, 번뇌할 뇌) - 批較 (비평할 비, 견줄 교)",
+        "豆腦 (콩 두, 뇌 뇌) - 比較 (견줄 비, 견줄 교)",
+        "頭惱 (머리 두, 번뇌할 뇌) - 批較 (비평할 비, 견줄 교)",
+        "頭腦 (머리 두, 뇌 뇌) - 比較 (견줄 비, 견줄 교)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ],
+      "hanja_ids": [
+        "HANJA_8C46",
+        "HANJA_60F1",
+        "HANJA_6279",
+        "HANJA_8F03",
+        "HANJA_8166",
+        "HANJA_6BD4",
+        "HANJA_982D"
+      ],
+      "hanja_word_ids": [
+        "WORD_豆惱",
+        "WORD_批較",
+        "WORD_豆腦",
+        "WORD_比較",
+        "WORD_頭惱",
+        "WORD_頭腦"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_078",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉢～㉥의 독음이 바르지 않은 것은?",
+      "options": [
+        "㉢가설",
+        "㉣추측",
+        "㉤지적",
+        "㉥인류"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_079",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉦'提示'의 '提'와 독음이 같은 것은?",
+      "options": [
+        "齊 (가지런할 제)",
+        "栽 (심을 재)",
+        "載 (실을 재)",
+        "操 (잡을 조)"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ],
+      "hanja_ids": [
+        "HANJA_63D0",
+        "HANJA_793A"
+      ],
+      "hanja_word_ids": [
+        "WORD_提示"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_080",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉧'영장류 동물'의 '영'의 한자 표기가 바른 것은?",
+      "options": [
+        "領 (거느릴 영)",
+        "靈 (신령 영)",
+        "英 (꽃부리 영)",
+        "永 (길 영)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ],
+      "hanja_ids": [
+        "HANJA_9818",
+        "HANJA_82F1"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_081",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉨'기지'의 한자 표기가 바른 것은?",
+      "options": [
+        "奇誌 (기이할 기, 뜻 지)",
+        "機智 (때 기, 지혜 지)",
+        "氣志 (기운 기, 뜻 지)",
+        "基地 (기초 기, 땅 지)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_007"
+      ],
+      "hanja_ids": [
+        "HANJA_5947",
+        "HANJA_8A8C",
+        "HANJA_6A5F",
+        "HANJA_667A",
+        "HANJA_6C23",
+        "HANJA_5FD7",
+        "HANJA_57FA",
+        "HANJA_5730"
+      ],
+      "hanja_word_ids": [
+        "WORD_奇誌",
+        "WORD_機智",
+        "WORD_氣志",
+        "WORD_基地"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_082",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉠～㉣의 한자 표기가 바르지 않은 것은?",
+      "options": [
+        "㉠朱紅",
+        "㉡偉大",
+        "㉢旋律",
+        "㉣延生"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ],
+      "hanja_ids": [
+        "HANJA_5927",
+        "HANJA_5F8B",
+        "HANJA_5EF6",
+        "HANJA_751F"
+      ],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_083",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉤'금기시'의 '시'와 같은 한자를 사용한 것은?",
+      "options": [
+        "展示 (펼 전, 보일 시)",
+        "視察 (볼 시, 살필 찰)",
+        "司試 (맡을 사, 시험 시)",
+        "是正 (이 시, 바를 정)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ],
+      "hanja_ids": [
+        "HANJA_5C55",
+        "HANJA_793A",
+        "HANJA_8996",
+        "HANJA_5BDF",
+        "HANJA_53F8",
+        "HANJA_8A66",
+        "HANJA_662F",
+        "HANJA_6B63"
+      ],
+      "hanja_word_ids": [
+        "WORD_展示",
+        "WORD_視察",
+        "WORD_司試",
+        "WORD_是正"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_084",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉥'중층적'과 ㉦'다면적'의 한자 표기를 바르게 짝지은 것은?",
+      "options": [
+        "重層的 (무거울 중, 층 층, 본 적) - 多面的 (많을 다, 낯 면, 본 적)",
+        "中層的 (가운데 중, 층 층, 본 적) - 多面的 (많을 다, 낯 면, 본 적)",
+        "中層的 (가운데 중, 층 층, 본 적) - 茶面的 (차 다, 낯 면, 본 적)",
+        "重層的 (무거울 중, 층 층, 본 적) - 茶面的 (차 다, 낯 면, 본 적)"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ],
+      "hanja_ids": [
+        "HANJA_91CD",
+        "HANJA_5C64",
+        "HANJA_7684",
+        "HANJA_591A",
+        "HANJA_9762",
+        "HANJA_4E2D",
+        "HANJA_8336"
+      ],
+      "hanja_word_ids": [
+        "WORD_重層的",
+        "WORD_多面的",
+        "WORD_中層的",
+        "WORD_茶面的"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_085",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉧～㉪의 독음이 바르지 않은 것은?",
+      "options": [
+        "㉧초연",
+        "㉨악보",
+        "㉩난잡",
+        "㉪비통"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_008"
+      ],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_086",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉠'타결'과 ㉡'항목'의 한자 표기를 바르게 짝지은 것은?",
+      "options": [
+        "墮結 (떨어질 타, 맺을 결) - 項目 (항목 항, 목표 목)",
+        "妥結 (온당할 타, 맺을 결) - 項目 (항목 항, 목표 목)",
+        "打結 (칠 타, 맺을 결) - 頃目 (이랑 경, 목표 목)",
+        "他結 (다를 타, 맺을 결) - 頃目 (이랑 경, 목표 목)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ],
+      "hanja_ids": [
+        "HANJA_58AE",
+        "HANJA_7D50",
+        "HANJA_9805",
+        "HANJA_76EE",
+        "HANJA_59A5",
+        "HANJA_6253",
+        "HANJA_9803",
+        "HANJA_4ED6"
+      ],
+      "hanja_word_ids": [
+        "WORD_墮結",
+        "WORD_項目",
+        "WORD_妥結",
+        "WORD_打結",
+        "WORD_頃目",
+        "WORD_他結"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_087",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉢'전격적'의 한자 표기가 바른 것은?",
+      "options": [
+        "全格的 (온전할 전, 격식 격, 본 적)",
+        "電格的 (번개 전, 격식 격, 본 적)",
+        "電擊的 (번개 전, 칠 격, 본 적)",
+        "戰激的 (싸울 전, 격렬할 격, 본 적)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ],
+      "hanja_ids": [
+        "HANJA_5168",
+        "HANJA_683C",
+        "HANJA_7684",
+        "HANJA_96FB",
+        "HANJA_64CA",
+        "HANJA_6230",
+        "HANJA_6FC0"
+      ],
+      "hanja_word_ids": [
+        "WORD_全格的",
+        "WORD_電格的",
+        "WORD_電擊的",
+        "WORD_戰激的"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_088",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉣～㉦의 독음이 바르지 않은 것은?",
+      "options": [
+        "㉣양보",
+        "㉤합의",
+        "㉥사례",
+        "㉦논란"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_089",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉧'협상'의 한자 표기가 바른 것은?",
+      "options": [
+        "脅詳 (위협할 협, 자세할 상)",
+        "協詳 (화할 협, 자세할 상)",
+        "脅商 (위협할 협, 장사 상)",
+        "協商 (화할 협, 장사 상)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ],
+      "hanja_ids": [
+        "HANJA_8105",
+        "HANJA_8A73",
+        "HANJA_5354",
+        "HANJA_5546"
+      ],
+      "hanja_word_ids": [
+        "WORD_脅詳",
+        "WORD_協詳",
+        "WORD_脅商",
+        "WORD_協商"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_090",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "문맥상 ㉨(    )에 들어갈 적절한 것은?",
+      "options": [
+        "敎訓 (가르칠 교, 가르칠 훈)",
+        "疑義 (의심할 의, 옳을 의)",
+        "校訓 (학교 교, 가르칠 훈)",
+        "意義 (뜻 의, 옳을 의)"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_009"
+      ],
+      "hanja_ids": [
+        "HANJA_654E",
+        "HANJA_8A13",
+        "HANJA_7591",
+        "HANJA_7FA9",
+        "HANJA_6821",
+        "HANJA_610F"
+      ],
+      "hanja_word_ids": [
+        "WORD_敎訓",
+        "WORD_疑義",
+        "WORD_校訓",
+        "WORD_意義"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_091",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉠～㉣의 독음이 바르지 않은 것은?",
+      "options": [
+        "㉠귀납",
+        "㉡토론",
+        "㉢경우",
+        "㉣결론"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_092",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉤'확률치'의 한자 표기가 바른 것은?",
+      "options": [
+        "確律値 (굳을 확, 법 률, 값 치)",
+        "擴律置 (넓힐 확, 법 률, 둘 치)",
+        "確率値 (굳을 확, 비율 률, 값 치)",
+        "擴率置 (넓힐 확, 비율 률, 둘 치)"
+      ],
+      "answer": "3",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ],
+      "hanja_ids": [
+        "HANJA_78BA",
+        "HANJA_5F8B",
+        "HANJA_5024",
+        "HANJA_64F4",
+        "HANJA_7F6E",
+        "HANJA_7387"
+      ],
+      "hanja_word_ids": [
+        "WORD_確律値",
+        "WORD_擴律置",
+        "WORD_確率値",
+        "WORD_擴率置"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_093",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉥의 내용과 가장 관련 깊은 성어는?",
+      "options": [
+        "緣木求魚 (나무 연, 나무 목, 구할 구, 물고기 어: 나무에 올라가 물고기를 구한다)",
+        "愚公移山 (어리석을 우, 공평할 공, 옮길 이, 산 산: 우공이 산을 옮긴다)",
+        "九牛一毛 (아홉 구, 소 우, 한 일, 털 모: 아홉 마리 소의 한 터럭)",
+        "矯角殺牛 (바로잡을 교, 뿔 각, 죽일 살, 소 우: 뿔을 바로잡으려다 소를 죽인다)"
+      ],
+      "answer": "1",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ],
+      "hanja_ids": [
+        "HANJA_7DE3",
+        "HANJA_6728",
+        "HANJA_6C42",
+        "HANJA_9B5A",
+        "HANJA_611A",
+        "HANJA_516C",
+        "HANJA_79FB",
+        "HANJA_5C71",
+        "HANJA_4E5D",
+        "HANJA_725B",
+        "HANJA_4E00",
+        "HANJA_6BDB",
+        "HANJA_77EF",
+        "HANJA_89D2",
+        "HANJA_6BBA"
+      ],
+      "hanja_word_ids": [
+        "WORD_緣木求魚",
+        "WORD_愚公移山",
+        "WORD_九牛一毛",
+        "WORD_矯角殺牛"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_094",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉦～㉩의 한자 표기가 바르지 않은 것은?",
+      "options": [
+        "㉦程度 (정할 정, 도수 도)",
+        "㉧領域 (거느릴 영, 지경 역)",
+        "㉨原來 (근원 원, 올 래)",
+        "㉩不果 (아닐 불, 과실 과)"
+      ],
+      "answer": "4",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ],
+      "hanja_ids": [
+        "HANJA_7A0B",
+        "HANJA_5EA6",
+        "HANJA_9818",
+        "HANJA_57DF",
+        "HANJA_539F",
+        "HANJA_4F86",
+        "HANJA_4E0D",
+        "HANJA_679C"
+      ],
+      "hanja_word_ids": [
+        "WORD_程度",
+        "WORD_領域",
+        "WORD_原來",
+        "WORD_不果"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_095",
+      "type": "PASSAGE_MULTIPLE_CHOICE",
+      "question": "㉪'분가'의 '가'와 같은 한자를 사용한 것은?",
+      "options": [
+        "釋迦 (풀 석, 가 가)",
+        "家族 (집 가, 겨레 족)",
+        "可能 (옳을 가, 능할 능)",
+        "休暇 (쉴 휴, 겨를 가)"
+      ],
+      "answer": "2",
+      "reference_passage_ids": [
+        "TEXT_BASIC_001_010"
+      ],
+      "hanja_ids": [
+        "HANJA_91CB",
+        "HANJA_8FE6",
+        "HANJA_5BB6",
+        "HANJA_65CF",
+        "HANJA_53EF",
+        "HANJA_80FD",
+        "HANJA_4F11",
+        "HANJA_6687"
+      ],
+      "hanja_word_ids": [
+        "WORD_釋迦",
+        "WORD_家族",
+        "WORD_可能",
+        "WORD_休暇"
+      ]
+    },
+    {
+      "id": "PROB_BASIC_001_091",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "[56～59] 지문의 ㉪‘자신’을 문맥에 맞는 漢字로 쓰시오.",
+      "options": [],
+      "answer": "",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_092",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "[65～68] 지문의 ㉧‘정부’를 문맥에 맞는 漢字로 쓰시오.",
+      "options": [],
+      "answer": "",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_093",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "[69～72] 지문의 ㉪‘작동’을 문맥에 맞는 漢字로 쓰시오.",
+      "options": [],
+      "answer": "",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_094",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "[73～76] 지문의 ㉭‘미학’을 문맥에 맞는 漢字로 쓰시오.",
+      "options": [],
+      "answer": "",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    },
+    {
+      "id": "PROB_BASIC_001_095",
+      "type": "BASIC_MULTIPLE_CHOICE",
+      "question": "[82～85] 지문의 ⓐ‘형식’을 문맥에 맞는 漢字로 쓰시오.",
+      "options": [],
+      "answer": "",
+      "reference_passage_ids": [],
+      "hanja_ids": [],
+      "hanja_word_ids": []
+    }
+  ],
+  "passages": [
+    {
+      "id": "TEXT_BASIC_001_001",
+      "text": "지난 2002년 대통령선거를 '인터넷 대선'이라 말하지만 당시 이용자 ㉠參與 (참여할 참, 더불 여)는 댓글 남기기, 논객의 글에 ㉡支持 (지탱할 지, 가질 지) 혹은 ㉢反對 (돌이킬 반, 대적할 대) 표명하기 등 ㉣制限 (절제할 제, 한할 한)적이었다. 그러나 웹",
+      "hanja_ids": [
+        "HANJA_53C3",
+        "HANJA_8207",
+        "HANJA_652F",
+        "HANJA_6301",
+        "HANJA_53CD",
+        "HANJA_5C0D",
+        "HANJA_5236",
+        "HANJA_9650"
+      ],
+      "hanja_word_ids": [
+        "WORD_參與",
+        "WORD_支持",
+        "WORD_反對",
+        "WORD_制限"
+      ],
+      "reference_problem_ids": [
+        "PROB_BASIC_001_051",
+        "PROB_BASIC_001_052",
+        "PROB_BASIC_001_053",
+        "PROB_BASIC_001_054",
+        "PROB_BASIC_001_055",
+        "PROB_BASIC_001_056"
+      ]
+    },
+    {
+      "id": "TEXT_BASIC_001_002",
+      "text": "\"저 사람이 가해자 맞습니까?\"(형사)\n\"저, 저저사사라아느으으… 하아아아아….\"(뇌성마비 女性障碍人 (여성 여, 성품 성, 장애 장, 거리낄 애, 사람 인) 한공주)\n\"(공주의 말을 通譯 (통할 통, 번역할 역)하듯) 예, 맞습니다.\"(공주의 올케)\n\n뇌성마비 障碍人 (장애 장, 막을 애, 사람 인) 공주(문소리 扮 (분장할 분))가 ㉠警察署 (경계할 경, 살필 찰, 서 서)에서 형사 앞에 앉아 ㉡被害者 (입을 피, 해로울 해, 놈 자) ㉢陳述 (베풀 진, 술회할 술)을 하고 있다. 공주의 말을 알아들을 수 없는 ㉣刑事 (형벌 형, 일 사)를 위해 공주의 올케가 옆에 붙어 通譯을 한다. 공주는 성폭행 가해자로 몰린 종두(설경구 扮)를 구하고 싶지만, ㉤努力 (힘쓸 노, 힘 력)할수록 입과 몸이 뒤틀려 말을 할 수가 없다. 올케조차 공주의 말을 지레짐작해 그녀의 뜻과는 전혀 다른 대답을 하고 만다. 경찰은 理解 (이치 리, 깨달을 해)할 수 없다는 듯 종두에게 '(저런 障碍人한테도) 性慾 (성품 성, 욕심 욕)이 생기대?'라고 묻는다. 사랑하는 사람이 끌려가는 것을 보며 공주는 온몸으로 발작하지만, 아무도 그의 眞心 (참 진, 마음 심)에 귀 기울이지 않는다.\n\n㉥映畫 (비칠 영, 그림 화) '오아시스'에 나오는 이 장면은 사람들의 障碍人에 대한 偏見 (치우칠 편, 볼 견)이 어떻게 眞實 (참 진, 실상 실)을 왜곡할 수 있는지를 ㉦端的 (끝 단, 본 적)으로 보여준다. 형사사건 處理過程 (처리할 처, 다스릴 리, 지날 과, 걸을 정)에서 障碍人의 진술권이 保障 (지킬 보, 막을 장)받지 못하는 現實 (나타날 현, 실상 실)은 비단 영화 속의 이야기만은 아니다. 보이지 않고 들리지 않고 거동이 不便 (아닐 불, 편할 편)하다는 이유로 障碍人들이 抑鬱 (누를 억, 막힐 울)한 누명을 쓰고, ㉧侮辱 (업신여길 모, 욕될 욕)을 당하는 일은 너무나 ㉨頻煩 (자주 빈, 번거로울 번)하다. 이 때문에 障碍人 피의자나 피고인이 ㉩搜査 (찾을 수, 살필 사)나 裁判 (재단할 재, 판할 판) 過程 (지날 과, 걸을 정)에서 ㉪自身 (스스로 자, 몸 신)의 意思 (뜻 의, 생각 사)를 충분히 傳達 (전할 전, 이를 달)하고, 非障碍人 (아닐 비, 장애 장, 애 애, 사람 인)과 差別 (차이 차, 나눌 별)받지 않을 수 있는 與件 (더불 여, 건 건)이 갖춰져야 한다는 목소리가 높아지고 있다.\n\n* 痺 (비): 마비되다.  * 碍 (애): 막다.\n* 扮 (분): 꾸미다.    * 鬱 (울): 막히다.",
+      "hanja_ids": [
+        "HANJA_8B66",
+        "HANJA_5BDF",
+        "HANJA_7F72",
+        "HANJA_88AB",
+        "HANJA_5BB3",
+        "HANJA_8005",
+        "HANJA_9673",
+        "HANJA_8FF0",
+        "HANJA_81EA",
+        "HANJA_8EAB",
+        "HANJA_8207",
+        "HANJA_901A",
+        "HANJA_5FC3",
+        "HANJA_5211",
+        "HANJA_6620",
+        "HANJA_4E8B",
+        "HANJA_7406",
+        "HANJA_6027",
+        "HANJA_89E3",
+        "HANJA_50B3",
+        "HANJA_7AEF",
+        "HANJA_529B",
+        "HANJA_4EBA",
+        "HANJA_7684",
+        "HANJA_610F",
+        "HANJA_5BE6",
+        "HANJA_73FE",
+        "HANJA_7A0B",
+        "HANJA_4E0D",
+        "HANJA_904E"
+      ],
+      "hanja_word_ids": [
+        "WORD_警察署",
+        "WORD_被害者",
+        "WORD_陳述",
+        "WORD_自身"
+      ],
+      "reference_problem_ids": [
+        "PROB_BASIC_001_056",
+        "PROB_BASIC_001_057",
+        "PROB_BASIC_001_058",
+        "PROB_BASIC_001_059"
+      ]
+    },
+    {
+      "id": "TEXT_BASIC_001_003",
+      "text": "그동안 우리 국민은 1990년대 페놀 ㉠事故 (일 사, 만날 고), 수돗물 ㉡惡臭 (악할 악, 냄새 취) 事故, 상수원 ㉢汚染 (더러울 오, 물들 염) 등을 겪으면서 언론을 통해 BOD(생물화학적산소요구량)라는 ㉣用語 (쓸 용, 말씀 어)를 많이 들었다. BOD 1ppm ㉤이하 (以下: 말미암을 이, 아래 하)인 물은 1급수로 매우 좋은 물이란 것도 많은 사람들이 알고 있다. 정부와 언론에서 물의 ㉥좋고 나쁨을 ㉦평가 (評價: 평할 평, 값 가)하는 ㉧기준 (基準: 기초 기, 준할 준)으로 BOD ㉨지표(指標: 가리킬 지, 표시 표)를 활용했기 때문이다. BOD는 생물 ㉩분해 (分解: 나눌 분, 풀 해)가 가능한 유기 물질이 물속에 얼마나 포함되어 있느냐를 나타내는 지표이다. 19세기 산업혁명으로 영국 템스강의 오염이 심각한 사회문제로 대두되었을 때 이를 측정하는 방법으로 도입되었다. BOD는 사람이나 가축의 분뇨 등 ㉪미생물 (微生物: 작을 미, 날 생, 물건 물)이 먹이로 할 수 있는 유기물질을 측정하는 데는 유용하나, 미생물이 분해할 수 없는 유해화학물질 등을 측정하는 데는 한계가 있다.",
+      "hanja_ids": [
+        "HANJA_4E8B",
+        "HANJA_6545",
+        "HANJA_60E1",
+        "HANJA_81ED",
+        "HANJA_6C5A",
+        "HANJA_67D3",
+        "HANJA_7528",
+        "HANJA_8A9E",
+        "HANJA_8A55",
+        "HANJA_50F9",
+        "HANJA_57FA",
+        "HANJA_6E96",
+        "HANJA_5206",
+        "HANJA_89E3",
+        "HANJA_4EE5",
+        "HANJA_751F",
+        "HANJA_7269",
+        "HANJA_6307"
+      ],
+      "hanja_word_ids": [
+        "WORD_事故",
+        "WORD_惡臭",
+        "WORD_汚染",
+        "WORD_用語",
+        "WORD_評價",
+        "WORD_基準",
+        "WORD_分解"
+      ],
+      "reference_problem_ids": [
+        "PROB_BASIC_001_060",
+        "PROB_BASIC_001_061",
+        "PROB_BASIC_001_062",
+        "PROB_BASIC_001_063",
+        "PROB_BASIC_001_064"
+      ]
+    },
+    {
+      "id": "TEXT_BASIC_001_004",
+      "text": "미국 20대 젊은이들은 ㉠經濟 (경영할 경, 아낄 제)보다 환경에 대한 관심이 두 배 이상 높으며, 명문 ㉡經營 (경영할 경, 경영할 영) 대학원에서는 환경이 의무 이수 ㉢科目 (과정 과, 목표 목)이 되었다. 세계 주요 ㉣投資 (던질 투, 댈 자) 기관은 기업들에 지속가능한 투자를 ㉤더욱 늘릴 것을 ㉥注文 (부을 주, 글월 문)하고 있다. 선진국은 물론 중국, 인도 등 ㉦개도국에서도 환경 규제를 더욱 높이고 있으며 이러한 트렌드는 산업 전반에 걸쳐 확대되고 있다. 우리나라에서도 환경에 대한 관심이 매우 높아 소비자와 비정부기구들이 지속가능 경영을 과감하게 실천할 것을 기업에 요구하고 있다. ㉧政府 (정사 정, 지아비 부) 정책도 바뀌었다. 신재생에너지 개발 예산을 대폭 확대하는 등 친환경정책에 적극 나서고 있다.",
+      "hanja_ids": [
+        "HANJA_7D93",
+        "HANJA_6FDF",
+        "HANJA_71DF",
+        "HANJA_79D1",
+        "HANJA_76EE",
+        "HANJA_6295",
+        "HANJA_8CC7",
+        "HANJA_6CE8",
+        "HANJA_6587",
+        "HANJA_653F",
+        "HANJA_5E9C"
+      ],
+      "hanja_word_ids": [
+        "WORD_經濟",
+        "WORD_經營",
+        "WORD_科目",
+        "WORD_投資",
+        "WORD_注文",
+        "WORD_政府"
+      ],
+      "reference_problem_ids": [
+        "PROB_BASIC_001_065",
+        "PROB_BASIC_001_066",
+        "PROB_BASIC_001_067",
+        "PROB_BASIC_001_068"
+      ]
+    },
+    {
+      "id": "TEXT_BASIC_001_005",
+      "text": "㉠일반(一般: 한 일, 무리 반)적 으로 스포츠에 영향을 주는 날씨 요소는 크게 ㉡온도(溫度: 따뜻할 온, 법도 도), 습도, 바람, ㉢기압(氣壓: 기운 기, 누를 압) 등이 꼽힌다. 물론 이들은 각각 개별적으로 작용하기보다는 복합적으로 ㉣영향(影響: 그림자 영, 향할 향)을 주기 때문에 특정 ㉤요인(要因: 요긴할 요, 인할 인)만을 떼어 내 생각하기엔 어려움이 있다.\n\n날씨 ㉥요소(要素: 요긴할 요, 바탕 소) 가운데 지금까지 가장 연구가 많이 진행된 분야는 온도(열)이다. 대체로 인간은 운동과제를 ㉦遂行 (이룰 수, 행할 행)할 때가 공부 같은 정신적인 ㉧課題 (과정 과, 제목 제)를 遂行할 때보다 온도 영향을 더 많이 받는 것으로 알려져 있다. 당연히 운동을 하면 ㉨筋肉 (힘줄 근, 고기 육)에 에너지가 많이 ㉩供給 (이바지할 공, 줄 급)돼야 하기 때문에 몸의 온도가 올라간다. 이 에너지는 글루코스(포도당)와 지방의 분해에 의해 생산되는데, 이 때 생긴 열이 몸의 온도를 높이는 것이다.\n\n다행스럽게도 인체는 혈액의 온도가 37℃ 이상 높아지면 가쁜 숨을 몰아쉬거나 땀샘을 통해 수분을 내보내고, 혈액 ⓐ循環 (돌 순, 돌 환)의 비율과 정도를 변화시킴으로써 열을 발산한다. 그러나 문제는 신체의 열이 일정 수준을 넘으면 에너지 ⓑ生産 (날 생, 낳을 산)능력이 ⓒ效率 (본받을 효, 비율 률)적으로 이루어지지 않으면서 신체 활동이 ⓓ急激 (급할 급, 격렬할 격)히 떨어진다는 데 있다. 여기에 신체 외부의 온도가 높으면 이 매커니즘은 더욱 ㉪작동하기 힘들어진다.",
+      "hanja_ids": [
+        "HANJA_9042",
+        "HANJA_884C",
+        "HANJA_8AB2",
+        "HANJA_984C",
+        "HANJA_7B4B",
+        "HANJA_8089",
+        "HANJA_4F9B",
+        "HANJA_7D66",
+        "HANJA_5FAA",
+        "HANJA_74B0",
+        "HANJA_751F",
+        "HANJA_7523",
+        "HANJA_6548",
+        "HANJA_7387",
+        "HANJA_6025",
+        "HANJA_6FC0",
+        "HANJA_4E00",
+        "HANJA_5F71",
+        "HANJA_6C23",
+        "HANJA_5EA6"
+      ],
+      "hanja_word_ids": [
+        "WORD_遂行",
+        "WORD_課題",
+        "WORD_筋肉",
+        "WORD_供給",
+        "WORD_循環",
+        "WORD_生産",
+        "WORD_效率",
+        "WORD_急激"
+      ],
+      "reference_problem_ids": [
+        "PROB_BASIC_001_069",
+        "PROB_BASIC_001_070",
+        "PROB_BASIC_001_071",
+        "PROB_BASIC_001_072"
+      ]
+    },
+    {
+      "id": "TEXT_BASIC_001_006",
+      "text": "1990년대 이후 시에서는 사회의식이 약화되는 반면 실존적·미학적 차원이 ㉠떠오르게 된다. 이전 ㉡시기(時期: 때 시, 기약할 기)처럼 뚜렷한 부정의 대상이 없는 대신에 자본주의의 압도적인 ㉢위세(威勢: 위엄 위, 세력 세)와 가속화되는 ㉣첨단(尖端: 뾰족할 첨, 끝 단) 문명이 개인에게 가하는 불안을 ㉤대면(對面: 대할 대, 낯 면)하게 된다. 대중문화의 팽창으로 위축된 시는 내면으로 ㉥沈潛 (잠길 침, 잠길 잠)하여 자의식을 심화하게 된다. 죽음과 ㉦消滅 (사라질 소, 멸할 멸)에 대해 존재론적으로 천착하거나 자본주의의 그늘에서 느끼는 공허와 혼돈을 ㉧吐露 (토할 토, 이슬 로)한다. 문화의 중심이 된 대중문화에 대해서도 부정하거나 매혹되면서 ㉨混亂 (섞을 혼, 어지러울 란)스러워 한다. 한동안 위축되었던 서정시의 ㉩傳統 (전할 전, 이을 통)을 도시적 감수성과 새롭게 결합하는 '신서정'의 시들이 부각되고, ㉪物質 (물건 물, 바탕 질)문명을 비판적으로 성찰하는 생태시나 '정신주의'시도 ㉫登場 (오를 등, 마당 장)한다. ㉬理性 (다스릴 리, 성품 성) 중심의 근대성에 밀렸던 '몸'이 새로운 ㉭美學 (아름다울 미, 배울 학)의 대상으로 급부상하고 여성시인들이 전례 없이 약진한다. 디지털문화의 침투로 물질적 상상력이 극대화되거나 인간 주체의 준거에 대한 전면적인 재해석이 시도되기도 한다.",
+      "hanja_ids": [
+        "HANJA_6C88",
+        "HANJA_6F5B",
+        "HANJA_6D88",
+        "HANJA_6EC5",
+        "HANJA_5410",
+        "HANJA_9732",
+        "HANJA_6DF7",
+        "HANJA_4E82",
+        "HANJA_50B3",
+        "HANJA_7D71",
+        "HANJA_7269",
+        "HANJA_8CEA",
+        "HANJA_767B",
+        "HANJA_5834",
+        "HANJA_7406",
+        "HANJA_6027",
+        "HANJA_7F8E",
+        "HANJA_5B78",
+        "HANJA_6642",
+        "HANJA_671F",
+        "HANJA_5C16",
+        "HANJA_7AEF",
+        "HANJA_5C0D",
+        "HANJA_9762",
+        "HANJA_52E2"
+      ],
+      "hanja_word_ids": [
+        "WORD_沈潛",
+        "WORD_消滅",
+        "WORD_吐露",
+        "WORD_混亂",
+        "WORD_傳統",
+        "WORD_物質",
+        "WORD_登場",
+        "WORD_理性",
+        "WORD_美學",
+        "WORD_時期",
+        "WORD_尖端",
+        "WORD_對面"
+      ],
+      "reference_problem_ids": [
+        "PROB_BASIC_001_073",
+        "PROB_BASIC_001_074",
+        "PROB_BASIC_001_075",
+        "PROB_BASIC_001_076"
+      ]
+    },
+    {
+      "id": "TEXT_BASIC_001_007",
+      "text": "인간의 ㉠두뇌가 다른 포유동물과는 ㉡비교도 안 될 정도로 큰 것은 우리 조상들이 사나운 짐승에 잡아먹히지 않으려고 머리를 부지런히 굴린 결과라는 연구가 나왔다. 머리가 좋으면 생존에 유리하다는 ㉢假說 (거짓 가, 말씀 설)은 너무나 뻔한 것처럼 보이지만 과거의 연구들은 두뇌의 크기를 높은 집단성이나 먹거리 찾기 能力 (능할 능, 힘 력) 등에만 集中 (모일 집, 가운데 중)시켜왔다. 연구진은 지능이 낮은 동물일수록 먼저 잡아먹힌다는 사실에 대해 \"머리가 좋으면 포식동물의 다음 행동을 더 잘 ㉣豫測 (미리 예, 헤아릴 측)해 이를 피할 수 있기 때문\"이라고 ㉤指摘 (가리킬 지, 뽑을 적)했다. 이들은 ㉥人類 (사람 인, 무리 류)가 집단생활을 하면서 복잡한 집단 문제를 해결하기 위해 두뇌가 커졌을 것이라는 기존 연구에 대해 집단생활이 유일한 원인은 아님을 보여주는 연구 결과를 ㉦提示 (들 제, 보일 시)했다.\n\n이들은 \"포식행위는 인간이 잡아먹힘을 피하고 집단생활을 하게 만드는 두 가지 방식으로 인간의 두뇌 크기 진화에 기여한 것으로 보인다.\"고 말했다. 이들은 ㉧영장류(靈長類: 신령 령, 길 장, 무리 류) 동물이 다른 포유류에 비해 비교적 큰 두뇌를 갖고 있지만 인간은 나무에서 내려와 땅에서 돌아다니기 시작하면서 훨씬 더 위험한 환경에 직면하게 되자 두뇌가 급속히 진화한 것으로 보인다고 설명했다. 즉 지상 생활에 따르는 많은 위험은 재빠른 ㉨기지(機智: 때 기, 지혜 지)와 더 큰 집단을 요구했고 이는 두뇌를 진화시키라는 더 큰 압력으로 작용해 오늘날처럼 놀라운 크기의 두뇌를 만들어 냈다는 것이다.",
+      "hanja_ids": [
+        "HANJA_5047",
+        "HANJA_8AAA",
+        "HANJA_80FD",
+        "HANJA_529B",
+        "HANJA_96C6",
+        "HANJA_4E2D",
+        "HANJA_8C6B",
+        "HANJA_6E2C",
+        "HANJA_6307",
+        "HANJA_6458",
+        "HANJA_4EBA",
+        "HANJA_985E",
+        "HANJA_63D0",
+        "HANJA_793A",
+        "HANJA_6A5F",
+        "HANJA_667A",
+        "HANJA_9577"
+      ],
+      "hanja_word_ids": [
+        "WORD_假說",
+        "WORD_能力",
+        "WORD_集中",
+        "WORD_豫測",
+        "WORD_指摘",
+        "WORD_人類",
+        "WORD_提示",
+        "WORD_機智"
+      ],
+      "reference_problem_ids": [
+        "PROB_BASIC_001_077",
+        "PROB_BASIC_001_078",
+        "PROB_BASIC_001_079",
+        "PROB_BASIC_001_080",
+        "PROB_BASIC_001_081"
+      ]
+    },
+    {
+      "id": "TEXT_BASIC_001_008",
+      "text": "영화 '번지 점프를 하다'와 '㉠주홍(朱紅: 붉을 주, 붉을 홍) 글씨'에는 하나의 공통점이 있다. 20세기 러시아의 ㉡위대(偉大: 위대할 위, 큰 대)한 작곡가 드미트리 쇼스타코비치(1906-1975)의 ㉢선율(旋律: 돌 선, 가락 률)이 스크린을 타고 흐른다는 점. 앞의 영화에는 유명한 '왈츠'가, 뒤의 작품에는 첼로 협주곡 1번이 삽입돼 있다.\n\n올해는 쇼스타코비치 ㉣탄생(誕生: 낳을 탄, 날 생) 100년. 스탈린 집권 시절에는 'ⓐ형식(形式: 모양 형, 본 식)주의'라는 거센 비판에 시달렸고, 1970-80년대 한국에서는 거꾸로 '소련 작곡가'라는 이유로 ㉤금기시(禁忌視: 금할 금, 꺼릴 기, 볼 시)됐던 음악인이다. ㉥중층적(重層的: 무거울 중, 층 층, 본 적)이고도 ㉦다면적(多面的: 많을 다, 낯 면, 본 적)이었던 그의 삶과 음악을 명확하게 증언할 수 있는 사람 가운데 하나가 그의 아들인 지휘자 막심 쇼스타코비치(68)이다.\n\n1972년 아버지의 교향곡 15번 ㉧初演 (처음 초, 베풀 연) 당시, 직접 지휘봉을 잡았던 아들 막심은 \"㉨樂譜 (즐거울 락, 글 보)가 출판됐을 때, 예순 여덟의 아버지는 페이지마다 손수 작곡 의도를 세심하게 적어주셨다. 그렇기에 지금도 내가 가장 사랑하는 곳이다.\"라고 말했다. 아들은 \"흔히 아버지의 음악을 정치적인 코드로 읽으려 들거나 ㉩複雜 (겹칠 복, 어지러울 잡)하고 ㉪悲痛 (슬플 비, 아플 통)한 것으로만 여기지만, 이런 태도는 잘못된 생각이다.\"라고 말했다.",
+      "hanja_ids": [
+        "HANJA_91CD",
+        "HANJA_5C64",
+        "HANJA_7684",
+        "HANJA_591A",
+        "HANJA_9762",
+        "HANJA_521D",
+        "HANJA_6F14",
+        "HANJA_6A02",
+        "HANJA_8B5C",
+        "HANJA_8907",
+        "HANJA_96DC",
+        "HANJA_60B2",
+        "HANJA_75DB",
+        "HANJA_5F62",
+        "HANJA_5F0F",
+        "HANJA_5927",
+        "HANJA_751F",
+        "HANJA_8996",
+        "HANJA_5F8B"
+      ],
+      "hanja_word_ids": [
+        "WORD_重層的",
+        "WORD_多面的",
+        "WORD_初演",
+        "WORD_樂譜",
+        "WORD_複雜",
+        "WORD_悲痛",
+        "WORD_形式"
+      ],
+      "reference_problem_ids": [
+        "PROB_BASIC_001_082",
+        "PROB_BASIC_001_083",
+        "PROB_BASIC_001_084",
+        "PROB_BASIC_001_085"
+      ]
+    },
+    {
+      "id": "TEXT_BASIC_001_009",
+      "text": "교육행정정보시스템(NEIS) 운영방식이 정보인권 보호라는 대전제 아래 ㉠타결(妥結: 온당할 타, 맺을 결)된 것은 여러모로 의미가 깊다. 정부가 27개 항목 중 인권 차원에서 문제됐던 교무․학사, 진․입학, 보건 등 3개 ㉡항목(項目: 항목 항, 목표 목)의 분리 운영을 주장하는 교직단체와 학부모들의 요구를 ㉢전격적(電擊的: 번개 전, 칠 격, 본 적)으로 받아들인 결과이다.\n\n국무총리 산하 교육정보화위원회 협의 과정에서 교육부를 비롯해 각 부문 관계자들이 타결을 위해 한발씩 ㉣讓步 (양보할 양, 걸음 보)해 정보인권에 대한 사회적 ㉤合意 (합할 합, 뜻 의)를 이끌어낸 문제해결과정이 바람직한 ㉥先例 (먼저 선, 법 례)가 될 만하다.\n\nNEIS와 관련한 지루했던 ㉦論難 (논할 론, 어려울 난)은 이로써 매듭지어졌다. 아무리 어려운 문제라도 대화와 ㉧協商 (화할 협, 장사 상)으로 풀리지 않을 것은 없다는 새삼스런 ㉨(   )을 얻었다.",
+      "hanja_ids": [
+        "HANJA_96FB",
+        "HANJA_64CA",
+        "HANJA_7684",
+        "HANJA_8B93",
+        "HANJA_6B65",
+        "HANJA_5408",
+        "HANJA_610F",
+        "HANJA_5148",
+        "HANJA_4F8B",
+        "HANJA_8AD6",
+        "HANJA_96E3",
+        "HANJA_5354",
+        "HANJA_5546",
+        "HANJA_9805",
+        "HANJA_76EE",
+        "HANJA_59A5",
+        "HANJA_7D50"
+      ],
+      "hanja_word_ids": [
+        "WORD_電擊的",
+        "WORD_讓步",
+        "WORD_合意",
+        "WORD_先例",
+        "WORD_論難",
+        "WORD_協商",
+        "WORD_項目",
+        "WORD_妥結"
+      ],
+      "reference_problem_ids": [
+        "PROB_BASIC_001_086",
+        "PROB_BASIC_001_087",
+        "PROB_BASIC_001_088",
+        "PROB_BASIC_001_089",
+        "PROB_BASIC_001_090"
+      ]
+    },
+    {
+      "id": "TEXT_BASIC_001_010",
+      "text": "그러나 實際 (실상 실, 이룰 제)로 우리는 아리스토텔레스적 意味 (뜻 의, 뜻 미)에 있어서의 ㉠歸納 (돌아갈 귀, 들일 납) ㉡推論 (밀 추, 논할 론)을 行 (갈 행)하고 있으며, 이러한 歸納 推論의 ㉢境遇 (지경 경, 만날 우) 前提 (앞 전, 내놓을 제)들이 ㉣結論 (맺을 결, 논할 론)을 支持 (지탱할 지, 가질 지)하는 정도를 ㉤확률치(確率値: 굳을 확, 비율 률, 값 치)로 表現 (표할 표, 나타날 현)한다는 것은 대부분의 境遇 불가능하다. 歸納을 演繹化 (베풀 연, 풀이할 역, 될 화)하겠다는 이와 같은 발상은 \"㉥황소에게서 젖을 짜내겠다.\"는 생각만큼이나 어리석은 생각으로 보이며 前提가 結論을 支持하는 ㉦程度 (정할 정, 도수 도)의 확률치를 구하려는 노력이나 해보는 것이 歸納에 대해서 논리학자가 할 수 있는 모든 일이라고 주저앉는 태도는 實際로 우리가 행하고 있는 歸納 推論에 대해서 적어도 논리학자로서는 외면해 버리겠다는 태도 같아 보인다. 논리학이 이처럼 實際로 우리가 행하고 있는 推論(logos)을 외면해 버리고 형식화의 길로만 가버린다면 논리학의 ㉧領域 (거느릴 영, 지경 역)은 矮小 (작을 왜, 작을 소)해질 수밖에 없다. 歸納는 ㉨原來 (근원 원, 올 래) 經驗的 (지날 경, 겪을 험, 본 적) 特性 (특별할 특, 성품 성)을 지닌 推論이며 그렇기 때문에 형식화의 길을 걷는 논리학에 의해서는 제대로 解明 (풀 해, 밝을 명)될 수가 없다. 논리학이 아리스토텔레스에 있어서 방법론, 인식론, 형이상학 등과 絶緣 (끊을 절, 인연 연)된 형식논리학에 ㉩不過 (아닐 불, 지날 과)한 것이 아니었던 이유는 바로 이런 점에서 찾아져야 할 것이다. 논리학이 과도한 형식화의 길로 치닫는다면 머지않아 논리학은 철학이라는 학문으로부터 ㉪分家 (나눌 분, 집 가)해 버리는 것이 옳을 것 같다.\n\n* 繹 (역): 풀어내다.   * 矮 (왜): 키가 작다.",
+      "hanja_ids": [
+        "HANJA_6F14",
+        "HANJA_7E79",
+        "HANJA_5316",
+        "HANJA_7D93",
+        "HANJA_9A57",
+        "HANJA_7684",
+        "HANJA_78BA",
+        "HANJA_7387",
+        "HANJA_5024",
+        "HANJA_652F",
+        "HANJA_6301",
+        "HANJA_5BE6",
+        "HANJA_969B",
+        "HANJA_610F",
+        "HANJA_5473",
+        "HANJA_6B78",
+        "HANJA_7D0D",
+        "HANJA_63A8",
+        "HANJA_8AD6",
+        "HANJA_5883",
+        "HANJA_9047",
+        "HANJA_524D",
+        "HANJA_63D0",
+        "HANJA_7D50",
+        "HANJA_8868",
+        "HANJA_73FE",
+        "HANJA_7A0B",
+        "HANJA_5EA6",
+        "HANJA_9818",
+        "HANJA_57DF",
+        "HANJA_77EE",
+        "HANJA_5C0F",
+        "HANJA_539F",
+        "HANJA_4F86",
+        "HANJA_7279",
+        "HANJA_6027",
+        "HANJA_89E3",
+        "HANJA_660E",
+        "HANJA_7D76",
+        "HANJA_7DE3",
+        "HANJA_4E0D",
+        "HANJA_904E",
+        "HANJA_5206",
+        "HANJA_5BB6",
+        "HANJA_884C"
+      ],
+      "hanja_word_ids": [
+        "WORD_演繹化",
+        "WORD_經驗的",
+        "WORD_確率値",
+        "WORD_支持",
+        "WORD_實際",
+        "WORD_意味",
+        "WORD_歸納",
+        "WORD_推論",
+        "WORD_境遇",
+        "WORD_前提",
+        "WORD_結論",
+        "WORD_表現",
+        "WORD_程度",
+        "WORD_領域",
+        "WORD_矮小",
+        "WORD_原來",
+        "WORD_特性",
+        "WORD_解明",
+        "WORD_絶緣",
+        "WORD_不過",
+        "WORD_分家"
+      ],
+      "reference_problem_ids": [
+        "PROB_BASIC_001_091",
+        "PROB_BASIC_001_092",
+        "PROB_BASIC_001_093",
+        "PROB_BASIC_001_094",
+        "PROB_BASIC_001_095"
+      ]
+    }
+  ]
+}
