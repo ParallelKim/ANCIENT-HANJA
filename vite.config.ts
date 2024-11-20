@@ -64,6 +64,7 @@ export default defineConfig({
         replacement: path.resolve(__dirname, "src/components"),
       },
     ],
+  },
   optimizeDeps: {
     include: ["@mui/material", "@emotion/react", "@emotion/styled"],
   },
