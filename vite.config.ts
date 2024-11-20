@@ -55,4 +55,7 @@ export default defineConfig({
     visualizer() as unknown as PluginOption,
     VitePWA(manifest as any),
   ],
+  optimizeDeps: {
+    include: ["@mui/material", "@emotion/react", "@emotion/styled"],
+  },
 });
