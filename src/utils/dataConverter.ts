@@ -1,5 +1,5 @@
 import fs from "fs";
-import { HanjaCharacter, HanjaWord, Passage, Problem, StudySet } from "../types/study";
+import { HanjaCharacter, Passage, Problem, StudySet } from "../types/study";
 
 // 기본 인터페이스 정의
 interface Section {
@@ -16,237 +16,116 @@ interface RawQuestion {
   type: "BASIC_MULTIPLE_CHOICE" | "PASSAGE_MULTIPLE_CHOICE" | "PASSAGE_SHORT_ANSWER";
 }
 
-interface CollectedHanjaInfo {
-  character: string;
-  meanings: Set<string>;
-  pronunciations: Set<string>;
-  problems: Set<string>;
-  passages: Set<string>;
+// 기존 두 인터페이스를 하나로 통합
+interface CollectedInfo {
+  character: string; // 단일 한자 또는 한자 단어
+  meanings: Set<string>; // 의미 (발음 포함)
+  problems: Set<string>; // 관련 문제 ID
+  passages: Set<string>; // 관련 지문 ID
 }
 
-interface CollectedWordInfo {
-  characters: string;
-  meanings: Set<string>;
-  pronunciations: Set<string>;
-  problems: Set<string>;
-  passages: Set<string>;
-}
-
-// 한자 정보를 수집하고 관리하는 클래스
 class HanjaCollector {
-  private singles = new Map<string, CollectedHanjaInfo>();
-  private words = new Map<string, CollectedWordInfo>();
+  private items = new Map<string, CollectedInfo>();
 
-  // 한자 정보 추가 (의미나 발음이 있는 경우에만 추가)
-  addHanjaInfo(char: string, meaning: string, pronunciation: string) {
-    if (!meaning && !pronunciation) return;
+  // 한자 정보 추가
+  addInfo(char: string, meaning: string) {
+    if (!char || !meaning) return;
 
-    if (!this.singles.has(char)) {
-      this.singles.set(char, {
+    // 한자가 1자 이상 포함되어 있는지 확인
+    if (!/[一-龥]/.test(char)) return;
+
+    if (!this.items.has(char)) {
+      this.items.set(char, {
         character: char,
-        meanings: new Set(meaning ? [meaning] : []),
-        pronunciations: new Set(pronunciation ? [pronunciation] : []),
+        meanings: new Set([meaning.trim()]),
         problems: new Set(),
         passages: new Set(),
       });
     } else {
-      const info = this.singles.get(char)!;
-      if (meaning) info.meanings.add(meaning);
-      if (pronunciation) info.pronunciations.add(pronunciation);
+      const info = this.items.get(char)!;
+      info.meanings.add(meaning.trim());
     }
   }
 
   // 참조 관계 추가
-  addReference(char: string, problemId?: string, passageId?: string) {
-    const info = this.singles.get(char);
+  addReference(chars: string, problemId?: string, passageId?: string) {
+    const info = this.items.get(chars);
     if (info) {
       if (problemId) info.problems.add(problemId);
       if (passageId) info.passages.add(passageId);
     }
   }
 
-  // 한자 단어 정보 추가 (의미나 발음이 있는 경우에만 추가)
-  addWordInfo(chars: string, meanings: string[], pronunciations: string[]) {
-    if (!meanings.some(Boolean) && !pronunciations.some(Boolean)) return;
-
-    if (!this.words.has(chars)) {
-      this.words.set(chars, {
-        characters: chars,
-        meanings: new Set(meanings.filter(Boolean)),
-        pronunciations: new Set(pronunciations.filter(Boolean)),
-        problems: new Set(),
-        passages: new Set(),
-      });
-
-      // 단어를 구성하는 각 한자의 정보도 추가
-      Array.from(chars).forEach((char, idx) => {
-        if (meanings[idx] || pronunciations[idx]) {
-          this.addHanjaInfo(char, meanings[idx], pronunciations[idx]);
-        }
-      });
-    }
+  // 한자/단어 존재 여부 확인
+  hasItem(chars: string): boolean {
+    return this.items.has(chars);
   }
 
-  // 한자 존재 여부 확인
-  hasHanja(char: string): boolean {
-    return this.singles.has(char);
+  // 한자/단어 정보 가져오기
+  getInfo(chars: string): CollectedInfo | undefined {
+    return this.items.get(chars);
   }
 
-  // 한자 단어 존재 여부 확인
-  hasWord(chars: string): boolean {
-    return this.words.has(chars);
+  // 모든 항목 가져오기
+  getAllItems(): [string, CollectedInfo][] {
+    return Array.from(this.items.entries());
   }
 
-  // 한자 정보 가져오기
-  getHanjaInfo(char: string): CollectedHanjaInfo | undefined {
-    return this.singles.get(char);
+  // 항목 수 가져오기
+  get itemCount(): number {
+    return this.items.size;
   }
 
-  // 한자 단어 정보 가져오기
-  getWordInfo(chars: string): CollectedWordInfo | undefined {
-    return this.words.get(chars);
+  // 단일 한자와 한자 단어 구분을 위한 헬퍼 메서드
+  isSingleCharacter(chars: string): boolean {
+    return chars.length === 1;
   }
 
-  // 모든 한자 가져오기
-  getAllHanjas(): [string, CollectedHanjaInfo][] {
-    return Array.from(this.singles.entries());
-  }
-
-  // 모든 한자 단어 가져오기
-  getAllWords(): [string, CollectedWordInfo][] {
-    return Array.from(this.words.entries());
-  }
-
-  // 한자 수 가져오기
-  get hanjasCount(): number {
-    return this.singles.size;
-  }
-
-  // 한자 단어 수 가져오기
-  get wordsCount(): number {
-    return this.words.size;
-  }
-
-  // 한자 정보 추출을 위한 public 메서드들
-  extractHanjaFromText(text: string): { hanjaIds: Set<string>; wordIds: Set<string> } {
-    const hanjaIds = new Set<string>();
-    const wordIds = new Set<string>();
-
-    // 한자 단어 먼저 찾기 (더 긴 매칭을 우선)
-    Array.from(this.words.keys())
-      .sort((a, b) => b.length - a.length)
-      .forEach((chars) => {
-        if (text.includes(chars)) {
-          const wordId = `WORD_${chars}`;
-          wordIds.add(wordId);
-          Array.from(chars).forEach((char) => {
-            hanjaIds.add(generateHanjaId(char));
-          });
-        }
-      });
-
-    // 개별 한자 찾기
-    Array.from(this.singles.keys()).forEach((char) => {
-      if (text.includes(char)) {
-        const hanjaId = generateHanjaId(char);
-        // 이미 단어의 일부로 처리된 한자는 제외
-        const isPartOfWord = Array.from(wordIds).some((wordId) => {
-          const chars = wordId.replace("WORD_", "");
-          return chars.includes(char);
-        });
-        if (!isPartOfWord) {
-          hanjaIds.add(hanjaId);
-        }
-      }
-    });
-
-    return { hanjaIds, wordIds };
-  }
-
-  // 한자 정보를 StudySet 형식으로 변환하는 메서드 추가
-  toStudySetData(): { hanjas: HanjaCharacter[]; hanja_words: HanjaWord[] } {
+  // StudySet 변환을 위한 메서드
+  toStudySetData(): { hanjas: HanjaCharacter[] } {
     const hanjas: HanjaCharacter[] = [];
-    const hanja_words: HanjaWord[] = [];
 
-    // 한자 변환
-    this.getAllHanjas().forEach(([char, info]) => {
-      hanjas.push({
-        id: generateHanjaId(char),
-        character: char,
-        meaning: Array.from(info.meanings).join(", "),
-        pronunciation: Array.from(info.pronunciations).join(", "),
-        reference_problem_ids: Array.from(info.problems),
-        reference_passage_ids: Array.from(info.passages),
-      });
+    this.getAllItems().forEach(([chars, info]) => {
+      if (info.meanings.size > 0) {
+        // 의미가 있는 경우만 추가
+        hanjas.push({
+          id: generateHanjaId(chars),
+          character: chars,
+          meaning: Array.from(info.meanings).join(", "),
+          reference_problem_ids: Array.from(info.problems),
+          reference_passage_ids: Array.from(info.passages),
+        });
+      }
     });
 
-    // 한자 단어 변환
-    this.getAllWords().forEach(([chars, info]) => {
-      hanja_words.push({
-        id: `WORD_${chars}`,
-        characters: chars,
-        meaning: Array.from(info.meanings).join(", "),
-        pronunciation: Array.from(info.pronunciations).join(", "),
-        hanja_ids: Array.from(chars).map(generateHanjaId),
-      });
-    });
-
-    return { hanjas, hanja_words };
+    return { hanjas };
   }
 
-  // 텍스트에서 한자 찾기
-  findHanjaInText(text: string): { hanjaIds: Set<string>; wordIds: Set<string> } {
+  findHanjaInText(text: string): { hanjaIds: Set<string> } {
     const hanjaIds = new Set<string>();
-    const wordIds = new Set<string>();
 
     // 한자 단어 먼저 찾기 (더 긴 매칭을 우선)
-    this.getAllWords()
-      .map(([chars]) => chars)
+    Array.from(this.items.keys())
       .sort((a, b) => b.length - a.length)
       .forEach((chars) => {
         if (text.includes(chars)) {
-          const wordId = `WORD_${chars}`;
-          wordIds.add(wordId);
           Array.from(chars).forEach((char) => {
             hanjaIds.add(generateHanjaId(char));
           });
         }
       });
 
-    // 개별 한자 찾기
-    this.getAllHanjas().forEach(([char]) => {
-      if (text.includes(char)) {
-        const hanjaId = generateHanjaId(char);
-        // 이미 단어의 일부로 처리된 한자는 제외
-        const isPartOfWord = Array.from(wordIds).some((wordId) => {
-          const chars = wordId.replace("WORD_", "");
-          return chars.includes(char);
-        });
-        if (!isPartOfWord) {
-          hanjaIds.add(hanjaId);
-        }
-      }
-    });
-
-    return { hanjaIds, wordIds };
-  }
-
-  // 디버깅용 메서드
-  get stats() {
-    return {
-      singlesCount: this.singles.size,
-      wordsCount: this.words.size,
-    };
-  }
-
-  // 한자 존재 여부 확인 메서드 추가
-  hasSingleHanja(char: string): boolean {
-    return this.singles.has(char);
+    return { hanjaIds };
   }
 }
 
 // ID 생성 함수들
-const generateHanjaId = (character: string): string => `HANJA_${character.charCodeAt(0).toString(16).toUpperCase()}`;
+const generateHanjaId = (characters: string): string => {
+  const hexCodes = Array.from(characters)
+    .map((char) => char.charCodeAt(0).toString(16).toUpperCase())
+    .join("_");
+  return `HANJA_${hexCodes}`;
+};
 
 const generateProblemId = (examType: string, examNumber: string, questionNumber: number): string =>
   `PROB_${examType}_${examNumber}_${questionNumber.toString().padStart(3, "0")}`;
@@ -254,67 +133,18 @@ const generateProblemId = (examType: string, examNumber: string, questionNumber:
 const generatePassageId = (examType: string, examNumber: string, passageNumber: number): string =>
   `TEXT_${examType}_${examNumber}_${passageNumber.toString().padStart(3, "0")}`;
 
-// 한자 정보 추출 순서 재정의
+// 한자 정보 추출 개선
 const buildHanjaDatabase = (text: string): HanjaCollector => {
   const database = new HanjaCollector();
 
-  // 1. 문제 본문의 한자 패턴 (가장 정확한 정보)
-  const problemPattern = /\d+\.\s*([一-龥])\s*\(([^)]+)\)/g;
+  // 한자 패턴: 한자([一-龥]+) + 공백(\s*) + 괄호와 설명(\([^)]+\))
+  const hanjaPattern = /([一-龥]+)\s*\(([^)]+)\)/g;
   let match;
-  while ((match = problemPattern.exec(text)) !== null) {
-    const [_, char, info] = match;
-    const parts = info.trim().split(/\s+/);
-    const pronunciation = parts.pop() || "";
-    const meaning = parts.join(" ");
-    database.addHanjaInfo(char, meaning, pronunciation);
-  }
 
-  // 2. 성어 패턴 (예: 愚公移山 (어리석을 우, 공평할 공, 옮길 이, 산 산: 우공이 산을 옮긴다))
-  const idiomPattern = /([一-龥]{4})\s*\(([^:]+):\s*([^)]+)\)/g;
-  while ((match = idiomPattern.exec(text)) !== null) {
-    const [_, chars, info, meaning] = match;
-    const parts = info.split(",").map((p) => p.trim());
-    if (parts.length === chars.length) {
-      const meanings: string[] = [];
-      const pronunciations: string[] = [];
-      parts.forEach((part) => {
-        const words = part.split(/\s+/);
-        pronunciations.push(words.pop() || "");
-        meanings.push(words.join(" "));
-      });
-      database.addWordInfo(chars, meanings, pronunciations);
-    }
-  }
-
-  // 3. 한자 단어 패턴 (예: 參與 (참여할 참, 더불 여))
-  const wordPattern = /([一-龥]{2,})\s*\(([^)]+)\)/g;
-  text = text.replace(idiomPattern, ""); // 이미 처리된 성어 제거
-  while ((match = wordPattern.exec(text)) !== null) {
+  while ((match = hanjaPattern.exec(text)) !== null) {
     const [_, chars, info] = match;
-    const parts = info.split(",").map((p) => p.trim());
-    if (parts.length === chars.length) {
-      const meanings: string[] = [];
-      const pronunciations: string[] = [];
-      parts.forEach((part) => {
-        const words = part.split(/\s+/);
-        pronunciations.push(words.pop() || "");
-        meanings.push(words.join(" "));
-      });
-      database.addWordInfo(chars, meanings, pronunciations);
-    }
-  }
 
-  // 4. 지문의 한자 패턴 (보충 정보)
-  const passagePattern = /([一-龥])\(([^)]+)\)/g;
-  text = text.replace(wordPattern, ""); // 이미 처리된 단어 제거
-  while ((match = passagePattern.exec(text)) !== null) {
-    const [_, char, info] = match;
-    const words = info.trim().split(/\s+/);
-    const pronunciation = words.pop() || "";
-    const meaning = words.join(" ");
-    if (!database.hasSingleHanja(char)) {
-      database.addHanjaInfo(char, meaning, pronunciation);
-    }
+    database.addInfo(chars, info.trim());
   }
 
   return database;
@@ -432,7 +262,7 @@ const convertToStudySet = (
   examNumber: string = "001",
 ): StudySet => {
   // 한자와 한자 단어 정보 가져오기
-  const { hanjas, hanja_words } = hanjaDB.toStudySetData();
+  const { hanjas } = hanjaDB.toStudySetData();
   const problems: Problem[] = [];
   const passages: Passage[] = [];
 
@@ -442,13 +272,12 @@ const convertToStudySet = (
     let passageId: string | undefined;
     if (section.passage) {
       passageId = generatePassageId(examType, examNumber, passages.length + 1);
-      const { hanjaIds, wordIds } = hanjaDB.findHanjaInText(section.passage);
+      const { hanjaIds } = hanjaDB.findHanjaInText(section.passage);
 
       passages.push({
         id: passageId,
         text: section.passage,
         hanja_ids: Array.from(hanjaIds),
-        hanja_word_ids: Array.from(wordIds),
         reference_problem_ids: [],
       });
 
@@ -467,18 +296,15 @@ const convertToStudySet = (
 
       // 문제와 선택지에서 한자 찾기
       const allHanjaIds = new Set<string>();
-      const allWordIds = new Set<string>();
 
       // 문제 텍스트 처리
       const questionResults = hanjaDB.findHanjaInText(q.text);
       questionResults.hanjaIds.forEach((id) => allHanjaIds.add(id));
-      questionResults.wordIds.forEach((id) => allWordIds.add(id));
 
       // 선택지 처리
       q.options.forEach((opt) => {
         const optionResults = hanjaDB.findHanjaInText(opt);
         optionResults.hanjaIds.forEach((id) => allHanjaIds.add(id));
-        optionResults.wordIds.forEach((id) => allWordIds.add(id));
       });
 
       // 문제 추가
@@ -490,7 +316,6 @@ const convertToStudySet = (
         answer: q.answer,
         reference_passage_ids: passageId ? [passageId] : [],
         hanja_ids: Array.from(allHanjaIds),
-        hanja_word_ids: Array.from(allWordIds),
       });
 
       // 참조 관계 업데이트
@@ -515,7 +340,6 @@ const convertToStudySet = (
 
   return {
     hanjas,
-    hanja_words,
     problems,
     passages,
   };
@@ -528,8 +352,8 @@ try {
   console.log("File read successfully");
 
   const hanjaDB = buildHanjaDatabase(rawText);
-  const stats = hanjaDB.stats;
-  console.log(`Built hanja database with ${stats.singlesCount} singles and ${stats.wordsCount} words`);
+  const stats = hanjaDB.itemCount;
+  console.log(`Built hanja database with ${stats} items`);
 
   const sections = parseSections(rawText);
   console.log(`Parsed ${sections.length} sections`);
