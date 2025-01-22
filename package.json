@@ -41,8 +41,7 @@
     "react-firebase-hooks": "^5.1.1",
     "react-router-dom": "^6.17.0",
     "react-uuid": "^2.0.0",
-    "reactjs-flip-card": "^2.0.3",
-    "tachyonjs": "^2.0.1"
+    "reactjs-flip-card": "^2.0.3"
   },
   "devDependencies": {
     "@emotion/react": "^11.11.1",
@@ -50,6 +49,11 @@
     "@fontsource/roboto": "^5.0.8",
     "@mui/icons-material": "^5.14.14",
     "@mui/material": "^5.14.14",
+    "@svgr/rollup": "^8.1.0",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.6",
+    "@vitejs/plugin-react-swc": "^3.7.2",
     "count-down-react": "^1.0.12",
     "firebase": "^10.5.0",
     "jotai": "^2.4.3",
@@ -61,10 +65,10 @@
     "react-router-dom": "^6.17.0",
     "react-uuid": "^2.0.0",
     "reactjs-flip-card": "^2.0.3",
-    "tachyonjs": "^2.0.1",
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/jest-dom": "^6.1.4",
-    "@types/jest": "^29.5.6"
+    "rollup-plugin-visualizer": "^5.14.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.11",
+    "vite-plugin-pwa": "^0.21.1"
   },
   "packageManager": "yarn@4.5.0+sha512.837566d24eec14ec0f5f1411adb544e892b3454255e61fdef8fd05f3429480102806bac7446bc9daff3896b01ae4b62d00096c7e989f1596f2af10b927532f39"
 }
