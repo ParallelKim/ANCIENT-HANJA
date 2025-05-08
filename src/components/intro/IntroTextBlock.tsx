@@ -11,13 +11,13 @@ export const IntroTextBlock = () => {
         <p />
         <Typography>안녕하세요</Typography>
         <p />
-        <Typography>2번의 시험을 건너뛰고 나서 드디어 시험을 보게 되었네요</Typography>
+        <Typography>여름과 함께 81회 한자시험이 다가오네요!</Typography>
+        <Typography>일교차가 심합니다 모두 감기 조심하세요</Typography>
         <p />
-        <Typography>잠깐 휴직을 하며 졸업 준비를 하려 합니다</Typography>
-        <Typography>이번에는 시험 공부를 하며 짬이 날 때마다 사이트도 업데이트 해보겠습니다</Typography>
+        <Typography>시험 준비하시는 분들 모두 파이팅입니다</Typography>
+        <Typography>이번 시험에 합격해 졸업으로 한 발 다가가기를 바라요</Typography>
         <p />
-        <Typography>폭염과 폭우 조심하세요!!</Typography>
-        <Typography>다들 좋은 결과 있었으면 좋겠습니다</Typography>
+        <Typography>오늘도 좋은 하루 되세요</Typography>
         <p />
         <Typography>모든 문의 환영입니다 아래 링크로 편하게 연락 주세요</Typography>
       </Paper>
