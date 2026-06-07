@@ -11,7 +11,7 @@ export const IntroTextBlock = () => {
         <p />
         <Typography>안녕하세요</Typography>
         <p />
-        <Typography>여름과 함께 81회 한자시험이 다가오네요!</Typography>
+        <Typography>제85회 한자시험이 다가오네요!</Typography>
         <Typography>일교차가 심합니다 모두 감기 조심하세요</Typography>
         <p />
         <Typography>시험 준비하시는 분들 모두 파이팅입니다</Typography>

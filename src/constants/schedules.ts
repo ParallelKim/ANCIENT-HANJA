@@ -4,10 +4,17 @@ type Schedule = {
 };
 
 export const SCHEDULES: Schedule[] = [
-  { eventName: "접수 시작", date: "202507070900" },
-  { eventName: "접수 마감", date: "202507111600" },
-  { eventName: "시험일", date: "202507191500" },
+  { eventName: "접수 시작", date: "202605180900" },
+  { eventName: "접수 마감", date: "202605221600" },
+  { eventName: "시험일", date: "202605311600" },
 ];
+
+// 82
+// export const SCHEDULES: Schedule[] = [
+//   { eventName: "접수 시작", date: "202507070900" },
+//   { eventName: "접수 마감", date: "202507111600" },
+//   { eventName: "시험일", date: "202507191500" },
+// ];
 
 // 75
 // { eventName: "접수 시작", date: "202311060900" },
