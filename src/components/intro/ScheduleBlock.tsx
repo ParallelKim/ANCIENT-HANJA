@@ -41,7 +41,8 @@ export const ScheduleBlock = () => {
 
     if (nextSchedule) {
       // 스케줄러 설정
-      scheduler(parseScheduleDate(nextSchedule.date).toISOString(), () => {
+      // scheduler는 "YYYYMMDDHHmm" 형식을 기대하므로 원본 date 문자열을 그대로 전달
+      scheduler(nextSchedule.date, () => {
         const nextIdx = SCHEDULES.findIndex((s) => s === nextSchedule);
         const following = SCHEDULES[nextIdx + 1] ?? SCHEDULES[nextIdx];
         setNearest(following);

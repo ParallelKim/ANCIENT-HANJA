@@ -21,7 +21,8 @@ export const ScheduleCountdown = ({ nearest }: { nearest: { date: string } }) =>
       }}
     >
       <CountDown
-        date={moment(nearest.date, "YYYYMMDDhhmm").toDate()}
+        {/* hh는 12시간제, HH가 24시간제 — 시험 시간(예: 15:00)을 올바르게 파싱하려면 HH 필요 */}
+        date={moment(nearest.date, "YYYYMMDDHHmm").toDate()}
         renderer={({ days, hours, minutes, seconds }: DateType) => {
           const total = days + hours + minutes + seconds;
 

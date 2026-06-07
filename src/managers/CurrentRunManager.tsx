@@ -20,12 +20,11 @@ export const CurrentRunManager = () => {
         console.log("없는디", currentCourse);
         return;
       }
-      const studySet = [...currentCourseObject];
-      const rand = Math.round(Math.random() * (studySet.length - setSize));
+      // shuffleArray는 원본을 변경하지 않고 새 배열을 반환하므로 반환값을 사용해야 함
+      const shuffled = shuffleArray([...currentCourseObject]);
+      const rand = Math.round(Math.random() * (shuffled.length - setSize));
 
-      shuffleArray(studySet);
-
-      setCurrentCardSet(studySet.slice(rand, rand + setSize));
+      setCurrentCardSet(shuffled.slice(rand, rand + setSize));
       moveCurrentIndex("reset");
     }
 

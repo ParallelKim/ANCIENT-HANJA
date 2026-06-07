@@ -8,7 +8,7 @@ export const shuffleArray = <T>(array: T[]): T[] => {
   return temp;
 };
 
-// 202405261500
+// targetDate 형식: "YYYYMMDDHHmm" (예: "202507070900")
 export const scheduler = (targetDate: string, callback: () => void) => {
   const year = Number(targetDate.substring(0, 4));
   const month = Number(targetDate.substring(4, 6));
@@ -17,7 +17,8 @@ export const scheduler = (targetDate: string, callback: () => void) => {
   const minute = Number(targetDate.substring(10, 12));
   const second = Number(targetDate.substring(12, 14));
 
-  const oprDate = new Date(year, month, day, time, minute, second).getTime();
+  // JS Date의 월은 0-indexed (0=1월)이므로 -1 필요
+  const oprDate = new Date(year, month - 1, day, time, minute, second).getTime();
   const nowDate = Date.now();
 
   const timer = oprDate - nowDate;
